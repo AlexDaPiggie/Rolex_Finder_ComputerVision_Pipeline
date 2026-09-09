@@ -1,14 +1,14 @@
 .upload-box {
     width: 100%;
     max-width: 460px;
-    min-height: 100%;
+    min-height: auto;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
-    gap: clamp(22px, 4vh, 52px);
+    gap: 0;
 }
 
 /* ---------- Logo ---------- */
@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 
     font-family: "Tienne", serif;
     font-size: clamp(44px, 5vw, 64px);
@@ -27,6 +28,8 @@
     line-height: .92;
 
     user-select: none;
+    min-height: var(--panel-header-height, clamp(135px, 13vw, 170px));
+    margin-bottom: var(--panel-gap, clamp(18px, 2.6vw, 24px));
 }
 
 .logo span {
@@ -48,6 +51,7 @@
     width: min(390px, 100%);
     height: auto;
     min-height: clamp(250px, 42vh, 390px);
+    margin-bottom: clamp(16px, 2.5vw, 24px);
     
     display: flex;
     flex-direction: column;
@@ -300,11 +304,14 @@
 
     .logo {
         font-size: 44px;
+        min-height: auto;
+        margin-bottom: 0;
     }
 
     .drop-zone {
         max-width: 420px;
         min-height: 230px;
+        margin-bottom: 0;
     }
 }
 
