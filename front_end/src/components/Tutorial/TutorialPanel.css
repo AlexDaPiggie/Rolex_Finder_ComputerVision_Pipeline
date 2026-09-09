@@ -4,7 +4,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: var(--panel-gap, clamp(18px, 2.6vw, 24px));
+    gap: clamp(18px, 2.6vw, 24px);
 
     position: relative;
     padding-bottom: 46px;
@@ -12,10 +12,6 @@
 
 .tutorial-intro {
     max-width: 720px;
-    min-height: var(--panel-header-height, clamp(135px, 13vw, 170px));
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 .tutorial-intro .eyebrow {
@@ -257,10 +253,6 @@
         height: auto;
         min-height: auto;
         padding-bottom: 54px;
-    }
-
-    .tutorial-intro {
-        min-height: auto;
     }
 
     .tutorial-grid {
