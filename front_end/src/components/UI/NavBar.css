@@ -1,0 +1,80 @@
+/* --- Push content panels down under fixed navbar --- */
+.prediction-panel {
+  padding-top: calc(clamp(22px, 3vw, 36px) + 50px) !important;
+}
+
+.authors-view {
+  padding-top: 90px !important;
+}
+
+/* --- Align left panel content with right panel content --- */
+.upload-panel {
+  align-items: flex-start !important;
+  padding-top: calc(clamp(22px, 3vw, 36px) + 50px) !important;
+}
+
+.upload-box {
+  justify-content: flex-start !important;
+}
+
+/* --- Transparent NavBar --- */
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 12px 24px;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: all 300ms ease;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+/* --- Scrolled state becomes semi-transparent --- */
+.nav-bar.scrolled {
+  opacity: 0.4;
+  padding: 8px 24px;
+}
+
+.nav-bar.scrolled:hover {
+  opacity: 1;
+}
+
+/* --- Nav Links --- */
+.nav-link {
+  background: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0B2F23;
+  padding: 6px 0;
+  cursor: pointer;
+  position: relative;
+  transition: color 150ms ease;
+}
+
+.nav-link:hover {
+  color: #C9A348;
+}
+
+/* --- Active (Chosen) State --- */
+.nav-link.active {
+  color: #C9A348;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #C9A348;
+  border-radius: 1px;
+}

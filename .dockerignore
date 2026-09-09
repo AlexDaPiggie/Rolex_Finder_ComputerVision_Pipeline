@@ -1,0 +1,8 @@
+.git
+__pycache__
+.pytest_cache
+.venv
+front-end/node_modules
+front-end/dist
+data/raw
+data/raw-incoming

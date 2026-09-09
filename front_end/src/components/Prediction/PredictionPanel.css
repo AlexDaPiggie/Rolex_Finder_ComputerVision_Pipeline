@@ -1,0 +1,11 @@
+.prediction-wrapper{
+    width:100%;
+    max-width:980px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:18px;
+
+    padding:0;
+}

@@ -1,0 +1,43 @@
+.summary {
+
+    background: #FCFBF8;
+
+    border: 1px solid #DDD5C7;
+
+    border-radius: 18px;
+
+    padding: 18px 22px;
+
+    margin-top: 12px;
+}
+
+.summary h2 {
+
+    font-family: "Tienne", serif;
+
+    font-size: 22px;
+
+    font-weight: 500;
+
+    color: #1E1E1E;
+
+    margin-bottom: 10px;
+}
+
+.summary p {
+
+    font-family: Inter, sans-serif;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    color: #2E2E2E;
+}
+
+.summary strong {
+
+    font-weight: 700;
+
+    color: #1A1A1A;
+}

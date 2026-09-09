@@ -1,0 +1,72 @@
+.prediction-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-end;
+
+    padding-bottom:16px;
+
+    border-bottom:1px solid #DED8CA;
+}
+
+.prediction-header h1{
+color: #1E1E1E;
+font-family: Tienne;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.prediction-label{
+
+    font-family:Inter,sans-serif;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    letter-spacing:3px;
+
+    text-transform:uppercase;
+
+    color:#C8A24A;
+
+    margin-bottom:10px;
+}
+
+.prediction-model{
+
+    font-size:58px;
+
+    letter-spacing:-1px;
+
+    line-height:.95;
+}
+
+.confidence{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-end;
+    gap:8px;
+    margin-top:8px;
+}
+
+.confidence span{
+
+    font-size:18px;
+
+    color:#202020;
+}
+
+.confidence h2{
+
+    font-size:28px;
+
+    color:#0B3A2D;
+    font-family: "Open Sans";
+    font-weight:700;
+}

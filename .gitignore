@@ -1,0 +1,5 @@
+docs
+.pytest_cache
+*.webp
+*.pyc
+data

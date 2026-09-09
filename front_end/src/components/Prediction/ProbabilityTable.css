@@ -1,0 +1,87 @@
+.probability-table{
+
+    margin-top:8px;
+
+}
+
+.probability-table h2{
+
+    font-family:"Tienne", serif;
+
+    font-size:18px;
+
+    font-weight:400;
+
+    color:#303030;
+
+    margin-bottom:10px;
+}
+
+.probability-table table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    border:none;
+}
+
+.probability-table th{
+
+    background:#E7EBE5;
+}
+
+.probability-table th{
+
+    background:#E7EBE5;
+
+    padding:12px 16px;
+
+    text-align:left;
+
+    font-size:18px;
+    
+    font-weight:600;
+
+    color:#032C22;
+
+    border-bottom:1px solid #D8D8D8;
+}
+
+.probability-table td{
+
+    padding:8px 16px;
+
+    font-size:15px;
+
+    border-bottom:1px solid #ECE8E2;
+}
+
+.probability-table tbody tr:last-child td {
+
+    border-bottom: none;
+}
+
+.probability-table td:last-child,
+.probability-table th:last-child {
+
+    text-align: right;
+}
+
+.table-wrapper{
+
+    border:1px solid #D8D8D8;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    background:white;
+}
+
+.probability-table .top-probability td {
+
+    font-weight:700;
+
+    color:#032C22;
+}

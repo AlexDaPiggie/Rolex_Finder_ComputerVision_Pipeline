@@ -1,0 +1,304 @@
+.tutorial-panel {
+    width: min(980px, 100%);
+    min-height: calc(100vh - 56px);
+
+    display: flex;
+    flex-direction: column;
+    gap: clamp(18px, 2.6vw, 24px);
+
+    position: relative;
+    padding-bottom: 46px;
+}
+
+.tutorial-intro {
+    max-width: 720px;
+}
+
+.tutorial-intro .eyebrow {
+    margin: 0 0 8px;
+
+    color: #9B7A2D;
+
+    font-size: 14px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.tutorial-intro h2 {
+    margin: 0;
+
+    color: #06241C;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(30px, 4.2vw, 54px);
+    line-height: 0.95;
+}
+
+.tutorial-intro p:last-child {
+    max-width: 580px;
+    margin: 14px 0 0;
+
+    color: rgba(6,36,28,.72);
+
+    font-size: clamp(16px, 1.8vw, 18px);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.tutorial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: clamp(14px, 2vw, 18px);
+
+    align-items: stretch;
+
+    position: relative;
+    isolation: isolate;
+}
+
+.tutorial-card {
+    background: rgba(255,255,255,.62);
+
+    border: 1px solid rgba(6,36,28,.1);
+    border-radius: 20px;
+    box-shadow: 0 18px 45px rgba(6,36,28,.08);
+
+    padding: clamp(13px, 1.6vw, 16px);
+
+    position: relative;
+    z-index: 1;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    transition:
+        transform .22s ease,
+        opacity .22s ease,
+        box-shadow .22s ease,
+        border-color .22s ease,
+        background .22s ease;
+    transform-origin: center top;
+}
+
+.tutorial-grid:has(.tutorial-card:hover) .tutorial-card:not(:hover),
+.tutorial-grid:has(.tutorial-card:focus-within) .tutorial-card:not(:focus-within) {
+    opacity: .38;
+    transform: scale(.94);
+}
+
+.tutorial-card:hover,
+.tutorial-card:focus-within {
+    background: rgba(255,255,255,.95);
+
+    border-color: rgba(155,122,45,.42);
+    box-shadow: 0 34px 90px rgba(6,36,28,.26);
+
+    transform: scale(1.5) translateY(-10px);
+    z-index: 20;
+}
+
+.tutorial-card:first-child:hover,
+.tutorial-card:first-child:focus-within {
+    transform: scale(1.5) translate(14%, -10px);
+}
+
+.tutorial-card:last-child:hover,
+.tutorial-card:last-child:focus-within {
+    transform: scale(1.5) translate(-14%, -10px);
+}
+
+.tutorial-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 12px;
+}
+
+.tutorial-heading span {
+    width: 28px;
+    height: 28px;
+
+    display: grid;
+    place-items: center;
+
+    background: #0B2F23;
+    color: #D5B35C;
+
+    border-radius: 999px;
+
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.tutorial-heading h3 {
+    margin: 0;
+
+    color: #06241C;
+
+    font-size: 17px;
+}
+
+.tutorial-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    border-radius: 14px;
+    border: 1px solid rgba(6,36,28,.12);
+
+    transition: transform .22s ease;
+}
+
+.tutorial-card:hover img,
+.tutorial-card:focus-within img {
+    transform: scale(1.03);
+}
+
+.tutorial-card ol {
+    margin: 14px 0 0;
+    padding-left: 20px;
+
+    color: rgba(6,36,28,.78);
+
+    font-size: clamp(13px, 1.4vw, 15px);
+    line-height: 1.55;
+}
+
+.tutorial-card li + li {
+    margin-top: 6px;
+}
+
+.tutorial-notes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+    gap: 14px;
+
+    margin-top: 2px;
+
+    transition: transform .22s ease;
+    transform: translateY(0);
+}
+
+.tutorial-grid:has(.tutorial-card:hover) + .tutorial-notes,
+.tutorial-grid:has(.tutorial-card:focus-within) + .tutorial-notes {
+    transform: translateY(118px);
+}
+
+.tutorial-note {
+    background:
+        linear-gradient(135deg, rgba(255,255,255,.72), rgba(255,255,255,.42)),
+        radial-gradient(circle at top left, rgba(213,179,92,.12), transparent 48%);
+
+    border: 1px solid rgba(6,36,28,.09);
+    border-radius: 16px;
+
+    padding: 14px 16px;
+}
+
+.tutorial-note h3 {
+    margin: 0 0 7px;
+
+    color: #9B7A2D;
+
+    font-size: 12px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+.tutorial-note p {
+    margin: 0;
+
+    color: rgba(6,36,28,.76);
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.credits {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: 0;
+    padding-top: 6px;
+
+    color: rgba(6,36,28,.68);
+
+    font-size: 14px;
+    text-align: center;
+}
+
+.credits a {
+    color: #0B2F23;
+    font-weight: 800;
+    text-decoration: none;
+
+    border-bottom: 1px solid rgba(11,47,35,.3);
+}
+
+.credits a:hover,
+.credits a:focus {
+    color: #9B7A2D;
+    border-bottom-color: #9B7A2D;
+}
+
+@media (max-width: 980px) {
+    .tutorial-panel {
+        height: auto;
+        min-height: auto;
+        padding-bottom: 54px;
+    }
+
+    .tutorial-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tutorial-card img {
+        max-height: 260px;
+    }
+
+    .tutorial-notes {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tutorial-grid:has(.tutorial-card:hover) + .tutorial-notes,
+    .tutorial-grid:has(.tutorial-card:focus-within) + .tutorial-notes {
+        transform: translateY(0);
+    }
+
+    .tutorial-grid:has(.tutorial-card:hover) .tutorial-card:not(:hover),
+    .tutorial-grid:has(.tutorial-card:focus-within) .tutorial-card:not(:focus-within) {
+        opacity: 1;
+        transform: none;
+    }
+
+    .tutorial-card:hover,
+    .tutorial-card:focus-within,
+    .tutorial-card:first-child:hover,
+    .tutorial-card:first-child:focus-within,
+    .tutorial-card:last-child:hover,
+    .tutorial-card:last-child:focus-within {
+        transform: scale(1.03) translateY(-4px);
+    }
+}
+
+@media (max-width: 640px) {
+    .tutorial-grid,
+    .tutorial-notes {
+        grid-template-columns: 1fr;
+    }
+
+    .tutorial-card img {
+        max-height: 220px;
+    }
+
+    .credits {
+        font-size: 13px;
+    }
+}
