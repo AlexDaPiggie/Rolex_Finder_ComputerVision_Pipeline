@@ -45,7 +45,7 @@ I built this project because I love for watches, I built a ML pipeline to detect
 6. **Returns the Confidence score & Ids**: Outputs the confidence score of the predictions, and the top-3 specific reference IDs (e.g., `115510LN`) with Google search link for images of that watch. 
 
 ---
-## Quick Start (To run locally)
+## How to Run this on Local?
 ### Prerequisites
 - Python 3.11+
 - Node.js 18+
