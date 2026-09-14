@@ -8,7 +8,7 @@ I built this project because I love for watches, I built a ML pipeline to detect
 |---|---|
 | **Deep Learning & Backend** | **Web Developing / UI-UX Design** |
 | Built the Rolex classification model, web-scraping pipeline, recognition pipeline, backend API, model integration, and Modal deployment setup. | Developing the website from [Figma design](https://www.figma.com/design/JvzpwAEPhSpTFqzpf72Ezh/Rolex_Recog_UI?node-id=0-1&t=oeYxbgn8zixFBz3F-0): Creating interactions, visual effects, UI&UX refinement, and Vercel deployment. |
-| GitHub: [@AlexDaPiggie](https://github.com/AlexDaPiggie)<br>LinkedIn: [Hoai Phong Nguyen](https://www.linkedin.com/in/hoai-phong-nguyen-9367a4384/?isSelfProfile=true) | GitHub: [@hertzy-da-poet](https://github.com/hertzy-da-poet)<br>LinkedIn: [Huy Phan](https://linkedin.com/in/huy-linkedin) |
+| GitHub: [@AlexDaPiggie](https://github.com/AlexDaPiggie)<br>LinkedIn: [Hoai Phong Nguyen](https://www.linkedin.com/in/hoai-phong-nguyen-9367a4384/)<br>Portfolio: [Phong Nguyen](https://phongnguyen.vercel.app/) | GitHub: [@hertzy-da-poet](https://github.com/hertzy-da-poet)<br>LinkedIn: [Huy Phan](https://linkedin.com/in/huy-linkedin) |
 
 
 ---
@@ -118,7 +118,7 @@ python -m src.training.evaluate
 
 ## Serverless Cloud Deployment (Modal)
 
-`modal_app.py` configures serverless GPU execution:
+[`modal_app.py`](modal_app.py) configures serverless GPU execution:
 
 - **Build-Time Model Pre-baking**: Hugging Face models (`grounding-dino-base`, `clip-vit-base-patch16`) are downloaded during container build via `.run_function()`, eliminating cold-start download latency.
 - **Auto Scale-Down**: Shuts down GPU after 3 minutes idle (`scaledown_window = 180s`, `min_containers = 0`).
@@ -169,7 +169,7 @@ Rolex_Finder_DeepLearning_Model/
     - This problem could be addressed in the future by adding a particular watch classification model or a stricter bounding box.
 
 - **Closed Catalog Constraints**
-    - The model can only classify the 15 trained Rolex families in the catalog and could only detect among the variants for each family in `rolex_variants.json`. Rolex pieces that don't appear in the catalog couldn't be recognized. 
+    - The model can only classify the 15 trained Rolex families in the catalog and could only detect among the variants for each family in [`rolex_variants.json`](src/identify/rolex_variants.json). Rolex pieces that don't appear in the catalog couldn't be recognized. 
     - This is a trivial problem because the catalog for Rolex families almost cover all common/uncommon Rolex watches found on the Internet. Only rare/vintange/unique off-catalog watches could run into this problem. 
 
 - **Severless cold-start latency (~40s)**
