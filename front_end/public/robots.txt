@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rolexfinder.onrender.com/sitemap.xml
+Sitemap: https://rolex-finder.vercel.app/sitemap.xml
