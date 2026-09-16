@@ -8,7 +8,8 @@ const AUTHORS_DATA = [
     image: "images/phong.jpg",
     contacts: [
       { label: "Github", url: "https://github.com/AlexDaPiggie" },
-      { label: "LinkedIn", url: "https://www.linkedin.com/in/hoai-phong-nguyen-9367a4384/" }
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/hoai-phong-nguyen-9367a4384/" },
+      { label: "Portfolio", url: "https://phongnguyen.vercel.app" }
     ],
     donation_qr: "images/phong_kofi.png",
     donation_url: "https://ko-fi.com/phong_placeholder",
