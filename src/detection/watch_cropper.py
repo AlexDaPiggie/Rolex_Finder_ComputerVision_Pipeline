@@ -346,7 +346,36 @@ def detect_watch (image: Image.Image):
         target_sizes = [image.size[::-1]],
     )[0]
 
-def crop_watch (image: Image.Image): 
+def bracelet_edge_overlay(image: Image.Image, max_side: int = 520):
+    """
+    Draw the bracelet edges the tilt is measured from as a transparent gold overlay.
+    The overlay has the same aspect ratio as a thumbnail of the image, so the two can be stacked.
+    """
+    _, outer_edges = bracelet_edge_points(image)
+    width, height = image.size
+    scale = min(1.0, max_side / max(width, height))
+    target = (max(1, int(round(width * scale))), max(1, int(round(height * scale))))
+
+    dilate_size = max(2, int(round(max(width, height) / 220)))
+    thick = cv2.dilate(outer_edges, np.ones((dilate_size, dilate_size), np.uint8))
+    small = cv2.resize(thick, target, interpolation=cv2.INTER_AREA)
+    alpha = np.clip(small.astype(np.float32) * 3.0, 0, 255).astype(np.uint8)
+
+    overlay = np.zeros((target[1], target[0], 4), dtype=np.uint8)
+    overlay[..., 0] = 240
+    overlay[..., 1] = 220
+    overlay[..., 2] = 154
+    overlay[..., 3] = alpha
+    return Image.fromarray(overlay, mode="RGBA")
+
+def crop_watch_stages(image: Image.Image):
+    """
+    Same as crop_watch, but also returns the image after each preprocessing step,
+    so the front end can show what the pipeline did.
+
+    Returns (final_image, crop_info, stages). stages has the keys "crop", "aligned"
+    and "dial" when a watch was found, and is empty otherwise.
+    """
     detections = detect_watch(image)
     boxes = detections["boxes"]
     scores = detections["scores"]
@@ -356,22 +385,31 @@ def crop_watch (image: Image.Image):
         return image, {
             "crop_used": False,
             "reason": "no_watch_detected",
-        }
-    
+        }, {}
+
     best_index = int(scores.argmax().item())
     cropped_image, crop_info = crop_from_box (
-        image, 
+        image,
         box = boxes[best_index].tolist(),
         score = float (scores[best_index].item()),
         label = str(labels[best_index]),
     )
 
     if not crop_info.get ("crop_used"):
-        return cropped_image, crop_info
-    
+        return cropped_image, crop_info, {}
+
     aligned_image, alignment_info = align_watch_crop(cropped_image)
     dial_image, dial_info = crop_dial_region (aligned_image)
     crop_info["alignment"] = alignment_info
     crop_info["dial_crop"] = dial_info
 
-    return dial_image, crop_info,
+    stages = {
+        "crop": cropped_image,
+        "aligned": aligned_image,
+        "dial": dial_image,
+    }
+    return dial_image, crop_info, stages
+
+def crop_watch (image: Image.Image):
+    final_image, crop_info, _ = crop_watch_stages(image)
+    return final_image, crop_info

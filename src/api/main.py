@@ -1,3 +1,4 @@
+import base64
 import sys
 from io import BytesIO
 from pathlib import Path
@@ -14,7 +15,7 @@ from src.training.models import create_model
 from src.identify.clip_matcher import rank_variants
 from src.identify.variants import load_catalog, variants_family
 from src.identify.summary import format_model_name
-from src.detection.watch_cropper import crop_watch
+from src.detection.watch_cropper import bracelet_edge_overlay, crop_watch_stages
 from src.inference.device import resolve_device
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
@@ -119,6 +120,62 @@ def predict_image (image: Image.Image):
     result['model_name'] = format_model_name(result)
     return result
 
+def encode_data_url (image: Image.Image, max_side: int = 520, quality: int = 82, png: bool = False):
+    '''
+    Shrink an image and return it as a data URL, so the front end can show it without a second request
+    '''
+    preview = image.copy()
+    preview.thumbnail ((max_side, max_side))
+    buffer = BytesIO()
+    if png:
+        preview.convert ('RGBA').save (buffer, format = 'PNG', optimize = True)
+        mime = 'image/png'
+    else:
+        preview.convert ('RGB').save (buffer, format = 'JPEG', quality = quality)
+        mime = 'image/jpeg'
+    return f"data:{mime};base64,{base64.b64encode (buffer.getvalue()).decode ('ascii')}"
+
+def build_steps (original: Image.Image, stages: dict, crop_info: dict):
+    '''
+    Describe what the pipeline did at each preprocessing step (detect, straighten, isolate the dial),
+    with a small picture of each result. The front end plays these back while showing the answer.
+    Returns None when there is nothing to show, so a failure here never breaks a prediction.
+    '''
+    if not stages:
+        return None
+    try:
+        alignment = crop_info.get ('alignment', {})
+        dial = crop_info.get ('dial_crop', {})
+        return {
+            'original_size': list (original.size),
+            'detect': {
+                'box': crop_info.get ('box'),
+                'score': crop_info.get ('score'),
+            },
+            'alignment': {
+                'applied': alignment.get ('alignment_applied', False),
+                'rotation_degrees': alignment.get ('rotation_degrees', 0),
+                'axis_angle_degrees': alignment.get ('bracelet_axis_angle_degrees'),
+                'axis_confidence': alignment.get ('bracelet_axis_confidence'),
+                'reason': alignment.get ('reason'),
+            },
+            'dial': {
+                'used': dial.get ('dial_crop_used', False),
+                'score': dial.get ('score'),
+                'center_distance_ratio': dial.get ('center_distance_ratio'),
+                'aspect_ratio': dial.get ('aspect_ratio'),
+                'reason': dial.get ('reason'),
+            },
+            'images': {
+                'crop': encode_data_url (stages['crop']),
+                'edges': encode_data_url (bracelet_edge_overlay (stages['crop']), png = True),
+                'aligned': encode_data_url (stages['aligned']),
+                'dial': encode_data_url (stages['dial']),
+            },
+        }
+    except Exception:
+        return None
+
 def save_processed_image (image: Image.Image):
     OUTPUT_IMAGE_DIR.mkdir (parents = True, exist_ok=True)
     for existing_file in OUTPUT_IMAGE_DIR.iterdir():
@@ -137,7 +194,7 @@ FastAPI format to operate the project pipeline
 async def predict (file: UploadFile = File(...)): 
     contents = await file.read()
     image = decode_image (contents)
-    cropped_image, crop_info = crop_watch (image)
+    cropped_image, crop_info, stages = crop_watch_stages (image)
     if crop_info.get("reason") == "no_watch_detected":
         result = dict()
         predicted_class = "No Watch Detected"
@@ -194,6 +251,7 @@ async def predict (file: UploadFile = File(...)):
     processed_image_path = save_processed_image (cropped_image)
     result["crop_info"] = crop_info
     result["processed_image_path"] = str(processed_image_path)
+    result["steps"] = build_steps (image, stages, crop_info)
     return result
 
 

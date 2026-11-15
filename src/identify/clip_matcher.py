@@ -53,6 +53,21 @@ def rank_variants(
     }
 
     predictions = detector (image, candidate_labels = labels)
+    # Every variant in the family with its score and catalog description, so the
+    # front end can show how each description was weighed.
+    all_scores = []
+    for prediction in predictions:
+        variant = variants_by_label[prediction["label"]]
+        all_scores.append (
+            {
+                "id": variant['id'],
+                "display_name": variant["display_name"],
+                "score": float (prediction ["score"]),
+                "description": str (variant["clip_text"]),
+                "reference_examples": variant.get ("reference_examples", []),
+            }
+        )
+
     ranked = []
     for prediction in predictions[:top_k]: 
         variant = variants_by_label[prediction["label"]]
@@ -72,9 +87,11 @@ def rank_variants(
             "variant_status": "closest_known_matches",
             "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
             "variant_candidates": ranked,
+            "variant_scores": all_scores,
         }
     return {
         "variant_status": "matched_known_variant",
         "variant_note": "The top result is the strongest match among known catalog variants, not a guaranteed exact reference",
         "variant_candidates": ranked,
+        "variant_scores": all_scores,
     }

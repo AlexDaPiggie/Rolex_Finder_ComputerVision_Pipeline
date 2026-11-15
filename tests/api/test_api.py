@@ -21,8 +21,8 @@ def test_predict_return_probabilities (monkeypatch):
     monkeypatch.setattr(main, 'class_names', ['datejust', 'gmt_master', 'submariner'])
     monkeypatch.setattr(
         main,
-        'crop_watch',
-        lambda image: (image, {"crop_used": True}),
+        'crop_watch_stages',
+        lambda image: (image, {"crop_used": True}, {}),
     )
     monkeypatch.setattr(
         main,
@@ -64,13 +64,14 @@ def test_predict_returns_message_when_no_watch_detected(monkeypatch):
 
     monkeypatch.setattr(
         main,
-        'crop_watch',
+        'crop_watch_stages',
         lambda image: (
             image,
             {
                 "crop_used": False,
                 "reason": "no_watch_detected",
             },
+            {},
         ),
     )
     monkeypatch.setattr(main, 'predict_image', fail_predict_image)
@@ -91,3 +92,33 @@ def test_predict_returns_message_when_no_watch_detected(monkeypatch):
         },
     }
     
+
+def test_build_steps_describes_each_preprocessing_step():
+    image = Image.new('RGB', (200, 100), color = 'white')
+    stages = {
+        'crop': Image.new('RGB', (80, 60), color = 'gray'),
+        'aligned': Image.new('RGB', (80, 60), color = 'gray'),
+        'dial': Image.new('RGB', (50, 50), color = 'black'),
+    }
+    crop_info = {
+        'crop_used': True,
+        'box': [10, 5, 90, 65],
+        'score': 0.93,
+        'alignment': {'alignment_applied': True, 'rotation_degrees': -4.2, 'reason': 'bracelet_axis_rotated'},
+        'dial_crop': {'dial_crop_used': True, 'score': 0.81},
+    }
+
+    steps = main.build_steps(image, stages, crop_info)
+
+    assert steps['original_size'] == [200, 100]
+    assert steps['detect'] == {'box': [10, 5, 90, 65], 'score': 0.93}
+    assert steps['alignment']['applied'] is True
+    assert steps['alignment']['rotation_degrees'] == -4.2
+    assert steps['dial']['used'] is True
+    assert set(steps['images']) == {'crop', 'edges', 'aligned', 'dial'}
+    assert steps['images']['crop'].startswith('data:image/jpeg;base64,')
+    assert steps['images']['edges'].startswith('data:image/png;base64,')
+
+
+def test_build_steps_is_none_without_stages():
+    assert main.build_steps(Image.new('RGB', (10, 10)), {}, {}) is None

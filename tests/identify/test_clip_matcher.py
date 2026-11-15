@@ -91,3 +91,27 @@ def test_rank_variants_weak_matches():
     assert results['variant_status'] == 'closest_known_matches'
     assert results['variant_note'] == 'The exact variant may not be in the catalog; these are the closest known matches'
     assert len (results['variant_candidates']) == 2
+
+def test_rank_variants_returns_a_score_for_every_variant():
+    image = Image.new ("RGB", (64, 64), color = "white")
+    variants = [
+        {
+            "id": "gmt_batman",
+            "display_name": "Rolex GMT-Master II Batman",
+            "reference_examples": ["126710BLNR"],
+            "clip_text": "Rolex GMT-Master II with black and blue hour bezel",
+        },
+        {
+            "id": "gmt_pepsi",
+            "display_name": "Rolex GMT-Master II Pepsi",
+            "reference_examples": ["126710BLRO"],
+            "clip_text": "Rolex GMT-Master II with red and blue hour bezel",
+        },
+    ]
+
+    results = rank_variants(image, variants, detector=FakeDetector(), top_k = 1)
+
+    assert len(results["variant_candidates"]) == 1
+    assert [item["id"] for item in results["variant_scores"]] == ["gmt_batman", "gmt_pepsi"]
+    assert results["variant_scores"][0]["description"] == "Rolex GMT-Master II with black and blue hour bezel"
+    assert results["variant_scores"][1]["score"] == 0.22
