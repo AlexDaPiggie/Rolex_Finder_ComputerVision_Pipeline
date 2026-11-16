@@ -233,7 +233,7 @@ Short log of what was wrong with the data and what was done. Details: [`docs/tra
 - **Offline synthetic copies.** On-the-fly augmentation does the same job without storing more files.
 
 ### Still open
-- A real-world test set (20-30 photos per family, not from the retailer). It is the number that matters.
+- A bigger, hand-checked real-world test set (20-30 photos per family, not from the retailer). It is the number that matters. Started with 73 photos, see Results.
 - "Not a Rolex" negative images, to train and test out-of-scope rejection.
 - Reference-level labels (for example 116508) to replace CLIP text prompts with photo retrieval.
 
@@ -252,5 +252,7 @@ What this means:
 - **This test set is too easy.** Same retailer, same clean photos. It cannot show whether the new model works better on phone photos. The real-world test set (see "Still open") is needed for that.
 - The crop step found a watch in all but 1 of 23,000 images, so almost nothing was dropped.
 - The live model was not replaced. Compare both on real photos first.
+
+**First real-world check.** 73 open-licence photos (Wikimedia Commons and Flickr via Openverse: wrists, shop windows, events), full pipeline through the live API: 24 of 73 correct (33%). The labels come from titles and categories, so some are wrong, and the set is small. Do not trust the exact number. It does show that the 99% above does not carry over to real photos. Collector: `src/collection/openverse.py` (rate-limited, so growth is slow). Images are private (not in the repo) because some licences forbid redistribution.
 
 Full tables: [`docs/benchmark_candidate.md`](docs/benchmark_candidate.md) and [`docs/benchmark_baseline_grouped.md`](docs/benchmark_baseline_grouped.md).
