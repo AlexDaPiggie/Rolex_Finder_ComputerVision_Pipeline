@@ -256,3 +256,70 @@ What this means:
 **First real-world check.** 73 open-licence photos (Wikimedia Commons and Flickr via Openverse: wrists, shop windows, events), full pipeline through the live API: 24 of 73 correct (33%). The labels come from titles and categories, so some are wrong, and the set is small. Do not trust the exact number. It does show that the 99% above does not carry over to real photos. Collector: `src/collection/openverse.py` (rate-limited, so growth is slow). Images are private (not in the repo) because some licences forbid redistribution.
 
 Full tables: [`docs/benchmark_candidate.md`](docs/benchmark_candidate.md) and [`docs/benchmark_baseline_grouped.md`](docs/benchmark_baseline_grouped.md).
+
+---
+
+## Methods (for the project documentation)
+
+Plain summary of how the model is trained, how the data is cleaned, and how images are preprocessed.
+
+### 1. Image preprocessing (runs on every upload)
+Code: `src/api/main.py`, `src/detection/watch_cropper.py`.
+
+1. **Decode and fix rotation.** Read EXIF orientation so sideways phone photos stand up.
+2. **Find the watch.** Grounding DINO with the prompt `"watch. wristwatch."`. Best box, 12% padding. No box means "No watch found".
+3. **Align.** Find the bracelet direction from edge pixels (PCA). Rotate by the shortest turn (never more than 90 degrees, so the watch is not flipped upside down). Fill rotated corners with the border colour.
+4. **Dial crop.** Pick the round contour nearest the centre and crop it with 40% padding. If none is found, keep the aligned image.
+5. **Classify** the family, then rank the variants (see below).
+
+Tested on 133 real photos (`docs/benchmark_realworld.md`), accuracy by preprocessing variant (CLIP head):
+
+| Variant | Accuracy |
+|---|---|
+| Whole photo | 48% |
+| Detector crop only | 62% |
+| Crop + align | 59% |
+| Crop + align + dial crop (used) | 66% |
+
+Alignment alone did not help. The dial crop helped most. Old bugs fixed: dial box used width instead of height, 180-degree flips, black corners, no EXIF rotation.
+
+### 2. Model training
+Code: `src/training/`.
+
+- **Family classifier, version 1:** EfficientNet-B0 fine-tuned on retailer dial crops. `python -m src.training.train`.
+- **Class balance:** loss weighted by inverse class frequency (`--balance loss`).
+- **Augmentation:** `--real-aug` makes studio photos look real (`src/training/real_aug.py`): white background swapped for wood, skin, cloth, leather or dark textures with a soft shadow; close-up crops; tilt; perspective; colour; glare; blur; JPEG compression. No horizontal flips (they break dials and the crown side).
+- **Two views:** train on both full studio photos and dial crops (`--data-root crops originals`), so the model copes with different crops.
+- **Family classifier, version 2 (CLIP head):** the site already loads CLIP B/16 for variant matching. Its image embeddings (512 numbers) go into a linear layer trained on about 113,000 augmented samples (`modal_improve.py` makes the embeddings, `src/training/clip_head.py` trains the head). CLIP was pretrained on varied web photos, so it copes with real photos better than a CNN trained on one retailer. Extra cost at inference: one small matrix multiply.
+- **Variants:** CLIP zero-shot text prompts per family (`src/identify/rolex_variants.json`). Not trained, not yet benchmarked.
+- **Where it runs:** training and feature extraction on Modal L4 GPUs (`modal_train.py`, `modal_improve.py`). Heads and comparisons run on a laptop CPU.
+
+### 3. Data quality (details in the section above)
+Group split by listing, label audit (file name text plus model), leak removal, cropping like the site, class weights, real-photo augmentation, open-licence real photos for testing.
+
+**Real-photo test set.** 133 photos after removing race cars, non-watch images and duplicates (196 collected). Sources: Wikimedia Commons and Flickr through Openverse. Labels come from titles, so some are wrong. Never train on it. Many are NC or ND licensed, so the photos are private and not in the repo. Some licences are CC BY-NC-ND. Training on them is the owner's decision.
+
+### 4. Results
+
+| Model | Real photos (133) | 95% interval | Retailer test, clean |
+|---|---|---|---|
+| Live model (EfficientNet, retailer photos only) | 38.3% | 30-47% | 99.45% (inflated, see above) |
+| EfficientNet retrained on cleaned data | 51.1% | 43-60% | 99.45% |
+| EfficientNet with real-photo augmentation + two views | 54.1% | 46-62% | not yet measured |
+| CLIP embeddings + linear head | 66.2% | 58-74% | 97.1% |
+
+Lessons:
+- A 99% score on retailer photos says little about real photos. Real photos need a real test set.
+- Datejust photos are often called President (similar looking, overlapping labels). Explorer and Air-King are weak. Cellini acts as a catch-all for dark or odd backgrounds.
+- Ensembling the CLIP head with the CNN did not beat the head alone.
+
+### 5. Reproduce
+```
+python -m src.training.group_split
+python -m src.training.audit_labels --apply
+python -m src.training.dedupe_splits
+modal run modal_improve.py::features      # CLIP features (needs data on the Modal volume, see modal_improve.py)
+modal run modal_improve.py::real          # real photos through detection
+python -m src.training.clip_head          # trains the head, writes docs/benchmark_realworld.md
+```
+The API uses `models/clip_head.pt` when it exists. Set `FAMILY_MODEL=effnet` to use the EfficientNet instead.

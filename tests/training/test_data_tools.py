@@ -82,3 +82,14 @@ def test_random_glare_brightens_but_keeps_size():
     out = RandomGlare(p=1.0, strength=(0.8, 0.8))(image)
     assert out.size == image.size
     assert np.asarray(out).mean() > np.asarray(image).mean()
+
+
+def test_real_look_chain_keeps_rgb_and_runs():
+    from src.training.real_aug import background_mask, real_look_pil
+
+    image = Image.new("RGB", (120, 120), "white")
+    image.paste(Image.new("RGB", (60, 60), (30, 30, 30)), (30, 30))
+    assert background_mask(np.asarray(image))[0, 0]          # white border is background
+    assert not background_mask(np.asarray(image))[60, 60]    # the dark square is not
+    out = real_look_pil()(image)
+    assert out.mode == "RGB" and out.size[0] > 0

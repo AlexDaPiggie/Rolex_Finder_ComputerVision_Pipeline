@@ -156,3 +156,11 @@ def test_predict_returns_timings_and_hides_steps_by_default(monkeypatch):
     assert {'decode', 'preprocess', 'total'} <= set(body['timings_ms'])
     assert 'steps' not in body
     assert 'processed_image_path' not in body
+
+
+def test_head_probabilities_pick_the_matching_class():
+    import torch
+
+    head = {'weight': torch.eye(3), 'bias': torch.zeros(3), 'scale': 30.0}
+    probs = main.head_probabilities(torch.tensor([0.0, 1.0, 0.0]), head)
+    assert int(probs.argmax()) == 1 and abs(float(probs.sum()) - 1.0) < 1e-5

@@ -2,7 +2,7 @@ import argparse
 from pathlib import Path
 import torch
 import torch.nn as nn
-from torch.utils.data import DataLoader
+from torch.utils.data import ConcatDataset, DataLoader
 import numpy as np
 from src.training.dataset import IMAGE_SIZE, load_class_names, make_image_folder
 from src.training.models import create_model
@@ -87,7 +87,9 @@ def parse_args():
     parser.add_argument('--epochs', type = int, default = 5)
     parser.add_argument('--batch-size', type = int, default = 16)
     parser.add_argument('--learning-rate', type = float, default = 1e-4)
-    parser.add_argument('--data-root', type = Path, default = Path('data/processed'))
+    parser.add_argument('--data-root', type = Path, nargs = '+', default = [Path('data/processed')],
+                        help = 'one or more roots; train images of all roots are used (for example studio photos and dial crops), val comes from the first')
+    parser.add_argument('--real-aug', action = 'store_true', help = 'make studio photos look like real photos while training')
     parser.add_argument('--output', type = Path, default = Path('models/rolex_classifier_model.pt'))
     parser.add_argument('--device', choices = ['cpu', 'cuda', 'auto'], default = 'cpu')
     parser.add_argument('--balance', choices = ['none', 'loss'], default = 'none',
@@ -102,10 +104,11 @@ def main():
     if device_name == 'auto':
         device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
     device = torch.device(device_name)
-    data = args.data_root
+    data = args.data_root[0]
     class_names = load_class_names(data)
 
-    train_dataset = make_image_folder(data, 'train', train = True)
+    train_parts = [make_image_folder(root, 'train', train = True, real = args.real_aug) for root in args.data_root]
+    train_dataset = ConcatDataset(train_parts)
     val_dataset = make_image_folder(data, 'val', train = False)
 
     train_loader = DataLoader(
@@ -125,8 +128,9 @@ def main():
     model = create_model (num_classes = len (class_names)).to(device)
     if args.balance == 'loss':
         counts = [0] * len (class_names)
-        for _path, label in train_dataset.samples:
-            counts[label] += 1
+        for part in train_parts:
+            for _path, label in part.samples:
+                counts[label] += 1
         weights = torch.tensor (class_weights (counts), dtype = torch.float32).to(device)
         criterion = nn.CrossEntropyLoss(weight = weights)
         print ('class counts:', dict (zip (class_names, counts)))

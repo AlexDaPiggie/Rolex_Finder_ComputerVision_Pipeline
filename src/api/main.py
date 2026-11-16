@@ -1,4 +1,5 @@
 import base64
+import os
 import sys
 import time
 from io import BytesIO
@@ -24,6 +25,7 @@ from fastapi.staticfiles import StaticFiles
 
 VARIANT_CATALOG_PATH = PROJECT_ROOT / 'src/identify/rolex_variants.json'
 MODEL_PATH = PROJECT_ROOT / 'models/rolex_classifier_model.pt'
+HEAD_PATH = PROJECT_ROOT / 'models/clip_head.pt'
 
 app = FastAPI(title = 'Rolex Classifier')
 app.add_middleware(
@@ -59,6 +61,27 @@ def load_model():
     model.load_state_dict(checkpoint['model_state_dict'])
     model.eval()
 
+_head = None
+
+def get_head():
+    '''
+    Linear family head on CLIP image embeddings (trained by src/training/clip_head.py). It copes with real photos
+    better than the EfficientNet. Set FAMILY_MODEL=effnet to use the EfficientNet instead.
+    '''
+    global _head
+    if _head is None:
+        _head = False
+        if HEAD_PATH.exists() and os.getenv('FAMILY_MODEL', 'clip_head') != 'effnet':
+            head = torch.load (HEAD_PATH, map_location = device, weights_only = True)
+            if head['class_names'] == class_names:
+                _head = head
+    return _head or None
+
+def head_probabilities (embedding: torch.Tensor, head: dict):
+    '''Softmax over scale * (embedding W^T + b). embedding is one L2-normalised CLIP vector.'''
+    logits = head['scale'] * (embedding @ head['weight'].T + head['bias'])
+    return torch.softmax (logits, dim = -1)
+
 def decode_image (contents: bytes): 
     '''
     This function is to convert input image in to bytes for model to process
@@ -85,12 +108,19 @@ def predict_family (image: Image.Image):
     if model is None or not class_names:
         get_model()
 
-    transform = build_transforms(train = False)
-    tensor = transform (image).unsqueeze(0).to(device)
-
-    with torch.no_grad():
-        logits = model(tensor)
-        probabilities = torch.softmax(logits, dim = 1)[0].cpu()
+    head = get_head()
+    if head is not None:
+        from src.identify.clip_matcher import get_detector as get_clip
+        from src.inference.clip_embed import embed
+        with torch.no_grad():
+            embedding = torch.tensor (embed ([image], get_clip().model, device)[0]).to(device)
+            probabilities = head_probabilities (embedding, head).cpu()
+    else:
+        transform = build_transforms(train = False)
+        tensor = transform (image).unsqueeze(0).to(device)
+        with torch.no_grad():
+            logits = model(tensor)
+            probabilities = torch.softmax(logits, dim = 1)[0].cpu()
 
     predicted_index = int (probabilities.argmax().item())
     probabilities = {

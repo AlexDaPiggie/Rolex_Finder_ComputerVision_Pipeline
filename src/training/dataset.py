@@ -67,11 +67,25 @@ class RandomGlare:
         return Image.fromarray(np.clip(rgb, 0, 255).astype("uint8"))
 
 
-def build_transforms (train: bool):
+def build_transforms (train: bool, real: bool = False):
     '''
     Build dataset engine:
     - only do data augmentation if it's train
     '''
+    if train and real:
+        # Studio photos made to look like real photos (backgrounds, close-ups, glare, blur, JPEG)
+        from src.training.real_aug import real_look_pil
+
+        return transforms.Compose(
+            [
+                real_look_pil(),
+                transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
+                transforms.ToTensor(),
+                transforms.Normalize(IMAGENET_MEAN, IMAGENET_STD),
+                transforms.RandomErasing(p = 0.15, scale = (0.02, 0.1), ratio = (0.3, 3.3)),
+            ]
+        )
+
     if train:
         return transforms.Compose(
             [
@@ -120,14 +134,14 @@ def build_transforms (train: bool):
         ]
     )
 
-def make_image_folder (data_root: Path, split: str, train: bool):
+def make_image_folder (data_root: Path, split: str, train: bool, real: bool = False):
     '''
     This is to create a Pytorch dataset for one split
     '''
     split_root = data_root / split
     dataset = datasets.ImageFolder(
         split_root,
-        transform = build_transforms(train = train),
+        transform = build_transforms(train = train, real = real),
     )
     expected_classes = load_class_names(data_root)
     if dataset.classes != expected_classes:
