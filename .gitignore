@@ -5,3 +5,5 @@ docs
 data
 # front-end source data (examples.json) must be tracked
 !front_end/src/data/
+
+.env

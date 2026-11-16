@@ -48,9 +48,33 @@ FAMILIES = {
 SKIP = re.compile(r"case ?back|back of|movement|calibre|logo|boutique|store|shop window|building|poster|advert|box|catalog|auction lot", re.I)
 
 
+AUTH: dict = {}
+
+
+def load_token() -> dict:
+    """Bearer header from OPENVERSE_CLIENT_ID/SECRET (env or .env). Empty when missing or not yet verified."""
+    import os
+    env = Path(".env")
+    if env.exists():
+        for line in env.read_text(encoding="utf-8").splitlines():
+            if "=" in line and not line.startswith("#"):
+                key, value = line.split("=", 1)
+                os.environ.setdefault(key.strip(), value.strip())
+    cid, secret = os.environ.get("OPENVERSE_CLIENT_ID"), os.environ.get("OPENVERSE_CLIENT_SECRET")
+    if not cid or not secret:
+        return {}
+    reply = requests.post("https://api.openverse.org/v1/auth_tokens/token/", headers=HEADERS, timeout=60,
+                          data={"grant_type": "client_credentials", "client_id": cid, "client_secret": secret})
+    if reply.status_code != 200:
+        print("  Openverse token not available (verify the email link?), using anonymous access", flush=True)
+        return {}
+    print("  using Openverse API token", flush=True)
+    return {"Authorization": "Bearer " + reply.json()["access_token"]}
+
+
 def get(url: str, **kwargs) -> requests.Response:
     for attempt in range(6):
-        response = requests.get(url, headers=HEADERS, timeout=60, **kwargs)
+        response = requests.get(url, headers={**HEADERS, **AUTH}, timeout=60, **kwargs)
         if response.status_code in (429, 500, 502, 503, 504):
             wait = float(response.headers.get("Retry-After", 15 * (attempt + 1)))
             print(f"  waiting {min(wait, 120):.0f}s ({response.status_code})", flush=True)
@@ -135,6 +159,7 @@ def collect(families, out_root: Path, limit: int, per_creator: int):
 
 
 def main():
+    AUTH.update(load_token())
     parser = argparse.ArgumentParser(description="Collect open-licence real-life Rolex photos")
     parser.add_argument("--families", nargs="+", default=list(FAMILIES))
     parser.add_argument("--out-root", type=Path, default=Path("data/realworld"))
