@@ -4,22 +4,22 @@
   "image": "/examples/daytona.jpg",
   "result": {
    "predicted_class": "daytona",
-   "confidence": 0.9994664788246155,
+   "confidence": 0.8676829934120178,
    "probabilities": {
-    "daytona": 0.9994664788246155,
-    "cellini": 0.00023864423565100878,
-    "submariner": 0.0001811571273719892,
-    "yacht_master": 3.956705404561944e-05,
-    "oyster_perpetual": 1.967165371752344e-05,
-    "sea_dweller": 1.3808303265250288e-05,
-    "datejust": 1.1163647286593914e-05,
-    "president": 1.0915883649431635e-05,
-    "gmt_master": 1.0058513908006717e-05,
-    "turn_o_graph": 5.045338184572756e-06,
-    "airking": 1.8844799569706083e-06,
-    "explorer": 1.433290890417993e-06,
-    "oysterquartz": 1.6818370340843103e-07,
-    "milgauss": 9.862073824251638e-08
+    "daytona": 0.8676829934120178,
+    "turn_o_graph": 0.026338882744312286,
+    "oysterquartz": 0.015438218601047993,
+    "gmt_master": 0.01480981707572937,
+    "yacht_master": 0.01208899449557066,
+    "milgauss": 0.010602166876196861,
+    "submariner": 0.010456770658493042,
+    "oyster_perpetual": 0.009377309121191502,
+    "airking": 0.00901509914547205,
+    "datejust": 0.00844386126846075,
+    "president": 0.005660612601786852,
+    "cellini": 0.00562629709020257,
+    "sea_dweller": 0.0027604280039668083,
+    "explorer": 0.0016985577531158924
    },
    "variant_status": "closest_known_matches",
    "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
@@ -163,22 +163,22 @@
   "image": "/examples/cellini.jpg",
   "result": {
    "predicted_class": "cellini",
-   "confidence": 0.9916973114013672,
+   "confidence": 0.8556142449378967,
    "probabilities": {
-    "cellini": 0.9916973114013672,
-    "president": 0.007095235865563154,
-    "submariner": 0.000840820197481662,
-    "oyster_perpetual": 0.0001490657450631261,
-    "yacht_master": 0.00011906847794307396,
-    "daytona": 3.7263765989337116e-05,
-    "airking": 3.1937255698721856e-05,
-    "sea_dweller": 1.3482020221999846e-05,
-    "datejust": 6.463415502366843e-06,
-    "gmt_master": 4.038381121063139e-06,
-    "explorer": 3.4094323382305447e-06,
-    "oysterquartz": 8.618125661996601e-07,
-    "turn_o_graph": 7.102381118784251e-07,
-    "milgauss": 4.488198612762062e-07
+    "cellini": 0.8556142449378967,
+    "datejust": 0.04343916103243828,
+    "president": 0.043074000626802444,
+    "turn_o_graph": 0.01868073269724846,
+    "daytona": 0.012063557282090187,
+    "gmt_master": 0.007692406419664621,
+    "explorer": 0.006241292227059603,
+    "milgauss": 0.006098591256886721,
+    "sea_dweller": 0.002175581641495228,
+    "airking": 0.0014294807333499193,
+    "oysterquartz": 0.0010326697956770658,
+    "oyster_perpetual": 0.000922363658901304,
+    "submariner": 0.0007761574815958738,
+    "yacht_master": 0.0007597738294862211
    },
    "variant_status": "closest_known_matches",
    "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
@@ -341,22 +341,22 @@
   "image": "/examples/datejust.jpg",
   "result": {
    "predicted_class": "datejust",
-   "confidence": 0.9742529392242432,
+   "confidence": 0.8156877756118774,
    "probabilities": {
-    "datejust": 0.9742529392242432,
-    "airking": 0.009294510819017887,
-    "submariner": 0.004344297107309103,
-    "oyster_perpetual": 0.003303906414657831,
-    "turn_o_graph": 0.002643113723024726,
-    "president": 0.0015262648230418563,
-    "cellini": 0.0012753988848999143,
-    "daytona": 0.001091782352887094,
-    "oysterquartz": 0.0009754981729201972,
-    "sea_dweller": 0.0007875025039538741,
-    "milgauss": 0.00017457573267165571,
-    "yacht_master": 0.00016691224300302565,
-    "explorer": 9.14233096409589e-05,
-    "gmt_master": 7.181545515777543e-05
+    "datejust": 0.8156877756118774,
+    "turn_o_graph": 0.06384604424238205,
+    "explorer": 0.04315716028213501,
+    "president": 0.01733119785785675,
+    "oyster_perpetual": 0.014830069616436958,
+    "daytona": 0.012679122388362885,
+    "oysterquartz": 0.010493097826838493,
+    "sea_dweller": 0.008021346293389797,
+    "airking": 0.005301786120980978,
+    "milgauss": 0.00314043159596622,
+    "gmt_master": 0.0022681590635329485,
+    "submariner": 0.0020781357306987047,
+    "cellini": 0.0007769918884150684,
+    "yacht_master": 0.00038869885611347854
    },
    "variant_status": "matched_known_variant",
    "variant_note": "The top result is the strongest match among known catalog variants, not a guaranteed exact reference",
@@ -364,7 +364,7 @@
     {
      "id": "datejust_fluted",
      "display_name": "Rolex Datejust Fluted Bezel",
-     "score": 0.83154296875,
+     "score": 0.82763671875,
      "reference_examples": [
       "126234",
       "126334",
@@ -374,26 +374,26 @@
      ]
     },
     {
-     "id": "datejust_champagne",
-     "display_name": "Rolex Datejust Champagne Dial",
-     "score": 0.09930419921875,
+     "id": "datejust_smooth",
+     "display_name": "Rolex Datejust Smooth Bezel",
+     "score": 0.09881591796875,
      "reference_examples": [
-      "126233",
-      "126333",
-      "116233",
-      "16233",
-      "16013"
+      "126200",
+      "126300",
+      "116200",
+      "116300",
+      "1600"
      ]
     },
     {
-     "id": "datejust_mop",
-     "display_name": "Rolex Datejust Mother-of-Pearl Dial",
-     "score": 0.0258941650390625,
+     "id": "datejust_palm",
+     "display_name": "Rolex Datejust Palm Dial",
+     "score": 0.034149169921875,
      "reference_examples": [
-      "126283RBR",
-      "278383RBR",
-      "116233",
-      "179173"
+      "126200",
+      "126234",
+      "278273",
+      "278274"
      ]
     }
    ],
@@ -401,7 +401,7 @@
     {
      "id": "datejust_fluted",
      "display_name": "Rolex Datejust Fluted Bezel",
-     "score": 0.83154296875,
+     "score": 0.82763671875,
      "description": "Rolex Datejust Fluted, sharp ridged bezel, faceted polished cuts around the dial, scalloped tooth-like metal edge reflecting light, no gem or diamond, no mother-of-pearl, date window with cyclops magnifier at 3 o'clock, Jubilee or Oyster bracelet, baton or baguette diamond hour markers",
      "reference_examples": [
       "126234",
@@ -412,46 +412,9 @@
      ]
     },
     {
-     "id": "datejust_champagne",
-     "display_name": "Rolex Datejust Champagne Dial",
-     "score": 0.09930419921875,
-     "description": "Rolex Datejust Champagne, warm champagne gold dial, yellow gold and steel two-tone case or bracelet, gold baton markers or gold Roman numerals, date cyclops at 3 o'clock, fluted or smooth bezel, no grey slate dial, no green Roman numerals",
-     "reference_examples": [
-      "126233",
-      "126333",
-      "116233",
-      "16233",
-      "16013"
-     ]
-    },
-    {
-     "id": "datejust_mop",
-     "display_name": "Rolex Datejust Mother-of-Pearl Dial",
-     "score": 0.0258941650390625,
-     "description": "Rolex Datejust Mother-of-Pearl, pearly iridescent mother-of-pearl dial, cloudy rainbow texture pearl-like white or pastel dial texture, diamond hour markers, possible diamond-set bezel, date window with cyclops magnifier at 3 o'clock, Jubilee or Oyster bracelet",
-     "reference_examples": [
-      "126283RBR",
-      "278383RBR",
-      "116233",
-      "179173"
-     ]
-    },
-    {
-     "id": "datejust_palm",
-     "display_name": "Rolex Datejust Palm Dial",
-     "score": 0.02081298828125,
-     "description": "Rolex Datejust, palm leaf patterned dial, tropical leaf texture across the dial, green olive silver or champagne dial color, date window with cyclops magnifier at 3 o'clock, smooth or fluted bezel, Oyster or Jubilee bracelet",
-     "reference_examples": [
-      "126200",
-      "126234",
-      "278273",
-      "278274"
-     ]
-    },
-    {
      "id": "datejust_smooth",
      "display_name": "Rolex Datejust Smooth Bezel",
-     "score": 0.0147552490234375,
+     "score": 0.09881591796875,
      "description": "Rolex Datejust Smooth, plain polished flat bezel, metallic sunburst dial such as blue black silver cream or white, date window with cyclops magnifier at 3 o'clock, Oyster or Jubilee bracelet, baguette diamond or wide baton hour markers",
      "reference_examples": [
       "126200",
@@ -462,9 +425,21 @@
      ]
     },
     {
+     "id": "datejust_palm",
+     "display_name": "Rolex Datejust Palm Dial",
+     "score": 0.034149169921875,
+     "description": "Rolex Datejust, palm leaf patterned dial, tropical leaf texture across the dial, green olive silver or champagne dial color, date window with cyclops magnifier at 3 o'clock, smooth or fluted bezel, Oyster or Jubilee bracelet",
+     "reference_examples": [
+      "126200",
+      "126234",
+      "278273",
+      "278274"
+     ]
+    },
+    {
      "id": "datejust_wimbledon",
      "display_name": "Rolex Datejust Wimbledon Dial",
-     "score": 0.00789642333984375,
+     "score": 0.0287628173828125,
      "description": "Rolex Datejust Wimbledon, grey slate dial with green Roman numerals, single baton marker at 9 o'clock, date window with cyclops magnifier at 3 o'clock, fluted or smooth bezel, Oyster or Jubilee bracelet",
      "reference_examples": [
       "126334",
@@ -472,6 +447,31 @@
       "126331",
       "126300",
       "116333"
+     ]
+    },
+    {
+     "id": "datejust_mop",
+     "display_name": "Rolex Datejust Mother-of-Pearl Dial",
+     "score": 0.00919342041015625,
+     "description": "Rolex Datejust Mother-of-Pearl, pearly iridescent mother-of-pearl dial, cloudy rainbow texture pearl-like white or pastel dial texture, diamond hour markers, possible diamond-set bezel, date window with cyclops magnifier at 3 o'clock, Jubilee or Oyster bracelet",
+     "reference_examples": [
+      "126283RBR",
+      "278383RBR",
+      "116233",
+      "179173"
+     ]
+    },
+    {
+     "id": "datejust_champagne",
+     "display_name": "Rolex Datejust Champagne Dial",
+     "score": 0.0016222000122070312,
+     "description": "Rolex Datejust Champagne, warm champagne gold dial, yellow gold and steel two-tone case or bracelet, gold baton markers or gold Roman numerals, date cyclops at 3 o'clock, fluted or smooth bezel, no grey slate dial, no green Roman numerals",
+     "reference_examples": [
+      "126233",
+      "126333",
+      "116233",
+      "16233",
+      "16013"
      ]
     }
    ],
@@ -483,22 +483,22 @@
   "image": "/examples/submariner.jpg",
   "result": {
    "predicted_class": "submariner",
-   "confidence": 0.93241947889328,
+   "confidence": 0.6111711859703064,
    "probabilities": {
-    "submariner": 0.93241947889328,
-    "yacht_master": 0.03389125317335129,
-    "sea_dweller": 0.015484891831874847,
-    "president": 0.010352388955652714,
-    "daytona": 0.002193313091993332,
-    "turn_o_graph": 0.0012383151333779097,
-    "gmt_master": 0.0010815367568284273,
-    "cellini": 0.0008188893552869558,
-    "airking": 0.0007985486881807446,
-    "datejust": 0.0007458445033989847,
-    "explorer": 0.0004298285348340869,
-    "oyster_perpetual": 0.0004191106418147683,
-    "milgauss": 0.00010297974949935451,
-    "oysterquartz": 2.3624634195584804e-05
+    "submariner": 0.6111711859703064,
+    "sea_dweller": 0.24819348752498627,
+    "datejust": 0.020667700096964836,
+    "yacht_master": 0.02056751772761345,
+    "explorer": 0.0145812863484025,
+    "oysterquartz": 0.014471650123596191,
+    "gmt_master": 0.014261608943343163,
+    "airking": 0.013559158891439438,
+    "milgauss": 0.010913153178989887,
+    "turn_o_graph": 0.010105172172188759,
+    "oyster_perpetual": 0.008745201863348484,
+    "daytona": 0.007863231003284454,
+    "cellini": 0.002767323050647974,
+    "president": 0.00213242182508111
    },
    "variant_status": "closest_known_matches",
    "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
@@ -624,22 +624,22 @@
   "image": "/examples/airking.jpg",
   "result": {
    "predicted_class": "airking",
-   "confidence": 0.8664244413375854,
+   "confidence": 0.8706642389297485,
    "probabilities": {
-    "airking": 0.8664244413375854,
-    "oyster_perpetual": 0.047544851899147034,
-    "sea_dweller": 0.03386294096708298,
-    "president": 0.02096041478216648,
-    "cellini": 0.016901550814509392,
-    "submariner": 0.003638598369434476,
-    "turn_o_graph": 0.0029041182715445757,
-    "yacht_master": 0.0017388141714036465,
-    "milgauss": 0.0016754678217694163,
-    "explorer": 0.0012641270877793431,
-    "gmt_master": 0.0012558510061353445,
-    "datejust": 0.0011249997187405825,
-    "oysterquartz": 0.00048069568583741784,
-    "daytona": 0.0002231593825854361
+    "airking": 0.8706642389297485,
+    "turn_o_graph": 0.07516269385814667,
+    "explorer": 0.0300039853900671,
+    "submariner": 0.008237769827246666,
+    "gmt_master": 0.0082260612398386,
+    "president": 0.002395677613094449,
+    "milgauss": 0.001438527018763125,
+    "oyster_perpetual": 0.0009035486727952957,
+    "sea_dweller": 0.0007379685412161052,
+    "daytona": 0.0006607191171497107,
+    "oysterquartz": 0.0005586071056313813,
+    "cellini": 0.0004264245508238673,
+    "yacht_master": 0.0003452125529292971,
+    "datejust": 0.00023851136211305857
    },
    "variant_status": "matched_known_variant",
    "variant_note": "The top result is the strongest match among known catalog variants, not a guaranteed exact reference",

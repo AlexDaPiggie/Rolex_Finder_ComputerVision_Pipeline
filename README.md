@@ -308,6 +308,8 @@ Group split by listing, label audit (file name text plus model), leak removal, c
 | EfficientNet with real-photo augmentation + two views | 54.1% | 46-62% | not yet measured |
 | CLIP embeddings + linear head | 66.2% | 58-74% | 97.1% |
 
+**Deployed:** the CLIP head is the live family classifier since 2026-11-16 (rule: clearly better on real photos; the retailer drop of 2.4 points was accepted because the old 99.45% is inflated). Roll back with `FAMILY_MODEL=effnet` and `modal deploy modal_app.py`.
+
 Lessons:
 - A 99% score on retailer photos says little about real photos. Real photos need a real test set.
 - Datejust photos are often called President (similar looking, overlapping labels). Explorer and Air-King are weak. Cellini acts as a catch-all for dark or odd backgrounds.
