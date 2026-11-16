@@ -47,26 +47,9 @@ line-height: normal;
 }
 
 .confidence{
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    align-items:flex-end;
-    gap:8px;
-    margin-top:8px;
-}
-
-.confidence span{
-
-    font-size:18px;
-
-    color:#202020;
-}
-
-.confidence h2{
-
-    font-size:28px;
-
+    font-family:Tienne,serif;
+    font-size:22px;
     color:#0B3A2D;
-    font-family: "Open Sans";
-    font-weight:700;
+    margin:0 0 6px;
+    white-space:nowrap;
 }

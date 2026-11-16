@@ -17,18 +17,22 @@ try {
 
 function App() {
   const [page, setPage] = useState("home");
+  // "warming" until the backend answers the health ping, then "ready"
+  const [serverState, setServerState] = useState("warming");
 
   useEffect(() => {
-    // Ping backend to wake up / warm container on initial page load
-    fetch(HEALTH_URL, { method: "GET" }).catch(() => {});
+    // Ping backend on page load to wake / warm the container
+    fetch(HEALTH_URL, { method: "GET" })
+      .then((r) => setServerState(r.ok ? "ready" : "warming"))
+      .catch(() => setServerState("warming"));
   }, []);
 
   return (
     <>
       <NavBar currentPage={page} onPageChange={setPage} />
-      {page === "home" ? <Home /> : <Authors />}
+      {page === "home" ? <Home serverState={serverState} /> : <Authors />}
     </>
   );
 }
 
-export default App;
+export default App;

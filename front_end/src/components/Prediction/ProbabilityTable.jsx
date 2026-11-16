@@ -1,11 +1,17 @@
+import { useState } from "react";
 import "./ProbabilityTable.css";
 
+const TOP_N = 5;
+
 function ProbabilityTable({ probabilities }) {
+  const [showAll, setShowAll] = useState(false);
+  const rows = showAll ? probabilities : probabilities.slice(0, TOP_N);
+
   return (
     <section className="probability-table">
 
       <h2>
-        Model Probabilities
+        Other possible families
       </h2>
 
       <div className="table-wrapper">
@@ -23,7 +29,7 @@ function ProbabilityTable({ probabilities }) {
 
           <tbody>
 
-            {probabilities.map((item, index) => (
+            {rows.map((item, index) => (
 
               <tr key={item.name} className={index === 0 ? "top-probability" : undefined}>
 
@@ -40,6 +46,12 @@ function ProbabilityTable({ probabilities }) {
         </table>
 
       </div>
+
+      {probabilities.length > TOP_N && (
+        <button type="button" className="show-all" onClick={() => setShowAll((v) => !v)}>
+          {showAll ? "Show top 5 only" : `Show all ${probabilities.length}`}
+        </button>
+      )}
 
     </section>
   );

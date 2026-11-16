@@ -1,10 +1,14 @@
 import "./Home.css";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import UploadBox from "../components/Upload/UploadBox.jsx";
 import PredictionPanel from "../components/Prediction/PredictionPanel.jsx";
 import TutorialPanel from "../components/Tutorial/TutorialPanel.jsx";
+import LoadingPanel from "../components/States/LoadingPanel.jsx";
+import ErrorPanel from "../components/States/ErrorPanel.jsx";
+import NoWatchPanel from "../components/States/NoWatchPanel.jsx";
+import { NO_WATCH } from "../utils/format";
 
-function Home() {
+function Home({ serverState }) {
   const [prediction, setPrediction] = useState(() => {
     try {
       const saved = sessionStorage.getItem("rolex_prediction");
@@ -13,30 +17,52 @@ function Home() {
       return null;
     }
   });
+  const [isScanning, setIsScanning] = useState(false);
+  const [error, setError] = useState(null);
+  const controlsRef = useRef(null);
 
-  const handlePrediction = (newPred) => {
+  // persist=false for samples: their image is not saved, so a saved result would come back without a photo
+  const handlePrediction = (newPred, persist = true) => {
     setPrediction(newPred);
+    setError(null);
     try {
-      if (newPred) {
+      if (newPred && persist) {
         sessionStorage.setItem("rolex_prediction", JSON.stringify(newPred));
+      } else if (!newPred) {
+        sessionStorage.removeItem("rolex_prediction");
       } else {
         sessionStorage.removeItem("rolex_prediction");
       }
     } catch {}
   };
 
+  let content;
+  if (isScanning) {
+    content = <LoadingPanel serverState={serverState} />;
+  } else if (error) {
+    content = <ErrorPanel kind={error.kind} onRetry={() => controlsRef.current?.find()} onChoose={() => controlsRef.current?.choose()} />;
+  } else if (prediction?.predicted_class === NO_WATCH) {
+    content = <NoWatchPanel onChoose={() => controlsRef.current?.choose()} />;
+  } else if (prediction) {
+    content = <PredictionPanel prediction={prediction} />;
+  } else {
+    content = <TutorialPanel />;
+  }
+
   return (
     <main className="home">
       <aside className="upload-panel">
-        <UploadBox onPrediction={handlePrediction} />
+        <UploadBox
+          onPrediction={handlePrediction}
+          onError={setError}
+          onScanChange={setIsScanning}
+          serverState={serverState}
+          controlsRef={controlsRef}
+        />
       </aside>
 
-      <section className="prediction-panel">
-        {prediction ? (
-          <PredictionPanel prediction={prediction} />
-        ) : (
-          <TutorialPanel />
-        )}
+      <section className="prediction-panel" aria-live="polite">
+        {content}
       </section>
     </main>
   );

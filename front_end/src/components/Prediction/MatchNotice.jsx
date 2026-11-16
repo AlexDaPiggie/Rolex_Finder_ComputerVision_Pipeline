@@ -1,11 +1,12 @@
 import "./MatchNotice.css";
 
-function MatchNotice({ note }) {
+function MatchNotice({ note, status }) {
+  const title = status === "matched_known_variant" ? "Likely variants" : "Closest known variants";
   return (
     <section className="match-notice">
 
       <h2>
-        Closest known matches
+        {title}
       </h2>
 
       <p>{note}</p>

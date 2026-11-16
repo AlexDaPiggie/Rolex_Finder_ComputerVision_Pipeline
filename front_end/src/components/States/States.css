@@ -1,0 +1,193 @@
+/* Status, error and no-result states. Plain sentences and hairline rules, no cards, chips or dots. */
+
+.status {
+  width: 100%;
+  max-width: 640px;
+  padding: 28px 0 0;
+  border-top: 1px solid #C9A348;
+  color: #1E1E1E;
+}
+
+.status-line {
+  font-family: "Tienne", serif;
+  font-size: clamp(22px, 2.4vw, 30px);
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+
+.status-detail {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a5750;
+  margin: 0 0 18px;
+  max-width: 52ch;
+}
+
+.status-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+}
+
+.text-action {
+  background: none;
+  border: none;
+  padding: 0 0 2px;
+  font: inherit;
+  font-weight: 600;
+  color: #0B2F23;
+  border-bottom: 1px solid #C9A348;
+  cursor: pointer;
+}
+
+.text-action:hover {
+  color: #8a6d1c;
+}
+
+.text-action:focus-visible {
+  outline: 2px solid #C9A348;
+  outline-offset: 3px;
+}
+
+.status.problem {
+  border-top-color: #9d3b30;
+}
+
+/* Waiting: one thin gold line that sweeps. No percentage, because the wait length is unknown. */
+.wait-line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  max-width: 640px;
+  background: rgba(11, 47, 35, 0.15);
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.wait-line::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 30%;
+  background: #C9A348;
+  animation: sweep 1.8s ease-out infinite;
+}
+
+@keyframes sweep {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(340%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wait-line::after { animation: none; width: 100%; opacity: 0.5; }
+}
+
+/* Plain note under the result header */
+.plain-note {
+  margin: 0;
+  color: #4a5750;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.disclaimer {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #6b7b74;
+  line-height: 1.5;
+}
+
+.show-all {
+  margin-top: 12px;
+  background: none;
+  border: none;
+  padding: 0 0 2px;
+  color: #0B2F23;
+  font: inherit;
+  font-weight: 600;
+  border-bottom: 1px solid #C9A348;
+  cursor: pointer;
+}
+
+/* Left panel: samples and server note */
+.samples {
+  width: min(390px, 100%);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.samples p {
+  font-size: 14px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.sample-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.sample {
+  padding: 0 0 5px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.sample img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid rgba(219, 178, 85, 0.35);
+  border-radius: 4px;
+}
+
+.sample[aria-pressed="true"] {
+  border-bottom-color: #DBB255;
+}
+
+.sample:hover img {
+  border-color: #DBB255;
+}
+
+.sample:focus-visible {
+  outline: 2px solid #DBB255;
+  outline-offset: 2px;
+}
+
+.server-note {
+  width: min(390px, 100%);
+  font-size: 13px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin: 0;
+}
+
+.upload-error {
+  margin-top: 12px;
+  color: #ffb4a8;
+  font-size: 13px;
+  text-align: center;
+}
+
+.drop-zone.dragging {
+  border-color: #DBB255;
+  background: rgba(219, 178, 85, 0.12);
+}
+
+.samples .credit {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.samples .credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(219, 178, 85, 0.6);
+}

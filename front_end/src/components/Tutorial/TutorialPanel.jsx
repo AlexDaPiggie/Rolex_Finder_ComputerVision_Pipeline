@@ -7,7 +7,7 @@ const tutorialSteps = [
     steps: [
       "Copy the Rolex image.",
       "Press Ctrl + V to paste it into Rolex Finder.",
-      'Click "Find" and wait a few seconds.',
+      'Click "Find". The first scan can take up to 45 seconds.',
     ],
   },
   {
@@ -16,7 +16,7 @@ const tutorialSteps = [
     steps: [
       'Click the yellow "Browse File" button.',
       "Choose an image from your desktop.",
-      'Click "Find" and wait a few seconds.',
+      'Click "Find". The first scan can take up to 45 seconds.',
     ],
   },
   {
@@ -36,7 +36,7 @@ const helperNotes = [
   },
   {
     title: "Accuracy note",
-    text: "Predictions are closest estimates, not guaranteed Rolex model.",
+    text: "Predictions are closest estimates, not a guaranteed model. This tool does not authenticate watches.",
   },
   {
     title: "If it looks wrong",
@@ -51,7 +51,7 @@ function TutorialPanel() {
         <p className="eyebrow">Quick start</p>
         <h2>Find the closest Rolex model in seconds.</h2>
         <p>
-          Need a live preview? Hover onto the tutorial cards
+          Hover (tap on mobile) a card for a live preview, or try a sample on the left.
         </p>
       </div>
 

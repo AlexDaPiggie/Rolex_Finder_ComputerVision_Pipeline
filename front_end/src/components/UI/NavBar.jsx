@@ -27,12 +27,14 @@ function NavBar({ currentPage, onPageChange }) {
     <nav className={`nav-bar ${isScrolled ? "scrolled" : ""}`}>
       <button
         className={`nav-link ${currentPage === "home" ? "active" : ""}`}
+        aria-current={currentPage === "home" ? "page" : undefined}
         onClick={() => onPageChange("home")}
       >
         Home
       </button>
       <button
         className={`nav-link ${currentPage === "authors" ? "active" : ""}`}
+        aria-current={currentPage === "authors" ? "page" : undefined}
         onClick={() => onPageChange("authors")}
       >
         Authors

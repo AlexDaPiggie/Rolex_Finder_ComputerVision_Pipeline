@@ -106,6 +106,8 @@
 /* ---------- Upload Text ---------- */
 
 .drop-zone p {
+    text-align: center;
+    padding: 0 12px;
     font-family: "Tienne", serif;
 
     font-size: clamp(18px, 2vw, 24px);

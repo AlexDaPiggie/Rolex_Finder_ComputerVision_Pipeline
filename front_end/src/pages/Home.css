@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: minmax(320px, 30%) minmax(0, 70%);
 
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
 }
 
@@ -74,4 +74,9 @@
         padding-left: 14px;
         padding-right: 14px;
     }
+}
+
+.home-intro {
+    width: 100%;
+    max-width: 1100px;
 }

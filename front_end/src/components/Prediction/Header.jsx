@@ -16,17 +16,7 @@ function Header({ prediction }) {
 
       </div>
 
-      <div className="confidence">
-
-        <span>
-          Confidence
-        </span>
-
-        <h2>
-          {prediction.confidence}%
-        </h2>
-
-      </div>
+      <p className="confidence">{prediction.verdict}</p>
 
     </header>
   );
