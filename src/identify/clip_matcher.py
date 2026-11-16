@@ -95,3 +95,51 @@ def rank_variants(
         "variant_candidates": ranked,
         "variant_scores": all_scores,
     }
+
+def _package (ranked: list, all_scores: list):
+    top_score = ranked[0]['score'] if ranked else 0.0
+    second_score = ranked[1]['score'] if len (ranked) > 1 else 0.0
+    if top_score < 0.35 or top_score - second_score < 0.08:
+        return {
+            "variant_status": "closest_known_matches",
+            "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
+            "variant_candidates": ranked,
+            "variant_scores": all_scores,
+        }
+    return {
+        "variant_status": "matched_known_variant",
+        "variant_note": "The top result is the strongest match among known catalog variants, not a guaranteed exact reference",
+        "variant_candidates": ranked,
+        "variant_scores": all_scores,
+    }
+
+def rank_variants_head (image: Image.Image, variants: list[dict[str, object]], head: dict, top_k: int = 3):
+    '''
+    Variant ranking with a trained head on the CLIP image embedding, mixed with the zero-shot text prompts
+    (src/training/variant_head.py). Variants without training photos keep the zero-shot score only.
+    '''
+    if not variants:
+        return rank_variants (image, variants)
+    from src.inference.clip_embed import embed
+
+    model = get_detector().model
+    emb = torch.tensor (embed ([image], model, next (model.parameters()).device)[0])
+    ids = head["variants"]
+    idx = [ids.index (v["id"]) for v in variants]
+    zero_shot = torch.softmax (100.0 * emb @ head["text"][idx].T, dim = -1)
+    trained = torch.softmax (head["scale"] * (emb @ head["weight"][idx].T + head["bias"][idx]), dim = -1)
+    use = head["has_data"][idx]
+    mix = float (head["mix"])
+    probs = torch.where (use, (1 - mix) * zero_shot + mix * trained, zero_shot)
+    order = torch.argsort (probs, descending = True).tolist()
+    entries = [
+        {
+            "id": variants[i]["id"],
+            "display_name": variants[i]["display_name"],
+            "score": float (probs[i]),
+            "reference_examples": variants[i].get ("reference_examples", []),
+        }
+        for i in order
+    ]
+    all_scores = [dict (e, description = str (variants[order[k]]["clip_text"])) for k, e in enumerate (entries)]
+    return _package (entries[:top_k], all_scores)

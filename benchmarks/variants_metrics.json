@@ -1,0 +1,139 @@
+{
+  "photos": 743,
+  "top1": 0.537,
+  "top3": 0.8789,
+  "chance_top1": 0.1784,
+  "chance_top3": 0.5218,
+  "per_family": {
+    "airking": {
+      "n": 124,
+      "variants": 4,
+      "top1": 0.71,
+      "top3": 1.0
+    },
+    "cellini": {
+      "n": 66,
+      "variants": 11,
+      "top1": 0.288,
+      "top3": 0.515
+    },
+    "datejust": {
+      "n": 231,
+      "variants": 6,
+      "top1": 0.42,
+      "top3": 0.961
+    },
+    "daytona": {
+      "n": 48,
+      "variants": 9,
+      "top1": 0.521,
+      "top3": 0.688
+    },
+    "explorer": {
+      "n": 40,
+      "variants": 5,
+      "top1": 1.0,
+      "top3": 1.0
+    },
+    "gmt_master": {
+      "n": 18,
+      "variants": 10,
+      "top1": 0.278,
+      "top3": 0.722
+    },
+    "milgauss": {
+      "n": 8,
+      "variants": 3,
+      "top1": 0.75,
+      "top3": 1.0
+    },
+    "oysterquartz": {
+      "n": 20,
+      "variants": 2,
+      "top1": 0.35,
+      "top3": 1.0
+    },
+    "president": {
+      "n": 55,
+      "variants": 6,
+      "top1": 0.691,
+      "top3": 0.982
+    },
+    "sea_dweller": {
+      "n": 16,
+      "variants": 5,
+      "top1": 0.688,
+      "top3": 1.0
+    },
+    "submariner": {
+      "n": 54,
+      "variants": 8,
+      "top1": 0.241,
+      "top3": 0.481
+    },
+    "turn_o_graph": {
+      "n": 42,
+      "variants": 5,
+      "top1": 0.929,
+      "top3": 1.0
+    },
+    "yacht_master": {
+      "n": 21,
+      "variants": 12,
+      "top1": 0.524,
+      "top3": 1.0
+    }
+  },
+  "most_confused": [
+    {
+      "true": "datejust_champagne",
+      "predicted": "datejust_fluted",
+      "count": 100
+    },
+    {
+      "true": "airking_classing_fluted",
+      "predicted": "airking_classic_smooth",
+      "count": 35
+    },
+    {
+      "true": "submariner_black_date",
+      "predicted": "submariner_comex",
+      "count": 35
+    },
+    {
+      "true": "daytona_steel_bezel",
+      "predicted": "daytona_two_tone",
+      "count": 16
+    },
+    {
+      "true": "cellini_cestello",
+      "predicted": "cellini_classic_round",
+      "count": 13
+    },
+    {
+      "true": "oysterquartz_datejust",
+      "predicted": "oysterquartz_day_date",
+      "count": 13
+    },
+    {
+      "true": "cellini_danaos",
+      "predicted": "cellini_classic_round",
+      "count": 11
+    },
+    {
+      "true": "datejust_smooth",
+      "predicted": "datejust_fluted",
+      "count": 11
+    },
+    {
+      "true": "datejust_mop",
+      "predicted": "datejust_fluted",
+      "count": 9
+    },
+    {
+      "true": "gmt_root_beer",
+      "predicted": "gmt_yellow_gold",
+      "count": 9
+    }
+  ]
+}

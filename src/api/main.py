@@ -14,7 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.training.dataset import build_transforms
 from src.training.models import create_model
-from src.identify.clip_matcher import rank_variants
+from src.identify.clip_matcher import rank_variants, rank_variants_head
 from src.identify.variants import load_catalog, variants_family
 from src.identify.summary import format_model_name
 from src.detection.watch_cropper import bracelet_edge_overlay, crop_watch_stages
@@ -26,6 +26,7 @@ from fastapi.staticfiles import StaticFiles
 VARIANT_CATALOG_PATH = PROJECT_ROOT / 'src/identify/rolex_variants.json'
 MODEL_PATH = PROJECT_ROOT / 'models/rolex_classifier_model.pt'
 HEAD_PATH = PROJECT_ROOT / 'models/clip_head.pt'
+VARIANT_HEAD_PATH = PROJECT_ROOT / 'models/variant_head.pt'
 
 app = FastAPI(title = 'Rolex Classifier')
 app.add_middleware(
@@ -76,6 +77,17 @@ def get_head():
             if head['class_names'] == class_names:
                 _head = head
     return _head or None
+
+_variant_head = None
+
+def get_variant_head():
+    '''Trained variant head (see src/training/variant_head.py). Set VARIANT_MODEL=zero_shot to use the text prompts only.'''
+    global _variant_head
+    if _variant_head is None:
+        _variant_head = False
+        if VARIANT_HEAD_PATH.exists() and os.getenv('VARIANT_MODEL', 'head') != 'zero_shot':
+            _variant_head = torch.load (VARIANT_HEAD_PATH, map_location = 'cpu', weights_only = True)
+    return _variant_head or None
 
 def head_probabilities (embedding: torch.Tensor, head: dict):
     '''Softmax over scale * (embedding W^T + b). embedding is one L2-normalised CLIP vector.'''
@@ -159,7 +171,11 @@ def predict_image (image: Image.Image, timings: dict | None = None):
 
     variants = variants_family(variant_catalog, predicted_class)
     with timed ('variant_match', timings):
-        result.update (rank_variants(image, variants))
+        variant_head = get_variant_head()
+        if variant_head is not None and variants:
+            result.update (rank_variants_head (image, variants, variant_head))
+        else:
+            result.update (rank_variants(image, variants))
     result['model_name'] = format_model_name(result)
     return result
 

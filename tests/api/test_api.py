@@ -16,6 +16,15 @@ def make_upload_image():
     buffer.seek (0)
     return buffer
 
+import pytest
+
+
+@pytest.fixture(autouse=True)
+def zero_shot_variants(monkeypatch):
+    monkeypatch.setenv('VARIANT_MODEL', 'zero_shot')
+    monkeypatch.setattr(main, '_variant_head', None)
+
+
 def test_predict_return_probabilities (monkeypatch): 
     monkeypatch.setattr(main, 'model', FixedModel())
     monkeypatch.setattr(main, 'class_names', ['datejust', 'gmt_master', 'submariner'])

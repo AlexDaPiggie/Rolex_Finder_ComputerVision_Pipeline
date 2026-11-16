@@ -128,6 +128,63 @@ def extract_split(split: str, n_aug: int = 2) -> dict:
     return {"split": split, "samples": len(items)}
 
 
+@app.function(image=image, gpu="L4", cpu=8, memory=16384, timeout=2 * 3600, volumes={DATA: volume}, secrets=[hf_secret])
+def extract_variants(n_aug: int = 3) -> dict:
+    """CLIP embeddings of photos whose variant is known from the reference number in the retailer file name."""
+    import numpy as np
+    import torch
+    from PIL import Image
+    from torch.utils.data import DataLoader, Dataset
+
+    from src.inference.clip_embed import preprocess
+    from src.training.real_aug import real_look_pil
+
+    labels = json.loads(Path(f"{DATA}/variant_labels.json").read_text())
+    variants = sorted(set(labels.values()))
+    items = []  # (path, split, variant index, view, augmented)
+    for key, variant in labels.items():
+        split, family, stem = key.split("/")
+        for view, root in (("dial", "grouped_crops"), ("orig", "grouped")):
+            path = Path(f"{DATA}/{root}/{split}/{family}/{stem}.jpg")
+            if not path.exists():
+                continue
+            items.append((path, split, variants.index(variant), view, False))
+            if split == "train":
+                items.extend((path, split, variants.index(variant), view, True) for _ in range(n_aug))
+    aug = real_look_pil()
+    print(len(items), "variant samples", flush=True)
+
+    class DS(Dataset):
+        def __len__(self):
+            return len(items)
+
+        def __getitem__(self, i):
+            path, split, label, view, augmented = items[i]
+            img = Image.open(path).convert("RGB")
+            return preprocess(aug(img) if augmented else img), label
+
+    clip = _load_clip()
+    feats = []
+    with torch.no_grad():
+        for x, _ in DataLoader(DS(), batch_size=128, num_workers=8):
+            f = clip.get_image_features(pixel_values=x.to("cuda").half())
+            if not isinstance(f, torch.Tensor):
+                f = f.pooler_output
+            feats.append((f / f.norm(dim=-1, keepdim=True)).float().cpu().numpy().astype("float16"))
+    out = Path(f"{DATA}/features")
+    out.mkdir(exist_ok=True)
+    np.savez(out / "variants.npz", feats=np.concatenate(feats), labels=np.array([i[2] for i in items]),
+             splits=np.array([i[1] for i in items]), views=np.array([i[3] for i in items]),
+             augs=np.array([i[4] for i in items]), variants=np.array(variants))
+    volume.commit()
+    return {"samples": len(items), "variants": len(variants)}
+
+
+@app.local_entrypoint()
+def variants():
+    print(extract_variants.remote())
+
+
 @app.function(image=image, gpu="L4", cpu=4, memory=16384, timeout=2 * 3600, volumes={DATA: volume}, secrets=[hf_secret])
 def eval_real() -> dict:
     """Detect, crop, align and dial-crop every real photo, then save embeddings and EfficientNet probabilities."""
