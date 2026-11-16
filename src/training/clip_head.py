@@ -83,8 +83,47 @@ def real_report(probs: np.ndarray, labels: np.ndarray, names: list[str]) -> dict
     }
 
 
+def creator_groups(files) -> np.ndarray:
+    """Creator of each real photo (from the collector manifests), so cross-validation never splits one photographer."""
+    import csv
+    import os
+
+    creator = {}
+    for manifest, column in ((Path("data/realworld/manifest.csv"), "creator"), (Path("data/commons/manifest.csv"), "author")):
+        if manifest.exists():
+            for row in csv.DictReader(manifest.open(encoding="utf-8")):
+                creator[os.path.basename(row["file"])] = row[column]
+    return np.array([creator.get(os.path.basename(f), "unknown") for f in files])
+
+
+def with_real(x, y, emb, labels, weight: int):
+    """Add real photos (full, crop and dial views) to the training features, repeated `weight` times."""
+    xs = np.concatenate([emb[:, v] for v in (0, 1, 3)])
+    ys = np.concatenate([labels] * 3)
+    return np.concatenate([x] + [xs] * weight), np.concatenate([y] + [ys] * weight)
+
+
+def grouped_cv(xtr, ytr, emb, labels, groups, names, weight: int, folds: int = 5, epochs: int = 60) -> dict:
+    """Held-out accuracy when real photos are added to training. Folds are split by creator."""
+    unique = sorted(set(groups))
+    np.random.default_rng(0).shuffle(unique)
+    fold_of = {g: i % folds for i, g in enumerate(unique)}
+    fold = np.array([fold_of[g] for g in groups])
+    correct = np.zeros(len(labels), dtype=bool)
+    for k in range(folds):
+        train, test = fold != k, fold == k
+        x, y = (xtr, ytr) if weight == 0 else with_real(xtr, ytr, emb[train], labels[train], weight)
+        head, scale = train_head(x, y, len(names), 0.1, epochs=epochs)
+        correct[test] = predict(head, scale, emb[test][:, 3]).argmax(axis=1) == labels[test]
+    low, high = wilson(int(correct.sum()), len(correct))
+    return {"weight": weight, "acc": round(float(correct.mean()), 3), "ci95": [round(low, 3), round(high, 3)],
+            "per_family": {names[c]: round(float(correct[labels == c].mean()), 2) for c in sorted(set(labels.tolist()))}}
+
+
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--real-weight", type=int, default=0, help="add real photos to the saved head, repeated this many times (0 = off)")
+    parser.add_argument("--cv-weights", type=int, nargs="*", default=[], help="report creator-grouped CV with these real-photo weights")
     parser.add_argument("--features", type=Path, default=Path("features_out"))
     parser.add_argument("--exclude", type=Path, default=Path("benchmarks/real_exclude.json"))
     parser.add_argument("--out-json", type=Path, default=Path("benchmarks/real_eval.json"))
@@ -120,6 +159,15 @@ def main():
         if best is None or score > best[0]:
             best = (score, wd, head, scale, acc_clean, acc_aug)
     _, wd, head, scale, acc_clean, acc_aug = best
+    if args.cv_weights:
+        groups = creator_groups(real["files"][keep])
+        results["real_cv"] = [grouped_cv(xtr, ytr, emb_real, labels_real, groups, names, w) for w in args.cv_weights]
+        for entry in results["real_cv"]:
+            print("creator-grouped CV", entry)
+    if args.real_weight:
+        x, y = with_real(xtr, ytr, emb_real, labels_real, args.real_weight)
+        head, scale = train_head(x, y, len(names), wd)
+        print(f"final head also trained on all {len(labels_real)} real photos (weight {args.real_weight}); real-photo numbers below are then NOT held out")
     torch.save({"weight": head.weight.detach(), "bias": head.bias.detach(), "scale": scale, "class_names": names}, args.head_out)
 
     tclean = te["augs"] == 0

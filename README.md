@@ -308,6 +308,15 @@ Group split by listing, label audit (file name text plus model), leak removal, c
 | EfficientNet with real-photo augmentation + two views | 54.1% | 46-62% | not yet measured |
 | CLIP embeddings + linear head | 66.2% | 58-74% | 97.1% |
 
+**Adding real photos to training (2026-11-16).** The 133 real photos were added to the head's training data (full, crop and dial views, repeated 10 times). Held-out check: 5-fold cross-validation split by photographer (`--cv-weights 0 10`), so no creator is in both train and test:
+
+| Head | Held-out real-photo accuracy | 95% interval |
+|---|---|---|
+| Retailer + augmentation only | 69.9% | 62-77% |
+| Plus real photos in training | 78.9% | 71-85% |
+
+Datejust went from 48% to 67% held out. The retailer test stayed the same (97.0%). The live head is trained on all 133 photos, so it no longer has a clean real-photo test. New photos are needed for the next honest number (the collectors keep running: `src/collection/openverse.py`, `src/collection/commons.py`).
+
 **Deployed:** the CLIP head is the live family classifier since 2026-11-16 (rule: clearly better on real photos; the retailer drop of 2.4 points was accepted because the old 99.45% is inflated). Roll back with `FAMILY_MODEL=effnet` and `modal deploy modal_app.py`.
 
 Lessons:
@@ -323,5 +332,6 @@ python -m src.training.dedupe_splits
 modal run modal_improve.py::features      # CLIP features (needs data on the Modal volume, see modal_improve.py)
 modal run modal_improve.py::real          # real photos through detection
 python -m src.training.clip_head          # trains the head, writes docs/benchmark_realworld.md
+python -m src.training.clip_head --cv-weights 0 10 --real-weight 10   # the live head: adds real photos, prints grouped CV
 ```
 The API uses `models/clip_head.pt` when it exists. Set `FAMILY_MODEL=effnet` to use the EfficientNet instead.
