@@ -1,0 +1,10 @@
+# Runtime dependencies for the inference API only (Modal image and Dockerfile).
+# Smaller than requirements.txt, which also pulls in scraping, notebooks and test tools.
+fastapi>=0.111
+opencv-python-headless>=4.10
+pillow>=10.3
+python-multipart>=0.0.9
+torch>=2.3
+torchvision>=0.18
+transformers>=4.41
+uvicorn[standard]>=0.30

@@ -178,7 +178,7 @@ def find_dial_candidate (image: Image.Image):
         x1 = x + search_x1
         y1 = y + search_y1
         x2 = x1 + width
-        y2 = y1 + width
+        y2 = y1 + height
 
         box_area = float (width * height)
         if box_area <= 0:
@@ -240,7 +240,7 @@ def find_dial_candidate (image: Image.Image):
         "reason": "dial_candidate_found",
         "box": list(best_candidate["box"]),
         "score": best_candidate["score"],
-        "jarea_ratio": best_candidate["area_ratio"],
+        "area_ratio": best_candidate["area_ratio"],
         "aspect_ratio": best_candidate["aspect_ratio"],
         "center_distance_ratio": best_candidate["center_distance_ratio"],
     }
@@ -258,6 +258,12 @@ def crop_dial_region(image: Image.Image):
     cropped = image.crop(padded_box)
     info["box"] = list(padded_box)
     return cropped, info
+
+def border_color(image: Image.Image):
+    """Median colour of the image border, used to fill corners after a rotation."""
+    array = np.array(image.convert("RGB"))
+    edge = np.concatenate([array[0], array[-1], array[:, 0], array[:, -1]])
+    return tuple(int(v) for v in np.median(edge, axis=0))
 
 def align_watch_crop(image: Image.Image):
     points, _ = bracelet_edge_points(image)
@@ -277,7 +283,15 @@ def align_watch_crop(image: Image.Image):
     # PCA angle is measured from the horizontal x-axis. A vertical bracelet has
     # an angle near +/-90 degrees, so rotate by the difference from vertical.
 
-    rotation_degrees = 90 - axis_angle_degrees
+    # The axis has no direction (a line, not an arrow), so fold the turn into
+    # (-90, 90]. Without this, a bracelet pointing "down" gets rotated by 180
+    # degrees and the watch ends up upside down.
+    rotation_degrees = ((90 - axis_angle_degrees + 90) % 180) - 90
+    if rotation_degrees == -90:
+        rotation_degrees = 90.0
+    # Snap near-right-angle turns so the rotation is lossless and keeps the size
+    if abs(abs(rotation_degrees) - 90) < 1.0:
+        rotation_degrees = 90.0 if rotation_degrees > 0 else -90.0
 
     if axis_confidence < BRACELET_MIN_AXIS_CONFIDENCE:
         return image, {
@@ -301,7 +315,11 @@ def align_watch_crop(image: Image.Image):
             "bracelet_axis_confidence": axis_confidence,
         }
 
-    aligned = image.rotate(rotation_degrees, expand=True)
+    aligned = image.rotate(
+        rotation_degrees,
+        expand=True,
+        fillcolor=border_color(image),
+    )
     return aligned, {
         "alignment_method": "opencv_bracelet_pca",
         "alignment_applied": True,

@@ -83,15 +83,14 @@ def test_predict_returns_message_when_no_watch_detected(monkeypatch):
     )
 
     assert response.status_code == 200
-    assert response.json() == {
-        "status": "no_watch_detected",
-        "message": "No watch was detected in the image. Please upload an image that clearly shows a watch.",
-        "crop_info": {
-            "crop_used": False,
-            "reason": "no_watch_detected",
-        },
-    }
-    
+    body = response.json()
+    assert body["predicted_class"] == "No Watch Detected"
+    assert body["confidence"] == 0.0
+    assert all(value == 0.0 for value in body["probabilities"].values())
+    assert "No watch was detected" in body["variant_note"]
+    assert body["variant_candidates"]
+    assert all(c["score"] == 0.0 for c in body["variant_candidates"])
+
 
 def test_build_steps_describes_each_preprocessing_step():
     image = Image.new('RGB', (200, 100), color = 'white')
@@ -122,3 +121,38 @@ def test_build_steps_describes_each_preprocessing_step():
 
 def test_build_steps_is_none_without_stages():
     assert main.build_steps(Image.new('RGB', (10, 10)), {}, {}) is None
+
+
+def test_decode_image_applies_exif_rotation():
+    from io import BytesIO
+    from PIL import Image
+
+    image = Image.new("RGB", (40, 20), color="red")
+    exif = Image.Exif()
+    exif[0x0112] = 6  # stored rotated, needs 90 degrees clockwise to display
+    buffer = BytesIO()
+    image.save(buffer, format="JPEG", exif=exif)
+
+    decoded = main.decode_image(buffer.getvalue())
+
+    assert decoded.size == (20, 40)
+
+
+def test_health_reports_startup_timings():
+    client = TestClient(main.app)
+    body = client.get('/health').json()
+    assert body['status'] == 'ok'
+    assert isinstance(body['startup_timings_ms'], dict)
+
+
+def test_predict_returns_timings_and_hides_steps_by_default(monkeypatch):
+    monkeypatch.setattr(main, 'crop_watch_stages', lambda image: (image, {"crop_used": True}, {}))
+    monkeypatch.setattr(main, 'predict_image', lambda image, timings=None: {
+        'predicted_class': 'datejust', 'confidence': 0.9, 'probabilities': {'datejust': 0.9},
+    })
+    client = TestClient(main.app)
+    response = client.post('/predict', files={'file': ('w.jpg', make_upload_image(), 'image/jpeg')})
+    body = response.json()
+    assert {'decode', 'preprocess', 'total'} <= set(body['timings_ms'])
+    assert 'steps' not in body
+    assert 'processed_image_path' not in body

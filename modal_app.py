@@ -1,5 +1,9 @@
+import os
+import time
 from pathlib import Path
 import modal
+
+_PROCESS_START = time.time()
 
 APP_ROOT = Path(__file__).parent
 app = modal.App ("rolex-watch-recognizer")
@@ -35,7 +39,7 @@ def download_huggingface_models ():
 image = (
     modal.Image.debian_slim(python_version="3.11")
     .apt_install("libgl1", "libglib2.0-0")
-    .pip_install_from_requirements(str(APP_ROOT / "requirements.txt"))
+    .pip_install_from_requirements(str(APP_ROOT / "requirements-api.txt"))
     .run_function (
         download_huggingface_models,
         secrets = [hf_secret],
@@ -63,11 +67,16 @@ image = (
     .workdir ("/app")
 )
 
+# Keep this many containers warm. 0 = scale to zero (free when idle, ~40s cold start).
+# Before showing the site to someone, redeploy with ROLEX_MIN_CONTAINERS=1 (an L4 costs roughly
+# $0.80/hour while warm), then redeploy with 0 afterwards.
+MIN_CONTAINERS = int(os.getenv("ROLEX_MIN_CONTAINERS", "0"))
+
 @app.cls (
     image = image,
-    gpu = "L4",
-    min_containers = 0,
-    max_containers = 1,
+    gpu = ["L4", "T4", "A10G"],
+    min_containers = MIN_CONTAINERS,
+    max_containers = 3,  # one request per container; extra visitors get their own container instead of queueing
     scaledown_window = 1200,
     timeout = 180,
     startup_timeout = 180,
@@ -78,8 +87,14 @@ image = (
 class RolexWatchAPI:
     @modal.enter()
     def load_models (self):
+        from src.inference.timing import STARTUP, timed
         from src.inference.warmup import warm_models
-        warm_models()
+
+        # Seconds between Python starting in this container and this method running
+        # (image pull and container allocation happen before that and are not visible here).
+        STARTUP["seconds_since_process_start"] = round(time.time() - _PROCESS_START, 2)
+        with timed("warm_models_total", STARTUP):
+            warm_models()
 
     @modal.asgi_app()
     def web(self): 

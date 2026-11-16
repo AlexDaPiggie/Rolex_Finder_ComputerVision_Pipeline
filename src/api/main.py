@@ -1,9 +1,10 @@
 import base64
 import sys
+import time
 from io import BytesIO
 from pathlib import Path
 from fastapi import FastAPI, File, HTTPException, UploadFile
-from PIL import Image, UnidentifiedImageError
+from PIL import Image, ImageOps, UnidentifiedImageError
 import torch
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -17,13 +18,12 @@ from src.identify.variants import load_catalog, variants_family
 from src.identify.summary import format_model_name
 from src.detection.watch_cropper import bracelet_edge_overlay, crop_watch_stages
 from src.inference.device import resolve_device
+from src.inference.timing import STARTUP, timed
 from fastapi.middleware.cors import CORSMiddleware
-from datetime import datetime
 from fastapi.staticfiles import StaticFiles
 
 VARIANT_CATALOG_PATH = PROJECT_ROOT / 'src/identify/rolex_variants.json'
 MODEL_PATH = PROJECT_ROOT / 'models/rolex_classifier_model.pt'
-OUTPUT_IMAGE_DIR = PROJECT_ROOT / "output_image"
 
 app = FastAPI(title = 'Rolex Classifier')
 app.add_middleware(
@@ -64,7 +64,8 @@ def decode_image (contents: bytes):
     This function is to convert input image in to bytes for model to process
     '''
     try: 
-        return Image.open (BytesIO(contents)).convert ('RGB')
+        # Phone photos store rotation in EXIF; apply it so sideways photos reach the model upright
+        return ImageOps.exif_transpose (Image.open (BytesIO(contents))).convert ('RGB')
     except:
         raise HTTPException(status_code=400, detail = "There's something wrong with the uploaded image")
 
@@ -77,13 +78,9 @@ def get_model():
         load_model()
     return model
 
-def predict_image (image: Image.Image): 
+def predict_family (image: Image.Image):
     '''
-    This function is to predict the Rolex model using Deep Learning model. And then, traverse through the variants description of that model to recognize the variant using zero-shot CLIP model. A summary of that data is also provided. 
-
-    * result is first formatted with data output, including 3 tags: predicted_classs, confidence, and prob
-    * result is then updaed with variant prediction using CLIP, (using rank_variants function)
-    * result is eventually added with a summary of the output, providing concise semantic result instead of data
+    Run only the EfficientNet family classifier. Returns predicted_class, confidence and sorted probabilities.
     '''
     if model is None or not class_names:
         get_model()
@@ -109,14 +106,30 @@ def predict_image (image: Image.Image):
     )
 
     predicted_class = class_names[predicted_index]
-    result =  {
+    return {
         'predicted_class': predicted_class,
         'confidence': probabilities[class_names[predicted_index]],
         'probabilities': probabilities,
     }
 
+def predict_image (image: Image.Image, timings: dict | None = None): 
+    '''
+    This function is to predict the Rolex model using Deep Learning model. And then, traverse through the variants description of that model to recognize the variant using zero-shot CLIP model. A summary of that data is also provided. 
+
+    * result is first formatted with data output, including 3 tags: predicted_classs, confidence, and prob
+    * result is then updaed with variant prediction using CLIP, (using rank_variants function)
+    * result is eventually added with a summary of the output, providing concise semantic result instead of data
+    '''
+    if model is None or not class_names:
+        get_model()
+
+    with timed ('classify', timings):
+        result = predict_family (image)
+    predicted_class = result['predicted_class']
+
     variants = variants_family(variant_catalog, predicted_class)
-    result.update (rank_variants(image, variants))
+    with timed ('variant_match', timings):
+        result.update (rank_variants(image, variants))
     result['model_name'] = format_model_name(result)
     return result
 
@@ -176,25 +189,21 @@ def build_steps (original: Image.Image, stages: dict, crop_info: dict):
     except Exception:
         return None
 
-def save_processed_image (image: Image.Image):
-    OUTPUT_IMAGE_DIR.mkdir (parents = True, exist_ok=True)
-    for existing_file in OUTPUT_IMAGE_DIR.iterdir():
-        if existing_file.is_file():
-            existing_file.unlink()
-            
-    timestamp = datetime.now().strftime ("%Y%m%d_%H%M%S_f")[:-3]
-    output_path = OUTPUT_IMAGE_DIR / f"watch_{timestamp}.jpg"
-    image.save(output_path, format="JPEG", quality = 95)
-    return output_path
-
 '''
 FastAPI format to operate the project pipeline
 '''
 @app.post ('/predict')
-async def predict (file: UploadFile = File(...)): 
+async def predict (file: UploadFile = File(...), include_steps: bool = False): 
+    '''
+    include_steps=true also returns base64 images of each preprocessing step (debug only; the site does not use them).
+    '''
+    timings: dict = {}
+    request_start = time.perf_counter()
     contents = await file.read()
-    image = decode_image (contents)
-    cropped_image, crop_info, stages = crop_watch_stages (image)
+    with timed ('decode', timings):
+        image = decode_image (contents)
+    with timed ('preprocess', timings):
+        cropped_image, crop_info, stages = crop_watch_stages (image)
     if crop_info.get("reason") == "no_watch_detected":
         result = dict()
         predicted_class = "No Watch Detected"
@@ -247,11 +256,13 @@ async def predict (file: UploadFile = File(...)):
 
         return result
     
-    result = predict_image (cropped_image)
-    processed_image_path = save_processed_image (cropped_image)
+    result = predict_image (cropped_image, timings)
     result["crop_info"] = crop_info
-    result["processed_image_path"] = str(processed_image_path)
-    result["steps"] = build_steps (image, stages, crop_info)
+    if include_steps:
+        result["steps"] = build_steps (image, stages, crop_info)
+    timings["total"] = round ((time.perf_counter() - request_start) * 1000, 1)
+    print (f"[timing] request_total={timings['total']}ms", flush = True)
+    result["timings_ms"] = timings
     return result
 
 
@@ -260,7 +271,7 @@ async def health():
     """
     Check the health of the site
     """
-    return {"status": "ok"}
+    return {"status": "ok", "startup_timings_ms": STARTUP}
 
 
 FRONTEND_DIST_DIR = PROJECT_ROOT / "front_end" / "dist"

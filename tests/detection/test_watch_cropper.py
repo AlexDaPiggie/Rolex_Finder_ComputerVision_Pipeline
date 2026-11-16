@@ -16,8 +16,29 @@ def test_align_watch_crop_rotates_confident_horizontal_shape():
     aligned, info = align_watch_crop(image)
 
     assert info["alignment_applied"] is True
-    assert info["rotation_degrees"] == -90
+    assert abs(info["rotation_degrees"]) == 90
     assert aligned.size == image.size
+
+
+def test_align_watch_crop_never_turns_more_than_90_degrees():
+    # A tilted bracelet must take the short way round, not flip the watch upside down.
+    for angle in range(0, 360, 15):
+        image = make_crop(size=(200, 200), box=(20, 90, 180, 110)).rotate(
+            angle, expand=True, fillcolor="white"
+        )
+        _, info = align_watch_crop(image)
+        assert abs(info["rotation_degrees"]) <= 90, angle
+
+
+def test_align_watch_crop_fills_rotated_corners_with_border_colour():
+    image = Image.new("RGB", (200, 200), color=(200, 30, 30))
+    ImageDraw.Draw(image).rectangle((30, 90, 170, 110), fill="black")
+    image = image.rotate(30, expand=False, fillcolor=(200, 30, 30))
+
+    aligned, info = align_watch_crop(image)
+
+    assert info["alignment_applied"] is True
+    assert aligned.getpixel((0, 0)) == (200, 30, 30)
 
 
 def test_align_watch_crop_leaves_confident_vertical_shape_unchanged():
@@ -40,15 +61,17 @@ def test_align_watch_crop_skips_nearly_square_shape():
     assert aligned.size == image.size
 
 
-def test_align_watch_crop_rotates_wide_crop_when_largest_contour_is_square():
+def test_align_watch_crop_leaves_wide_crop_with_square_contour_unchanged():
+    # A square dial gives too few bracelet edges to measure a tilt, so do not guess a rotation.
     image = make_crop(size=(160, 100), box=(60, 25, 100, 65))
 
     aligned, info = align_watch_crop(image)
 
-    assert info["alignment_applied"] is True
-    assert info["rotation_degrees"] == -90
-    assert info["reason"] == "wide_crop_rotated"
-    assert aligned.size == (image.height, image.width)
+    assert info["alignment_applied"] is False
+    assert info["rotation_degrees"] == 0
+    assert info["reason"] == "not_enough_bracelet_edges"
+    assert aligned.size == image.size
+
 
 def test_bracelet_edge_overlay_matches_thumbnail_size():
     from src.detection.watch_cropper import bracelet_edge_overlay
@@ -102,3 +125,18 @@ def test_crop_watch_stages_is_empty_when_no_watch(monkeypatch):
 
     assert stages == {}
     assert info["reason"] == "no_watch_detected"
+
+
+def test_dial_candidate_uses_height_for_box_bottom():
+    from src.detection.watch_cropper import find_dial_candidate
+
+    # Tall dial: with the old width-based bottom edge the box was too short.
+    image = Image.new("RGB", (300, 300), color="white")
+    ImageDraw.Draw(image).ellipse((100, 60, 200, 240), outline="black", width=6)
+
+    candidate, info = find_dial_candidate(image)
+
+    if candidate is not None:
+        x1, y1, x2, y2 = candidate["box"]
+        assert (y2 - y1) > (x2 - x1)
+        assert "area_ratio" in info
