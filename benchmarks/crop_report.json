@@ -1,0 +1,405 @@
+[
+  {
+    "label": "airking",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 1059,
+        "cropped_no_dial": 14
+      }
+    }
+  },
+  {
+    "label": "airking",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 117,
+        "cropped_no_dial": 3,
+        "no_watch_detected": 1
+      }
+    }
+  },
+  {
+    "label": "airking",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 125,
+        "cropped_no_dial": 4
+      }
+    }
+  },
+  {
+    "label": "cellini",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 1018,
+        "cropped_no_dial": 147
+      }
+    }
+  },
+  {
+    "label": "cellini",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 111,
+        "cropped_no_dial": 22
+      }
+    }
+  },
+  {
+    "label": "cellini",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_no_dial": 18,
+        "cropped_with_dial": 127
+      }
+    }
+  },
+  {
+    "label": "datejust",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 6160,
+        "cropped_no_dial": 158
+      }
+    }
+  },
+  {
+    "label": "datejust",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 622,
+        "cropped_no_dial": 14
+      }
+    }
+  },
+  {
+    "label": "datejust",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 584,
+        "cropped_no_dial": 13
+      }
+    }
+  },
+  {
+    "label": "daytona",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 759,
+        "cropped_no_dial": 8
+      }
+    }
+  },
+  {
+    "label": "daytona",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 93
+      }
+    }
+  },
+  {
+    "label": "daytona",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 90,
+        "cropped_no_dial": 2
+      }
+    }
+  },
+  {
+    "label": "explorer",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 918
+      }
+    }
+  },
+  {
+    "label": "explorer",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 103
+      }
+    }
+  },
+  {
+    "label": "explorer",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 103
+      }
+    }
+  },
+  {
+    "label": "gmt_master",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 964,
+        "cropped_no_dial": 1
+      }
+    }
+  },
+  {
+    "label": "gmt_master",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 121
+      }
+    }
+  },
+  {
+    "label": "gmt_master",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 111
+      }
+    }
+  },
+  {
+    "label": "milgauss",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 155,
+        "cropped_no_dial": 1
+      }
+    }
+  },
+  {
+    "label": "milgauss",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 18
+      }
+    }
+  },
+  {
+    "label": "milgauss",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 19
+      }
+    }
+  },
+  {
+    "label": "oyster_perpetual",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 1323,
+        "cropped_no_dial": 31
+      }
+    }
+  },
+  {
+    "label": "oyster_perpetual",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 121,
+        "cropped_no_dial": 4
+      }
+    }
+  },
+  {
+    "label": "oyster_perpetual",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 125,
+        "cropped_no_dial": 3
+      }
+    }
+  },
+  {
+    "label": "oysterquartz",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 162,
+        "cropped_no_dial": 1
+      }
+    }
+  },
+  {
+    "label": "oysterquartz",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 21,
+        "cropped_no_dial": 2
+      }
+    }
+  },
+  {
+    "label": "oysterquartz",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 20
+      }
+    }
+  },
+  {
+    "label": "president",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 2441,
+        "cropped_no_dial": 64
+      }
+    }
+  },
+  {
+    "label": "president",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 276,
+        "cropped_no_dial": 7
+      }
+    }
+  },
+  {
+    "label": "president",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 242,
+        "cropped_no_dial": 5
+      }
+    }
+  },
+  {
+    "label": "sea_dweller",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 400,
+        "cropped_no_dial": 2
+      }
+    }
+  },
+  {
+    "label": "sea_dweller",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 51
+      }
+    }
+  },
+  {
+    "label": "sea_dweller",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 55
+      }
+    }
+  },
+  {
+    "label": "submariner",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 1595
+      }
+    }
+  },
+  {
+    "label": "submariner",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 204
+      }
+    }
+  },
+  {
+    "label": "submariner",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 189
+      }
+    }
+  },
+  {
+    "label": "turn_o_graph",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 445,
+        "cropped_no_dial": 2
+      }
+    }
+  },
+  {
+    "label": "turn_o_graph",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 52
+      }
+    }
+  },
+  {
+    "label": "turn_o_graph",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 48
+      }
+    }
+  },
+  {
+    "label": "yacht_master",
+    "split": "train",
+    "counts": {
+      "train": {
+        "cropped_with_dial": 997,
+        "cropped_no_dial": 1
+      }
+    }
+  },
+  {
+    "label": "yacht_master",
+    "split": "val",
+    "counts": {
+      "val": {
+        "cropped_with_dial": 113
+      }
+    }
+  },
+  {
+    "label": "yacht_master",
+    "split": "test",
+    "counts": {
+      "test": {
+        "cropped_with_dial": 123
+      }
+    }
+  }
+]

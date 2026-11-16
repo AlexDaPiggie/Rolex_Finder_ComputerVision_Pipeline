@@ -29,10 +29,10 @@ I built this project because I love for watches, I built a ML pipeline to detect
 - **Rotation Alignment**: Uses "Canny Edge Detection" to detect the edge of the bracelet, and uses "PCA" to align the watch vertically (12 o'clock facing up).
 - **Contour Dial Isolation**: Filters the 78% center (78% of the width & height), scores contour roundess, aspect & fill ratio, and center distance to crop the dial face.
 - **2-Stage Classification**:
-    - **Stage 1**: Fine-tuned **EfficientNet-B0** classifies watch into 15 Rolex families (models), including Submariner, Daytona, Datejust, GMT-Master,... (See child-folders in ./data)
+    - **Stage 1**: Fine-tuned **EfficientNet-B0** classifies watch into 14 Rolex families (models), including Submariner, Daytona, Datejust, GMT-Master,... (See child-folders in ./data)
     - **Stage 2**: Zero-shot CLIP (openai/clip-vit-base-patch16) ranks specific reference variants (dial color, bezel type, material,...)
 - **Direct Reference Links**: Generates one-click Google Images queries for the predicted reference IDs (e.g. `116610LN`, `126610LV`).
-- **Serverless Cloud API**: Hosted on Modal (NVIDIA L4 GPU) with pre-baked Hugging Face cache layers and auto scale-down to disconnect when not in use (scaledown_windows = 180s).
+- **Serverless Cloud API**: Hosted on Modal (NVIDIA L4 GPU) with pre-baked Hugging Face cache layers and auto scale-down to disconnect when not in use (scaledown_window = 1200s).
  
 
 ## Architecture Pipeline
@@ -41,7 +41,7 @@ I built this project because I love for watches, I built a ML pipeline to detect
 1. **Detect the Watch (`Grounding Dino` model)**: Scans the uploaded image for the watch and crop it out of the background.
 2. **Straighten the Angle (`OpenCV + PCA`)**: Rotates the image's direction so that the watch is aligned vertically (12 o'clock facing up).
 3. **Zoom into the Dial (`Contour Detection`)**: Detects the watch's dial (a round circle) and crop it out. 
-4. **Identify the Rolex family (`EfficientNet-B0`)**: Classifies the watch into 1 of 15 known Rolex models (Submariner, Daytona, Datejust,...)
+4. **Identify the Rolex family (`EfficientNet-B0`)**: Classifies the watch into 1 of 14 known Rolex models (Submariner, Daytona, Datejust,...)
 5. **Match the Exact Variant (`OpenAI CLIP`)**: Compares with the descriptions (e.g. bezel, dial color, material,...)for each family's variant in the catalog. 
 6. **Returns the Confidence score & Ids**: Outputs the confidence score of the predictions, and the top-3 specific reference IDs (e.g., `115510LN`) with Google search link for images of that watch. 
 
@@ -103,7 +103,7 @@ data/processed/
 ```
 
 #### Train Model
-Fine-tune EfficientNet-B0 on the 15 Rolex families:
+Fine-tune EfficientNet-B0 on the 14 Rolex families:
 ```bash
 python -m src.training.train --epochs 5 --batch-size 16 --learning-rate 1e-4
 ```
@@ -117,12 +117,26 @@ python -m src.training.evaluate
 
 ---
 
+## Benchmark
+
+Run `python -m src.training.benchmark --check-leakage` to measure the family classifier on the held-out test split. Full tables (per-class scores, confusion pairs, calibration) are in [`docs/benchmark.md`](docs/benchmark.md).
+
+| Metric (14 families, 3,731 test images) | Value |
+|---|---|
+| Top-1 accuracy | 99.2% |
+| Top-3 accuracy | 99.9% |
+| Macro F1 | 0.985 |
+
+**Read this carefully:** this is an optimistic upper bound. The test images come from the same retailer as the training images, about 13% of them have a near-duplicate in the training set, and it measures the classifier only (not detection, alignment or variant matching) and not real phone photos. See [`docs/training_data_plan.md`](docs/training_data_plan.md) for the plan to get an honest number.
+
+Each `/predict` response includes `timings_ms` (decode, preprocess, classify, variant_match, total), and `/health` reports `startup_timings_ms` for model loading, so the cold start can be measured. Add `?include_steps=true` to `/predict` to get the preprocessing step images (debug only).
+
 ## Serverless Cloud Deployment (Modal)
 
 [`modal_app.py`](modal_app.py) configures serverless GPU execution:
 
 - **Build-Time Model Pre-baking**: Hugging Face models (`grounding-dino-base`, `clip-vit-base-patch16`) are downloaded during container build via `.run_function()`, eliminating cold-start download latency.
-- **Auto Scale-Down**: Shuts down GPU after 3 minutes idle (`scaledown_window = 180s`, `min_containers = 0`).
+- **Auto Scale-Down**: Shuts down GPU after 20 minutes idle (`scaledown_window = 1200s`). `min_containers` defaults to 0; set `ROLEX_MIN_CONTAINERS=1` when deploying to keep one GPU warm (about $0.80/hour on an L4) before showing the site to someone. Up to 3 containers run in parallel so visitors do not queue.
 
 ```bash
 modal secret create rolex-huggingface HF_TOKEN=your_token
@@ -170,7 +184,7 @@ Rolex_Finder_DeepLearning_Model/
     - This problem could be addressed in the future by adding a particular watch classification model or a stricter bounding box.
 
 - **Closed Catalog Constraints**
-    - The model can only classify the 15 trained Rolex families in the catalog and could only detect among the variants for each family in [`rolex_variants.json`](src/identify/rolex_variants.json). Rolex pieces that don't appear in the catalog couldn't be recognized. 
+    - The model can only classify the 14 trained Rolex families in the catalog and could only detect among the variants for each family in [`rolex_variants.json`](src/identify/rolex_variants.json). Rolex pieces that don't appear in the catalog couldn't be recognized. 
     - This is a trivial problem because the catalog for Rolex families almost cover all common/uncommon Rolex watches found on the Internet. Only rare/vintange/unique off-catalog watches could run into this problem. 
 
 - **Severless cold-start latency (~40s)**
@@ -185,3 +199,58 @@ Rolex_Finder_DeepLearning_Model/
     - The reason why CLIP is used in the first place is because training EfficientNet-B0 on every single Rolex variant would be an incredibly tedious task, requiring huge amount of data and time training, leaving alone the size of the model and latency for loading it on Modal. Hence, CLIP emerges as the best alternative for this problem. 
     - However, because CLIP embeddings rely entirely on text description, variants with similar description (metals, style, dial,...) could easily be mistaken for one another.
 
+
+---
+
+## Data Quality Improvements
+
+Short log of what was wrong with the data and what was done. Details: [`docs/training_data_plan.md`](docs/training_data_plan.md).
+
+### Problems found
+- **One source only.** All training photos come from one retailer (swisswatchexpo). Clean studio shots. Real phone photos look different.
+- **Train and inference did not match.** Training used full photos. The website feeds tight dial crops.
+- **Test set leaked.** Split was random per photo. Other photos of the same watch sat in train and test. First check: 13% of test images had a near-duplicate in train.
+- **Some wrong labels.** Retailer category pages are not always right (for example a Datejust listed under Oyster Perpetual).
+- **Very uneven classes.** Datejust about 6,000 train images. Milgauss about 150.
+
+### What was done
+1. **Benchmark first.** `python -m src.training.benchmark --check-leakage` gives top-1, top-3, per-class scores, calibration and a leak check. See [`docs/benchmark.md`](docs/benchmark.md).
+2. **Group split.** `src/training/group_split.py`. All photos of one listing go to the same split. Output: `data/grouped`.
+3. **Label audit with two independent signals.** `src/training/audit_labels.py`.
+   - Signal 1: family named in the image file name.
+   - Signal 2: what the current model predicts.
+   - Both agree on another family: relabel. Signals conflict with the label and each other: remove. Model sides with the label: keep (families overlap, for example a Datejust on a President bracelet).
+   - Result: 74 images relabelled from a first review page (model confident), then 17 relabelled and 10 removed by the audit. About 0.4% of the data.
+4. **Removed leaked images.** `src/training/dedupe_splits.py`. 659 val/test images that copy a train image were moved to `data/grouped/_removed/leak`. Hash: 256-bit difference hash, distance 6 or less. (A first 64-bit hash flagged 96% of images. Too coarse, replaced.)
+5. **Crop like the website.** `src/training/prepare_crops.py` runs detect, align, dial crop on every training image. Images where no watch is found are dropped, because the website would reject them too. Runs on a Modal GPU (`modal_train.py`).
+6. **Class balance.** Loss weights by inverse class frequency (`--balance loss`).
+7. **Phone-photo augmentation.** Blur, JPEG compression and glare added to training (`src/training/dataset.py`). No horizontal flips (they break dials and crown side).
+8. **Open-licence real photos.** `src/collection/commons.py` collects Wikimedia Commons photos (CC0, public domain, CC BY, CC BY-SA only) with author and licence in `data/commons/manifest.csv`. Meant for a real-world test set, not mixed into training. Yield is small (few photos for rare families) and Commons rate-limits scripts hard.
+9. **Preprocessing bugs fixed.** EXIF rotation, wrong dial box height, watch turned upside down by 180 degrees, black corners after rotation.
+
+### Not done, and why
+- **More retailer scraping.** Checked a few retailers. Listing pages are rendered by JavaScript, some robots.txt files set slow crawl delays for AI crawlers, and terms of use are unclear. Low gain for the risk. Better source: your own photos and consented user uploads.
+- **Offline synthetic copies.** On-the-fly augmentation does the same job without storing more files.
+
+### Still open
+- A real-world test set (20-30 photos per family, not from the retailer). It is the number that matters.
+- "Not a Rolex" negative images, to train and test out-of-scope rejection.
+- Reference-level labels (for example 116508) to replace CLIP text prompts with photo retrieval.
+
+### Results
+Cleaned data: 18,826 train / 2,076 val / 2,006 test images (14 families). Leak rate of the test set: 13% before, 0.3% after (6 images).
+
+Modal GPU run (crop, train 10 epochs with class-balanced loss, benchmark), same test split for both models:
+
+| Model | Top-1 | Top-3 | Macro F1 | Calibration error (lower is better) |
+|---|---|---|---|---|
+| New model (`models/candidate.pt`, trained on cleaned, cropped data) | 99.45% | 99.90% | 0.992 | 0.003 |
+| Current live model | 99.45% | 99.95% | 0.994 | 0.006 |
+
+What this means:
+- **No measurable gain on this test set.** Both score the same. The live model was trained on images that overlap this test set (old random split), so its number is inflated. The new model never saw these images, so its number is the honest one. The new model is better calibrated.
+- **This test set is too easy.** Same retailer, same clean photos. It cannot show whether the new model works better on phone photos. The real-world test set (see "Still open") is needed for that.
+- The crop step found a watch in all but 1 of 23,000 images, so almost nothing was dropped.
+- The live model was not replaced. Compare both on real photos first.
+
+Full tables: [`docs/benchmark_candidate.md`](docs/benchmark_candidate.md) and [`docs/benchmark_baseline_grouped.md`](docs/benchmark_baseline_grouped.md).

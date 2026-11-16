@@ -1,0 +1,441 @@
+{
+  "generated_at": "2026-11-15",
+  "data_root": "data/processed",
+  "split": "test",
+  "checkpoint": "models/rolex_classifier_model.pt",
+  "latency_ms_per_image": 21.68,
+  "class_names": [
+    "airking",
+    "cellini",
+    "datejust",
+    "daytona",
+    "explorer",
+    "gmt_master",
+    "milgauss",
+    "oyster_perpetual",
+    "oysterquartz",
+    "president",
+    "sea_dweller",
+    "submariner",
+    "turn_o_graph",
+    "yacht_master"
+  ],
+  "metrics": {
+    "samples": 3731,
+    "top1_accuracy": 0.9917,
+    "top3_accuracy": 0.9987,
+    "macro_f1": 0.9852,
+    "balanced_accuracy": 0.9785,
+    "ece": 0.0019,
+    "mean_confidence": 0.9933,
+    "coverage_vs_accuracy": [
+      {
+        "threshold": 0.5,
+        "coverage": 0.9997,
+        "accuracy": 0.992
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.996,
+        "accuracy": 0.9935
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.9861,
+        "accuracy": 0.9959
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.9751,
+        "accuracy": 0.9962
+      }
+    ],
+    "per_class": [
+      {
+        "class": "airking",
+        "support": 204,
+        "precision": 0.9949,
+        "recall": 0.9657,
+        "f1": 0.9801
+      },
+      {
+        "class": "cellini",
+        "support": 218,
+        "precision": 0.9954,
+        "recall": 0.9954,
+        "f1": 0.9954
+      },
+      {
+        "class": "datejust",
+        "support": 1385,
+        "precision": 0.9964,
+        "recall": 0.9935,
+        "f1": 0.9949
+      },
+      {
+        "class": "daytona",
+        "support": 144,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "explorer",
+        "support": 172,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "gmt_master",
+        "support": 181,
+        "precision": 0.9945,
+        "recall": 0.9945,
+        "f1": 0.9945
+      },
+      {
+        "class": "milgauss",
+        "support": 30,
+        "precision": 1.0,
+        "recall": 0.9667,
+        "f1": 0.9831
+      },
+      {
+        "class": "oyster_perpetual",
+        "support": 251,
+        "precision": 0.954,
+        "recall": 0.992,
+        "f1": 0.9727
+      },
+      {
+        "class": "oysterquartz",
+        "support": 32,
+        "precision": 1.0,
+        "recall": 0.8438,
+        "f1": 0.9153
+      },
+      {
+        "class": "president",
+        "support": 467,
+        "precision": 0.9811,
+        "recall": 1.0,
+        "f1": 0.9905
+      },
+      {
+        "class": "sea_dweller",
+        "support": 77,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "submariner",
+        "support": 301,
+        "precision": 0.9967,
+        "recall": 0.9967,
+        "f1": 0.9967
+      },
+      {
+        "class": "turn_o_graph",
+        "support": 82,
+        "precision": 0.9873,
+        "recall": 0.9512,
+        "f1": 0.9689
+      },
+      {
+        "class": "yacht_master",
+        "support": 187,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ],
+    "most_confused": [
+      {
+        "true": "datejust",
+        "predicted": "oyster_perpetual",
+        "count": 7
+      },
+      {
+        "true": "airking",
+        "predicted": "oyster_perpetual",
+        "count": 5
+      },
+      {
+        "true": "oysterquartz",
+        "predicted": "president",
+        "count": 4
+      },
+      {
+        "true": "turn_o_graph",
+        "predicted": "datejust",
+        "count": 3
+      },
+      {
+        "true": "datejust",
+        "predicted": "president",
+        "count": 2
+      },
+      {
+        "true": "airking",
+        "predicted": "datejust",
+        "count": 1
+      },
+      {
+        "true": "airking",
+        "predicted": "turn_o_graph",
+        "count": 1
+      },
+      {
+        "true": "cellini",
+        "predicted": "president",
+        "count": 1
+      }
+    ],
+    "confusion_matrix": [
+      [
+        197,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        217,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1376,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        144,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        172,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        180,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        249,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        27,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        467,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        77,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        300,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        78,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        187
+      ]
+    ]
+  },
+  "leakage": {
+    "test_images": 3731,
+    "train_images": 17347,
+    "near_duplicates_in_train": 494,
+    "leak_rate": 0.1324,
+    "max_hamming_distance": 6,
+    "examples": [
+      "data\\processed\\test\\airking\\1de80608d32c4c65ba05250921da9bc3.jpg",
+      "data\\processed\\test\\airking\\514e47dec4a741c5a220cec08911c640.jpg",
+      "data\\processed\\test\\airking\\51d9fb48ba534775aadce8028e954dae.jpg",
+      "data\\processed\\test\\airking\\5f8c98d58e514cbfadddbf972827cf3e.jpg",
+      "data\\processed\\test\\airking\\7548d8734ea641aea37a32c6f113242e.jpg",
+      "data\\processed\\test\\airking\\7f8342243a084985ae89932f50ba7b1d.jpg",
+      "data\\processed\\test\\airking\\8ceb27f74a584861bdc4ef5b24f77c74.jpg",
+      "data\\processed\\test\\airking\\cbc51ebdc2e94975a47ffd21ddccc34c.jpg",
+      "data\\processed\\test\\airking\\d81aa5dd38004083932b1f8dc543054f.jpg",
+      "data\\processed\\test\\airking\\e485506ce1234a26b9b981dea4461ee3.jpg"
+    ]
+  }
+}

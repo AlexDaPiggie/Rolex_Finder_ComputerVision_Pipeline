@@ -1,5 +1,8 @@
 import json
+import random
+from io import BytesIO
 from pathlib import Path
+from PIL import Image
 from torchvision import datasets, transforms
 
 IMAGE_SIZE = 224 #resive for cnn models
@@ -25,6 +28,45 @@ def load_class_names(data_root: Path):
         key = lambda item: item[1]
     )]
 
+class RandomJpeg:
+    """Re-encode the image as a low-quality JPEG, like a photo sent through chat apps or social media."""
+
+    def __init__(self, quality=(30, 90), p=0.4):
+        self.quality = quality
+        self.p = p
+
+    def __call__(self, image: Image.Image):
+        if random.random() > self.p:
+            return image
+        buffer = BytesIO()
+        image.convert("RGB").save(buffer, format="JPEG", quality=random.randint(*self.quality))
+        buffer.seek(0)
+        return Image.open(buffer).convert("RGB")
+
+
+class RandomGlare:
+    """Add a soft bright reflection, like light on the crystal or a flash in a phone photo."""
+
+    def __init__(self, p=0.25, strength=(0.25, 0.6)):
+        self.p = p
+        self.strength = strength
+
+    def __call__(self, image: Image.Image):
+        if random.random() > self.p:
+            return image
+        import numpy as np
+
+        rgb = np.asarray(image.convert("RGB")).astype("float32")
+        height, width = rgb.shape[:2]
+        cx, cy = random.uniform(0.2, 0.8) * width, random.uniform(0.2, 0.8) * height
+        radius = random.uniform(0.15, 0.4) * max(width, height)
+        ys, xs = np.mgrid[0:height, 0:width]
+        glow = np.exp(-(((xs - cx) ** 2 + (ys - cy) ** 2) / (2 * radius**2)))
+        amount = random.uniform(*self.strength)
+        rgb = rgb + (255.0 - rgb) * (glow[..., None] * amount)
+        return Image.fromarray(np.clip(rgb, 0, 255).astype("uint8"))
+
+
 def build_transforms (train: bool):
     '''
     Build dataset engine:
@@ -44,6 +86,13 @@ def build_transforms (train: bool):
                     distortion_scale=0.25,
                     p = 0.35,
                 ),
+                # phone-photo realism: blur and compression artefacts
+                transforms.RandomApply(
+                    [transforms.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0))],
+                    p = 0.3,
+                ),
+                RandomJpeg(quality = (30, 90), p = 0.4),
+                RandomGlare(p = 0.25),
                 transforms.ColorJitter(
                     brightness=0.25,
                     contrast = 0.25,

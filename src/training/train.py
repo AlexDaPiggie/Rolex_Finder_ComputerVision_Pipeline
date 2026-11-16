@@ -3,6 +3,7 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
+import numpy as np
 from src.training.dataset import IMAGE_SIZE, load_class_names, make_image_folder
 from src.training.models import create_model
 
@@ -72,18 +73,36 @@ def evaluate_model(
 
         return total_loss / total, correct / total 
     
+def class_weights (counts: list[int], power: float = 0.5):
+    '''
+    Loss weights that favour rare classes. weight = (1 / count) ** power, scaled so the mean weight is 1.
+    power = 1 balances fully; 0.5 (default) is a softer correction that is less noisy on tiny classes.
+    '''
+    counts = np.asarray (counts, dtype = float)
+    weights = (1.0 / np.maximum (counts, 1.0)) ** power
+    return weights / weights.mean()
+
 def parse_args():
     parser = argparse.ArgumentParser(description = 'train classifier model') 
     parser.add_argument('--epochs', type = int, default = 5)
     parser.add_argument('--batch-size', type = int, default = 16)
     parser.add_argument('--learning-rate', type = float, default = 1e-4)
+    parser.add_argument('--data-root', type = Path, default = Path('data/processed'))
+    parser.add_argument('--output', type = Path, default = Path('models/rolex_classifier_model.pt'))
+    parser.add_argument('--device', choices = ['cpu', 'cuda', 'auto'], default = 'cpu')
+    parser.add_argument('--balance', choices = ['none', 'loss'], default = 'none',
+                        help = 'loss = weight the loss by inverse class frequency (helps Milgauss, Oysterquartz)')
+    parser.add_argument('--num-workers', type = int, default = 4)
     
     return parser.parse_args()
 
 def main(): 
     args = parse_args()
-    device = torch.device('cpu')
-    data = Path ('data/processed')
+    device_name = args.device
+    if device_name == 'auto':
+        device_name = 'cuda' if torch.cuda.is_available() else 'cpu'
+    device = torch.device(device_name)
+    data = args.data_root
     class_names = load_class_names(data)
 
     train_dataset = make_image_folder(data, 'train', train = True)
@@ -93,18 +112,26 @@ def main():
         train_dataset,
         batch_size=args.batch_size,
         shuffle = True,
-        num_workers = 4,
+        num_workers = args.num_workers,
     )
 
     val_loader = DataLoader(
         val_dataset,
         batch_size=args.batch_size,
         shuffle = False,
-        num_workers = 4
+        num_workers = args.num_workers
     )
 
     model = create_model (num_classes = len (class_names)).to(device)
-    criterion = nn.CrossEntropyLoss()
+    if args.balance == 'loss':
+        counts = [0] * len (class_names)
+        for _path, label in train_dataset.samples:
+            counts[label] += 1
+        weights = torch.tensor (class_weights (counts), dtype = torch.float32).to(device)
+        criterion = nn.CrossEntropyLoss(weight = weights)
+        print ('class counts:', dict (zip (class_names, counts)))
+    else:
+        criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.AdamW(model.parameters(), lr = args.learning_rate)
 
     best_val_accuracy = -1.0
@@ -124,7 +151,7 @@ def main():
         if val_accuracy > best_val_accuracy: 
             best_val_accuracy = val_accuracy
             save_checkpoint (
-                Path('models/rolex_classifier_model.pt'),
+                args.output,
                 model,
                 class_names, 
                 IMAGE_SIZE,

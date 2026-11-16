@@ -1,0 +1,433 @@
+{
+  "generated_at": "2026-11-16",
+  "data_root": "/tmp/crops",
+  "split": "test",
+  "checkpoint": "/tmp/out/candidate.pt",
+  "latency_ms_per_image": 3.73,
+  "device": "cuda",
+  "class_names": [
+    "airking",
+    "cellini",
+    "datejust",
+    "daytona",
+    "explorer",
+    "gmt_master",
+    "milgauss",
+    "oyster_perpetual",
+    "oysterquartz",
+    "president",
+    "sea_dweller",
+    "submariner",
+    "turn_o_graph",
+    "yacht_master"
+  ],
+  "metrics": {
+    "samples": 2006,
+    "top1_accuracy": 0.9945,
+    "top3_accuracy": 0.999,
+    "macro_f1": 0.9916,
+    "balanced_accuracy": 0.997,
+    "ece": 0.0029,
+    "mean_confidence": 0.9959,
+    "coverage_vs_accuracy": [
+      {
+        "threshold": 0.5,
+        "coverage": 0.9995,
+        "accuracy": 0.9945
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.9965,
+        "accuracy": 0.9955
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.9905,
+        "accuracy": 0.998
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.9835,
+        "accuracy": 0.9985
+      }
+    ],
+    "per_class": [
+      {
+        "class": "airking",
+        "support": 129,
+        "precision": 1.0,
+        "recall": 0.9922,
+        "f1": 0.9961
+      },
+      {
+        "class": "cellini",
+        "support": 145,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "datejust",
+        "support": 597,
+        "precision": 0.9966,
+        "recall": 0.9933,
+        "f1": 0.995
+      },
+      {
+        "class": "daytona",
+        "support": 92,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "explorer",
+        "support": 103,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "gmt_master",
+        "support": 111,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "milgauss",
+        "support": 19,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "oyster_perpetual",
+        "support": 128,
+        "precision": 0.9922,
+        "recall": 0.9922,
+        "f1": 0.9922
+      },
+      {
+        "class": "oysterquartz",
+        "support": 20,
+        "precision": 0.8696,
+        "recall": 1.0,
+        "f1": 0.9302
+      },
+      {
+        "class": "president",
+        "support": 247,
+        "precision": 0.9878,
+        "recall": 0.9798,
+        "f1": 0.9837
+      },
+      {
+        "class": "sea_dweller",
+        "support": 55,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "submariner",
+        "support": 189,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "class": "turn_o_graph",
+        "support": 48,
+        "precision": 0.9796,
+        "recall": 1.0,
+        "f1": 0.9897
+      },
+      {
+        "class": "yacht_master",
+        "support": 123,
+        "precision": 0.9919,
+        "recall": 1.0,
+        "f1": 0.996
+      }
+    ],
+    "most_confused": [
+      {
+        "true": "datejust",
+        "predicted": "president",
+        "count": 3
+      },
+      {
+        "true": "president",
+        "predicted": "oysterquartz",
+        "count": 3
+      },
+      {
+        "true": "airking",
+        "predicted": "oyster_perpetual",
+        "count": 1
+      },
+      {
+        "true": "datejust",
+        "predicted": "turn_o_graph",
+        "count": 1
+      },
+      {
+        "true": "oyster_perpetual",
+        "predicted": "datejust",
+        "count": 1
+      },
+      {
+        "true": "president",
+        "predicted": "datejust",
+        "count": 1
+      },
+      {
+        "true": "president",
+        "predicted": "yacht_master",
+        "count": 1
+      }
+    ],
+    "confusion_matrix": [
+      [
+        128,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        145,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        593,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        92,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        103,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        111,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        127,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        242,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        55,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        189,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        123
+      ]
+    ]
+  },
+  "leakage": {
+    "test_images": 2006,
+    "train_images": 18826,
+    "near_duplicates_in_train": 6,
+    "leak_rate": 0.003,
+    "max_hamming_distance": 6,
+    "examples": [
+      "/tmp/crops/test/cellini/5058e7fdb36f456da9c99108373a7f09.jpg",
+      "/tmp/crops/test/datejust/2ec8557fe7ca4c8eb9da57aa7744d2a3.jpg",
+      "/tmp/crops/test/datejust/67bcf83b4ec8498c9dbac6c97599b244.jpg",
+      "/tmp/crops/test/explorer/d761aefdcb5a40ebaba589f724bdc23c.jpg",
+      "/tmp/crops/test/submariner/0118c401c0264b3d9a3ea8fcce13f794.jpg",
+      "/tmp/crops/test/yacht_master/aca3937ab68f4801a791925ed6e5f10c.jpg"
+    ]
+  }
+}
