@@ -4,22 +4,22 @@
   "image": "/examples/daytona.jpg",
   "result": {
    "predicted_class": "daytona",
-   "confidence": 0.8676829934120178,
+   "confidence": 0.978646993637085,
    "probabilities": {
-    "daytona": 0.8676829934120178,
-    "turn_o_graph": 0.026338882744312286,
-    "oysterquartz": 0.015438218601047993,
-    "gmt_master": 0.01480981707572937,
-    "yacht_master": 0.01208899449557066,
-    "milgauss": 0.010602166876196861,
-    "submariner": 0.010456770658493042,
-    "oyster_perpetual": 0.009377309121191502,
-    "airking": 0.00901509914547205,
-    "datejust": 0.00844386126846075,
-    "president": 0.005660612601786852,
-    "cellini": 0.00562629709020257,
-    "sea_dweller": 0.0027604280039668083,
-    "explorer": 0.0016985577531158924
+    "daytona": 0.978646993637085,
+    "oysterquartz": 0.004523351322859526,
+    "turn_o_graph": 0.0027518109418451786,
+    "milgauss": 0.0024135676212608814,
+    "datejust": 0.0020844677928835154,
+    "gmt_master": 0.0019208043813705444,
+    "submariner": 0.0016103890957310796,
+    "cellini": 0.0015647327527403831,
+    "airking": 0.0011718679452314973,
+    "yacht_master": 0.0009906023042276502,
+    "president": 0.0007061124779284,
+    "oyster_perpetual": 0.0006856252439320087,
+    "sea_dweller": 0.0006622992805205286,
+    "explorer": 0.0002673304989002645
    },
    "variant_status": "closest_known_matches",
    "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
@@ -27,7 +27,7 @@
     {
      "id": "daytona_john_mayer",
      "display_name": "Rolex Daytona John Mayer",
-     "score": 0.301025390625,
+     "score": 0.30224609375,
      "reference_examples": [
       "116508",
       "126508"
@@ -36,7 +36,7 @@
     {
      "id": "daytona_two_tone",
      "display_name": "Rolex Daytona Two Tone",
-     "score": 0.274169921875,
+     "score": 0.2666015625,
      "reference_examples": [
       "116503",
       "126503"
@@ -45,7 +45,7 @@
     {
      "id": "daytona_steel_bezel",
      "display_name": "Rolex Daytona Steel Bezel",
-     "score": 0.12164306640625,
+     "score": 0.1259765625,
      "reference_examples": [
       "116520",
       "116523",
@@ -57,7 +57,7 @@
     {
      "id": "daytona_john_mayer",
      "display_name": "Rolex Daytona John Mayer",
-     "score": 0.301025390625,
+     "score": 0.30224609375,
      "description": "Rolex Daytona John Mayer, green dial chronograph, yellow gold case and yellow gold Oyster bracelet, shiny gold tachymeter bezel, three green subdials with gold rings, gold baton hour markers, screw-down pushers, no rainbow gemstones",
      "reference_examples": [
       "116508",
@@ -67,7 +67,7 @@
     {
      "id": "daytona_two_tone",
      "display_name": "Rolex Daytona Two Tone",
-     "score": 0.274169921875,
+     "score": 0.2666015625,
      "description": "Rolex Daytona Two Tone, two-tone gold and steel Oyster bracelet, shiny gold tachymeter bezel, three subdials with gold rings, gold baton hour markers, screw-down pushers, no green shade, no rainbown gemstones",
      "reference_examples": [
       "116503",
@@ -77,7 +77,7 @@
     {
      "id": "daytona_steel_bezel",
      "display_name": "Rolex Daytona Steel Bezel",
-     "score": 0.12164306640625,
+     "score": 0.1259765625,
      "description": "Rolex Daytona Steel Bezel, Daytona chronograph with fully silver polished metal tachymeter bezel, bright silver outer bezel all around the dial, engraved black numbers directly on steel bezel",
      "reference_examples": [
       "116520",
@@ -88,7 +88,7 @@
     {
      "id": "daytona_paul_newman_vintage",
      "display_name": "Rolex Daytona Paul Newman Style",
-     "score": 0.1142578125,
+     "score": 0.11468505859375,
      "description": "  Rolex Daytona Paul Newman, vintage exotic dial chronograph from the 1960s, aged cream black or champagne dial, older small case shape, acrylic crystal look, Art Deco numerals inside subdials, square-ended subdial markers, vintage leather strap or old metal bracelet",
      "reference_examples": [
       "6239",
@@ -102,7 +102,7 @@
     {
      "id": "daytona_panda",
      "display_name": "Rolex Daytona Panda",
-     "score": 0.07611083984375,
+     "score": 0.076416015625,
      "description": "Rolex Daytona Panda, white dial, black ceramic tachymeter bezel with white numbers, three black-ring subdials, clean modern baton markers, screw-down pushers, steel Oyster bracelet, no polished steel bezel, no vintage exotic dial",
      "reference_examples": [
       "116500LN",
@@ -112,7 +112,7 @@
     {
      "id": "daytona_black_dial",
      "display_name": "Rolex Daytona Black Dial",
-     "score": 0.043365478515625,
+     "score": 0.043548583984375,
      "description": "Rolex Daytona Black Dial, black dial chronograph, black ceramic tachymeter bezel with white numbers, glossy black outer bezel, three black subdials with silver rings, steel Oyster bracelet",
      "reference_examples": [
       "116500LN",
@@ -122,7 +122,7 @@
     {
      "id": "daytona_oysterflex_gold",
      "display_name": "Rolex Daytona Oysterflex Gold",
-     "score": 0.037109375,
+     "score": 0.038421630859375,
      "description": "Rolex Daytona Oysterflex Gold, rose gold or yellow gold case, black rubber strap, warm gold case, black ceramic tachymeter bezel, black champagne white or dark dial, three contrasting subdials",
      "reference_examples": [
       "116515LN",
@@ -136,7 +136,7 @@
     {
      "id": "daytona_ice_blue",
      "display_name": "Rolex Daytona Ice Blue",
-     "score": 0.0164642333984375,
+     "score": 0.0165252685546875,
      "description": "Rolex Daytona Ice Blue, pale turquoise ice blue dial chronograph, light blue or mint main dial, matching light tiffany blue subdials, black ceramic tachymeter bezel, black rubber Oysterflex strap or platinum Oyster bracelet, steel  metal case",
      "reference_examples": [
       "116506",
@@ -146,7 +146,7 @@
     {
      "id": "daytona_rainbow",
      "display_name": "Rolex Daytona Rainbow",
-     "score": 0.015960693359375,
+     "score": 0.01552581787109375,
      "description": "Rolex Daytona Rainbow Gem-Set, rainbow colored gemstone bezel, multicolor sapphire hour markers, diamond lugs or diamond case, luxury jeweled chronograph, bright gem colors around the bezel, not a plain green dial, not a vintage exotic dial",
      "reference_examples": [
       "116595RBOW",
@@ -163,22 +163,22 @@
   "image": "/examples/cellini.jpg",
   "result": {
    "predicted_class": "cellini",
-   "confidence": 0.8556142449378967,
+   "confidence": 0.8825336694717407,
    "probabilities": {
-    "cellini": 0.8556142449378967,
-    "datejust": 0.04343916103243828,
-    "president": 0.043074000626802444,
-    "turn_o_graph": 0.01868073269724846,
-    "daytona": 0.012063557282090187,
-    "gmt_master": 0.007692406419664621,
-    "explorer": 0.006241292227059603,
-    "milgauss": 0.006098591256886721,
-    "sea_dweller": 0.002175581641495228,
-    "airking": 0.0014294807333499193,
-    "oysterquartz": 0.0010326697956770658,
-    "oyster_perpetual": 0.000922363658901304,
-    "submariner": 0.0007761574815958738,
-    "yacht_master": 0.0007597738294862211
+    "cellini": 0.8825336694717407,
+    "datejust": 0.03457200154662132,
+    "milgauss": 0.030584225431084633,
+    "president": 0.017813129350543022,
+    "daytona": 0.015552423894405365,
+    "turn_o_graph": 0.006986886728554964,
+    "explorer": 0.004237684421241283,
+    "gmt_master": 0.003717303043231368,
+    "sea_dweller": 0.0015075277769938111,
+    "oysterquartz": 0.0009830011986196041,
+    "airking": 0.0005343523807823658,
+    "submariner": 0.0004940399085171521,
+    "yacht_master": 0.0002495767257642001,
+    "oyster_perpetual": 0.00023415577015839517
    },
    "variant_status": "closest_known_matches",
    "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
@@ -186,7 +186,7 @@
     {
      "id": "cellini_classic_round",
      "display_name": "Rolex Cellini Classic Round",
-     "score": 0.371826171875,
+     "score": 0.365966796875,
      "reference_examples": [
       "4112",
       "6623"
@@ -195,7 +195,7 @@
     {
      "id": "cellini_moonphase_modern",
      "display_name": "Rolex Cellini Moonphase",
-     "score": 0.328125,
+     "score": 0.333251953125,
      "reference_examples": [
       "50535",
       "50515",
@@ -205,7 +205,7 @@
     {
      "id": "cellini_date_modern_subdial",
      "display_name": "Rolex Cellini Date",
-     "score": 0.07098388671875,
+     "score": 0.07208251953125,
      "reference_examples": [
       "50515",
       "50519"
@@ -216,7 +216,7 @@
     {
      "id": "cellini_classic_round",
      "display_name": "Rolex Cellini Classic Round",
-     "score": 0.371826171875,
+     "score": 0.365966796875,
      "description": " Rolex Cellini Round, ultra-minimal round dress watch, completely plain dial, no date window, no small circle, no second clock face, no moonphase, no extra scale, only two or three central hands, thin stick or Roman hour markers, plain smooth bezel, leather strap or fine gold bracelet",
      "reference_examples": [
       "4112",
@@ -226,7 +226,7 @@
     {
      "id": "cellini_moonphase_modern",
      "display_name": "Rolex Cellini Moonphase",
-     "score": 0.328125,
+     "score": 0.333251953125,
      "description": "Rolex Cellini Moonphase, modern round dress watch, white dial, moonphase display at bottom at 6 o'clock with blue enamel disc, pointer date around outer edge, rose gold case, polished double bezel, brown leather strap",
      "reference_examples": [
       "50535",
@@ -237,7 +237,7 @@
     {
      "id": "cellini_date_modern_subdial",
      "display_name": "Rolex Cellini Date",
-     "score": 0.07098388671875,
+     "score": 0.07208251953125,
      "description": "Rolex Cellini Date, have sub-dial, round date indicator at 3 o'clock, Everose gold or white gold case, pointer hand, baton markers, domed and fluted double bezel, leather strap",
      "reference_examples": [
       "50515",
@@ -247,7 +247,7 @@
     {
      "id": "cellini_octagon",
      "display_name": "Rolex Cellini Octagon",
-     "score": 0.04443359375,
+     "score": 0.04510498046875,
      "description": "Rolex Cellini Octagon, slim dress watch with eight-sided octagonal case, angular case shape, minimalist dial, sparse hour markers, slim hands, simple applied crown logo, integrated bracelet or leather strap",
      "reference_examples": [
       "4350",
@@ -257,7 +257,7 @@
     {
      "id": "cellini_time_modern_round",
      "display_name": "Rolex Cellini Time",
-     "score": 0.041717529296875,
+     "score": 0.04107666015625,
      "description": "Rolex Cellini Time, no date indicator, no bottom sub-dial, Everose gold or white gold case, pointer hand, baton markers or diamond markers or Roman markers, domed and fluted double bezel or diamond-set outer edge, leather strap",
      "reference_examples": [
       "50505",
@@ -268,7 +268,7 @@
     {
      "id": "cellini_dual_time_modern",
      "display_name": "Rolex Cellini Dual Time",
-     "score": 0.040435791015625,
+     "score": 0.04107666015625,
      "description": "Rolex Cellini Dual Time, must have sub-dial sub-dial at the bottom at 6 o'clock, Everose or white gold case, pointer hands, baton markers, fluted double bezel, leather strap",
      "reference_examples": [
       "50525",
@@ -278,7 +278,7 @@
     {
      "id": "cellini_danaos",
      "display_name": "Rolex Cellini Danaos",
-     "score": 0.033538818359375,
+     "score": 0.034027099609375,
      "description": "Rolex Cellini Danaos, cushion-shaped dress watch like rounded rectangular, wide polished and domed bezel, minimalist dial, Arabic numerals or baton markers, leather strap",
      "reference_examples": [
       "4233",
@@ -289,7 +289,7 @@
     {
      "id": "cellini_cestello",
      "display_name": "Rolex Cellini Cestello",
-     "score": 0.0305328369140625,
+     "score": 0.0300445556640625,
      "description": "Rolex Cellini Cestello, no sub-dial, plantinum or reose gold case, smooth domed and rounded bezel, flat polished bezel, extended lugs, minimalist dial, leather strap",
      "reference_examples": [
       "5310",
@@ -302,7 +302,7 @@
     {
      "id": "cellini_cellinium",
      "display_name": "Rolex Cellini Cellinium",
-     "score": 0.0253143310546875,
+     "score": 0.02490234375,
      "description": "Rolex Cellini Cellinium, platinum round dress watch, pale blue silver or black dial, small date circle at 6 o'clock, pointer hand in lower circle, slim baton markers, smooth polished bezel, black leather strap",
      "reference_examples": [
       "5240",
@@ -312,7 +312,7 @@
     {
      "id": "cellini_prince",
      "display_name": "Rolex Cellini Prince",
-     "score": 0.01177215576171875,
+     "score": 0.01140594482421875,
      "description": "Rolex Cellini Prince, rectangular doctor's watch case, long vertical dial, separate small seconds subdial at 6 o'clock, Art Deco layout, precious metal case, leather strap, strong rectangular dress watch shape",
      "reference_examples": [
       "5440",
@@ -324,7 +324,7 @@
     {
      "id": "cellini_king_midas",
      "display_name": "Rolex Cellini King Midas",
-     "score": 0.001129150390625,
+     "score": 0.0011110305786132812,
      "description": "Rolex Cellini King Midas, bold angular precious metal dress watch, asymmetrical case shape, integrated bracelet, flat geometric case, minimalist dial, sculptural 1970s luxury design",
      "reference_examples": [
       "9630",
@@ -341,22 +341,22 @@
   "image": "/examples/datejust.jpg",
   "result": {
    "predicted_class": "datejust",
-   "confidence": 0.8156877756118774,
+   "confidence": 0.9001136422157288,
    "probabilities": {
-    "datejust": 0.8156877756118774,
-    "turn_o_graph": 0.06384604424238205,
-    "explorer": 0.04315716028213501,
-    "president": 0.01733119785785675,
-    "oyster_perpetual": 0.014830069616436958,
-    "daytona": 0.012679122388362885,
-    "oysterquartz": 0.010493097826838493,
-    "sea_dweller": 0.008021346293389797,
-    "airking": 0.005301786120980978,
-    "milgauss": 0.00314043159596622,
-    "gmt_master": 0.0022681590635329485,
-    "submariner": 0.0020781357306987047,
-    "cellini": 0.0007769918884150684,
-    "yacht_master": 0.00038869885611347854
+    "datejust": 0.9001136422157288,
+    "explorer": 0.0371786467730999,
+    "turn_o_graph": 0.019135093316435814,
+    "daytona": 0.011306741274893284,
+    "oysterquartz": 0.008014613762497902,
+    "president": 0.006880672182887793,
+    "sea_dweller": 0.004747757222503424,
+    "milgauss": 0.0038650354836136103,
+    "airking": 0.0030491261277347803,
+    "oyster_perpetual": 0.003022407181560993,
+    "gmt_master": 0.0011507627787068486,
+    "submariner": 0.0008279342437162995,
+    "cellini": 0.0005573711823672056,
+    "yacht_master": 0.0001502723025623709
    },
    "variant_status": "matched_known_variant",
    "variant_note": "The top result is the strongest match among known catalog variants, not a guaranteed exact reference",
@@ -483,22 +483,22 @@
   "image": "/examples/submariner.jpg",
   "result": {
    "predicted_class": "submariner",
-   "confidence": 0.6111711859703064,
+   "confidence": 0.804663360118866,
    "probabilities": {
-    "submariner": 0.6111711859703064,
-    "sea_dweller": 0.24819348752498627,
-    "datejust": 0.020667700096964836,
-    "yacht_master": 0.02056751772761345,
-    "explorer": 0.0145812863484025,
-    "oysterquartz": 0.014471650123596191,
-    "gmt_master": 0.014261608943343163,
-    "airking": 0.013559158891439438,
-    "milgauss": 0.010913153178989887,
-    "turn_o_graph": 0.010105172172188759,
-    "oyster_perpetual": 0.008745201863348484,
-    "daytona": 0.007863231003284454,
-    "cellini": 0.002767323050647974,
-    "president": 0.00213242182508111
+    "submariner": 0.804663360118866,
+    "sea_dweller": 0.1169978678226471,
+    "datejust": 0.017119577154517174,
+    "milgauss": 0.01424755435436964,
+    "oysterquartz": 0.009835679084062576,
+    "airking": 0.008202486671507359,
+    "daytona": 0.007643870543688536,
+    "yacht_master": 0.005038934759795666,
+    "gmt_master": 0.004748733714222908,
+    "explorer": 0.0041457111947238445,
+    "turn_o_graph": 0.0031098765321075916,
+    "oyster_perpetual": 0.001792837050743401,
+    "cellini": 0.0015835801605135202,
+    "president": 0.0008700190228410065
    },
    "variant_status": "closest_known_matches",
    "variant_note": "The exact variant may not be in the catalog; these are the closest known matches",
@@ -506,7 +506,7 @@
     {
      "id": "submariner_smurf",
      "display_name": "Rolex Submariner Smurf",
-     "score": 0.320068359375,
+     "score": 0.318115234375,
      "reference_examples": [
       "116619LB"
      ]
@@ -514,7 +514,7 @@
     {
      "id": "submariner_cookie_monster",
      "display_name": "Rolex Submariner Cookie Monster",
-     "score": 0.310302734375,
+     "score": 0.308349609375,
      "reference_examples": [
       "126619LB"
      ]
@@ -522,7 +522,7 @@
     {
      "id": "submariner_comex",
      "display_name": "Rolex Submariner COMEX",
-     "score": 0.182373046875,
+     "score": 0.18701171875,
      "reference_examples": [
       "5513",
       "5514",
@@ -534,7 +534,7 @@
     {
      "id": "submariner_smurf",
      "display_name": "Rolex Submariner Smurf",
-     "score": 0.320068359375,
+     "score": 0.318115234375,
      "description": "Rolex Submariner Smurf, dark blue or blue dial, blue bezel, full steel case and bracelet, steel bezel markings, steel silver accents around hour markers, all silver-white metal case and bracelet, silver crown, silver bracelet links, cool monochrome metal look, date cyclops",
      "reference_examples": [
       "116619LB"
@@ -543,7 +543,7 @@
     {
      "id": "submariner_cookie_monster",
      "display_name": "Rolex Submariner Cookie Monster",
-     "score": 0.310302734375,
+     "score": 0.308349609375,
      "description": "Rolex Submariner Smurf, blue or dark blue bezel, black dial,  full steel case and bracelet, steel bezel markings, steel silver accents around hour markers, all silver-white metal case and bracelet, silver crown, silver bracelet links, cool monochrome metal look, date cyclops",
      "reference_examples": [
       "126619LB"
@@ -552,7 +552,7 @@
     {
      "id": "submariner_comex",
      "display_name": "Rolex Submariner COMEX",
-     "score": 0.182373046875,
+     "score": 0.18701171875,
      "description": "Rolex Submariner COMEX, black dial dive watch with COMEX logo text on dial, black 'COMEX' word on white background,  black rotating dive bezel, vintage or professional diver watch, Oyster bracelet",
      "reference_examples": [
       "5513",
@@ -563,7 +563,7 @@
     {
      "id": "submariner_two_tone",
      "display_name": "Rolex Submariner Two-Tone",
-     "score": 0.10076904296875,
+     "score": 0.10009765625,
      "description": "Rolex Submariner Two Tone, black dial and bezel, two-tone steel and yellow gold case and bracelet, yellow gold crown, yellow gold bezel markings, warm gold accents around hour markers, date cyclops",
      "reference_examples": [
       "16613LN",
@@ -574,7 +574,7 @@
     {
      "id": "submariner_black_date",
      "display_name": "Rolex Submariner Black Dial",
-     "score": 0.03375244140625,
+     "score": 0.033538818359375,
      "description": "Rolex Submariner Black Date, black dive bezel with white numbers,  black Submariner dial, black dive bezel, Mercedes hands",
      "reference_examples": [
       "16610",
@@ -588,7 +588,7 @@
     {
      "id": "submariner_kermit_starbucks",
      "display_name": "Rolex Submariner Kermit / Starbucks",
-     "score": 0.0204620361328125,
+     "score": 0.020660400390625,
      "description": "Rolex Submariner Kermit Starbucks, green rotating dive bezel, black dial, green bezel with black dial contrast, date cyclops at 3 o'clock, steel Oyster bracelet",
      "reference_examples": [
       "16610LV",
@@ -598,7 +598,7 @@
     {
      "id": "submariner_bluesy",
      "display_name": "Rolex Submariner Bluesy",
-     "score": 0.01953125,
+     "score": 0.01971435546875,
      "description": "Rolex Submariner Bluesy, blue dial and bezel, two-tone steel and yellow gold case and bracelet, yellow gold crown, yellow gold bezel markings, warm gold accents around hour markers, date cyclops",
      "reference_examples": [
       "16613LB",
@@ -609,7 +609,7 @@
     {
      "id": "submariner_hulk",
      "display_name": "Rolex Submariner Hulk",
-     "score": 0.01261138916015625,
+     "score": 0.0125274658203125,
      "description": "Rolex Submariner Hulk, green sunburst dial, green rotating dive bezel, matching green dial and green bezel, all-green Submariner look, date cyclops at 3 o'clock, steel Oyster bracelet",
      "reference_examples": [
       "116610LV"
@@ -624,22 +624,22 @@
   "image": "/examples/airking.jpg",
   "result": {
    "predicted_class": "airking",
-   "confidence": 0.8706642389297485,
+   "confidence": 0.9341075420379639,
    "probabilities": {
-    "airking": 0.8706642389297485,
-    "turn_o_graph": 0.07516269385814667,
-    "explorer": 0.0300039853900671,
-    "submariner": 0.008237769827246666,
-    "gmt_master": 0.0082260612398386,
-    "president": 0.002395677613094449,
-    "milgauss": 0.001438527018763125,
-    "oyster_perpetual": 0.0009035486727952957,
-    "sea_dweller": 0.0007379685412161052,
-    "daytona": 0.0006607191171497107,
-    "oysterquartz": 0.0005586071056313813,
-    "cellini": 0.0004264245508238673,
-    "yacht_master": 0.0003452125529292971,
-    "datejust": 0.00023851136211305857
+    "airking": 0.9341075420379639,
+    "explorer": 0.028277330100536346,
+    "turn_o_graph": 0.01638275943696499,
+    "submariner": 0.007598930969834328,
+    "gmt_master": 0.004534265026450157,
+    "daytona": 0.002602588152512908,
+    "milgauss": 0.002251137513667345,
+    "sea_dweller": 0.0010164042469114065,
+    "oysterquartz": 0.0010115812765434384,
+    "president": 0.0007618624367751181,
+    "cellini": 0.0007579252123832703,
+    "datejust": 0.00031975991441868246,
+    "oyster_perpetual": 0.00019766890909522772,
+    "yacht_master": 0.00018025304598268121
    },
    "variant_status": "matched_known_variant",
    "variant_note": "The top result is the strongest match among known catalog variants, not a guaranteed exact reference",
@@ -647,7 +647,7 @@
     {
      "id": "airking_modern",
      "display_name": "Rolex Air-King Modern",
-     "score": 0.93017578125,
+     "score": 0.931640625,
      "reference_examples": [
       "126900",
       "116900"
@@ -656,7 +656,7 @@
     {
      "id": "airking_classing_fluted",
      "display_name": "Rolex Air-King Classic Fluted",
-     "score": 0.04150390625,
+     "score": 0.040283203125,
      "reference_examples": [
       "5501",
       "5701",
@@ -668,7 +668,7 @@
     {
      "id": "airking_classic_smooth",
      "display_name": "Rolex Air-King Classic Smooth",
-     "score": 0.023651123046875,
+     "score": 0.023681640625,
      "reference_examples": [
       "5500",
       "5700",
@@ -682,7 +682,7 @@
     {
      "id": "airking_modern",
      "display_name": "Rolex Air-King Modern",
-     "score": 0.93017578125,
+     "score": 0.931640625,
      "description": "Modern Rolex Air-King 126900 or 116900 with 40mm Oyster case, black dial, crown guards, large 3 6 9 numerals, minute scale with 05 marker, green Rolex logo, yellow crown logo, Oyster bracelet",
      "reference_examples": [
       "126900",
@@ -692,7 +692,7 @@
     {
      "id": "airking_classing_fluted",
      "display_name": "Rolex Air-King Classic Fluted",
-     "score": 0.04150390625,
+     "score": 0.040283203125,
      "description": "Classic Rolex Air-King, shiny ridged metal bezel with repeated vertical grooves around the dial, 34mm steel Oyster case, simple clean dial, three-hand layout, no date window, Oyster bracelet,  stamped with 'Precision' or 'Super Precision'",
      "reference_examples": [
       "5501",
@@ -705,7 +705,7 @@
     {
      "id": "airking_classic_smooth",
      "display_name": "Rolex Air-King Classic Smooth",
-     "score": 0.023651123046875,
+     "score": 0.023681640625,
      "description": "Classic Rolex Air-King, plain smooth polished metal bezel with no grooves or ridges, 34mm steel Oyster case, simple clean dial, three-hand layout, no date window, Oyster bracelet, stamped with 'Precision' or 'Super Precision'",
      "reference_examples": [
       "5500",
@@ -718,7 +718,7 @@
     {
      "id": "airking_vintage",
      "display_name": "Rolex Air-King Vintage",
-     "score": 0.00458526611328125,
+     "score": 0.0045928955078125,
      "description": "Vintage Rolex Air-King vintage small dress watch, simple silver cream or dark dial, no date window, printed Air-King script text, acrylic crystal look, Oyster bracelet or leather strap",
      "reference_examples": [
       "4925",
