@@ -1,4 +1,67 @@
 import "./HowItWorks.css";
+import { useEffect, useRef, useState } from "react";
+
+// Silent explainer (Manim, see animation/). Plays only while visible, never autoplays for reduced motion.
+function ExplainerVideo() {
+  const ref = useRef(null);
+  const [playing, setPlaying] = useState(false);
+  const userPaused = useRef(false);
+
+  useEffect(() => {
+    const video = ref.current;
+    if (!video) return undefined;
+    let reduce = false;
+    try {
+      reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    } catch {}
+    if (reduce || typeof IntersectionObserver === "undefined") return undefined;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !userPaused.current) video.play().catch(() => {});
+        else video.pause();
+      },
+      { threshold: 0.4 }
+    );
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, []);
+
+  const toggle = () => {
+    const video = ref.current;
+    if (!video) return;
+    if (video.paused) {
+      userPaused.current = false;
+      video.play().catch(() => {});
+    } else {
+      userPaused.current = true;
+      video.pause();
+    }
+  };
+
+  return (
+    <figure className="explainer">
+      <video
+        ref={ref}
+        className="explainer-video"
+        src="/how-it-works.mp4"
+        poster="/how-it-works-poster.jpg"
+        muted
+        loop
+        playsInline
+        preload="none"
+        onPlay={() => setPlaying(true)}
+        onPause={() => setPlaying(false)}
+        aria-label="Animation: the watch is found in the photo, the dial is cropped, turned into 512 numbers, the family is picked, and the closest variants are listed"
+      />
+      <figcaption>
+        <button type="button" className="explainer-toggle" onClick={toggle}>
+          {playing ? "Pause" : "Play"}
+        </button>
+        <span>Silent, about 30 seconds. Sample photo: ajay_suresh, CC BY 2.0.</span>
+      </figcaption>
+    </figure>
+  );
+}
 
 function HowItWorks() {
   return (
@@ -11,25 +74,17 @@ function HowItWorks() {
 
       <section className="intro-section">
         <h3>From photo to answer</h3>
-        <div className="intro-columns">
-          <div className="intro-text">
-            <p>
-              A detector finds the watch in your photo and crops the dial. A vision model (CLIP) turns the
-              crop into a set of numbers. A small trained layer picks the family, such as Submariner or
-              Datejust.
-            </p>
-            <p>
-              The same numbers are then compared with the catalog of 95 variants, so the answer comes with
-              reference numbers you can search. A first scan can take up to 45 seconds while the server
-              wakes up. After that it takes about a second.
-            </p>
-          </div>
-          <img
-            className="intro-shot"
-            src="/how-it-works.jpg"
-            alt="Result page for a sample photo: family name, a Strong match label, and the closest variants with reference numbers"
-            loading="lazy"
-          />
+        <ExplainerVideo />
+        <div className="intro-text">
+          <p>
+            A detector finds the watch in your photo and crops the dial. A vision model (CLIP) turns the
+            crop into 512 numbers. A small trained layer picks the family, such as Submariner or Datejust.
+          </p>
+          <p>
+            The same numbers are then compared with the catalog of 95 variants, so the answer comes with
+            reference numbers you can search. A first scan can take up to 45 seconds while the server
+            wakes up. After that it takes about a second.
+          </p>
         </div>
       </section>
 

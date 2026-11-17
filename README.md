@@ -340,3 +340,5 @@ python -m src.training.clip_head --cv-weights 0 10 --real-weight 10   # the live
 The API uses `models/clip_head.pt` when it exists. Set `FAMILY_MODEL=effnet` to use the EfficientNet instead.
 
 **Front end (2026-11-17).** Flat shape system (2px corners, no shadows, no gradients), results as a ranked list (best match large, no scores), an intro with "how it works" and honest accuracy, and a close-call note when two families look alike (for example Submariner and Sea-Dweller). 23 of the 95 variants show an example photo from Wikimedia Commons (CC0, public domain, CC BY, CC BY-SA, credit under each photo). The other variants show no photo. Design research notes: `design-refs/references.md`.
+
+**How it works video.** `animation/how_it_works.py` (Manim) makes the silent 30 s explainer on the How it works page. It uses the real result of the Datejust sample photo. Render: `python -m manim -qm animation/how_it_works.py HowItWorks`, then encode with ffmpeg to `front_end/public/how-it-works.mp4` (H.264, about 600 KB). The page plays it only while visible and not at all for visitors who prefer reduced motion.

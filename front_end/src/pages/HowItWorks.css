@@ -45,3 +45,13 @@
 @media (max-width: 760px) {
   .intro-columns { grid-template-columns: 1fr; }
 }
+
+.explainer { margin: 0 0 20px; }
+.explainer-video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #F6F2E8; border: 1px solid #DED8CA; border-radius: 2px; }
+.explainer figcaption { display: flex; gap: 16px; align-items: baseline; margin-top: 8px; font-size: 13px; color: #6b7b74; }
+.explainer-toggle {
+  background: none; border: none; border-bottom: 1px solid #C9A348; padding: 0 0 1px;
+  font: inherit; font-size: 15px; font-weight: 600; color: #0B2F23; cursor: pointer;
+}
+.explainer-toggle:hover { color: #8a6d1c; }
+.explainer-toggle:focus-visible { outline: 2px solid #C9A348; outline-offset: 3px; }
