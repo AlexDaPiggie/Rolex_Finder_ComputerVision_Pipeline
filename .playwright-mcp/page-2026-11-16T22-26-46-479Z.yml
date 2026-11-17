@@ -1,0 +1,32 @@
+- generic [ref=e3]:
+  - link [ref=e7] [cursor=pointer]:
+    - /url: https://www.flickr.com/
+    - img "Flickr Logo" [ref=e8]
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - generic:
+        - link:
+          - /url: /account-picker
+      - generic [ref=e11]:
+        - heading "Log in to Flickr" [level=6] [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Email address
+            - textbox "Email address" [active] [ref=e20]
+          - button "Next" [ref=e21] [cursor=pointer]
+        - generic [ref=e25]:
+          - text: Not a Flickr member?
+          - link "Sign up here." [ref=e26] [cursor=pointer]:
+            - /url: https://www.flickr.com/signup
+      - generic [ref=e27]:
+        - button "English" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - link "Help" [ref=e34] [cursor=pointer]:
+            - /url: https://www.flickr.com/help
+          - link "Privacy" [ref=e35] [cursor=pointer]:
+            - /url: https://www.flickr.com/help/privacy
+          - link "Terms" [ref=e36] [cursor=pointer]:
+            - /url: https://www.flickr.com/help/terms
+          - link "Legal" [ref=e37] [cursor=pointer]:
+            - /url: https://www.flickr.com/help/legal
+    - paragraph [ref=e38]: 033120190455 by Henry, CC BY

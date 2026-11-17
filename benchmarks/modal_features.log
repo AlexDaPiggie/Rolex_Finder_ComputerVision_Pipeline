@@ -1,0 +1,141 @@
+✓ Initialized. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-cbuxIECrjBdqDJreE3CynC
+Building image im-2gPQ22DMsvi7RlkT2EYA66
+
+=> Step 0: running function 'download_models'
+Building image im-2gPQ22DMsvi7RlkT2EYA66
+
+=> Step 0: running function 'download_models'
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  20%|██        | 239/1182 [00:00<00:00, 2385.82it/s]
+[1ALoading weights: 100%|██████████| 1182/1182 [00:00<00:00, 6654.10it/s]
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  21%|██        | 249/1182 [00:00<00:00, 2476.13it/s]
+[1ALoading weights:  42%|████▏     | 497/1182 [00:00<00:00, 2325.50it/s]
+[1ALoading weights:  64%|██████▍   | 762/1182 [00:00<00:00, 2464.95it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 3512.26it/s]
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 398/398 [00:00<00:00, 8378.63it/s]
+[modal-client] 2026-11-16T05:48:06+0000 Detected 1 background thread(s) [Thread-auto_conversion] still running after container exit. This will prevent runner shutdown for up to 30 seconds.
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 398/398 [00:00<00:00, 10987.30it/s]
+[modal-client] 2026-11-16T05:48:07+0000 Detected 1 background thread(s) [Thread-auto_conversion] still running after container exit. This will prevent runner shutdown for up to 30 seconds.
+Saving image...
+Image saved, took 2.46s
+Finished image build for im-2gPQ22DMsvi7RlkT2EYA66
+Building image im-Bh0xZJqE4TKjumoSW7tXNk
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 1.10s
+
+Built image im-Bh0xZJqE4TKjumoSW7tXNk in 2.40s
+
+
+Building image im-mSm6bCe5AZcJPnvKFKHOz7
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 569.92ms
+
+Built image im-mSm6bCe5AZcJPnvKFKHOz7 in 2.29s
+
+
+Building image im-1AMv4mhNecSagfmfT7IN4m
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 1.06s
+
+Built image im-1AMv4mhNecSagfmfT7IN4m in 1.90s
+
+
+Building image im-RvscbbGfL5cSP3Ffwl1BtA
+
+=> Step 0: FROM base
+
+=> Step 1: ENV PYTHONPATH=/app
+
+=> Step 2: ENV MODEL_DEVICE=cuda
+
+=> Step 3: ENV HF_HOME=/root/.cache/huggingface
+Saving image...
+Image saved, took 768.54ms
+
+Built image im-RvscbbGfL5cSP3Ffwl1BtA in 1.46s
+
+
+Building image im-G5KMy9vuAEqHFlNImuctBO
+
+=> Step 0: FROM base
+
+=> Step 1: WORKDIR /app
+Saving image...
+Image saved, took 668.24ms
+
+Built image im-G5KMy9vuAEqHFlNImuctBO in 1.64s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\modal_improve.py
+├── ✓ Created Function download_models.
+├── ✓ Uploaded C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\src
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\data\processed\c
+│   lass_mapping.json
+├── ✓ Created Function extract_split.
+└── ✓ Created Function eval_real.
+train 112956 samples
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights:  48%|████▊     | 190/398 [00:00<00:00, 1898.81it/s]
+[1ALoading weights:  95%|█████████▌| 380/398 [00:00<00:00, 1549.40it/s]
+[1ALoading weights: 100%|██████████| 398/398 [00:00<00:00, 1648.00it/s]
+train batch 0/883
+train batch 50/883
+train batch 100/883
+train batch 150/883
+train batch 200/883
+train batch 250/883
+train batch 300/883
+train batch 350/883
+train batch 400/883
+val 8302 samples
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights:  50%|████▉     | 198/398 [00:00<00:00, 1928.36it/s]
+[1ALoading weights:  98%|█████████▊| 391/398 [00:00<00:00, 1757.22it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 1809.01it/s]
+val batch 0/65
+test 8024 samples
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights:   1%|          | 3/398 [00:00<00:34, 11.55it/s]
+[1ALoading weights: 100%|██████████| 398/398 [00:00<00:00, 1415.05it/s]
+val batch 50/65
+test batch 0/63
+train batch 450/883
+train batch 500/883
+test batch 50/63
+train batch 550/883
+train batch 600/883
+train batch 650/883
+train batch 700/883
+train batch 750/883
+train batch 800/883
+train batch 850/883
+[{'split': 'train', 'samples': 112956}, {'split': 'val', 'samples': 8302}, {'split': 'test', 'samples': 8024}]
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-cbuxIECrjBdqDJreE3CynC

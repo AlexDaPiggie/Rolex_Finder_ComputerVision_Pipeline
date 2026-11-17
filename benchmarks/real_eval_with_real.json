@@ -1,0 +1,1038 @@
+{
+  "retailer": {
+    "weight_decay": 0.1,
+    "val_clean": 0.9721,
+    "val_aug": 0.9265,
+    "test_clean": 0.9698,
+    "test_aug": 0.925
+  },
+  "real": {
+    "clip_head/full": {
+      "n": 133,
+      "acc": 0.977,
+      "ci95": [
+        0.936,
+        0.992
+      ],
+      "macro_acc_families_5plus": 0.991,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 1.0
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.935
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 1.0
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 1.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 1.0
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 1.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 1.0
+        }
+      }
+    },
+    "effnet_base/full": {
+      "n": 133,
+      "acc": 0.293,
+      "ci95": [
+        0.223,
+        0.376
+      ],
+      "macro_acc_families_5plus": 0.304,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.143
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.109
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.6
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.077
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.2
+        }
+      }
+    },
+    "effnet_cand/full": {
+      "n": 133,
+      "acc": 0.398,
+      "ci95": [
+        0.319,
+        0.483
+      ],
+      "macro_acc_families_5plus": 0.373,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.0
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.196
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.75
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.462
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.2
+        }
+      }
+    },
+    "effnet_real_aug/full": {
+      "n": 133,
+      "acc": 0.421,
+      "ci95": [
+        0.341,
+        0.506
+      ],
+      "macro_acc_families_5plus": 0.4,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.304
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.7
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.308
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.2
+        }
+      }
+    },
+    "clip_head/crop": {
+      "n": 133,
+      "acc": 0.977,
+      "ci95": [
+        0.936,
+        0.992
+      ],
+      "macro_acc_families_5plus": 0.991,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 1.0
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.935
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 1.0
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 1.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 1.0
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 1.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 1.0
+        }
+      }
+    },
+    "effnet_base/crop": {
+      "n": 133,
+      "acc": 0.376,
+      "ci95": [
+        0.298,
+        0.461
+      ],
+      "macro_acc_families_5plus": 0.396,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.13
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.725
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.231
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.4
+        }
+      }
+    },
+    "effnet_cand/crop": {
+      "n": 133,
+      "acc": 0.444,
+      "ci95": [
+        0.362,
+        0.528
+      ],
+      "macro_acc_families_5plus": 0.444,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.13
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.875
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.615
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.2
+        }
+      }
+    },
+    "effnet_real_aug/crop": {
+      "n": 133,
+      "acc": 0.511,
+      "ci95": [
+        0.427,
+        0.595
+      ],
+      "macro_acc_families_5plus": 0.485,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.348
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.825
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.1
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.538
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.3
+        }
+      }
+    },
+    "clip_head/aligned": {
+      "n": 133,
+      "acc": 0.947,
+      "ci95": [
+        0.895,
+        0.974
+      ],
+      "macro_acc_families_5plus": 0.978,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 1.0
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.848
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 1.0
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 1.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 1.0
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 1.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 1.0
+        }
+      }
+    },
+    "effnet_base/aligned": {
+      "n": 133,
+      "acc": 0.301,
+      "ci95": [
+        0.229,
+        0.383
+      ],
+      "macro_acc_families_5plus": 0.347,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.043
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.625
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.077
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.4
+        }
+      }
+    },
+    "effnet_cand/aligned": {
+      "n": 133,
+      "acc": 0.414,
+      "ci95": [
+        0.333,
+        0.499
+      ],
+      "macro_acc_families_5plus": 0.419,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.109
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.825
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.615
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.1
+        }
+      }
+    },
+    "effnet_real_aug/aligned": {
+      "n": 133,
+      "acc": 0.474,
+      "ci95": [
+        0.391,
+        0.558
+      ],
+      "macro_acc_families_5plus": 0.469,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.261
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.8
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.1
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.538
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.3
+        }
+      }
+    },
+    "clip_head/dial": {
+      "n": 133,
+      "acc": 0.947,
+      "ci95": [
+        0.895,
+        0.974
+      ],
+      "macro_acc_families_5plus": 0.978,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 1.0
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.848
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 1.0
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 1.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 1.0
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 1.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 1.0
+        }
+      }
+    },
+    "effnet_base/dial": {
+      "n": 133,
+      "acc": 0.383,
+      "ci95": [
+        0.305,
+        0.468
+      ],
+      "macro_acc_families_5plus": 0.422,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.286
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.109
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.725
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.231
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.6
+        }
+      }
+    },
+    "effnet_cand/dial": {
+      "n": 133,
+      "acc": 0.511,
+      "ci95": [
+        0.427,
+        0.595
+      ],
+      "macro_acc_families_5plus": 0.534,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.429
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.217
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.875
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.3
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.615
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.3
+        }
+      }
+    },
+    "effnet_real_aug/dial": {
+      "n": 133,
+      "acc": 0.541,
+      "ci95": [
+        0.457,
+        0.624
+      ],
+      "macro_acc_families_5plus": 0.577,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.571
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.304
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.825
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.2
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.538
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.6
+        }
+      }
+    },
+    "clip_head/avg(full,crop,dial)": {
+      "n": 133,
+      "acc": 0.992,
+      "ci95": [
+        0.959,
+        0.999
+      ],
+      "macro_acc_families_5plus": 0.997,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 1.0
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.978
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 1.0
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 1.0
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 1.0
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 1.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 1.0
+        }
+      }
+    },
+    "ensemble(clip_head+effnet_base)/crop": {
+      "n": 133,
+      "acc": 0.759,
+      "ci95": [
+        0.68,
+        0.824
+      ],
+      "macro_acc_families_5plus": 0.81,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.714
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.587
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.9
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.8
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.769
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.9
+        }
+      }
+    },
+    "ensemble(clip_head+effnet_base)/dial": {
+      "n": 133,
+      "acc": 0.744,
+      "ci95": [
+        0.664,
+        0.811
+      ],
+      "macro_acc_families_5plus": 0.833,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.857
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.457
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.95
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.8
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.769
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 1.0
+        }
+      }
+    },
+    "ensemble(clip_head+effnet_cand)/crop": {
+      "n": 133,
+      "acc": 0.714,
+      "ci95": [
+        0.632,
+        0.784
+      ],
+      "macro_acc_families_5plus": 0.757,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.571
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.457
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.95
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.7
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.923
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.7
+        }
+      }
+    },
+    "ensemble(clip_head+effnet_cand)/dial": {
+      "n": 133,
+      "acc": 0.677,
+      "ci95": [
+        0.593,
+        0.75
+      ],
+      "macro_acc_families_5plus": 0.73,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.857
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.413
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.95
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.6
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.692
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.6
+        }
+      }
+    },
+    "ensemble(clip_head+effnet_real_aug)/crop": {
+      "n": 133,
+      "acc": 0.759,
+      "ci95": [
+        0.68,
+        0.824
+      ],
+      "macro_acc_families_5plus": 0.752,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 0.714
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.652
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.95
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.6
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.846
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.5
+        }
+      }
+    },
+    "ensemble(clip_head+effnet_real_aug)/dial": {
+      "n": 133,
+      "acc": 0.744,
+      "ci95": [
+        0.664,
+        0.811
+      ],
+      "macro_acc_families_5plus": 0.817,
+      "per_family": {
+        "airking": {
+          "n": 7,
+          "acc": 1.0
+        },
+        "cellini": {
+          "n": 6,
+          "acc": 1.0
+        },
+        "datejust": {
+          "n": 46,
+          "acc": 0.478
+        },
+        "daytona": {
+          "n": 40,
+          "acc": 0.975
+        },
+        "explorer": {
+          "n": 10,
+          "acc": 0.8
+        },
+        "milgauss": {
+          "n": 13,
+          "acc": 0.769
+        },
+        "oysterquartz": {
+          "n": 1,
+          "acc": 0.0
+        },
+        "submariner": {
+          "n": 10,
+          "acc": 0.7
+        }
+      }
+    }
+  },
+  "real_cv": [
+    {
+      "weight": 0,
+      "acc": 0.699,
+      "ci95": [
+        0.617,
+        0.771
+      ],
+      "per_family": {
+        "airking": 0.86,
+        "cellini": 1.0,
+        "datejust": 0.48,
+        "daytona": 0.85,
+        "explorer": 0.8,
+        "milgauss": 0.69,
+        "oysterquartz": 0.0,
+        "submariner": 0.8
+      }
+    },
+    {
+      "weight": 10,
+      "acc": 0.789,
+      "ci95": [
+        0.713,
+        0.85
+      ],
+      "per_family": {
+        "airking": 0.86,
+        "cellini": 1.0,
+        "datejust": 0.67,
+        "daytona": 0.95,
+        "explorer": 0.8,
+        "milgauss": 0.77,
+        "oysterquartz": 0.0,
+        "submariner": 0.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-539Efz06c3pVBFVEGSSXiW
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\modal_train.py
+├── ✓ Created Function download_detector.
+├── ✓ Uploaded C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\src
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\data\processed\c
+│   lass_mapping.json
+├── ✓ Created Function crop_chunk.
+└── ✓ Created Function train_and_benchmark.
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  13%|█▎        | 154/1182 [00:00<00:00, 1439.67it/s]
+[1ALoading weights:  25%|██▌       | 298/1182 [00:00<00:00, 1395.11it/s]
+[1ALoading weights:  42%|████▏     | 496/1182 [00:00<00:00, 1643.45it/s]
+[1ALoading weights:  56%|█████▌    | 661/1182 [00:00<00:00, 1437.72it/s]
+[1ALoading weights:  68%|██████▊   | 809/1182 [00:00<00:00, 1228.39it/s]
+[1ALoading weights: 100%|██████████| 1182/1182 [00:00<00:00, 1895.79it/s]
+100 images processed
+200 images processed
+300 images processed
+400 images processed
+500 images processed
+600 images processed
+700 images processed
+800 images processed
+900 images processed
+1000 images processed
+{'label': 'airking', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 1059, 'cropped_no_dial': 14}}}
+100 images processed
+{'label': 'airking', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 117, 'cropped_no_dial': 3, 'no_watch_detected': 1}}}
+100 images processed
+{'label': 'airking', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 125, 'cropped_no_dial': 4}}}
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  37%|███▋      | 440/1182 [00:00<00:00, 4388.75it/s]
+[1ALoading weights:  76%|███████▌  | 900/1182 [00:00<00:00, 4495.82it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 5309.08it/s]
+100 images processed
+100 images processed
+200 images processed
+100 images processed
+300 images processed
+400 images processed
+100 images processed
+500 images processed
+200 images processed
+600 images processed
+300 images processed
+700 images processed
+400 images processed
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  28%|██▊       | 334/1182 [00:00<00:00, 3336.26it/s]
+[1ALoading weights:  57%|█████▋    | 668/1182 [00:00<00:00, 3221.81it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 4762.59it/s]
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  30%|██▉       | 351/1182 [00:00<00:00, 3469.03it/s]
+[1ALoading weights:  59%|█████▉    | 698/1182 [00:00<00:00, 3385.83it/s]
+[1ALoading weights:  88%|████████▊ | 1037/1182 [00:00<00:00, 3287.85it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 3313.21it/s]
+800 images processed
+500 images processed
+100 images processed
+100 images processed
+900 images processed
+600 images processed
+200 images processed
+200 images processed
+1000 images processed
+300 images processed
+700 images processed
+300 images processed
+1100 images processed
+400 images processed
+800 images processed
+400 images processed
+{'label': 'cellini', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 1018, 'cropped_no_dial': 147}}}
+{'label': 'cellini', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 111, 'cropped_no_dial': 22}}}
+{'label': 'cellini', 'split': 'test', 'counts': {'test': {'cropped_no_dial': 18, 'cropped_with_dial': 127}}}
+500 images processed
+900 images processed
+500 images processed
+100 images processed
+600 images processed
+1000 images processed
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  29%|██▉       | 342/1182 [00:00<00:00, 3419.33it/s]
+[1ALoading weights:  58%|█████▊    | 684/1182 [00:00<00:00, 3116.54it/s]
+[1ALoading weights:  84%|████████▍ | 998/1182 [00:00<00:00, 3060.68it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 3428.07it/s]
+200 images processed
+1100 images processed
+100 images processed
+300 images processed
+100 images processed
+100 images processed
+1200 images processed
+200 images processed
+400 images processed
+100 images processed
+100 images processed
+1300 images processed
+300 images processed
+500 images processed
+200 images processed
+1400 images processed
+400 images processed
+100 images processed
+600 images processed
+300 images processed
+1500 images processed
+500 images processed
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  30%|███       | 356/1182 [00:00<00:00, 3500.19it/s]
+[1ALoading weights:  65%|██████▍   | 768/1182 [00:00<00:00, 3850.14it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 3965.56it/s]
+100 images processed
+700 images processed
+400 images processed
+1600 images processed
+600 images processed
+100 images processed
+500 images processed
+1700 images processed
+100 images processed
+700 images processed
+100 images processed
+200 images processed
+600 images processed
+1800 images processed
+800 images processed
+100 images processed
+300 images processed
+700 images processed
+1900 images processed
+100 images processed900 images processed
+
+400 images processed
+800 images processed
+2000 images processed
+100 images processed
+200 images processed
+100 images processed
+500 images processed
+900 images processed
+200 images processed
+2100 images processed
+300 images processed
+200 images processed
+600 images processed
+2200 images processed
+400 images processed
+100 images processed
+700 images processed
+2300 images processed
+100 images processed
+500 images processed
+200 images processed
+800 images processed
+100 images processed
+200 images processed
+2400 images processed
+600 images processed
+300 images processed
+900 images processed
+200 images processed
+300 images processed
+2500 images processed
+700 images processed
+400 images processed
+1000 images processed
+100 images processed
+400 images processed
+100 images processed
+800 images processed
+1100 images processed
+2600 images processed
+500 images processed
+200 images processed
+1200 images processed
+900 images processed
+2700 images processed
+600 images processed
+1300 images processed
+300 images processed
+1000 images processed
+2800 images processed
+700 images processed
+100 images processed
+400 images processed
+1100 images processed
+2900 images processed
+100 images processed
+800 images processed
+200 images processed
+1200 images processed
+3000 images processed
+100 images processed
+900 images processed
+300 images processed
+1300 images processed
+3100 images processed
+1000 images processed
+400 images processed
+1400 images processed
+3200 images processed
+1100 images processed
+500 images processed
+1500 images processed
+1200 images processed
+3300 images processed
+600 images processed
+1300 images processed
+1600 images processed
+3400 images processed
+700 images processed
+1400 images processed
+1700 images processed
+3500 images processed
+800 images processed
+1500 images processed
+1800 images processed
+3600 images processed
+900 images processed
+1900 images processed
+3700 images processed
+2000 images processed
+3800 images processed
+2100 images processed
+3900 images processed
+2200 images processed
+4000 images processed
+2300 images processed
+4100 images processed
+2400 images processed
+4200 images processed
+2500 images processed
+4300 images processed
+4400 images processed
+4500 images processed
+4600 images processed
+4700 images processed
+4800 images processed
+4900 images processed
+5000 images processed
+5100 images processed
+5200 images processed
+5300 images processed
+5400 images processed
+5500 images processed
+5600 images processed
+5700 images processed
+5800 images processed
+5900 images processed
+6000 images processed
+6100 images processed
+6200 images processed
+6300 images processed
+{'label': 'datejust', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 6160, 'cropped_no_dial': 158}}}
+{'label': 'datejust', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 622, 'cropped_no_dial': 14}}}
+{'label': 'datejust', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 584, 'cropped_no_dial': 13}}}
+{'label': 'daytona', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 759, 'cropped_no_dial': 8}}}
+{'label': 'daytona', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 93}}}
+{'label': 'daytona', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 90, 'cropped_no_dial': 2}}}
+{'label': 'explorer', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 918}}}
+{'label': 'explorer', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 103}}}
+{'label': 'explorer', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 103}}}
+{'label': 'gmt_master', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 964, 'cropped_no_dial': 1}}}
+{'label': 'gmt_master', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 121}}}
+{'label': 'gmt_master', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 111}}}
+{'label': 'milgauss', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 155, 'cropped_no_dial': 1}}}
+{'label': 'milgauss', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 18}}}
+{'label': 'milgauss', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 19}}}
+{'label': 'oyster_perpetual', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 1323, 'cropped_no_dial': 31}}}
+{'label': 'oyster_perpetual', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 121, 'cropped_no_dial': 4}}}
+{'label': 'oyster_perpetual', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 125, 'cropped_no_dial': 3}}}
+{'label': 'oysterquartz', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 162, 'cropped_no_dial': 1}}}
+{'label': 'oysterquartz', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 21, 'cropped_no_dial': 2}}}
+{'label': 'oysterquartz', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 20}}}
+{'label': 'president', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 2441, 'cropped_no_dial': 64}}}
+{'label': 'president', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 276, 'cropped_no_dial': 7}}}
+{'label': 'president', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 242, 'cropped_no_dial': 5}}}
+{'label': 'sea_dweller', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 400, 'cropped_no_dial': 2}}}
+{'label': 'sea_dweller', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 51}}}
+{'label': 'sea_dweller', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 55}}}
+{'label': 'submariner', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 1595}}}
+{'label': 'submariner', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 204}}}
+{'label': 'submariner', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 189}}}
+{'label': 'turn_o_graph', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 445, 'cropped_no_dial': 2}}}
+{'label': 'turn_o_graph', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 52}}}
+{'label': 'turn_o_graph', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 48}}}
+{'label': 'yacht_master', 'split': 'train', 'counts': {'train': {'cropped_with_dial': 997, 'cropped_no_dial': 1}}}
+{'label': 'yacht_master', 'split': 'val', 'counts': {'val': {'cropped_with_dial': 113}}}
+{'label': 'yacht_master', 'split': 'test', 'counts': {'test': {'cropped_with_dial': 123}}}
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+WARNING: Logs may not be continuous
+$ /usr/local/bin/python -m src.training.train --data-root /tmp/crops --epochs 10 --batch-size 32 --device cuda --balance loss --num-workers 4 --output /tmp/out/candidate.pt
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to /root/.cache/torch/hub/checkpoints/efficientnet_b0_rwightman-7f5810bc.pth
+
+[1A  0%|          | 0.00/20.5M [00:00<?, ?B/s]
+[1A 69%|██████▉   | 14.1M/20.5M [00:00<00:00, 148MB/s]100%|██████████| 20.5M/20.5M [00:00<00:00, 164MB/s]
+class counts: {'airking': 1073, 'cellini': 1165, 'datejust': 6318, 'daytona': 767, 'explorer': 918, 'gmt_master': 965, 'milgauss': 156, 'oyster_perpetual': 1354, 'oysterquartz': 163, 'president': 2505, 'sea_dweller': 402, 'submariner': 1595, 'turn_o_graph': 447, 'yacht_master': 998}
+epoch = 1 train_loss = 0.6944 train_acc = 0.8285 val_loss = 0.1370 val_acc = 0.9610
+epoch = 2 train_loss = 0.1383 train_acc = 0.9587 val_loss = 0.0505 val_acc = 0.9870
+epoch = 3 train_loss = 0.0879 train_acc = 0.9749 val_loss = 0.0530 val_acc = 0.9851
+epoch = 4 train_loss = 0.0681 train_acc = 0.9782 val_loss = 0.0398 val_acc = 0.9894
+epoch = 5 train_loss = 0.0542 train_acc = 0.9829 val_loss = 0.0284 val_acc = 0.9928
+epoch = 6 train_loss = 0.0443 train_acc = 0.9862 val_loss = 0.0255 val_acc = 0.9923
+epoch = 7 train_loss = 0.0389 train_acc = 0.9868 val_loss = 0.0255 val_acc = 0.9937
+epoch = 8 train_loss = 0.0331 train_acc = 0.9885 val_loss = 0.0222 val_acc = 0.9947
+epoch = 9 train_loss = 0.0323 train_acc = 0.9897 val_loss = 0.0229 val_acc = 0.9942
+epoch = 10 train_loss = 0.0285 train_acc = 0.9896 val_loss = 0.0231 val_acc = 0.9957
+$ /usr/local/bin/python -m src.training.benchmark --data-root /tmp/crops --checkpoint /tmp/out/candidate.pt --device cuda --check-leakage --json-out /tmp/out/candidate_metrics.json --md-out /tmp/out/benchmark_candidate.md
+top1=0.9945 top3=0.9990 macro_f1=0.9916 ece=0.0029
+wrote /tmp/out/candidate_metrics.json and /tmp/out/benchmark_candidate.md
+$ /usr/local/bin/python -m src.training.benchmark --data-root /tmp/crops --checkpoint models/rolex_classifier_model.pt --device cuda --check-leakage --json-out /tmp/out/baseline_grouped_metrics.json --md-out /tmp/out/benchmark_baseline_grouped.md
+top1=0.9945 top3=0.9995 macro_f1=0.9940 ece=0.0062
+wrote /tmp/out/baseline_grouped_metrics.json and /tmp/out/benchmark_baseline_grouped.md
+wrote C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models\candidate.pt
+wrote C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\benchmarks\candidate_metrics.json
+wrote C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\benchmarks\baseline_grouped_metrics.json
+wrote C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\benchmarks\crop_report.json
+wrote C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\docs\benchmark_candidate.md
+wrote C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\docs\benchmark_baseline_grouped.md
+✓ App completed. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-539Efz06c3pVBFVEGSSXiW

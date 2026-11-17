@@ -1,0 +1,19 @@
+743 labelled test photos
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 23883.10it/s]
+0/743
+100/743
+200/743
+300/743
+400/743
+500/743
+600/743
+700/743
+# Variant matching benchmark
+
+743 retailer test photos whose file name names a reference number that belongs to exactly one catalog variant. Family is given (oracle), so this measures the CLIP text-prompt step only. Dial crops, as the site uses them. Labels come from file names, so a few are wrong. Studio photos, so real photos will score lower.
+
+**Top-1: 53.7%** (random guess 17.8%). **Top-3: 87.9%** (random guess 52.2%).
+
+| Family | Photos | Variants | Top-1 | Top-3 |
+|---|---|---|---|---|

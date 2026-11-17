@@ -186,7 +186,7 @@ def variants():
 
 
 @app.function(image=image, gpu="L4", cpu=4, memory=16384, timeout=2 * 3600, volumes={DATA: volume}, secrets=[hf_secret])
-def eval_real() -> dict:
+def eval_real(folder: str = "real", out_name: str = "real", known_only: bool = True) -> dict:
     """Detect, crop, align and dial-crop every real photo, then save embeddings and EfficientNet probabilities."""
     import numpy as np
     import torch
@@ -213,15 +213,15 @@ def eval_real() -> dict:
             net.load_state_dict(ckpt["model_state_dict"])
             nets[tag] = net.eval()
 
-    files = sorted(p for p in Path(f"{DATA}/real").glob("*/*.jpg") if p.parent.name in index)
+    files = sorted(p for p in Path(f"{DATA}/{folder}").glob("*/*.jpg") if (p.parent.name in index or not known_only))
     rec = {"files": [], "labels": [], "detected": [], "emb": [], **{f"eff_{t}": [] for t in nets}}
     for n, path in enumerate(files):
         img = ImageOps.exif_transpose(Image.open(path)).convert("RGB")
         final, info, stages = crop_watch_stages(img)
         detected = info.get("reason") != "no_watch_detected"
         views = [img, stages.get("crop", img), stages.get("aligned", img), stages.get("dial", img)] if detected else [img] * 4
-        rec["files"].append(str(path.relative_to(f"{DATA}/real")))
-        rec["labels"].append(index[path.parent.name])
+        rec["files"].append(str(path.relative_to(f"{DATA}/{folder}")))
+        rec["labels"].append(index.get(path.parent.name, -1))
         rec["detected"].append(detected)
         rec["emb"].append(embed(views, clip, "cuda"))
         batch = torch.stack([tf(v) for v in views]).to("cuda")
@@ -233,7 +233,7 @@ def eval_real() -> dict:
     out = Path(f"{DATA}/features")
     out.mkdir(exist_ok=True)
     np.savez(
-        out / "real.npz", files=np.array(rec["files"]), labels=np.array(rec["labels"]), detected=np.array(rec["detected"]),
+        out / f"{out_name}.npz", files=np.array(rec["files"]), labels=np.array(rec["labels"]), detected=np.array(rec["detected"]),
         emb=np.stack(rec["emb"]).astype("float16"),
         **{f"eff_{t}": np.stack(rec[f"eff_{t}"]) for t in nets},
     )
@@ -310,3 +310,10 @@ def features(n_aug: int = 2):
 @app.local_entrypoint()
 def real():
     print(eval_real.remote())
+
+
+@app.local_entrypoint()
+def other():
+    """Embeddings of non-Rolex watch photos (label -1), for unknown-watch handling.
+    Setup: modal volume put -f rolex-training-data data/otherwatches/test /other"""
+    print(eval_real.remote("other", "other", False))

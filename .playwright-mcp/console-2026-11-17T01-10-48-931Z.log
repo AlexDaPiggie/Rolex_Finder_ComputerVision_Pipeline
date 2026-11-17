@@ -1,0 +1,5 @@
+[     818ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5210/node_modules/.vite/deps/react-dom_client.js?v=3380e63b:14336
+[    1644ms] [ERROR] Access to fetch at 'https://alexdapiggie--rolex-watch-recognizer-rolexwatchapi-web.modal.run/health' from origin 'http://localhost:5210' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:5210/:1
+[    1645ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://alexdapiggie--rolex-watch-recognizer-rolexwatchapi-web.modal.run/health:1
+[    1839ms] [ERROR] Access to fetch at 'https://alexdapiggie--rolex-watch-recognizer-rolexwatchapi-web.modal.run/health' from origin 'http://localhost:5210' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:5210/:1
+[    1839ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://alexdapiggie--rolex-watch-recognizer-rolexwatchapi-web.modal.run/health:1

@@ -1,0 +1,53 @@
+- generic [ref=f1e2]:
+  - navigation [ref=f1e3]:
+    - button "Home" [ref=f1e4] [cursor=pointer]
+    - button "Authors" [ref=f1e5] [cursor=pointer]
+  - main [ref=f1e6]:
+    - complementary [ref=f1e7]:
+      - generic [ref=f1e8]:
+        - heading "ROLEX Finder" [level=1] [ref=f1e9]:
+          - generic [ref=f1e10]: ROLEX
+          - text: Finder
+        - generic [ref=f1e11]:
+          - paragraph [ref=f1e18]: Ctrl + V to paste, or drop a photo
+          - generic [ref=f1e19]: or
+          - button "Browse File" [ref=f1e20] [cursor=pointer]
+        - button "FIND" [disabled] [ref=f1e21]
+        - paragraph [ref=f1e22]: The server is waking up. The first scan can take up to 45 seconds.
+        - generic [ref=f1e23]:
+          - paragraph [ref=f1e24]: No photo to hand? Try a sample.
+          - generic [ref=f1e25]:
+            - 'button "Sample: Daytona" [ref=f1e26] [cursor=pointer]'
+            - 'button "Sample: Cellini" [ref=f1e27] [cursor=pointer]'
+            - 'button "Sample: Datejust" [ref=f1e28] [cursor=pointer]'
+            - 'button "Sample: Submariner" [ref=f1e29] [cursor=pointer]'
+            - 'button "Sample: Air-King" [ref=f1e30] [cursor=pointer]'
+          - generic [ref=f1e31]:
+            - text: Open-licence photos.
+            - link "Credits" [ref=f1e32] [cursor=pointer]:
+              - /url: /examples/credits.html
+    - generic [ref=f1e34]:
+      - heading "Find the closest Rolex model." [level=2] [ref=f1e35]
+      - paragraph [ref=f1e36]: Paste or drop a photo on the left, or try a sample. You get the model family and the closest reference numbers.
+      - generic [ref=f1e37]:
+        - heading "How it works" [level=3] [ref=f1e38]
+        - generic [ref=f1e39]:
+          - generic [ref=f1e40]:
+            - paragraph [ref=f1e41]: A detector finds the watch in your photo and crops the dial. A vision model (CLIP) turns the crop into a set of numbers. A small trained layer picks the family, such as Submariner or Datejust.
+            - paragraph [ref=f1e42]: The same numbers are then compared with the catalog of 95 variants, so the answer comes with reference numbers you can search. A first scan can take up to 45 seconds while the server wakes up. After that it takes about a second.
+          - 'img "Result page for a sample photo: family name, a Strong match label, and the closest variants with reference numbers" [ref=f1e43]'
+      - generic [ref=f1e44]:
+        - heading "How well it works" [level=3] [ref=f1e45]
+        - table [ref=f1e46]:
+          - rowgroup [ref=f1e47]:
+            - row [ref=f1e48]:
+              - cell "Studio photos from shops (test set)" [ref=f1e49]
+              - cell "96% right family" [ref=f1e50]
+            - row [ref=f1e51]:
+              - cell "Real photos from Wikimedia Commons and Flickr (273)" [ref=f1e52]
+              - cell "71% right family" [ref=f1e53]
+        - paragraph [ref=f1e54]: "Real photos are harder: wrists, shop windows, angles and glare. The model is weakest on Oyster Perpetual and President, and it sometimes mixes up Submariner and Sea-Dweller. Variants were only measured well on shop photos. Treat every answer as the closest estimate, then check it with Google Images or a dealer."
+      - paragraph [ref=f1e55]:
+        - text: "Best results: one clear, front-facing photo with the dial, bezel and bracelet in view."
+        - link "About this project" [ref=f1e56] [cursor=pointer]:
+          - /url: https://github.com/AlexDaPiggie/Rolex_Finder_ComputerVision_Pipeline

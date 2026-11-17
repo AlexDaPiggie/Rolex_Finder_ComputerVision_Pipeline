@@ -1,0 +1,982 @@
+[
+{
+"file": "data/commons/explorer/Rolex_Explorer_2.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.8448175191879272,
+"status": null
+},
+{
+"file": "data/commons/explorer/Rolex_Explorer_II_del_1972_ref._1655_ribattezzato_Freccione_.jpg",
+"family": "explorer",
+"pred": "milgauss",
+"conf": 0.6370576024055481,
+"status": null
+},
+{
+"file": "data/commons/explorer/Rolex_Explorer_II_edited_.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.38869208097457886,
+"status": null
+},
+{
+"file": "data/commons/explorer/Rolex_Explorer_II_ref._16550_Pannone_met_anni_Ottanta.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.6286890506744385,
+"status": null
+},
+{
+"file": "data/commons/explorer/Rolex_Explorer_ref._5500_con_quadrante_Gilt.jpg",
+"family": "explorer",
+"pred": "oysterquartz",
+"conf": 0.5390661358833313,
+"status": null
+},
+{
+"file": "data/commons/explorer/Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.8487791419029236,
+"status": null
+},
+{
+"file": "data/commons/explorer/Rolex_Oyster_Perpetual_ref._116000_con_quadrante_Explorer.jpg",
+"family": "explorer",
+"pred": "datejust",
+"conf": 0.42376232147216797,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Manual-winding_wristwatch.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.35757046937942505,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Museo_del_Bicentenario_-_Reloj_de_Carlos_Menem_Jr..jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.79252028465271,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex-GMT-Master-II-Batgirl.jpg",
+"family": "gmt_master",
+"pred": "submariner",
+"conf": 0.27844586968421936,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT-Master_II_ref._126713GRNR.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.6455033421516418,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT-Master_II_ref._16710_Coke.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.7617424726486206,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT-Master_ref._1675_Pink_Panther_.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.7641686797142029,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT-Master_ref._1675_con_quadrante_sottolineato_e_spallette_proteggi_corona_a_punta._Anni_Sessanta..jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.9330018758773804,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMTIIC.jpg",
+"family": "gmt_master",
+"pred": "submariner",
+"conf": 0.3762631118297577,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.6437756419181824,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II_-_16710_without_background_.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.7218895554542542,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II_-_16710_without_background_cropped_to_casing_.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.8887562155723572,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II_-_Watch_of_Carlos_Menem_Jr._-_Museo_del_Bicentenario.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.8902187943458557,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II_116710BLNR_Batman.jpg",
+"family": "gmt_master",
+"pred": "explorer",
+"conf": 0.7856147289276123,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II_4657617812_.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.4704727530479431,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II_Pepsi.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.4175806939601898,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_II_ref._16710T.jpg",
+"family": "gmt_master",
+"pred": "explorer",
+"conf": 0.6086511611938477,
+"status": null
+},
+{
+"file": "data/commons/gmt_master/Rolex_GMT_Master_I_anni_80.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.6978460550308228,
+"status": null
+},
+{
+"file": "data/commons/oyster_perpetual/Quadrante_Med_Blue_del_Rolex_Oyster_Perpetual_ref._126000.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.48286688327789307,
+"status": null
+},
+{
+"file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_34_ref._124200_con_bracciale_Oyster_e_lunetta_liscia.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.7309033274650574,
+"status": null
+},
+{
+"file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_con_quadrante_Celebration.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.5861127972602844,
+"status": null
+},
+{
+"file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_ref._6564_fine_anni_50.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.7080088257789612,
+"status": null
+},
+{
+"file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_with_a_Jubliee_dial.jpg",
+"family": "oyster_perpetual",
+"pred": "milgauss",
+"conf": 0.7621647715568542,
+"status": null
+},
+{
+"file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-10_.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.25679951906204224,
+"status": null
+},
+{
+"file": "data/commons/president/Rolex_Day-Date_contraffatto_risalente_agli_anni_80.jpg",
+"family": "president",
+"pred": "president",
+"conf": 0.932678759098053,
+"status": null
+},
+{
+"file": "data/commons/president/Rolex_Day-Date_quadrante_Puzzle.jpg",
+"family": "president",
+"pred": "datejust",
+"conf": 0.7804717421531677,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Fully_diamond_covered_ROLEX_DeepSea_Sea-Dweller_watch_customized_bu_TraxNYC.jpg",
+"family": "sea_dweller",
+"pred": "explorer",
+"conf": 0.19487425684928894,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Comex_Sea_Dweller.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.8788983821868896,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Deepsea_Black_Dial_16660.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.8844684958457947,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Deepsea_Oyster_Perpetual_Reference_code_116660.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.7601311206817627,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.8098902702331543,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_cropped_and_turned_.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.9435096979141235,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_without_background_upright_.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.9794872403144836,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Sea-Dweller_ref._16600_di_fine_anni_Ottanta_privo_della_lente_magnificatrice..jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.6494719982147217,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_Sea_Dweller_16600.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.8159976005554199,
+"status": null
+},
+{
+"file": "data/commons/sea_dweller/Rolex_deepsea.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.55977863073349,
+"status": null
+},
+{
+"file": "data/commons/turn_o_graph/Il_Rolex_Turn-O-Graph_stato_il_primo_Rolex_ad_essere_dotato_di_una_ghiera_girevole.jpg",
+"family": "turn_o_graph",
+"pred": "turn_o_graph",
+"conf": 0.473701536655426,
+"status": null
+},
+{
+"file": "data/commons/yacht_master/P1010380.jpg",
+"family": "yacht_master",
+"pred": "yacht_master",
+"conf": 0.5109565258026123,
+"status": null
+},
+{
+"file": "data/commons/yacht_master/Rolex_Yacht-Master_II_ref._116688_risalente_al_2007.jpg",
+"family": "yacht_master",
+"pred": "yacht_master",
+"conf": 0.658469021320343,
+"status": null
+},
+{
+"file": "data/commons/yacht_master/Rolex_Yachtmaster_II_116680.jpg",
+"family": "yacht_master",
+"pred": "daytona",
+"conf": 0.6008837223052979,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/463b0b38-8fb9-4e4d-80e5-7c7630df3e31.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.5599890947341919,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/628b3d7e-c862-4817-96d3-1accffa14aa7.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.429359495639801,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/7d7d0231-d09c-42cb-a4b8-7bcaa5c8be4d.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.6090572476387024,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/91539b40-6aa4-4cb5-a59d-1b85f6730deb.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.83235764503479,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/c1e63d63-c3f9-47cd-a2c5-e2c6a61b769c.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.8394768238067627,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/cc0ace93-9879-4985-82f6-0e0af59ee569.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.7766790390014648,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/e2c7e67f-936c-4835-bf05-3e00ec923bd4.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.5654647946357727,
+"status": null
+},
+{
+"file": "data/realworld/test/datejust/eab58dd4-7210-4c8f-9364-98e8a79c0ea1.jpg",
+"family": "datejust",
+"pred": "datejust",
+"conf": 0.7964556217193604,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/208f4f29-99aa-4d4f-8955-d7cfd207b416.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.1850428283214569,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/2c093368-666f-47b2-9cdf-bd881c45ad34.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.8726931810379028,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/92cdc9aa-ff0a-46b5-bfc2-5668fcc61ab3.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.7692657709121704,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/a06cd4b9-71ce-4b4f-8ef4-dd0d9959ef95.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.6353840231895447,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/b77a4990-6750-4e42-93b3-205acdd82ec2.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.7414882779121399,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/b9a8c58e-f5fc-4b38-b2a0-2029250dd6fc.jpg",
+"family": "explorer",
+"pred": "datejust",
+"conf": 0.45320528745651245,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/bb0a5305-21c7-44ad-a163-964d409248bb.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.7444829940795898,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/c73815ce-1694-4172-95d7-174349dc9f46.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.8201009631156921,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/d8667463-90fd-485a-ae69-d8aa50368ea9.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.9144058227539062,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/ed43150f-a33d-42ca-a1b9-2c03da5c0890.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.9182303547859192,
+"status": null
+},
+{
+"file": "data/realworld/test/explorer/edf1a35c-244b-4dd1-a940-104ec869ed78.jpg",
+"family": "explorer",
+"pred": "explorer",
+"conf": 0.5618193745613098,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/2bc637d8-2de5-4849-8faa-de54b4dd7c75.jpg",
+"family": "gmt_master",
+"pred": "daytona",
+"conf": 0.836847186088562,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/3761d67c-b15e-4ad3-a1db-376929fae725.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.9039114117622375,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/498476bc-ec18-4103-be7f-327a2d464ff6.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.3435765206813812,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/4984cb6f-d9e6-4909-a768-4c2570a7eb19.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.9134608507156372,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/50330275-2a1d-4780-8f87-5535090457be.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.8928673267364502,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/5cf240e0-9c10-43d4-abb5-a21c19590e61.jpg",
+"family": "gmt_master",
+"pred": "submariner",
+"conf": 0.5612364411354065,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/6574e69c-bdf5-41f5-a5db-27ebb3be29c3.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.8911430239677429,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/79c36888-1209-42a5-b10c-2ac2e32f55de.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.4875431954860687,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/a41718c9-3f69-4303-bc60-76d0c55471c3.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.6909162998199463,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/ab1158cd-c6df-4fcc-b633-a4a3f8f02e8c.jpg",
+"family": "gmt_master",
+"pred": "explorer",
+"conf": 0.38738390803337097,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/bfd507ca-8a30-4f5f-b5d2-814904b563a3.jpg",
+"family": "gmt_master",
+"pred": "submariner",
+"conf": 0.27844586968421936,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/d74b6df8-b0ee-41b0-9716-5a633550a2c0.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.5020536184310913,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/f5019799-d306-41a8-aba6-09d46adc1168.jpg",
+"family": "gmt_master",
+"pred": "submariner",
+"conf": 0.7522844672203064,
+"status": null
+},
+{
+"file": "data/realworld/test/gmt_master/f8ad25aa-04b2-4a4c-ba61-71f8eb87e3f2.jpg",
+"family": "gmt_master",
+"pred": "gmt_master",
+"conf": 0.8574395179748535,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/1eab1f04-6eb9-48d2-95d0-d6803dd70c3a.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.7589699625968933,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/32f79274-30e3-41ce-a482-95a8978d534c.jpg",
+"family": "oyster_perpetual",
+"pred": "cellini",
+"conf": 0.2375785857439041,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/3d2b11b2-128f-4d09-a7d9-e5bd690ee2a8.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.2607216238975525,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/740f967c-78dc-4b01-a673-1d349cc7371d.jpg",
+"family": "oyster_perpetual",
+"pred": "explorer",
+"conf": 0.41766396164894104,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/7a9c9800-9b02-41e6-9ea6-47036b2ef907.jpg",
+"family": "oyster_perpetual",
+"pred": "milgauss",
+"conf": 0.3491910696029663,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/814455e5-7de4-40fb-a5ee-86f7558daf52.jpg",
+"family": "oyster_perpetual",
+"pred": "datejust",
+"conf": 0.404795378446579,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/b9ee1c18-b7fb-4cc6-ab21-42d2052bd636.jpg",
+"family": "oyster_perpetual",
+"pred": "president",
+"conf": 0.19750025868415833,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/da3639e8-29b7-468a-a3e6-be3f2239634f.jpg",
+"family": "oyster_perpetual",
+"pred": "milgauss",
+"conf": 0.43444815278053284,
+"status": null
+},
+{
+"file": "data/realworld/test/oyster_perpetual/dfdb463a-c14d-40bf-836a-cd712bf58e5e.jpg",
+"family": "oyster_perpetual",
+"pred": "daytona",
+"conf": 0.33679667115211487,
+"status": null
+},
+{
+"file": "data/realworld/test/president/00276436-92a1-47cd-93fc-b8d1eec0d5dd.jpg",
+"family": "president",
+"pred": "president",
+"conf": 0.46814098954200745,
+"status": null
+},
+{
+"file": "data/realworld/test/president/1458b3e7-1d29-4492-8edd-7fb179562e91.jpg",
+"family": "president",
+"pred": "president",
+"conf": 0.9231847524642944,
+"status": null
+},
+{
+"file": "data/realworld/test/president/707427ac-71a2-4234-a899-0ae8a1eb2b1e.jpg",
+"family": "president",
+"pred": "datejust",
+"conf": 0.5492591857910156,
+"status": null
+},
+{
+"file": "data/realworld/test/president/86de533f-1e3d-443d-9492-28bee6cb646e.jpg",
+"family": "president",
+"pred": "president",
+"conf": 0.6014443039894104,
+"status": null
+},
+{
+"file": "data/realworld/test/president/90e69238-0826-4044-9cf0-7f41a3aa2a5e.jpg",
+"family": "president",
+"pred": "daytona",
+"conf": 0.6318545341491699,
+"status": null
+},
+{
+"file": "data/realworld/test/president/bc3de0d4-cccc-4667-ad72-087c9c3eb565.jpg",
+"family": "president",
+"pred": "datejust",
+"conf": 0.25630810856819153,
+"status": null
+},
+{
+"file": "data/realworld/test/president/e1a4b776-b51c-46dd-a98d-7b50e57af837.jpg",
+"family": "president",
+"pred": "oysterquartz",
+"conf": 0.8470077514648438,
+"status": null
+},
+{
+"file": "data/realworld/test/president/f44ea304-b041-46b3-8d72-46b8c72d9e86.jpg",
+"family": "president",
+"pred": "datejust",
+"conf": 0.6889863014221191,
+"status": null
+},
+{
+"file": "data/realworld/test/president/f673ea41-a718-488d-ae59-7fc5d5d12b45.jpg",
+"family": "president",
+"pred": "oysterquartz",
+"conf": 0.44292470812797546,
+"status": null
+},
+{
+"file": "data/realworld/test/president/ff7fef20-888b-4508-b370-8501090e03db.jpg",
+"family": "president",
+"pred": "datejust",
+"conf": 0.5058944225311279,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/2c7a3293-07b8-415b-b3e5-61908b4dec69.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.5527806878089905,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/3a0f4524-8d2a-4a7c-8f7e-87c91c2d7e23.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.48028653860092163,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/3b0c7bf4-34b6-47e1-b56f-277ee1cf1ef8.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.5277969837188721,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/3f8b6b33-5c00-4974-ac16-c7c70b915bcd.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.3644113838672638,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/5a2dde29-222f-4cc0-880b-c111a2f88030.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.8899144530296326,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/634b9cdf-30d5-4c63-9ba8-cba71773a273.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.55977863073349,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/6a36e625-ab29-4121-ac9e-596773193f7a.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.5913967490196228,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/7310fd2d-3f73-4157-87cb-d48375314adb.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.8149513602256775,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/75d8a9b3-f96f-41b2-bb59-250390f2a793.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.6668267250061035,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/792d8874-c820-40a2-b0e0-5cbf54e0cd19.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.37462347745895386,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/a544069b-44db-4717-82e6-8b47db8542e1.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.8196123838424683,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/ab44cefe-86dc-4d0b-ac0a-3fff3ca05f8f.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.9588931202888489,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/b4b5c39c-320d-4ec2-ac52-5dbd5aff24ad.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.5725319385528564,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/ba6b7c33-8304-4b64-9f8b-095bdc149bf3.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.3598218858242035,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/c2ff9dcc-38de-4cd7-9504-b3d08d22b9cf.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.9665477275848389,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/c95d9af1-cb38-4fda-9650-d0164f5dfb9f.jpg",
+"family": "sea_dweller",
+"pred": "sea_dweller",
+"conf": 0.5057910084724426,
+"status": null
+},
+{
+"file": "data/realworld/test/sea_dweller/e8c6f66c-1905-4021-821e-4a021ab6c5d6.jpg",
+"family": "sea_dweller",
+"pred": "submariner",
+"conf": 0.7578290104866028,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/0003a0ac-6398-47fa-a56d-89ab8f33ad6c.jpg",
+"family": "submariner",
+"pred": "daytona",
+"conf": 0.27976134419441223,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/0633b397-1e71-49d3-a41d-bc8a4a51480b.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.4572274386882782,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/066223a6-41a6-43d7-afa8-8e74e82e81fd.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.5513583421707153,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/377fccc0-4c4f-457f-b916-7b10d462fdf1.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.5878775119781494,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/4b9f7e3b-7281-4495-b762-684867c9ae1c.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.7683826088905334,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/7ce4f92f-7aad-422c-9f8f-cd78fe50843a.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.7718454003334045,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/98de767a-6f4c-4644-95ca-1788898704b5.jpg",
+"family": "submariner",
+"pred": "explorer",
+"conf": 0.29716601967811584,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/9a7f3b1d-3a4a-45f1-b2be-79736b8ccbe9.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.6984200477600098,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/b51b63c0-8151-4944-8450-dfb0da72b14a.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.7826370000839233,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/c57b25ca-dde9-4da6-a375-addc56911a82.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.5243756175041199,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/d8dcf251-cf48-4301-af00-c9fd3971841a.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.8799968957901001,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/da73750f-f1ef-4ab1-afc0-acab996c12fe.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.5875400900840759,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/db21e4f5-372d-4ac0-8cb6-26576c9a530f.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.7530703544616699,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/dd37f401-2079-4501-b391-26c2a7d512ab.jpg",
+"family": "submariner",
+"pred": "president",
+"conf": 0.4282970130443573,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/e930f08f-3e3a-4be3-b2d7-3fd47a602e52.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.9042984843254089,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/ee952353-39c0-4781-b193-f18a47a3b439.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.9528388977050781,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/f87db89e-9d42-4081-a7ed-fa8263ece898.jpg",
+"family": "submariner",
+"pred": "submariner",
+"conf": 0.7589828372001648,
+"status": null
+},
+{
+"file": "data/realworld/test/submariner/fe63fef2-9d39-4090-b209-6b1855ba736c.jpg",
+"family": "submariner",
+"pred": "daytona",
+"conf": 0.522246778011322,
+"status": null
+},
+{
+"file": "data/realworld/test/turn_o_graph/386e1c91-61e0-449a-8f65-9c13f5a531ac.jpg",
+"family": "turn_o_graph",
+"pred": "oyster_perpetual",
+"conf": 0.31667622923851013,
+"status": null
+},
+{
+"file": "data/realworld/test/turn_o_graph/58f30458-4106-4fa5-876d-4c0597b63e36.jpg",
+"family": "turn_o_graph",
+"pred": "datejust",
+"conf": 0.5000813007354736,
+"status": null
+},
+{
+"file": "data/realworld/test/turn_o_graph/64ffd7fa-6264-4c4d-9814-038cb5904142.jpg",
+"family": "turn_o_graph",
+"pred": "datejust",
+"conf": 0.6898495554924011,
+"status": null
+},
+{
+"file": "data/realworld/test/turn_o_graph/b5d1a872-1f16-4369-9a76-698a9730e229.jpg",
+"family": "turn_o_graph",
+"pred": "turn_o_graph",
+"conf": 0.473701536655426,
+"status": null
+},
+{
+"file": "data/realworld/test/yacht_master/3262abcf-cd7f-4b8f-a4c8-52db55216d02.jpg",
+"family": "yacht_master",
+"pred": "yacht_master",
+"conf": 0.4882334768772125,
+"status": null
+},
+{
+"file": "data/realworld/test/yacht_master/98682017-acc6-4d97-8b0c-6ca7e4b0df3a.jpg",
+"family": "yacht_master",
+"pred": "yacht_master",
+"conf": 0.7961114645004272,
+"status": null
+},
+{
+"file": "data/realworld/test/yacht_master/c0462037-4f16-4b26-863e-6373ab0d9a5d.jpg",
+"family": "yacht_master",
+"pred": "yacht_master",
+"conf": 0.7387821674346924,
+"status": null
+}
+]

@@ -1,0 +1,28 @@
+split,path,label,new_label,action,reason,model_confidence
+test,data/grouped/test/airking/f602c74fee8342b189daf8f457b06364.jpg,airking,oyster_perpetual,relabel,text and model agree,0.998
+test,data/grouped/test/president/b162a5d2ce654c809273b0382137a633.jpg,president,president,remove,"text, model and label conflict",0.498
+train,data/grouped/train/airking/5ce9a7c813004ed39f5bf8b0af1d267b.jpg,airking,oyster_perpetual,relabel,model very confident,0.99
+train,data/grouped/train/datejust/33daae48c09748b181ae6d8c4e5dd678.jpg,datejust,datejust,remove,"text, model and label conflict",0.778
+train,data/grouped/train/datejust/485c3548e7cf49e9b404e4be9cbeef40.jpg,datejust,president,relabel,model very confident,0.998
+train,data/grouped/train/datejust/520b88f5b2ee402eaeb448ebe608c05d.jpg,datejust,oyster_perpetual,relabel,text and model agree,0.985
+train,data/grouped/train/datejust/5a25c9d3757d42fcbf7ccda25e486421.jpg,datejust,oyster_perpetual,relabel,text and model agree,0.995
+train,data/grouped/train/datejust/719249dc5f764c6fb23e21504e7a4885.jpg,datejust,oyster_perpetual,relabel,text and model agree,1.0
+train,data/grouped/train/datejust/9ec31b95bdc14b80aae283961c58d35f.jpg,datejust,datejust,remove,"text, model and label conflict",0.716
+train,data/grouped/train/datejust/a48739161d8d47ca88ee5f07244b87a3.jpg,datejust,oyster_perpetual,relabel,text and model agree,0.999
+train,data/grouped/train/datejust/b6a913b096644837a30fc965bd936f19.jpg,datejust,president,relabel,model very confident,0.998
+train,data/grouped/train/datejust/c0ad085731cc4d80b3f9727b6375122e.jpg,datejust,oyster_perpetual,relabel,text and model agree,0.999
+train,data/grouped/train/datejust/c576440fa7ca4c7d9b8c299b072a5769.jpg,datejust,datejust,remove,"text, model and label conflict",0.681
+train,data/grouped/train/datejust/ec7b3138a0174176a96ed2d04e73c674.jpg,datejust,datejust,remove,"text, model and label conflict",0.567
+train,data/grouped/train/gmt_master/70eb9d0333b448a5bb812cc08e96ee20.jpg,gmt_master,submariner,relabel,text and model agree,0.999
+train,data/grouped/train/milgauss/2975ff37f57745689df680f63a146a4f.jpg,milgauss,president,relabel,text and model agree,0.994
+train,data/grouped/train/oyster_perpetual/204da7375fde481585d4d86297d66f47.jpg,oyster_perpetual,datejust,relabel,text and model agree,1.0
+train,data/grouped/train/oyster_perpetual/cbddf0f8eb8d4e8b89f4541aa7e78444.jpg,oyster_perpetual,airking,relabel,text and model agree,0.805
+train,data/grouped/train/oysterquartz/1f624d6df89c43bc88fbcb28e69a1d73.jpg,oysterquartz,president,relabel,model very confident,0.914
+train,data/grouped/train/oysterquartz/8d91978933f64257b99b375189177a49.jpg,oysterquartz,airking,relabel,text and model agree,0.998
+train,data/grouped/train/president/40419e6c98974bfd8d242e176bffe0d6.jpg,president,president,remove,"text, model and label conflict",0.735
+train,data/grouped/train/president/aa90a365f83f408d839225a7e8f62a87.jpg,president,oysterquartz,relabel,text and model agree,0.849
+train,data/grouped/train/president/ae5dbc1a2a504955ac105f90155549ae.jpg,president,president,remove,"text, model and label conflict",0.537
+train,data/grouped/train/president/fa983933f7444c8ca8a3901c7d20b3fa.jpg,president,president,remove,"text, model and label conflict",0.762
+train,data/grouped/train/president/fac3c2b9048c4f7eb799dd158bdec931.jpg,president,president,remove,"text, model and label conflict",0.498
+train,data/grouped/train/president/ffb3c81db97b4544bf50224b42b64fc5.jpg,president,president,remove,"text, model and label conflict",0.575
+val,data/grouped/val/submariner/7980d66db97044d98d9ad00969eda2c9.jpg,submariner,gmt_master,relabel,text and model agree,1.0

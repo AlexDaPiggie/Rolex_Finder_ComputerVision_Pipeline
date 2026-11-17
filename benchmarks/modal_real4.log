@@ -1,0 +1,99 @@
+✓ Initialized. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-nsvBi4e5RHkYvMs0tD656F
+Building image im-GGigUOfrAEcZnbyASLcDIj
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 2.39s
+
+Built image im-GGigUOfrAEcZnbyASLcDIj in 7.26s
+
+
+Building image im-FYvjYixR1lG4dgb3kMjIKa
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 682.18ms
+
+Built image im-FYvjYixR1lG4dgb3kMjIKa in 1.31s
+
+
+Building image im-N5GgB4dgh02xSFNRxfwQ87
+
+=> Step 0: FROM base
+
+=> Step 1: ENV PYTHONPATH=/app
+
+=> Step 2: ENV MODEL_DEVICE=cuda
+
+=> Step 3: ENV HF_HOME=/root/.cache/huggingface
+Saving image...
+Image saved, took 516.20ms
+
+Built image im-N5GgB4dgh02xSFNRxfwQ87 in 1.36s
+
+
+Building image im-9AmUYwnrFT5IXoyPXSIbqJ
+
+=> Step 0: FROM base
+
+=> Step 1: WORKDIR /app
+Saving image...
+Image saved, took 1.24s
+
+Built image im-9AmUYwnrFT5IXoyPXSIbqJ in 2.13s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\modal_improve.py
+├── ✓ Created Function download_models.
+├── ✓ Uploaded C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\src
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\data\processed\c
+│   lass_mapping.json
+├── ✓ Created Function extract_split.
+├── ✓ Created Function extract_variants.
+├── ✓ Created Function eval_real.
+├── ✓ Created Function train_real.
+└── ✓ Created Function bench_retailer.
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights:   1%|          | 3/398 [00:00<01:16,  5.19it/s]
+[1ALoading weights: 100%|██████████| 398/398 [00:00<00:00, 664.93it/s]
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  14%|█▎        | 162/1182 [00:00<00:00, 1504.19it/s]
+[1ALoading weights:  29%|██▉       | 343/1182 [00:00<00:00, 1674.54it/s]
+[1ALoading weights:  43%|████▎     | 511/1182 [00:00<00:00, 1469.14it/s]
+[1ALoading weights:  63%|██████▎   | 744/1182 [00:00<00:00, 1778.45it/s]
+[1ALoading weights:  82%|████████▏ | 965/1182 [00:00<00:00, 1867.45it/s]
+[1ALoading weights:  98%|█████████▊| 1155/1182 [00:00<00:00, 1395.64it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 1537.70it/s]
+0/357
+20/357
+40/357
+60/357
+80/357
+100/357
+120/357
+140/357
+160/357
+180/357
+200/357
+220/357
+240/357
+260/357
+280/357
+300/357
+320/357
+340/357
+{'images': 357, 'nets': ['base', 'cand', 'real_aug']}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-nsvBi4e5RHkYvMs0tD656F

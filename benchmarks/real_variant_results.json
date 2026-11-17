@@ -1,0 +1,374 @@
+[
+ {
+  "file": "data/realworld/test/airking/9c6344ce-ee5b-433f-b6f5-cf06f812a55d.jpg",
+  "family": "airking",
+  "variant": "airking_modern",
+  "title": "Rolex Air-King ref. 126900, risalente al 2022",
+  "pred_family": "airking",
+  "ids": [
+   "airking_modern",
+   "airking_classic_smooth",
+   "airking_classing_fluted"
+  ]
+ },
+ {
+  "file": "data/realworld/test/cellini/7713f73f-8140-4ff0-931d-a9818c79c62f.jpg",
+  "family": "cellini",
+  "variant": "cellini_classic_round",
+  "title": "Rolex Cellini ref. 6623, fine anni Novanta",
+  "pred_family": "cellini",
+  "ids": [
+   "cellini_classic_round",
+   "cellini_date_modern_subdial",
+   "cellini_time_modern_round"
+  ]
+ },
+ {
+  "file": "data/realworld/test/datejust/a9fe258e-daff-451a-9042-7c5d1b92bdd0.jpg",
+  "family": "datejust",
+  "variant": "datejust_fluted",
+  "title": "This new unexpected watch/strap combo is quickly becoming my favorite.",
+  "pred_family": "datejust",
+  "ids": [
+   "datejust_palm",
+   "datejust_fluted",
+   "datejust_mop"
+  ]
+ },
+ {
+  "file": "data/realworld/test/datejust/3071f9a2-9b83-4956-86f5-b862128a4518.jpg",
+  "family": "datejust",
+  "variant": "datejust_champagne",
+  "title": "Rolex Datejust 16013",
+  "pred_family": "datejust",
+  "ids": [
+   "datejust_champagne",
+   "datejust_palm",
+   "datejust_mop"
+  ]
+ },
+ {
+  "file": "data/realworld/test/datejust/d8393f12-2ba1-4119-ba6c-33ea41978f7b.jpg",
+  "family": "datejust",
+  "variant": "datejust_fluted",
+  "title": "Finally the sun's out after the storm... I'm going out and enjoy the d",
+  "pred_family": "president",
+  "ids": [
+   "president_stella",
+   "president_yellow_gold",
+   "president_everose"
+  ]
+ },
+ {
+  "file": "data/realworld/test/datejust/0b432f04-c476-4d0d-b9ce-30057924b077.jpg",
+  "family": "datejust",
+  "variant": "datejust_fluted",
+  "title": "ending the year with this on the wrist... #rolex #datejust #oyster #16",
+  "pred_family": "datejust",
+  "ids": [
+   "datejust_mop",
+   "datejust_fluted",
+   "datejust_smooth"
+  ]
+ },
+ {
+  "file": "data/realworld/test/datejust/a6441e91-fa21-4dbb-8e22-35788ce33a9e.jpg",
+  "family": "datejust",
+  "variant": "datejust_fluted",
+  "title": "according to the #rolex #datejust #1601 it's #craftbeerpr time... #bee",
+  "pred_family": "datejust",
+  "ids": [
+   "datejust_fluted",
+   "datejust_champagne",
+   "datejust_mop"
+  ]
+ },
+ {
+  "file": "data/realworld/test/daytona/3d769102-355f-4146-bd94-4cf4ebcdaee2.jpg",
+  "family": "daytona",
+  "variant": "daytona_paul_newman_vintage",
+  "title": "Rolex Daytona Cosmograph - 6265",
+  "pred_family": "daytona",
+  "ids": [
+   "daytona_steel_bezel",
+   "daytona_paul_newman_vintage",
+   "daytona_black_dial"
+  ]
+ },
+ {
+  "file": "data/realworld/test/daytona/1e736ff1-5821-48f3-9f3d-6d2040fae44e.jpg",
+  "family": "daytona",
+  "variant": "daytona_paul_newman_vintage",
+  "title": "Rolex Daytona 'Big Red', ref. 6265",
+  "pred_family": "daytona",
+  "ids": [
+   "daytona_paul_newman_vintage",
+   "daytona_steel_bezel",
+   "daytona_ice_blue"
+  ]
+ },
+ {
+  "file": "data/realworld/test/daytona/4a99b525-93f5-4847-9fc2-44d760bc052a.jpg",
+  "family": "daytona",
+  "variant": "daytona_paul_newman_vintage",
+  "title": "Rolex Daytona ref. 6263, primi anni Settanta",
+  "pred_family": "daytona",
+  "ids": [
+   "daytona_steel_bezel",
+   "daytona_black_dial",
+   "daytona_paul_newman_vintage"
+  ]
+ },
+ {
+  "file": "data/realworld/test/explorer/395b950d-0d5c-4a52-8e98-18fccc439938.jpg",
+  "family": "explorer",
+  "variant": "explorer_i_black",
+  "title": "The Rolex Explorer 124270",
+  "pred_family": "explorer",
+  "ids": [
+   "explorer_i_black",
+   "explorer_i_two_tone",
+   "explorer_ii_steve_mcqueen"
+  ]
+ },
+ {
+  "file": "data/realworld/test/explorer/1404760c-3918-4922-9f2d-bee3ee3fab22.jpg",
+  "family": "explorer",
+  "variant": "explorer_ii_steve_mcqueen",
+  "title": "Rolex Explorer II 1655 Mk I dial",
+  "pred_family": "explorer",
+  "ids": [
+   "explorer_ii_steve_mcqueen",
+   "explorer_ii_black",
+   "explorer_ii_polar"
+  ]
+ },
+ {
+  "file": "data/realworld/test/explorer/0d6eb5c5-0287-4ca6-b76a-fa5529a6d36b.jpg",
+  "family": "explorer",
+  "variant": "explorer_i_black",
+  "title": "Rolex Explorer - 214270",
+  "pred_family": "explorer",
+  "ids": [
+   "explorer_i_black",
+   "explorer_i_two_tone",
+   "explorer_ii_black"
+  ]
+ },
+ {
+  "file": "data/realworld/test/datejust/91539b40-6aa4-4cb5-a59d-1b85f6730deb.jpg",
+  "family": "datejust",
+  "variant": "datejust_fluted",
+  "title": "No Windows PC's or Rolexes were harmed during the making of this #Head",
+  "pred_family": "datejust",
+  "ids": [
+   "datejust_champagne",
+   "datejust_fluted",
+   "datejust_palm"
+  ]
+ },
+ {
+  "file": "data/realworld/test/explorer/2c093368-666f-47b2-9cdf-bd881c45ad34.jpg",
+  "family": "explorer",
+  "variant": "explorer_i_black",
+  "title": "#womw Rolex Explorer #watchnerd #watchesofinstagram #watchporn #swissw",
+  "pred_family": "explorer",
+  "ids": [
+   "explorer_ii_steve_mcqueen",
+   "explorer_i_black",
+   "explorer_ii_polar"
+  ]
+ },
+ {
+  "file": "data/realworld/test/datejust/628b3d7e-c862-4817-96d3-1accffa14aa7.jpg",
+  "family": "datejust",
+  "variant": "datejust_champagne",
+  "title": "Rolex Datejust 16013 close-up",
+  "pred_family": "datejust",
+  "ids": [
+   "datejust_champagne",
+   "datejust_wimbledon",
+   "datejust_palm"
+  ]
+ },
+ {
+  "file": "data/realworld/test/gmt_master/4984cb6f-d9e6-4909-a768-4c2570a7eb19.jpg",
+  "family": "gmt_master",
+  "variant": "gmt_pepsi",
+  "title": "Rolex GMT-Master ref. 1675 'Pink Panther'",
+  "pred_family": "gmt_master",
+  "ids": [
+   "gmt_regular",
+   "gmt_pepsi",
+   "gmt_root_beer"
+  ]
+ },
+ {
+  "file": "data/realworld/test/sea_dweller/3f8b6b33-5c00-4974-ac16-c7c70b915bcd.jpg",
+  "family": "sea_dweller",
+  "variant": "sea_dweller_great_white",
+  "title": "Rolex Sea-Dweller 116600",
+  "pred_family": "sea_dweller",
+  "ids": [
+   "deepsea_james_cameron",
+   "sea_dweller_red",
+   "sea_dweller_great_white"
+  ]
+ },
+ {
+  "file": "data/realworld/test/submariner/fe63fef2-9d39-4090-b209-6b1855ba736c.jpg",
+  "family": "submariner",
+  "variant": "submariner_two_tone",
+  "title": "Rolex Submariner 116613LN",
+  "pred_family": "submariner",
+  "ids": [
+   "submariner_two_tone",
+   "submariner_bluesy",
+   "submariner_kermit_starbucks"
+  ]
+ },
+ {
+  "file": "data/realworld/test/submariner/38a5e746-00b3-4970-93d1-458521dbb626.jpg",
+  "family": "submariner",
+  "variant": "submariner_comex",
+  "title": "Fantasy 5513 PVD MilSub on skunk bond NATO",
+  "pred_family": "gmt_master",
+  "ids": [
+   "gmt_regular",
+   "gmt_bruce_wayne",
+   "gmt_pepsi"
+  ]
+ },
+ {
+  "file": "data/realworld/test/submariner/67382677-9d41-431c-ad83-1fb0d79a5511.jpg",
+  "family": "submariner",
+  "variant": "submariner_comex",
+  "title": "Rolex 5513 inspired modern PVD milsub",
+  "pred_family": "submariner",
+  "ids": [
+   "submariner_black_date",
+   "submariner_comex",
+   "submariner_cookie_monster"
+  ]
+ },
+ {
+  "file": "data/commons/cellini/Rolex_Cellini_Moonphase_ref._50535.jpg",
+  "family": "cellini",
+  "variant": "cellini_moonphase_modern",
+  "title": "File:Rolex Cellini Moonphase ref. 50535.jpg",
+  "pred_family": "cellini",
+  "ids": [
+   "cellini_moonphase_modern",
+   "cellini_date_modern_subdial",
+   "cellini_octagon"
+  ]
+ },
+ {
+  "file": "data/commons/datejust/Rolex_Datejust_ref._16013_seconda_met_anni_70-primi_80.jpg",
+  "family": "datejust",
+  "variant": "datejust_champagne",
+  "title": "File:Rolex Datejust ref. 16013, seconda met\u00e0 anni '70-primi '80.jpg",
+  "pred_family": "datejust",
+  "ids": [
+   "datejust_champagne",
+   "datejust_fluted",
+   "datejust_mop"
+  ]
+ },
+ {
+  "file": "data/commons/daytona/Roelx_Daytona_ref._6241_John_Player_Special_.jpg",
+  "family": "daytona",
+  "variant": "daytona_paul_newman_vintage",
+  "title": "File:Roelx Daytona ref. 6241 \"John Player Special\".jpg",
+  "pred_family": "daytona",
+  "ids": [
+   "daytona_steel_bezel",
+   "daytona_paul_newman_vintage",
+   "daytona_two_tone"
+  ]
+ },
+ {
+  "file": "data/commons/daytona/Rolex_Daytona_ref._6265_in_oro_primi_anni_Settanta.jpg",
+  "family": "daytona",
+  "variant": "daytona_paul_newman_vintage",
+  "title": "File:Rolex Daytona ref. 6265 in oro, primi anni Settanta.jpg",
+  "pred_family": "daytona",
+  "ids": [
+   "daytona_steel_bezel",
+   "daytona_two_tone",
+   "daytona_john_mayer"
+  ]
+ },
+ {
+  "file": "data/commons/gmt_master/Rolex_GMT-Master_ref._1675_Pink_Panther_.jpg",
+  "family": "gmt_master",
+  "variant": "gmt_pepsi",
+  "title": "File:Rolex GMT-Master ref. 1675 \"Pink Panther\".jpg",
+  "pred_family": "gmt_master",
+  "ids": [
+   "gmt_regular",
+   "gmt_pepsi",
+   "gmt_root_beer"
+  ]
+ },
+ {
+  "file": "data/commons/gmt_master/Rolex_GMT-Master_ref._1675_con_quadrante_sottolineato_e_spallette_proteggi_corona_a_punta._Anni_Sessanta..jpg",
+  "family": "gmt_master",
+  "variant": "gmt_pepsi",
+  "title": "File:Rolex GMT-Master ref. 1675 con quadrante sottolineato e spallette",
+  "pred_family": "gmt_master",
+  "ids": [
+   "gmt_root_beer",
+   "gmt_regular",
+   "gmt_pepsi"
+  ]
+ },
+ {
+  "file": "data/commons/gmt_master/Rolex_GMT_Master_II_116710BLNR_Batman.jpg",
+  "family": "gmt_master",
+  "variant": "gmt_batman_batgirl",
+  "title": "File:Rolex GMT Master II 116710BLNR Batman.jpg",
+  "pred_family": "gmt_master",
+  "ids": [
+   "gmt_bruce_wayne",
+   "gmt_pepsi",
+   "gmt_regular"
+  ]
+ },
+ {
+  "file": "data/commons/yacht_master/Rolex_Yachtmaster_II_116680.jpg",
+  "family": "yacht_master",
+  "variant": "yacht_master_ii_blue_cerachrom",
+  "title": "File:Rolex Yachtmaster II 116680.JPG",
+  "pred_family": "yacht_master",
+  "ids": [
+   "yacht_master_ii_blue_cerachrom",
+   "yacht_master_blue_dial",
+   "yacht_master_ii_white_gold_platinum"
+  ]
+ },
+ {
+  "file": "data/commons/explorer/Rolex_Explorer_II_del_1972_ref._1655_ribattezzato_Freccione_.jpg",
+  "family": "explorer",
+  "variant": "explorer_ii_steve_mcqueen",
+  "title": "File:Rolex Explorer II del 1972, ref. 1655, ribattezzato \"Freccione\".j",
+  "pred_family": "explorer",
+  "ids": [
+   "explorer_ii_steve_mcqueen",
+   "explorer_ii_black",
+   "explorer_ii_polar"
+  ]
+ },
+ {
+  "file": "data/commons/explorer/Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.jpg",
+  "family": "explorer",
+  "variant": "explorer_i_black",
+  "title": "File:Rolex Oyster Perpetual Explorer Ref. 114270 Cal. 3130.png",
+  "pred_family": "explorer",
+  "ids": [
+   "explorer_i_black",
+   "explorer_i_two_tone",
+   "explorer_ii_steve_mcqueen"
+  ]
+ }
+]

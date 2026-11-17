@@ -1,0 +1,123 @@
+✓ Initialized. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-cFIC7AF39Xl31MC9YHsghL
+Building image im-2gPQ22DMsvi7RlkT2EYA66
+
+=> Step 0: running function 'download_models'
+Building image im-2gPQ22DMsvi7RlkT2EYA66
+
+=> Step 0: running function 'download_models'
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  20%|██        | 239/1182 [00:00<00:00, 2385.82it/s]
+[1ALoading weights: 100%|██████████| 1182/1182 [00:00<00:00, 6654.10it/s]
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  21%|██        | 249/1182 [00:00<00:00, 2476.13it/s]
+[1ALoading weights:  42%|████▏     | 497/1182 [00:00<00:00, 2325.50it/s]
+[1ALoading weights:  64%|██████▍   | 762/1182 [00:00<00:00, 2464.95it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 3512.26it/s]
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 398/398 [00:00<00:00, 8378.63it/s]
+[modal-client] 2026-11-16T05:48:06+0000 Detected 1 background thread(s) [Thread-auto_conversion] still running after container exit. This will prevent runner shutdown for up to 30 seconds.
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights: 100%|██████████| 398/398 [00:00<00:00, 10987.30it/s]
+[modal-client] 2026-11-16T05:48:07+0000 Detected 1 background thread(s) [Thread-auto_conversion] still running after container exit. This will prevent runner shutdown for up to 30 seconds.
+Saving image...
+Image saved, took 2.46s
+Finished image build for im-2gPQ22DMsvi7RlkT2EYA66
+Building image im-Bh0xZJqE4TKjumoSW7tXNk
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 1.10s
+
+Built image im-Bh0xZJqE4TKjumoSW7tXNk in 2.40s
+
+
+Building image im-mSm6bCe5AZcJPnvKFKHOz7
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 569.92ms
+
+Built image im-mSm6bCe5AZcJPnvKFKHOz7 in 2.29s
+
+
+Building image im-1AMv4mhNecSagfmfT7IN4m
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 1.06s
+
+Built image im-1AMv4mhNecSagfmfT7IN4m in 1.90s
+
+
+Building image im-RvscbbGfL5cSP3Ffwl1BtA
+
+=> Step 0: FROM base
+
+=> Step 1: ENV PYTHONPATH=/app
+
+=> Step 2: ENV MODEL_DEVICE=cuda
+
+=> Step 3: ENV HF_HOME=/root/.cache/huggingface
+Saving image...
+Image saved, took 768.54ms
+
+Built image im-RvscbbGfL5cSP3Ffwl1BtA in 1.46s
+
+
+Building image im-G5KMy9vuAEqHFlNImuctBO
+
+=> Step 0: FROM base
+
+=> Step 1: WORKDIR /app
+Saving image...
+Image saved, took 668.24ms
+
+Built image im-G5KMy9vuAEqHFlNImuctBO in 1.64s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\modal_improve.py
+├── ✓ Created Function download_models.
+├── ✓ Uploaded C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\src
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\data\processed\c
+│   lass_mapping.json
+├── ✓ Created Function extract_split.
+└── ✓ Created Function eval_real.
+
+[1ALoading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+[1ALoading weights:  60%|█████▉    | 238/398 [00:00<00:00, 2300.12it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 2224.70it/s]
+
+[1ALoading weights:   0%|          | 0/1182 [00:00<?, ?it/s]
+[1ALoading weights:  16%|█▌        | 190/1182 [00:00<00:00, 1897.79it/s]
+[1ALoading weights:  32%|███▏      | 380/1182 [00:00<00:00, 1840.88it/s]
+[1ALoading weights:  60%|██████    | 711/1182 [00:00<00:00, 2459.87it/s]
+[1ALoading weights:  81%|████████  | 957/1182 [00:00<00:00, 2105.74it/s]
+[1ALoading weights:  99%|█████████▉| 1174/1182 [00:00<00:00, 2078.72it/s]Loading weights: 100%|██████████| 1182/1182 [00:00<00:00, 2109.43it/s]
+0/196
+20/196
+40/196
+60/196
+80/196
+100/196
+120/196
+140/196
+160/196
+180/196
+{'images': 196, 'nets': ['base', 'cand']}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-cFIC7AF39Xl31MC9YHsghL

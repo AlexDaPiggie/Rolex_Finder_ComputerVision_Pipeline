@@ -1,0 +1,25 @@
+scanned 0/23577
+scanned 1280/23577
+scanned 2560/23577
+scanned 3840/23577
+scanned 5120/23577
+scanned 6400/23577
+scanned 7680/23577
+scanned 8960/23577
+scanned 10240/23577
+scanned 11520/23577
+scanned 12800/23577
+scanned 14080/23577
+scanned 15360/23577
+scanned 16640/23577
+scanned 17920/23577
+scanned 19200/23577
+scanned 20480/23577
+scanned 21760/23577
+scanned 23040/23577
+{
+  "relabel: text and model agree": 13,
+  "remove: text, model and label conflict": 10,
+  "relabel: model very confident": 4
+}
+27 of 23577 images flagged -> benchmarks\label_audit.csv

@@ -1,0 +1,74 @@
+Building image im-Cn3HwLt082dBPHfTJ2Z8Kj
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 664.59ms
+
+Built image im-Cn3HwLt082dBPHfTJ2Z8Kj in 1.48s
+
+
+Building image im-TqRpDj7NDXxd9RTIIy9UmI
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 714.22ms
+
+Built image im-TqRpDj7NDXxd9RTIIy9UmI in 2.80s
+
+
+Building image im-WxhwRuEpNetXCJAfeQLFyw
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 2.17s
+
+Built image im-WxhwRuEpNetXCJAfeQLFyw in 2.94s
+
+
+Building image im-kJLn9o4a8W5aVJGtm2quQN
+
+=> Step 0: FROM base
+
+=> Step 1: ENV PYTHONPATH=/app
+
+=> Step 2: ENV MODEL_DEVICE=cuda
+
+=> Step 3: ENV HF_HOME=/root/.cache/huggingface
+Saving image...
+Image saved, took 742.15ms
+
+Built image im-kJLn9o4a8W5aVJGtm2quQN in 1.48s
+
+
+Building image im-Ca1bu2zhoQ3aYH3ek123Np
+
+=> Step 0: FROM base
+
+=> Step 1: WORKDIR /app
+Saving image...
+Image saved, took 3.88s
+
+Built image im-Ca1bu2zhoQ3aYH3ek123Np in 4.69s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\modal_app.py
+├── ✓ Created Function download_huggingface_models.
+├── ✓ Uploaded C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\src
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\data\processed\c
+│   lass_mapping.json
+└── ✓ Created Function RolexWatchAPI.*.
+✓ App deployed in 24.544s! 🎉
+
+View Deployment: 
+https://modal.com/apps/alexdapiggie/main/deployed/rolex-watch-recognizer

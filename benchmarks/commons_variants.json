@@ -1,0 +1,5005 @@
+{
+ "top": [
+  "datejust_champagne",
+  "airking_classic_smooth",
+  "datejust_fluted",
+  "president_yellow_gold",
+  "airking_classing_fluted",
+  "submariner_black_date",
+  "explorer_i_black",
+  "daytona_steel_bezel",
+  "datejust_mop",
+  "cellini_danaos",
+  "turn_o_graph_red_accent",
+  "oysterquartz_datejust",
+  "submariner_hulk",
+  "gmt_root_beer",
+  "daytona_two_tone",
+  "turn_o_graph_16264_white_gold",
+  "datejust_smooth",
+  "submariner_kermit_starbucks",
+  "airking_modern",
+  "cellini_cestello"
+ ],
+ "rows": [
+  {
+   "family": "milgauss",
+   "title": "File:Milgaussnew.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Milgaussnew.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Milgaussnew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Defiancekofb (talk)",
+   "licence": "CC BY-SA 3.0",
+   "width": "1200",
+   "height": "1600",
+   "file": "data/commons/milgauss/Milgaussnew.jpg",
+   "fam": "milgauss",
+   "conf": 0.9281631112098694,
+   "v": [
+    "milgauss_white",
+    "milgauss_z_blue",
+    "milgauss_black_gv"
+   ],
+   "vs": [
+    0.91,
+    0.13,
+    0.11
+   ]
+  },
+  {
+   "family": "milgauss",
+   "title": "File:Primo Rolex Milgauss, ref. 6541, risalente al 1956.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Primo_Rolex_Milgauss,_ref._6541,_risalente_al_1956.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Primo_Rolex_Milgauss%2C_ref._6541%2C_risalente_al_1956.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1051",
+   "height": "1600",
+   "file": "data/commons/milgauss/Primo_Rolex_Milgauss_ref._6541_risalente_al_1956.jpg",
+   "fam": "milgauss",
+   "conf": 0.7415074110031128,
+   "v": [
+    "milgauss_black_gv",
+    "milgauss_z_blue",
+    "milgauss_white"
+   ],
+   "vs": [
+    0.68,
+    0.21,
+    0.04
+   ]
+  },
+  {
+   "family": "milgauss",
+   "title": "File:Rolex Milgauss 116400GV.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Milgauss_116400GV.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rolex_Milgauss_116400GV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Carolyn Maria Adams",
+   "licence": "CC BY-SA 4.0",
+   "width": "1295",
+   "height": "1018",
+   "file": "data/commons/milgauss/Rolex_Milgauss_116400GV.jpg",
+   "fam": "milgauss",
+   "conf": 0.9120264649391174,
+   "v": [
+    "milgauss_z_blue",
+    "milgauss_white",
+    "milgauss_black_gv"
+   ],
+   "vs": [
+    0.68,
+    0.6,
+    0.21
+   ]
+  },
+  {
+   "family": "milgauss",
+   "title": "File:Rolex Milgauss GV.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Milgauss_GV.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Rolex_Milgauss_GV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mweavil",
+   "licence": "CC BY-SA 3.0",
+   "width": "1536",
+   "height": "2048",
+   "file": "data/commons/milgauss/Rolex_Milgauss_GV.jpg",
+   "fam": "milgauss",
+   "conf": 0.8754377961158752,
+   "v": [
+    "milgauss_black_gv",
+    "milgauss_white",
+    "milgauss_z_blue"
+   ],
+   "vs": [
+    0.59,
+    0.53,
+    0.29
+   ]
+  },
+  {
+   "family": "milgauss",
+   "title": "File:Rolex Milgauss ref. 1019 risalente a fine anni Ottanta.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Milgauss_ref._1019_risalente_a_fine_anni_Ottanta.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Rolex_Milgauss_ref._1019_risalente_a_fine_anni_Ottanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1536",
+   "height": "2048",
+   "file": "data/commons/milgauss/Rolex_Milgauss_ref._1019_risalente_a_fine_anni_Ottanta.jpg",
+   "fam": "milgauss",
+   "conf": 0.9115055799484253,
+   "v": [
+    "milgauss_white",
+    "milgauss_black_gv",
+    "milgauss_z_blue"
+   ],
+   "vs": [
+    0.6,
+    0.43,
+    0.24
+   ]
+  },
+  {
+   "family": "oysterquartz",
+   "title": "File:Rolex Datejust Oysterquartz.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_Oysterquartz.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Rolex_Datejust_Oysterquartz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Esperto Orologi at Italian Wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "width": "750",
+   "height": "536",
+   "file": "data/commons/oysterquartz/Rolex_Datejust_Oysterquartz.jpg",
+   "fam": "datejust",
+   "conf": 0.7894178032875061,
+   "v": [
+    "datejust_fluted",
+    "datejust_palm",
+    "datejust_wimbledon"
+   ],
+   "vs": [
+    0.69,
+    0.16,
+    0.05
+   ]
+  },
+  {
+   "family": "oysterquartz",
+   "title": "File:Rolex Oysterquartz Day-Date in oro.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oysterquartz_Day-Date_in_oro.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Rolex_Oysterquartz_Day-Date_in_oro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1407",
+   "height": "2048",
+   "file": "data/commons/oysterquartz/Rolex_Oysterquartz_Day-Date_in_oro.jpg",
+   "fam": "oysterquartz",
+   "conf": 0.7126498818397522,
+   "v": [
+    "oysterquartz_day_date",
+    "oysterquartz_datejust"
+   ],
+   "vs": [
+    0.56,
+    0.44
+   ]
+  },
+  {
+   "family": "airking",
+   "title": "File:Rolex Air-King ref. 126900, risalente al 2022.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Air-King_ref._126900,_risalente_al_2022.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Rolex_Air-King_ref._126900%2C_risalente_al_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1483",
+   "height": "2048",
+   "file": "data/commons/airking/Rolex_Air-King_ref._126900_risalente_al_2022.jpg",
+   "fam": "airking",
+   "conf": 0.7304303646087646,
+   "v": [
+    "airking_modern",
+    "airking_classing_fluted",
+    "airking_classic_smooth"
+   ],
+   "vs": [
+    0.92,
+    0.02,
+    0.01
+   ]
+  },
+  {
+   "family": "cellini",
+   "title": "File:Rolex Cellini 5115.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Cellini_5115.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rolex_Cellini_5115.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Provo rossi",
+   "licence": "CC BY-SA 4.0",
+   "width": "1743",
+   "height": "2324",
+   "file": "data/commons/cellini/Rolex_Cellini_5115.jpg",
+   "fam": "cellini",
+   "conf": 0.9104995131492615,
+   "v": [
+    "cellini_classic_round",
+    "cellini_date_modern_subdial",
+    "cellini_cestello"
+   ],
+   "vs": [
+    0.44,
+    0.16,
+    0.13
+   ]
+  },
+  {
+   "family": "cellini",
+   "title": "File:Rolex Cellini Moonphase ref. 50535.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Cellini_Moonphase_ref._50535.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Rolex_Cellini_Moonphase_ref._50535.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1200",
+   "height": "1600",
+   "file": "data/commons/cellini/Rolex_Cellini_Moonphase_ref._50535.jpg",
+   "fam": "cellini",
+   "conf": 0.9457337260246277,
+   "v": [
+    "cellini_moonphase_modern",
+    "cellini_date_modern_subdial",
+    "cellini_octagon"
+   ],
+   "vs": [
+    0.85,
+    0.17,
+    0.04
+   ]
+  },
+  {
+   "family": "cellini",
+   "title": "File:Rolex Cellini in oro, fine anni '80.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Cellini_in_oro,_fine_anni_%2780.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Rolex_Cellini_in_oro%2C_fine_anni_%2780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1489",
+   "height": "2048",
+   "file": "data/commons/cellini/Rolex_Cellini_in_oro_fine_anni_80.jpg",
+   "fam": "cellini",
+   "conf": 0.841070294380188,
+   "v": [
+    "cellini_cestello",
+    "cellini_date_modern_subdial",
+    "cellini_time_modern_round"
+   ],
+   "vs": [
+    0.69,
+    0.18,
+    0.13
+   ]
+  },
+  {
+   "family": "cellini",
+   "title": "File:Rolex Cellini in oro risalente alla fine degli anni Ottanta.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Cellini_in_oro_risalente_alla_fine_degli_anni_Ottanta.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rolex_Cellini_in_oro_risalente_alla_fine_degli_anni_Ottanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1260",
+   "height": "1592",
+   "file": "data/commons/cellini/Rolex_Cellini_in_oro_risalente_alla_fine_degli_anni_Ottanta.jpg",
+   "fam": "cellini",
+   "conf": 0.8845743536949158,
+   "v": [
+    "cellini_classic_round",
+    "cellini_date_modern_subdial",
+    "cellini_time_modern_round"
+   ],
+   "vs": [
+    0.67,
+    0.17,
+    0.09
+   ]
+  },
+  {
+   "family": "cellini",
+   "title": "File:Rolex Cellini ref. 6623, fine anni Novanta.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Cellini_ref._6623,_fine_anni_Novanta.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Rolex_Cellini_ref._6623%2C_fine_anni_Novanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1600",
+   "height": "1200",
+   "file": "data/commons/cellini/Rolex_Cellini_ref._6623_fine_anni_Novanta.jpg",
+   "fam": "cellini",
+   "conf": 0.7583908438682556,
+   "v": [
+    "cellini_classic_round",
+    "cellini_date_modern_subdial",
+    "cellini_time_modern_round"
+   ],
+   "vs": [
+    0.68,
+    0.24,
+    0.11
+   ]
+  },
+  {
+   "family": "cellini",
+   "title": "File:Un inconsueto Rolex Cellini in oro bianco e carica manuale.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Un_inconsueto_Rolex_Cellini_in_oro_bianco_e_carica_manuale.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Un_inconsueto_Rolex_Cellini_in_oro_bianco_e_carica_manuale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1536",
+   "height": "1217",
+   "file": "data/commons/cellini/Un_inconsueto_Rolex_Cellini_in_oro_bianco_e_carica_manuale.jpg",
+   "fam": "cellini",
+   "conf": 0.9904806017875671,
+   "v": [
+    "cellini_classic_round",
+    "cellini_date_modern_subdial",
+    "cellini_danaos"
+   ],
+   "vs": [
+    0.37,
+    0.28,
+    0.2
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:DatejustII in showcase.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:DatejustII_in_showcase.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/DatejustII_in_showcase.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Exkalibrator",
+   "licence": "CC BY-SA 3.0",
+   "width": "2198",
+   "height": "2198",
+   "file": "data/commons/datejust/DatejustII_in_showcase.jpg",
+   "fam": "datejust",
+   "conf": 0.3052658140659332,
+   "v": [
+    "datejust_smooth",
+    "datejust_mop",
+    "datejust_palm"
+   ],
+   "vs": [
+    0.2,
+    0.19,
+    0.17
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Fake Rolex Datejust.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Fake_Rolex_Datejust.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Fake_Rolex_Datejust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Hinnerk11",
+   "licence": "CC BY-SA 4.0",
+   "width": "2521",
+   "height": "3253",
+   "file": "data/commons/datejust/Fake_Rolex_Datejust.jpg",
+   "fam": "datejust",
+   "conf": 0.6355059146881104,
+   "v": [
+    "datejust_champagne",
+    "datejust_palm",
+    "datejust_mop"
+   ],
+   "vs": [
+    0.72,
+    0.11,
+    0.07
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Quadrante in radica di un Rolex Datejust in oro risalente agli anni Ottanta.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Quadrante_in_radica_di_un_Rolex_Datejust_in_oro_risalente_agli_anni_Ottanta.png",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Quadrante_in_radica_di_un_Rolex_Datejust_in_oro_risalente_agli_anni_Ottanta.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "642",
+   "height": "583",
+   "file": "data/commons/datejust/Quadrante_in_radica_di_un_Rolex_Datejust_in_oro_risalente_agli_anni_Ottanta.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.34985992312431335,
+   "v": [
+    "op_silver",
+    "op_celebration",
+    "op_coral_red"
+   ],
+   "vs": [
+    0.45,
+    0.19,
+    0.13
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex+Perrelet = Perrolex.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex%2BPerrelet_%3D_Perrolex.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Rolex%2BPerrelet_%3D_Perrolex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Espenegger",
+   "licence": "CC BY-SA 3.0",
+   "width": "2592",
+   "height": "1944",
+   "file": "data/commons/datejust/Rolex_Perrelet_Perrolex.jpg",
+   "fam": "datejust",
+   "conf": 0.5114919543266296,
+   "v": [
+    "datejust_champagne",
+    "datejust_fluted",
+    "datejust_wimbledon"
+   ],
+   "vs": [
+    0.57,
+    0.19,
+    0.1
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust.JPG",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Rolex_Datejust.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike - \u039c\u03bf\u03bb\u1f7c\u03bd \u03bb\u03b1\u03b2\u03ad",
+   "licence": "CC0",
+   "width": "485",
+   "height": "650",
+   "file": "data/commons/datejust/Rolex_Datejust.jpg",
+   "fam": "datejust",
+   "conf": 0.4203265905380249,
+   "v": [
+    "datejust_champagne",
+    "datejust_mop",
+    "datejust_palm"
+   ],
+   "vs": [
+    0.41,
+    0.27,
+    0.14
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 116234.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_116234.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Rolex_Datejust_116234.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Eternalsleeper",
+   "licence": "CC BY 3.0",
+   "width": "1504",
+   "height": "1000",
+   "file": "data/commons/datejust/Rolex_Datejust_116234.jpg",
+   "fam": "datejust",
+   "conf": 0.5556635856628418,
+   "v": [
+    "datejust_champagne",
+    "datejust_mop",
+    "datejust_fluted"
+   ],
+   "vs": [
+    0.47,
+    0.22,
+    0.13
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 126234.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_126234.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Rolex_Datejust_126234.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "ajay_suresh",
+   "licence": "CC BY 2.0",
+   "width": "4554",
+   "height": "3416",
+   "file": "data/commons/datejust/Rolex_Datejust_126234.jpg",
+   "fam": "datejust",
+   "conf": 0.9123556017875671,
+   "v": [
+    "datejust_fluted",
+    "datejust_smooth",
+    "datejust_wimbledon"
+   ],
+   "vs": [
+    0.67,
+    0.1,
+    0.09
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 16013.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_16013.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Rolex_Datejust_16013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "anna2005",
+   "licence": "CC0",
+   "width": "3454",
+   "height": "2306",
+   "file": "data/commons/datejust/Rolex_Datejust_16013.jpg",
+   "fam": "datejust",
+   "conf": 0.3938809335231781,
+   "v": [
+    "datejust_champagne",
+    "datejust_palm",
+    "datejust_mop"
+   ],
+   "vs": [
+    0.6,
+    0.12,
+    0.09
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 1603.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_1603.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rolex_Datejust_1603.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "hypo.physe",
+   "licence": "CC BY-SA 2.0",
+   "width": "800",
+   "height": "600",
+   "file": "data/commons/datejust/Rolex_Datejust_1603.jpg",
+   "fam": "datejust",
+   "conf": 0.738254189491272,
+   "v": [
+    "datejust_palm",
+    "datejust_fluted",
+    "datejust_wimbledon"
+   ],
+   "vs": [
+    0.28,
+    0.21,
+    0.19
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 16200.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_16200.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Rolex_Datejust_16200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "gabihil",
+   "licence": "Public domain",
+   "width": "1080",
+   "height": "1080",
+   "file": "data/commons/datejust/Rolex_Datejust_16200.jpg",
+   "fam": "president",
+   "conf": 0.5442323684692383,
+   "v": [
+    "president_diamond",
+    "president_everose",
+    "president_platinum_ice_blue"
+   ],
+   "vs": [
+    0.84,
+    0.33,
+    0.05
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 36 - At an Angle (50826143003).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_36_-_At_an_Angle_(50826143003).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rolex_Datejust_36_-_At_an_Angle_%2850826143003%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "ajay_suresh",
+   "licence": "CC BY 2.0",
+   "width": "3957",
+   "height": "2226",
+   "file": "data/commons/datejust/Rolex_Datejust_36_-_At_an_Angle_50826143003_.jpg",
+   "fam": "datejust",
+   "conf": 0.5264886617660522,
+   "v": [
+    "datejust_fluted",
+    "datejust_smooth",
+    "datejust_palm"
+   ],
+   "vs": [
+    0.64,
+    0.1,
+    0.1
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 36 - Black Sunburst Dial (50826887656).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_36_-_Black_Sunburst_Dial_(50826887656).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rolex_Datejust_36_-_Black_Sunburst_Dial_%2850826887656%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "ajay_suresh",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3888",
+   "file": "data/commons/datejust/Rolex_Datejust_36_-_Black_Sunburst_Dial_50826887656_.jpg",
+   "fam": "datejust",
+   "conf": 0.5260555148124695,
+   "v": [
+    "datejust_fluted",
+    "datejust_palm",
+    "datejust_champagne"
+   ],
+   "vs": [
+    0.48,
+    0.18,
+    0.14
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 36 - On Display (50826140918).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_36_-_On_Display_(50826140918).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Rolex_Datejust_36_-_On_Display_%2850826140918%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "ajay_suresh",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3240",
+   "file": "data/commons/datejust/Rolex_Datejust_36_-_On_Display_50826140918_.jpg",
+   "fam": "datejust",
+   "conf": 0.4697577953338623,
+   "v": [
+    "datejust_fluted",
+    "datejust_champagne",
+    "datejust_wimbledon"
+   ],
+   "vs": [
+    0.51,
+    0.15,
+    0.14
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 36 - Presentation Ready (50826141683).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_36_-_Presentation_Ready_(50826141683).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Rolex_Datejust_36_-_Presentation_Ready_%2850826141683%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "ajay_suresh",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3888",
+   "file": "data/commons/datejust/Rolex_Datejust_36_-_Presentation_Ready_50826141683_.jpg",
+   "fam": "datejust",
+   "conf": 0.8071956634521484,
+   "v": [
+    "datejust_fluted",
+    "datejust_champagne",
+    "datejust_palm"
+   ],
+   "vs": [
+    0.31,
+    0.3,
+    0.15
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 36 - Rolex Crown (50826142188).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_36_-_Rolex_Crown_(50826142188).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rolex_Datejust_36_-_Rolex_Crown_%2850826142188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "ajay_suresh",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3888",
+   "file": "data/commons/datejust/Rolex_Datejust_36_-_Rolex_Crown_50826142188_.jpg",
+   "fam": "oysterquartz",
+   "conf": 0.4510391354560852,
+   "v": [
+    "oysterquartz_datejust",
+    "oysterquartz_day_date"
+   ],
+   "vs": [
+    0.58,
+    0.42
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust 36 126200-0006.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_36_126200-0006.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Rolex_Datejust_36_126200-0006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Remi Mathis",
+   "licence": "CC BY-SA 4.0",
+   "width": "1588",
+   "height": "1676",
+   "file": "data/commons/datejust/Rolex_Datejust_36_126200-0006.jpg",
+   "fam": "datejust",
+   "conf": 0.7097741365432739,
+   "v": [
+    "datejust_champagne",
+    "datejust_fluted",
+    "datejust_smooth"
+   ],
+   "vs": [
+    0.6,
+    0.14,
+    0.12
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust II 116334 - 1.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_II_116334_-_1.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Rolex_Datejust_II_116334_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "hypo.physe",
+   "licence": "CC BY-SA 2.0",
+   "width": "800",
+   "height": "531",
+   "file": "data/commons/datejust/Rolex_Datejust_II_116334_-_1.jpg",
+   "fam": "datejust",
+   "conf": 0.600643515586853,
+   "v": [
+    "datejust_fluted",
+    "datejust_palm",
+    "datejust_smooth"
+   ],
+   "vs": [
+    0.47,
+    0.19,
+    0.18
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust II 116334 - 2.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_II_116334_-_2.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Rolex_Datejust_II_116334_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "hypo.physe",
+   "licence": "CC BY-SA 2.0",
+   "width": "800",
+   "height": "531",
+   "file": "data/commons/datejust/Rolex_Datejust_II_116334_-_2.jpg",
+   "fam": "datejust",
+   "conf": 0.5423017144203186,
+   "v": [
+    "datejust_palm",
+    "datejust_fluted",
+    "datejust_mop"
+   ],
+   "vs": [
+    0.31,
+    0.3,
+    0.14
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust II 116334 - 3.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_II_116334_-_3.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rolex_Datejust_II_116334_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "hypo.physe",
+   "licence": "CC BY-SA 2.0",
+   "width": "800",
+   "height": "531",
+   "file": "data/commons/datejust/Rolex_Datejust_II_116334_-_3.jpg",
+   "fam": "datejust",
+   "conf": 0.3810003697872162,
+   "v": [
+    "datejust_fluted",
+    "datejust_palm",
+    "datejust_smooth"
+   ],
+   "vs": [
+    0.37,
+    0.28,
+    0.15
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust Terminology.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_Terminology.png",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rolex_Datejust_Terminology.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "StuivertjeWisselen",
+   "licence": "CC BY-SA 4.0",
+   "width": "960",
+   "height": "720",
+   "file": "data/commons/datejust/Rolex_Datejust_Terminology.jpg",
+   "fam": "datejust",
+   "conf": 0.8510971665382385,
+   "v": [
+    "datejust_fluted",
+    "datejust_champagne",
+    "datejust_smooth"
+   ],
+   "vs": [
+    0.44,
+    0.24,
+    0.13
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust con quadrante Wimbledon.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_con_quadrante_Wimbledon.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Rolex_Datejust_con_quadrante_Wimbledon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1139",
+   "height": "2048",
+   "file": "data/commons/datejust/Rolex_Datejust_con_quadrante_Wimbledon.jpg",
+   "fam": "datejust",
+   "conf": 0.6022564768791199,
+   "v": [
+    "datejust_palm",
+    "datejust_mop",
+    "datejust_fluted"
+   ],
+   "vs": [
+    0.4,
+    0.38,
+    0.07
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust ref. 16013, seconda met\u00e0 anni '70-primi '80.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_ref._16013,_seconda_met%C3%A0_anni_%2770-primi_%2780.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Rolex_Datejust_ref._16013%2C_seconda_met%C3%A0_anni_%2770-primi_%2780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1536",
+   "height": "2048",
+   "file": "data/commons/datejust/Rolex_Datejust_ref._16013_seconda_met_anni_70-primi_80.jpg",
+   "fam": "datejust",
+   "conf": 0.6227428913116455,
+   "v": [
+    "datejust_champagne",
+    "datejust_fluted",
+    "datejust_mop"
+   ],
+   "vs": [
+    0.71,
+    0.1,
+    0.09
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Datejust ref. 1611 con lavorazione Morelli sulla ghiera. Anni Settanta..jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Datejust_ref._1611_con_lavorazione_Morelli_sulla_ghiera._Anni_Settanta..jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Rolex_Datejust_ref._1611_con_lavorazione_Morelli_sulla_ghiera._Anni_Settanta..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1277",
+   "height": "1997",
+   "file": "data/commons/datejust/Rolex_Datejust_ref._1611_con_lavorazione_Morelli_sulla_ghiera._Anni_Settanta..jpg",
+   "fam": "datejust",
+   "conf": 0.32358378171920776,
+   "v": [
+    "datejust_champagne",
+    "datejust_palm",
+    "datejust_wimbledon"
+   ],
+   "vs": [
+    0.52,
+    0.29,
+    0.12
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex Herrenuhr Oyster Perpetual Datejust mit Turn-O-Graph L\u00fcnette Gold (1992).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Herrenuhr_Oyster_Perpetual_Datejust_mit_Turn-O-Graph_L%C3%BCnette_Gold_(1992).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Rolex_Herrenuhr_Oyster_Perpetual_Datejust_mit_Turn-O-Graph_L%C3%BCnette_Gold_%281992%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Norbert Pietsch Enpi48",
+   "licence": "CC BY-SA 4.0",
+   "width": "2038",
+   "height": "3130",
+   "file": "data/commons/datejust/Rolex_Herrenuhr_Oyster_Perpetual_Datejust_mit_Turn-O-Graph_L_nette_Gold_1992_.jpg",
+   "fam": "turn_o_graph",
+   "conf": 0.48483890295028687,
+   "v": [
+    "turn_o_graph_16264_white_gold",
+    "turn_o_graph_yellow_gold_thunderbird",
+    "turn_o_graph_116263_yellow_gold"
+   ],
+   "vs": [
+    0.51,
+    0.25,
+    0.18
+   ]
+  },
+  {
+   "family": "datejust",
+   "title": "File:Rolex watch ladies Datejust 1987.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_watch_ladies_Datejust_1987.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Rolex_watch_ladies_Datejust_1987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jonathan Mauer",
+   "licence": "CC BY-SA 4.0",
+   "width": "2000",
+   "height": "2000",
+   "file": "data/commons/datejust/Rolex_watch_ladies_Datejust_1987.jpg",
+   "fam": "datejust",
+   "conf": 0.4996146559715271,
+   "v": [
+    "datejust_mop",
+    "datejust_palm",
+    "datejust_champagne"
+   ],
+   "vs": [
+    0.47,
+    0.26,
+    0.2
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2011 Rolex 24 Daytona Prototypes.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2011_Rolex_24_Daytona_Prototypes.png",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2011_Rolex_24_Daytona_Prototypes.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Level 5 Motorsports",
+   "licence": "CC BY-SA 2.0",
+   "width": "4256",
+   "height": "2832",
+   "file": "data/commons/daytona/2011_Rolex_24_Daytona_Prototypes.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2011 Rolex 24 Hours of Daytona start.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2011_Rolex_24_Hours_of_Daytona_start.png",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/2011_Rolex_24_Hours_of_Daytona_start.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Level 5 Motorsports",
+   "licence": "CC BY-SA 2.0",
+   "width": "970",
+   "height": "644",
+   "file": "data/commons/daytona/2011_Rolex_24_Hours_of_Daytona_start.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16335365870).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16335365870).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2015_Rolex_24hrs_of_Daytona_%2816335365870%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16335365870_.jpg",
+   "fam": "explorer",
+   "conf": 0.5428866744041443,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black",
+    "explorer_i_two_tone"
+   ],
+   "vs": [
+    0.61,
+    0.01,
+    0.01
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16335368020).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16335368020).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/2015_Rolex_24hrs_of_Daytona_%2816335368020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16335368020_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Cosmo.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Cosmo.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cosmo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rastapopoulos at English Wikipedia",
+   "licence": "Public domain",
+   "width": "806",
+   "height": "562",
+   "file": "data/commons/daytona/Cosmo.jpg",
+   "fam": "daytona",
+   "conf": 0.9584786295890808,
+   "v": [
+    "daytona_two_tone",
+    "daytona_paul_newman_vintage",
+    "daytona_ice_blue"
+   ],
+   "vs": [
+    0.45,
+    0.12,
+    0.11
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Daytona116509.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Daytona116509.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Daytona116509.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Sealobo at English Wikipedia",
+   "licence": "Public domain",
+   "width": "800",
+   "height": "600",
+   "file": "data/commons/daytona/Daytona116509.jpg",
+   "fam": "daytona",
+   "conf": 0.9176074862480164,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_paul_newman_vintage",
+    "daytona_black_dial"
+   ],
+   "vs": [
+    0.49,
+    0.44,
+    0.1
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Daytona 16528.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Daytona_16528.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Daytona_16528.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Alesili",
+   "licence": "CC BY-SA 3.0",
+   "width": "2000",
+   "height": "1331",
+   "file": "data/commons/daytona/Daytona_16528.jpg",
+   "fam": "daytona",
+   "conf": 0.964494526386261,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_two_tone",
+    "daytona_oysterflex_gold"
+   ],
+   "vs": [
+    0.4,
+    0.23,
+    0.12
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Detail of Rolex Daytona.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Detail_of_Rolex_Daytona.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Detail_of_Rolex_Daytona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Alesili",
+   "licence": "CC BY-SA 3.0",
+   "width": "816",
+   "height": "552",
+   "file": "data/commons/daytona/Detail_of_Rolex_Daytona.jpg",
+   "fam": "daytona",
+   "conf": 0.8300639390945435,
+   "v": [
+    "daytona_two_tone",
+    "daytona_oysterflex_gold",
+    "daytona_steel_bezel"
+   ],
+   "vs": [
+    0.2,
+    0.18,
+    0.15
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Detailed view of Rolex Daytona chronograph watch and watchstrap.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Detailed_view_of_Rolex_Daytona_chronograph_watch_and_watchstrap.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Detailed_view_of_Rolex_Daytona_chronograph_watch_and_watchstrap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Alesili",
+   "licence": "CC BY-SA 3.0",
+   "width": "795",
+   "height": "828",
+   "file": "data/commons/daytona/Detailed_view_of_Rolex_Daytona_chronograph_watch_and_watchstrap.jpg",
+   "fam": "daytona",
+   "conf": 0.8016912937164307,
+   "v": [
+    "daytona_two_tone",
+    "daytona_john_mayer",
+    "daytona_oysterflex_gold"
+   ],
+   "vs": [
+    0.3,
+    0.16,
+    0.09
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Detailed view on chronograph pushers and crown of a Rolex Daytona \"Black and diamonds\" (cropped).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Detailed_view_on_chronograph_pushers_and_crown_of_a_Rolex_Daytona_%22Black_and_diamonds%22_(cropped).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Detailed_view_on_chronograph_pushers_and_crown_of_a_Rolex_Daytona_%22Black_and_diamonds%22_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Thomas Quine",
+   "licence": "CC BY 2.0",
+   "width": "1178",
+   "height": "1833",
+   "file": "data/commons/daytona/Detailed_view_on_chronograph_pushers_and_crown_of_a_Rolex_Daytona_Black_and_diamonds_cropped_.jpg",
+   "fam": "daytona",
+   "conf": 0.8214964270591736,
+   "v": [
+    "daytona_rainbow",
+    "daytona_steel_bezel",
+    "daytona_two_tone"
+   ],
+   "vs": [
+    0.36,
+    0.11,
+    0.11
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Detailed view on chronograph pushers and crown of wristwatch Rolex Daytona (cropped).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Detailed_view_on_chronograph_pushers_and_crown_of_wristwatch_Rolex_Daytona_(cropped).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Detailed_view_on_chronograph_pushers_and_crown_of_wristwatch_Rolex_Daytona_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Alesili",
+   "licence": "CC BY-SA 3.0",
+   "width": "692",
+   "height": "880",
+   "file": "data/commons/daytona/Detailed_view_on_chronograph_pushers_and_crown_of_wristwatch_Rolex_Daytona_cropped_.jpg",
+   "fam": "daytona",
+   "conf": 0.8636865019798279,
+   "v": [
+    "daytona_paul_newman_vintage",
+    "daytona_two_tone",
+    "daytona_steel_bezel"
+   ],
+   "vs": [
+    0.32,
+    0.26,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Illegally copied wristwatch which shall look like Rolex Daytona.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Illegally_copied_wristwatch_which_shall_look_like_Rolex_Daytona.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Illegally_copied_wristwatch_which_shall_look_like_Rolex_Daytona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "en:user:Gdead",
+   "licence": "Public domain",
+   "width": "2272",
+   "height": "1704",
+   "file": "data/commons/daytona/Illegally_copied_wristwatch_which_shall_look_like_Rolex_Daytona.jpg",
+   "fam": "daytona",
+   "conf": 0.8030481934547424,
+   "v": [
+    "daytona_two_tone",
+    "daytona_paul_newman_vintage",
+    "daytona_ice_blue"
+   ],
+   "vs": [
+    0.24,
+    0.19,
+    0.11
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Roelx Daytona ref. 6241 \"John Player Special\".jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Roelx_Daytona_ref._6241_%22John_Player_Special%22.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Roelx_Daytona_ref._6241_%22John_Player_Special%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1774",
+   "height": "2048",
+   "file": "data/commons/daytona/Roelx_Daytona_ref._6241_John_Player_Special_.jpg",
+   "fam": "daytona",
+   "conf": 0.9268595576286316,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_paul_newman_vintage",
+    "daytona_two_tone"
+   ],
+   "vs": [
+    0.3,
+    0.28,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:RolexDaytona.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:RolexDaytona.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/RolexDaytona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "",
+   "licence": "CC BY-SA 3.0",
+   "width": "693",
+   "height": "490",
+   "file": "data/commons/daytona/RolexDaytona.jpg",
+   "fam": "daytona",
+   "conf": 0.947500467300415,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_ice_blue",
+    "daytona_two_tone"
+   ],
+   "vs": [
+    0.3,
+    0.19,
+    0.16
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32289680450).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32289680450).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Rolex_24_Hours_at_Daytona_2017_%2832289680450%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5165",
+   "height": "3444",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32289680450_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32513022901).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32513022901).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Rolex_24_Hours_at_Daytona_2017_%2832513022901%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32513022901_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32597920786).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32597920786).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Rolex_24_Hours_at_Daytona_2017_%2832597920786%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5146",
+   "height": "3431",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32597920786_.jpg",
+   "fam": "explorer",
+   "conf": 0.8489603996276855,
+   "v": [
+    "explorer_i_two_tone",
+    "explorer_ii_steve_mcqueen",
+    "explorer_i_black"
+   ],
+   "vs": [
+    0.41,
+    0.21,
+    0.18
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 hours of Daytona (16396324676).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_hours_of_Daytona_(16396324676).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Rolex_24_hours_of_Daytona_%2816396324676%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24_hours_of_Daytona_16396324676_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.794055700302124,
+   "v": [
+    "gmt_batman_batgirl",
+    "gmt_pepsi",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.34,
+    0.15,
+    0.05
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (15764049543).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(15764049543).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rolex_24hrs_of_Daytona_%2815764049543%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_15764049543_.jpg",
+   "fam": "explorer",
+   "conf": 0.4623354971408844,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_i_two_tone",
+    "explorer_ii_black"
+   ],
+   "vs": [
+    0.56,
+    0.35,
+    0.02
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16382325301).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16382325301).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Rolex_24hrs_of_Daytona_%2816382325301%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16382325301_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.9839615821838379,
+   "v": [
+    "gmt_regular",
+    "gmt_sprite",
+    "gmt_bruce_wayne"
+   ],
+   "vs": [
+    0.63,
+    0.59,
+    0.22
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Cosmograph Daytona.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Cosmograph_Daytona.png",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Rolex_Cosmograph_Daytona.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Matt C",
+   "licence": "CC BY 2.0",
+   "width": "990",
+   "height": "961",
+   "file": "data/commons/daytona/Rolex_Cosmograph_Daytona.jpg",
+   "fam": "daytona",
+   "conf": 0.9455904364585876,
+   "v": [
+    "daytona_john_mayer",
+    "daytona_two_tone",
+    "daytona_steel_bezel"
+   ],
+   "vs": [
+    0.85,
+    0.05,
+    0.02
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Cosmograph Daytona Panda.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Cosmograph_Daytona_Panda.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Rolex_Cosmograph_Daytona_Panda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Shuntfield",
+   "licence": "CC BY-SA 4.0",
+   "width": "1382",
+   "height": "1712",
+   "file": "data/commons/daytona/Rolex_Cosmograph_Daytona_Panda.jpg",
+   "fam": "daytona",
+   "conf": 0.9822883605957031,
+   "v": [
+    "daytona_two_tone",
+    "daytona_steel_bezel",
+    "daytona_paul_newman_vintage"
+   ],
+   "vs": [
+    0.47,
+    0.24,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Daytona \"Big Red\", ref. 6265.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Daytona_%22Big_Red%22,_ref._6265.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Rolex_Daytona_%22Big_Red%22%2C_ref._6265.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "927",
+   "height": "1600",
+   "file": "data/commons/daytona/Rolex_Daytona_Big_Red_ref._6265.jpg",
+   "fam": "daytona",
+   "conf": 0.8149079084396362,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_paul_newman_vintage",
+    "daytona_panda"
+   ],
+   "vs": [
+    0.35,
+    0.32,
+    0.15
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2014 Rolex 24 Hours of Daytona (12178002695).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2014_Rolex_24_Hours_of_Daytona_(12178002695).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2014_Rolex_24_Hours_of_Daytona_%2812178002695%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Anderson Silva",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/2014_Rolex_24_Hours_of_Daytona_12178002695_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (15900254374).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(15900254374).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/2015_Rolex_24hrs_of_Daytona_%2815900254374%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_15900254374_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16336547889).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16336547889).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/2015_Rolex_24hrs_of_Daytona_%2816336547889%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16336547889_.jpg",
+   "fam": "daytona",
+   "conf": 0.6421427130699158,
+   "v": [
+    "daytona_john_mayer",
+    "daytona_two_tone",
+    "daytona_ice_blue"
+   ],
+   "vs": [
+    0.24,
+    0.18,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16336549629).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16336549629).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/2015_Rolex_24hrs_of_Daytona_%2816336549629%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16336549629_.jpg",
+   "fam": "daytona",
+   "conf": 0.7313427925109863,
+   "v": [
+    "daytona_ice_blue",
+    "daytona_black_dial",
+    "daytona_john_mayer"
+   ],
+   "vs": [
+    0.2,
+    0.19,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16336912477).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16336912477).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/2015_Rolex_24hrs_of_Daytona_%2816336912477%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16336912477_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.36927658319473267,
+   "v": [
+    "gmt_yellow_gold",
+    "gmt_root_beer",
+    "gmt_sprite"
+   ],
+   "vs": [
+    0.25,
+    0.24,
+    0.08
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16497234536).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16497234536).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/2015_Rolex_24hrs_of_Daytona_%2816497234536%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16497234536_.jpg",
+   "fam": "president",
+   "conf": 0.6644057035446167,
+   "v": [
+    "president_stella",
+    "president_everose",
+    "president_yellow_gold"
+   ],
+   "vs": [
+    0.68,
+    0.52,
+    0.05
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16521121981).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16521121981).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/2015_Rolex_24hrs_of_Daytona_%2816521121981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16521121981_.jpg",
+   "fam": "president",
+   "conf": 0.8957046270370483,
+   "v": [
+    "president_everose",
+    "president_stella",
+    "president_platinum_ice_blue"
+   ],
+   "vs": [
+    0.79,
+    0.17,
+    0.08
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16522216342).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16522216342).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2015_Rolex_24hrs_of_Daytona_%2816522216342%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16522216342_.jpg",
+   "fam": "yacht_master",
+   "conf": 0.450329452753067,
+   "v": [
+    "yacht_master_blue_dial",
+    "yacht_master_yellow_gold_metal",
+    "yacht_master_titanium"
+   ],
+   "vs": [
+    0.51,
+    0.2,
+    0.19
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31856517873).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31856517873).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Rolex_24_Hours_at_Daytona_2017_%2831856517873%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31856517873_.jpg",
+   "fam": "turn_o_graph",
+   "conf": 0.480098158121109,
+   "v": [
+    "turn_o_graph_everose",
+    "turn_o_graph_16264_white_gold",
+    "turn_o_graph_yellow_gold_thunderbird"
+   ],
+   "vs": [
+    0.68,
+    0.29,
+    0.02
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32255857800).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32255857800).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rolex_24_Hours_at_Daytona_2017_%2832255857800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32255857800_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.6490575671195984,
+   "v": [
+    "op_coral_red",
+    "op_black",
+    "op_blue"
+   ],
+   "vs": [
+    0.62,
+    0.16,
+    0.07
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32255868590).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32255868590).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rolex_24_Hours_at_Daytona_2017_%2832255868590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32255868590_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32289221110).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32289221110).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Rolex_24_Hours_at_Daytona_2017_%2832289221110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32289221110_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32289228140).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32289228140).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Rolex_24_Hours_at_Daytona_2017_%2832289228140%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32289228140_.jpg",
+   "fam": "daytona",
+   "conf": 0.45833808183670044,
+   "v": [
+    "daytona_black_dial",
+    "daytona_panda",
+    "daytona_oysterflex_gold"
+   ],
+   "vs": [
+    0.25,
+    0.11,
+    0.09
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32482081502).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32482081502).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Rolex_24_Hours_at_Daytona_2017_%2832482081502%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5155",
+   "height": "3437",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32482081502_.jpg",
+   "fam": "daytona",
+   "conf": 0.5524214506149292,
+   "v": [
+    "daytona_john_mayer",
+    "daytona_oysterflex_gold",
+    "daytona_two_tone"
+   ],
+   "vs": [
+    0.2,
+    0.14,
+    0.05
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32482086932).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32482086932).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Rolex_24_Hours_at_Daytona_2017_%2832482086932%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32482086932_.jpg",
+   "fam": "yacht_master",
+   "conf": 0.49461600184440613,
+   "v": [
+    "yacht_master_titanium",
+    "yacht_master_white_gold_oysterflex",
+    "yacht_master_everose_metal"
+   ],
+   "vs": [
+    0.19,
+    0.17,
+    0.09
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32496778902).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32496778902).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Rolex_24_Hours_at_Daytona_2017_%2832496778902%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5169",
+   "height": "3446",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32496778902_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32513031521).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32513031521).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Rolex_24_Hours_at_Daytona_2017_%2832513031521%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32513031521_.jpg",
+   "fam": "daytona",
+   "conf": 0.539344310760498,
+   "v": [
+    "daytona_john_mayer",
+    "daytona_paul_newman_vintage",
+    "daytona_oysterflex_gold"
+   ],
+   "vs": [
+    0.15,
+    0.12,
+    0.07
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32515394571).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32515394571).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Rolex_24_Hours_at_Daytona_2017_%2832515394571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32515394571_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32594868356).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32594868356).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rolex_24_Hours_at_Daytona_2017_%2832594868356%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "4983",
+   "height": "3322",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32594868356_.jpg",
+   "fam": "oysterquartz",
+   "conf": 0.6989656090736389,
+   "v": [
+    "oysterquartz_datejust",
+    "oysterquartz_day_date"
+   ],
+   "vs": [
+    0.71,
+    0.29
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32597531676).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32597531676).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Rolex_24_Hours_at_Daytona_2017_%2832597531676%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5171",
+   "height": "3447",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32597531676_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 hours of Daytona (16421356342).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_hours_of_Daytona_(16421356342).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rolex_24_hours_of_Daytona_%2816421356342%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24_hours_of_Daytona_16421356342_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16197836139).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16197836139).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Rolex_24hrs_of_Daytona_%2816197836139%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16197836139_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.4864649772644043,
+   "v": [
+    "gmt_fat_lady",
+    "gmt_regular",
+    "gmt_pepsi"
+   ],
+   "vs": [
+    0.24,
+    0.1,
+    0.09
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16382325501).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16382325501).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Rolex_24hrs_of_Daytona_%2816382325501%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16382325501_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.6215131282806396,
+   "v": [
+    "gmt_regular",
+    "gmt_bruce_wayne",
+    "gmt_pepsi"
+   ],
+   "vs": [
+    0.33,
+    0.17,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Daytona 126500LN Panda Replica.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Daytona_126500LN_Panda_Replica.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rolex_Daytona_126500LN_Panda_Replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Oliya828",
+   "licence": "CC BY-SA 4.0",
+   "width": "1200",
+   "height": "1200",
+   "file": "data/commons/daytona/Rolex_Daytona_126500LN_Panda_Replica.jpg",
+   "fam": "daytona",
+   "conf": 0.9202234745025635,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_two_tone",
+    "daytona_paul_newman_vintage"
+   ],
+   "vs": [
+    0.2,
+    0.14,
+    0.12
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Daytona Cosmograph.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Daytona_Cosmograph.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rolex_Daytona_Cosmograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "WALLI1912 at German Wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "width": "480",
+   "height": "640",
+   "file": "data/commons/daytona/Rolex_Daytona_Cosmograph.jpg",
+   "fam": "daytona",
+   "conf": 0.9254639744758606,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_two_tone",
+    "daytona_paul_newman_vintage"
+   ],
+   "vs": [
+    0.39,
+    0.24,
+    0.21
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Daytona ref. 16523, fine anni '90.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Daytona_ref._16523,_fine_anni_%2790.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Rolex_Daytona_ref._16523%2C_fine_anni_%2790.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1060",
+   "height": "1301",
+   "file": "data/commons/daytona/Rolex_Daytona_ref._16523_fine_anni_90.jpg",
+   "fam": "daytona",
+   "conf": 0.9559453725814819,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_two_tone",
+    "daytona_paul_newman_vintage"
+   ],
+   "vs": [
+    0.52,
+    0.18,
+    0.17
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Daytona ref. 6263, primi anni Settanta.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Daytona_ref._6263,_primi_anni_Settanta.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rolex_Daytona_ref._6263%2C_primi_anni_Settanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1411",
+   "height": "2048",
+   "file": "data/commons/daytona/Rolex_Daytona_ref._6263_primi_anni_Settanta.jpg",
+   "fam": "daytona",
+   "conf": 0.9686086177825928,
+   "v": [
+    "daytona_paul_newman_vintage",
+    "daytona_steel_bezel",
+    "daytona_black_dial"
+   ],
+   "vs": [
+    0.37,
+    0.35,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Daytona ref. 6265 in oro, primi anni Settanta.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Daytona_ref._6265_in_oro,_primi_anni_Settanta.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Rolex_Daytona_ref._6265_in_oro%2C_primi_anni_Settanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1536",
+   "height": "2048",
+   "file": "data/commons/daytona/Rolex_Daytona_ref._6265_in_oro_primi_anni_Settanta.jpg",
+   "fam": "daytona",
+   "conf": 0.9671623110771179,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_two_tone",
+    "daytona_john_mayer"
+   ],
+   "vs": [
+    0.25,
+    0.22,
+    0.16
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Daytona ref. 6269, primo Daytona con pietre preziose. Risalente al 1984..jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Daytona_ref._6269,_primo_Daytona_con_pietre_preziose._Risalente_al_1984..jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Rolex_Daytona_ref._6269%2C_primo_Daytona_con_pietre_preziose._Risalente_al_1984..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1536",
+   "height": "2048",
+   "file": "data/commons/daytona/Rolex_Daytona_ref._6269_primo_Daytona_con_pietre_preziose._Risalente_al_1984..jpg",
+   "fam": "daytona",
+   "conf": 0.8118268251419067,
+   "v": [
+    "daytona_john_mayer",
+    "daytona_oysterflex_gold",
+    "daytona_two_tone"
+   ],
+   "vs": [
+    0.46,
+    0.22,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex Le Mans Daytona 126528LN.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Le_Mans_Daytona_126528LN.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Rolex_Le_Mans_Daytona_126528LN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Verygoodlord",
+   "licence": "CC BY-SA 4.0",
+   "width": "4672",
+   "height": "7008",
+   "file": "data/commons/daytona/Rolex_Le_Mans_Daytona_126528LN.jpg",
+   "fam": "daytona",
+   "conf": 0.9756306409835815,
+   "v": [
+    "daytona_two_tone",
+    "daytona_oysterflex_gold",
+    "daytona_john_mayer"
+   ],
+   "vs": [
+    0.52,
+    0.2,
+    0.16
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2014 Rolex 24 Hours of Daytona (12177976375).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2014_Rolex_24_Hours_of_Daytona_(12177976375).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/2014_Rolex_24_Hours_of_Daytona_%2812177976375%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Anderson Silva",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/2014_Rolex_24_Hours_of_Daytona_12177976375_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16337337447).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16337337447).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/2015_Rolex_24hrs_of_Daytona_%2816337337447%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16337337447_.jpg",
+   "fam": "explorer",
+   "conf": 0.3519345819950104,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black",
+    "explorer_ii_polar"
+   ],
+   "vs": [
+    0.71,
+    0.03,
+    0.01
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16521799052).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16521799052).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/2015_Rolex_24hrs_of_Daytona_%2816521799052%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16521799052_.jpg",
+   "fam": "airking",
+   "conf": 0.5295342803001404,
+   "v": [
+    "airking_classic_smooth",
+    "airking_modern",
+    "airking_classing_fluted"
+   ],
+   "vs": [
+    0.67,
+    0.23,
+    0.04
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:2015 Rolex 24hrs of Daytona (16522215652).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:2015_Rolex_24hrs_of_Daytona_(16522215652).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/2015_Rolex_24hrs_of_Daytona_%2816522215652%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/2015_Rolex_24hrs_of_Daytona_16522215652_.jpg",
+   "fam": "president",
+   "conf": 0.8372529149055481,
+   "v": [
+    "president_stella",
+    "president_yellow_gold",
+    "president_white_gold_blue"
+   ],
+   "vs": [
+    0.97,
+    0.48,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31792463844).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31792463844).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rolex_24_Hours_at_Daytona_2017_%2831792463844%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5118",
+   "height": "3412",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31792463844_.jpg",
+   "fam": "turn_o_graph",
+   "conf": 0.4942642152309418,
+   "v": [
+    "turn_o_graph_116263_yellow_gold",
+    "turn_o_graph_yellow_gold_thunderbird",
+    "turn_o_graph_16264_white_gold"
+   ],
+   "vs": [
+    0.77,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31792478704).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31792478704).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Rolex_24_Hours_at_Daytona_2017_%2831792478704%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "4992",
+   "height": "3328",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31792478704_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31795455034).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31795455034).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rolex_24_Hours_at_Daytona_2017_%2831795455034%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31795455034_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31824484643).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31824484643).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Rolex_24_Hours_at_Daytona_2017_%2831824484643%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31824484643_.jpg",
+   "fam": "turn_o_graph",
+   "conf": 0.35105764865875244,
+   "v": [
+    "turn_o_graph_yellow_gold_thunderbird",
+    "turn_o_graph_16264_white_gold",
+    "turn_o_graph_116263_yellow_gold"
+   ],
+   "vs": [
+    0.5,
+    0.16,
+    0.15
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31825604664).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31825604664).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Rolex_24_Hours_at_Daytona_2017_%2831825604664%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5069",
+   "height": "3379",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31825604664_.jpg",
+   "fam": "cellini",
+   "conf": 0.3483505845069885,
+   "v": [
+    "cellini_danaos",
+    "cellini_octagon",
+    "cellini_cellinium"
+   ],
+   "vs": [
+    0.72,
+    0.14,
+    0.06
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31826112324).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31826112324).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Rolex_24_Hours_at_Daytona_2017_%2831826112324%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5122",
+   "height": "3414",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31826112324_.jpg",
+   "fam": "turn_o_graph",
+   "conf": 0.4985956847667694,
+   "v": [
+    "turn_o_graph_everose",
+    "turn_o_graph_red_accent",
+    "turn_o_graph_116263_yellow_gold"
+   ],
+   "vs": [
+    0.83,
+    0.08,
+    0.07
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31826115854).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31826115854).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rolex_24_Hours_at_Daytona_2017_%2831826115854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5115",
+   "height": "3410",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31826115854_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31858528673).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31858528673).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Rolex_24_Hours_at_Daytona_2017_%2831858528673%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5130",
+   "height": "3420",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31858528673_.jpg",
+   "fam": "daytona",
+   "conf": 0.9555000066757202,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_ice_blue",
+    "daytona_panda"
+   ],
+   "vs": [
+    0.45,
+    0.15,
+    0.12
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (31858531343).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(31858531343).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Rolex_24_Hours_at_Daytona_2017_%2831858531343%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5133",
+   "height": "3422",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_31858531343_.jpg",
+   "fam": "daytona",
+   "conf": 0.4884996712207794,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_panda",
+    "daytona_paul_newman_vintage"
+   ],
+   "vs": [
+    0.17,
+    0.16,
+    0.14
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32255862540).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32255862540).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Rolex_24_Hours_at_Daytona_2017_%2832255862540%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5079",
+   "height": "3386",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32255862540_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32258179810).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32258179810).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Rolex_24_Hours_at_Daytona_2017_%2832258179810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5138",
+   "height": "3425",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32258179810_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.6366286277770996,
+   "v": [
+    "gmt_sprite",
+    "gmt_gold_green",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.38,
+    0.03,
+    0.03
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32289234690).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32289234690).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Rolex_24_Hours_at_Daytona_2017_%2832289234690%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32289234690_.jpg",
+   "fam": "yacht_master",
+   "conf": 0.44133615493774414,
+   "v": [
+    "yacht_master_blue_dial",
+    "yacht_master_titanium",
+    "yacht_master_ii_white_gold_platinum"
+   ],
+   "vs": [
+    0.36,
+    0.35,
+    0.32
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32295249140).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32295249140).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rolex_24_Hours_at_Daytona_2017_%2832295249140%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32295249140_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32482084092).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32482084092).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Rolex_24_Hours_at_Daytona_2017_%2832482084092%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32482084092_.jpg",
+   "fam": "explorer",
+   "conf": 0.24678540229797363,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_i_two_tone",
+    "explorer_ii_black"
+   ],
+   "vs": [
+    0.33,
+    0.04,
+    0.03
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32484881182).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32484881182).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Rolex_24_Hours_at_Daytona_2017_%2832484881182%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32484881182_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32527375691).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32527375691).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Rolex_24_Hours_at_Daytona_2017_%2832527375691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5080",
+   "height": "3386",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32527375691_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32528414001).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32528414001).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Rolex_24_Hours_at_Daytona_2017_%2832528414001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5123",
+   "height": "3416",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32528414001_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.4848270118236542,
+   "v": [
+    "gmt_sprite",
+    "gmt_batman_batgirl",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.34,
+    0.13,
+    0.13
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32546122051).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32546122051).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rolex_24_Hours_at_Daytona_2017_%2832546122051%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32546122051_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32548696431).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32548696431).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Rolex_24_Hours_at_Daytona_2017_%2832548696431%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5160",
+   "height": "3440",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32548696431_.jpg",
+   "fam": "oysterquartz",
+   "conf": 0.24981807172298431,
+   "v": [
+    "oysterquartz_day_date",
+    "oysterquartz_datejust"
+   ],
+   "vs": [
+    0.89,
+    0.11
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32594872296).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32594872296).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Rolex_24_Hours_at_Daytona_2017_%2832594872296%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5084",
+   "height": "3389",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32594872296_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32594901766).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32594901766).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Rolex_24_Hours_at_Daytona_2017_%2832594901766%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5138",
+   "height": "3425",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32594901766_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.38090527057647705,
+   "v": [
+    "gmt_sprite",
+    "gmt_gold_green",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.26,
+    0.21,
+    0.21
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32597527676).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32597527676).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Rolex_24_Hours_at_Daytona_2017_%2832597527676%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5019",
+   "height": "3347",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32597527676_.jpg",
+   "fam": "oysterquartz",
+   "conf": 0.4881174564361572,
+   "v": [
+    "oysterquartz_day_date",
+    "oysterquartz_datejust"
+   ],
+   "vs": [
+    0.97,
+    0.03
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32635399755).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32635399755).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Rolex_24_Hours_at_Daytona_2017_%2832635399755%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32635399755_.jpg",
+   "fam": "turn_o_graph",
+   "conf": 0.5234395265579224,
+   "v": [
+    "turn_o_graph_everose",
+    "turn_o_graph_116263_yellow_gold",
+    "turn_o_graph_16264_white_gold"
+   ],
+   "vs": [
+    0.71,
+    0.17,
+    0.08
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32635452555).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32635452555).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Rolex_24_Hours_at_Daytona_2017_%2832635452555%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "3456",
+   "height": "5184",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32635452555_.jpg",
+   "fam": "explorer",
+   "conf": 0.5063203573226929,
+   "v": [
+    "explorer_i_black",
+    "explorer_ii_black",
+    "explorer_ii_steve_mcqueen"
+   ],
+   "vs": [
+    0.37,
+    0.15,
+    0.11
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32637834285).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32637834285).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Rolex_24_Hours_at_Daytona_2017_%2832637834285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5119",
+   "height": "3413",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32637834285_.jpg",
+   "fam": "No Watch Detected",
+   "conf": 0.0,
+   "v": [
+    "None",
+    "None",
+    "None"
+   ],
+   "vs": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24 Hours at Daytona 2017 (32637838145).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24_Hours_at_Daytona_2017_(32637838145).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Rolex_24_Hours_at_Daytona_2017_%2832637838145%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mike Maravilla from Chicago, IL, USA",
+   "licence": "CC BY 2.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/daytona/Rolex_24_Hours_at_Daytona_2017_32637838145_.jpg",
+   "fam": "daytona",
+   "conf": 0.9001046419143677,
+   "v": [
+    "daytona_oysterflex_gold",
+    "daytona_john_mayer",
+    "daytona_two_tone"
+   ],
+   "vs": [
+    0.29,
+    0.11,
+    0.07
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (15764049783).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(15764049783).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rolex_24hrs_of_Daytona_%2815764049783%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_15764049783_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.36934924125671387,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_two_tone",
+    "sea_dweller_red"
+   ],
+   "vs": [
+    0.92,
+    0.7,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16196430768).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16196430768).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Rolex_24hrs_of_Daytona_%2816196430768%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16196430768_.jpg",
+   "fam": "daytona",
+   "conf": 0.37616166472435,
+   "v": [
+    "daytona_steel_bezel",
+    "daytona_ice_blue",
+    "daytona_john_mayer"
+   ],
+   "vs": [
+    0.18,
+    0.15,
+    0.13
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16196646120).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16196646120).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Rolex_24hrs_of_Daytona_%2816196646120%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16196646120_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.683648407459259,
+   "v": [
+    "sea_dweller_two_tone",
+    "deepsea_james_cameron",
+    "sea_dweller_red"
+   ],
+   "vs": [
+    0.87,
+    0.43,
+    0.0
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16197834959).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16197834959).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Rolex_24hrs_of_Daytona_%2816197834959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1152",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16197834959_.jpg",
+   "fam": "explorer",
+   "conf": 0.7448290586471558,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_i_two_tone",
+    "explorer_ii_black"
+   ],
+   "vs": [
+    0.34,
+    0.19,
+    0.17
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16382324561).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16382324561).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Rolex_24hrs_of_Daytona_%2816382324561%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "878",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16382324561_.jpg",
+   "fam": "explorer",
+   "conf": 0.5443284511566162,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black",
+    "explorer_ii_polar"
+   ],
+   "vs": [
+    0.35,
+    0.1,
+    0.04
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16383140302).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16383140302).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Rolex_24hrs_of_Daytona_%2816383140302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "878",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16383140302_.jpg",
+   "fam": "cellini",
+   "conf": 0.2954818606376648,
+   "v": [
+    "cellini_cestello",
+    "cellini_danaos",
+    "cellini_prince"
+   ],
+   "vs": [
+    0.32,
+    0.25,
+    0.11
+   ]
+  },
+  {
+   "family": "daytona",
+   "title": "File:Rolex 24hrs of Daytona (16384062315).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_24hrs_of_Daytona_(16384062315).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Rolex_24hrs_of_Daytona_%2816384062315%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Jeremy Stoutamyer",
+   "licence": "CC BY 2.0",
+   "width": "2048",
+   "height": "1365",
+   "file": "data/commons/daytona/Rolex_24hrs_of_Daytona_16384062315_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.5441159009933472,
+   "v": [
+    "gmt_regular",
+    "gmt_bruce_wayne",
+    "gmt_sprite"
+   ],
+   "vs": [
+    0.47,
+    0.28,
+    0.07
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Casual Rolex Explorer II 16570 wearing (51868278355).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Casual_Rolex_Explorer_II_16570_wearing_(51868278355).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Casual_Rolex_Explorer_II_16570_wearing_%2851868278355%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mario A. P. from San Sebastian, Spain",
+   "licence": "CC BY-SA 2.0",
+   "width": "3967",
+   "height": "3213",
+   "file": "data/commons/explorer/Casual_Rolex_Explorer_II_16570_wearing_51868278355_.jpg",
+   "fam": "explorer",
+   "conf": 0.8282584547996521,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_i_black",
+    "explorer_ii_polar"
+   ],
+   "vs": [
+    0.24,
+    0.08,
+    0.07
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:James Levelle (explorer) Rolex.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:James_Levelle_(explorer)_Rolex.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/James_Levelle_%28explorer%29_Rolex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Whispyhistory",
+   "licence": "CC0",
+   "width": "3024",
+   "height": "4032",
+   "file": "data/commons/explorer/James_Levelle_explorer_Rolex.jpg",
+   "fam": "oysterquartz",
+   "conf": 0.46114978194236755,
+   "v": [
+    "oysterquartz_datejust",
+    "oysterquartz_day_date"
+   ],
+   "vs": [
+    0.68,
+    0.32
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex Explorer 2.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Explorer_2.JPG",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Rolex_Explorer_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "TheMonster17",
+   "licence": "CC BY-SA 4.0",
+   "width": "2048",
+   "height": "1536",
+   "file": "data/commons/explorer/Rolex_Explorer_2.jpg",
+   "fam": "explorer",
+   "conf": 0.8694755434989929,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black",
+    "explorer_ii_polar"
+   ],
+   "vs": [
+    0.38,
+    0.34,
+    0.28
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex Explorer II (edited).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Explorer_II_(edited).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Rolex_Explorer_II_%28edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "File:Rolex Explorer 2.JPG: TheMonster17\nderivative work: Pittigrilli",
+   "licence": "CC BY-SA 4.0",
+   "width": "1400",
+   "height": "1450",
+   "file": "data/commons/explorer/Rolex_Explorer_II_edited_.jpg",
+   "fam": "explorer",
+   "conf": 0.7331857085227966,
+   "v": [
+    "explorer_ii_black",
+    "explorer_i_two_tone",
+    "explorer_ii_steve_mcqueen"
+   ],
+   "vs": [
+    0.2,
+    0.18,
+    0.17
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Manual-winding wristwatch.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Manual-winding_wristwatch.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Manual-winding_wristwatch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "David M. 1963",
+   "licence": "CC BY-SA 4.0",
+   "width": "490",
+   "height": "700",
+   "file": "data/commons/gmt_master/Manual-winding_wristwatch.jpg",
+   "fam": "gmt_master",
+   "conf": 0.7718509435653687,
+   "v": [
+    "gmt_regular",
+    "gmt_sprite",
+    "gmt_bruce_wayne"
+   ],
+   "vs": [
+    0.36,
+    0.22,
+    0.21
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Museo del Bicentenario - Reloj de Carlos Menem Jr..jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Museo_del_Bicentenario_-_Reloj_de_Carlos_Menem_Jr..jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Museo_del_Bicentenario_-_Reloj_de_Carlos_Menem_Jr..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Museo del Bicentenario",
+   "licence": "CC BY-SA 3.0",
+   "width": "5184",
+   "height": "3456",
+   "file": "data/commons/gmt_master/Museo_del_Bicentenario_-_Reloj_de_Carlos_Menem_Jr..jpg",
+   "fam": "gmt_master",
+   "conf": 0.8721825480461121,
+   "v": [
+    "gmt_bruce_wayne",
+    "gmt_regular",
+    "gmt_pepsi"
+   ],
+   "vs": [
+    0.29,
+    0.27,
+    0.25
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex-GMT-Master-II-Batgirl.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex-GMT-Master-II-Batgirl.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Rolex-GMT-Master-II-Batgirl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Brattyq",
+   "licence": "CC0",
+   "width": "1200",
+   "height": "1200",
+   "file": "data/commons/gmt_master/Rolex-GMT-Master-II-Batgirl.jpg",
+   "fam": "gmt_master",
+   "conf": 0.7380802035331726,
+   "v": [
+    "gmt_bruce_wayne",
+    "gmt_regular",
+    "gmt_yellow_gold"
+   ],
+   "vs": [
+    0.36,
+    0.34,
+    0.11
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT-Master II ref. 126713GRNR.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT-Master_II_ref._126713GRNR.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Rolex_GMT-Master_II_ref._126713GRNR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1200",
+   "height": "1600",
+   "file": "data/commons/gmt_master/Rolex_GMT-Master_II_ref._126713GRNR.jpg",
+   "fam": "gmt_master",
+   "conf": 0.8643858432769775,
+   "v": [
+    "gmt_regular",
+    "gmt_root_beer",
+    "gmt_sprite"
+   ],
+   "vs": [
+    0.58,
+    0.39,
+    0.09
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT-Master II ref. 16710 Coke.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT-Master_II_ref._16710_Coke.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Rolex_GMT-Master_II_ref._16710_Coke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "2048",
+   "height": "1827",
+   "file": "data/commons/gmt_master/Rolex_GMT-Master_II_ref._16710_Coke.jpg",
+   "fam": "gmt_master",
+   "conf": 0.8526899218559265,
+   "v": [
+    "gmt_root_beer",
+    "gmt_pepsi",
+    "gmt_bruce_wayne"
+   ],
+   "vs": [
+    0.32,
+    0.25,
+    0.22
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT-Master ref. 1675 \"Pink Panther\".jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT-Master_ref._1675_%22Pink_Panther%22.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Rolex_GMT-Master_ref._1675_%22Pink_Panther%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1468",
+   "height": "1449",
+   "file": "data/commons/gmt_master/Rolex_GMT-Master_ref._1675_Pink_Panther_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.9020114541053772,
+   "v": [
+    "gmt_regular",
+    "gmt_pepsi",
+    "gmt_root_beer"
+   ],
+   "vs": [
+    0.61,
+    0.23,
+    0.23
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT-Master ref. 1675 con quadrante sottolineato e spallette proteggi corona a punta. Anni Sessanta..jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT-Master_ref._1675_con_quadrante_sottolineato_e_spallette_proteggi_corona_a_punta._Anni_Sessanta..jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Rolex_GMT-Master_ref._1675_con_quadrante_sottolineato_e_spallette_proteggi_corona_a_punta._Anni_Sessanta..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "992",
+   "height": "892",
+   "file": "data/commons/gmt_master/Rolex_GMT-Master_ref._1675_con_quadrante_sottolineato_e_spallette_proteggi_corona_a_punta._Anni_Sessanta..jpg",
+   "fam": "gmt_master",
+   "conf": 0.9589752554893494,
+   "v": [
+    "gmt_root_beer",
+    "gmt_regular",
+    "gmt_pepsi"
+   ],
+   "vs": [
+    0.37,
+    0.29,
+    0.12
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMTIIC.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMTIIC.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Rolex_GMTIIC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Michael de Silva (bsodmike.com)",
+   "licence": "CC BY 3.0",
+   "width": "900",
+   "height": "675",
+   "file": "data/commons/gmt_master/Rolex_GMTIIC.jpg",
+   "fam": "gmt_master",
+   "conf": 0.7157130241394043,
+   "v": [
+    "gmt_root_beer",
+    "gmt_regular",
+    "gmt_yellow_gold"
+   ],
+   "vs": [
+    0.34,
+    0.17,
+    0.14
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master I, anni '80. Gli indici piccoli, rotondi e a punta hanno contribuito all'appellativo di questo quadrante di \"nipple dial\".jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_I,_anni_%2780._Gli_indici_piccoli,_rotondi_e_a_punta_hanno_contribuito_all%27appellativo_di_questo_quadrante_di_%22nipple_dial%22.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Rolex_GMT_Master_I%2C_anni_%2780._Gli_indici_piccoli%2C_rotondi_e_a_punta_hanno_contribuito_all%27appellativo_di_questo_quadrante_di_%22nipple_dial%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1313",
+   "height": "2014",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_I_anni_80.jpg",
+   "fam": "gmt_master",
+   "conf": 0.8499486446380615,
+   "v": [
+    "gmt_root_beer",
+    "gmt_yellow_gold",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.65,
+    0.15,
+    0.08
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Rolex_GMT_Master_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Juho Eskel\u00e4",
+   "licence": "CC BY-SA 3.0",
+   "width": "800",
+   "height": "600",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II.jpg",
+   "fam": "gmt_master",
+   "conf": 0.810789942741394,
+   "v": [
+    "gmt_pepsi",
+    "gmt_fat_lady",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.64,
+    0.17,
+    0.06
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II (4657617812).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II_(4657617812).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rolex_GMT_Master_II_%284657617812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "H\u00e5kan Dahlstr\u00f6m from Malm\u00f6, Sweden",
+   "licence": "CC BY 2.0",
+   "width": "3290",
+   "height": "3290",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II_4657617812_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.6801286339759827,
+   "v": [
+    "gmt_regular",
+    "gmt_root_beer",
+    "gmt_bruce_wayne"
+   ],
+   "vs": [
+    0.58,
+    0.18,
+    0.17
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II - 16710 (without background).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II_-_16710_(without_background).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Rolex_GMT_Master_II_-_16710_%28without_background%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "File:Rolex GMT Master II - 16710 in it sitting on top of the box.jpg: Peter WILSON\nderivative work: Pittigrilli",
+   "licence": "CC BY-SA 4.0",
+   "width": "1606",
+   "height": "1850",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II_-_16710_without_background_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.8720389008522034,
+   "v": [
+    "gmt_regular",
+    "gmt_pepsi",
+    "gmt_bruce_wayne"
+   ],
+   "vs": [
+    0.5,
+    0.32,
+    0.24
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II - 16710 (without background, cropped to casing).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II_-_16710_(without_background,_cropped_to_casing).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Rolex_GMT_Master_II_-_16710_%28without_background%2C_cropped_to_casing%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "File:Rolex GMT Master II - 16710 in it sitting on top of the box.jpg: Peter WILSON\nderivative work: Pittigrilli",
+   "licence": "CC BY-SA 4.0",
+   "width": "1268",
+   "height": "1293",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II_-_16710_without_background_cropped_to_casing_.jpg",
+   "fam": "gmt_master",
+   "conf": 0.9406552910804749,
+   "v": [
+    "gmt_regular",
+    "gmt_pepsi",
+    "gmt_root_beer"
+   ],
+   "vs": [
+    0.47,
+    0.28,
+    0.15
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II - Watch of Carlos Menem Jr. - Museo del Bicentenario.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II_-_Watch_of_Carlos_Menem_Jr._-_Museo_del_Bicentenario.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rolex_GMT_Master_II_-_Watch_of_Carlos_Menem_Jr._-_Museo_del_Bicentenario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Museo del Bicentenario",
+   "licence": "CC BY-SA 3.0",
+   "width": "1200",
+   "height": "1400",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II_-_Watch_of_Carlos_Menem_Jr._-_Museo_del_Bicentenario.jpg",
+   "fam": "gmt_master",
+   "conf": 0.9432365298271179,
+   "v": [
+    "gmt_regular",
+    "gmt_pepsi",
+    "gmt_bruce_wayne"
+   ],
+   "vs": [
+    0.43,
+    0.31,
+    0.17
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II 116710BLNR Batman.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II_116710BLNR_Batman.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rolex_GMT_Master_II_116710BLNR_Batman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "gabihil",
+   "licence": "Public domain",
+   "width": "750",
+   "height": "750",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II_116710BLNR_Batman.jpg",
+   "fam": "gmt_master",
+   "conf": 0.8156275153160095,
+   "v": [
+    "gmt_bruce_wayne",
+    "gmt_pepsi",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.54,
+    0.35,
+    0.24
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II Pepsi.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II_Pepsi.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Rolex_GMT_Master_II_Pepsi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "OpaleHorse",
+   "licence": "CC BY-SA 4.0",
+   "width": "3024",
+   "height": "4032",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II_Pepsi.jpg",
+   "fam": "gmt_master",
+   "conf": 0.9163640141487122,
+   "v": [
+    "gmt_fat_lady",
+    "gmt_pepsi",
+    "gmt_gem_set"
+   ],
+   "vs": [
+    0.37,
+    0.29,
+    0.06
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT Master II ref. 16710T.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_Master_II_ref._16710T.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Rolex_GMT_Master_II_ref._16710T.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "729",
+   "height": "880",
+   "file": "data/commons/gmt_master/Rolex_GMT_Master_II_ref._16710T.jpg",
+   "fam": "gmt_master",
+   "conf": 0.8992036581039429,
+   "v": [
+    "gmt_pepsi",
+    "gmt_regular",
+    "gmt_root_beer"
+   ],
+   "vs": [
+    0.37,
+    0.33,
+    0.21
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex GMT sergiosili.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMT_sergiosili.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Rolex_GMT_sergiosili.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Alesili",
+   "licence": "CC BY-SA 4.0",
+   "width": "3502",
+   "height": "2592",
+   "file": "data/commons/gmt_master/Rolex_GMT_sergiosili.jpg",
+   "fam": "gmt_master",
+   "conf": 0.4641879200935364,
+   "v": [
+    "gmt_regular",
+    "gmt_bruce_wayne",
+    "gmt_sprite"
+   ],
+   "vs": [
+    0.45,
+    0.24,
+    0.15
+   ]
+  },
+  {
+   "family": "gmt_master",
+   "title": "File:Rolex Submariner and GMT Master II.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Submariner_and_GMT_Master_II.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Rolex_Submariner_and_GMT_Master_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "OpaleHorse",
+   "licence": "CC BY-SA 4.0",
+   "width": "1905",
+   "height": "2540",
+   "file": "data/commons/gmt_master/Rolex_Submariner_and_GMT_Master_II.jpg",
+   "fam": "gmt_master",
+   "conf": 0.810228705406189,
+   "v": [
+    "gmt_pepsi",
+    "gmt_regular",
+    "gmt_fat_lady"
+   ],
+   "vs": [
+    0.29,
+    0.15,
+    0.13
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Fully diamond covered ROLEX DeepSea Sea-Dweller watch customized bu TraxNYC.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Fully_diamond_covered_ROLEX_DeepSea_Sea-Dweller_watch_customized_bu_TraxNYC.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Fully_diamond_covered_ROLEX_DeepSea_Sea-Dweller_watch_customized_bu_TraxNYC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Marc Jacob",
+   "licence": "CC BY-SA 4.0",
+   "width": "1000",
+   "height": "750",
+   "file": "data/commons/sea_dweller/Fully_diamond_covered_ROLEX_DeepSea_Sea-Dweller_watch_customized_bu_TraxNYC.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.7672687768936157,
+   "v": [
+    "sea_dweller_double_red",
+    "sea_dweller_great_white",
+    "deepsea_james_cameron"
+   ],
+   "vs": [
+    0.17,
+    0.13,
+    0.12
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:He release valve seadweller.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:He_release_valve_seadweller.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/He_release_valve_seadweller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rruegger at English Wikipedia - Picture provided by www.rruegger.ch",
+   "licence": "CC BY-SA 3.0",
+   "width": "800",
+   "height": "752",
+   "file": "data/commons/sea_dweller/He_release_valve_seadweller.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.7654929161071777,
+   "v": [
+    "sea_dweller_two_tone",
+    "deepsea_james_cameron",
+    "sea_dweller_double_red"
+   ],
+   "vs": [
+    0.72,
+    0.19,
+    0.14
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Particolare della valvola di sfogo dell'elio del Rolex Sea-Dweller ref. 1665, met\u00e0 anni Settanta circa.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Particolare_della_valvola_di_sfogo_dell%27elio_del_Rolex_Sea-Dweller_ref._1665,_met%C3%A0_anni_Settanta_circa.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Particolare_della_valvola_di_sfogo_dell%27elio_del_Rolex_Sea-Dweller_ref._1665%2C_met%C3%A0_anni_Settanta_circa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1200",
+   "height": "1600",
+   "file": "data/commons/sea_dweller/Particolare_della_valvola_di_sfogo_dell_elio_del_Rolex_Sea-Dweller_ref._1665_met_anni_Settanta_circa.jpg",
+   "fam": "gmt_master",
+   "conf": 0.3877553641796112,
+   "v": [
+    "gmt_regular",
+    "gmt_pepsi",
+    "gmt_bruce_wayne"
+   ],
+   "vs": [
+    0.49,
+    0.46,
+    0.3
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Comex Sea Dweller.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Comex_Sea_Dweller.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Rolex_Comex_Sea_Dweller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Verygoodlord",
+   "licence": "CC BY-SA 4.0",
+   "width": "4672",
+   "height": "4213",
+   "file": "data/commons/sea_dweller/Rolex_Comex_Sea_Dweller.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.6791804432868958,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_red",
+    "sea_dweller_two_tone"
+   ],
+   "vs": [
+    0.61,
+    0.33,
+    0.12
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Deepsea Black Dial 16660.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Black_Dial_16660.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Rolex_Deepsea_Black_Dial_16660.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Johntorcasio",
+   "licence": "CC BY 4.0",
+   "width": "3601",
+   "height": "2358",
+   "file": "data/commons/sea_dweller/Rolex_Deepsea_Black_Dial_16660.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.7691294550895691,
+   "v": [
+    "sea_dweller_red",
+    "sea_dweller_two_tone",
+    "sea_dweller_great_white"
+   ],
+   "vs": [
+    0.49,
+    0.19,
+    0.15
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Deepsea Oyster Perpetual Reference code 116660.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Oyster_Perpetual_Reference_code_116660.JPG",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rolex_Deepsea_Oyster_Perpetual_Reference_code_116660.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Johntorcasio",
+   "licence": "CC BY-SA 3.0",
+   "width": "1600",
+   "height": "1143",
+   "file": "data/commons/sea_dweller/Rolex_Deepsea_Oyster_Perpetual_Reference_code_116660.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9635847806930542,
+   "v": [
+    "sea_dweller_great_white",
+    "sea_dweller_two_tone",
+    "sea_dweller_red"
+   ],
+   "vs": [
+    0.63,
+    0.16,
+    0.15
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron'.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "amh1988",
+   "licence": "CC0",
+   "width": "4928",
+   "height": "3264",
+   "file": "data/commons/sea_dweller/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9872137308120728,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_red",
+    "sea_dweller_great_white"
+   ],
+   "vs": [
+    0.75,
+    0.42,
+    0.13
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron' (cropped and turned).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_(cropped_and_turned).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_%28cropped_and_turned%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "amh1988",
+   "licence": "CC0",
+   "width": "2560",
+   "height": "2952",
+   "file": "data/commons/sea_dweller/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_cropped_and_turned_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9843632578849792,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_red",
+    "sea_dweller_great_white"
+   ],
+   "vs": [
+    0.86,
+    0.39,
+    0.17
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron' (without background, upright).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_(without_background,_upright).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_%28without_background%2C_upright%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron'.jpg: amh1988\nderivative work: Pittigrilli",
+   "licence": "CC0",
+   "width": "2560",
+   "height": "2952",
+   "file": "data/commons/sea_dweller/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_without_background_upright_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9915114045143127,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_red",
+    "sea_dweller_great_white"
+   ],
+   "vs": [
+    0.87,
+    0.58,
+    0.05
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Sea-Dweller ref. 16600 di fine anni Ottanta, privo della lente magnificatrice..jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Sea-Dweller_ref._16600_di_fine_anni_Ottanta,_privo_della_lente_magnificatrice..jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Rolex_Sea-Dweller_ref._16600_di_fine_anni_Ottanta%2C_privo_della_lente_magnificatrice..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1203",
+   "height": "1665",
+   "file": "data/commons/sea_dweller/Rolex_Sea-Dweller_ref._16600_di_fine_anni_Ottanta_privo_della_lente_magnificatrice..jpg",
+   "fam": "sea_dweller",
+   "conf": 0.8200302720069885,
+   "v": [
+    "sea_dweller_great_white",
+    "deepsea_james_cameron",
+    "sea_dweller_double_red"
+   ],
+   "vs": [
+    0.52,
+    0.47,
+    0.13
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Sea Dweller 16600.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Sea_Dweller_16600.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Rolex_Sea_Dweller_16600.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "John Torcasio",
+   "licence": "CC BY-SA 3.0",
+   "width": "1549",
+   "height": "1377",
+   "file": "data/commons/sea_dweller/Rolex_Sea_Dweller_16600.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.8056160807609558,
+   "v": [
+    "sea_dweller_two_tone",
+    "deepsea_james_cameron",
+    "sea_dweller_double_red"
+   ],
+   "vs": [
+    0.2,
+    0.2,
+    0.16
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex Sea Dweller 1665 1602924 Dr Morgan Wells.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Sea_Dweller_1665_1602924_Dr_Morgan_Wells.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Rolex_Sea_Dweller_1665_1602924_Dr_Morgan_Wells.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Hyperbaric John",
+   "licence": "CC BY-SA 4.0",
+   "width": "3022",
+   "height": "3142",
+   "file": "data/commons/sea_dweller/Rolex_Sea_Dweller_1665_1602924_Dr_Morgan_Wells.jpg",
+   "fam": "submariner",
+   "conf": 0.8584814071655273,
+   "v": [
+    "submariner_black_date",
+    "submariner_comex",
+    "submariner_cookie_monster"
+   ],
+   "vs": [
+    0.44,
+    0.15,
+    0.11
+   ]
+  },
+  {
+   "family": "sea_dweller",
+   "title": "File:Rolex deepsea.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_deepsea.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rolex_deepsea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Original uploader was Rruegger at en.wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "width": "800",
+   "height": "710",
+   "file": "data/commons/sea_dweller/Rolex_deepsea.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.8879724144935608,
+   "v": [
+    "sea_dweller_great_white",
+    "sea_dweller_double_red",
+    "deepsea_james_cameron"
+   ],
+   "vs": [
+    0.58,
+    0.27,
+    0.22
+   ]
+  },
+  {
+   "family": "yacht_master",
+   "title": "File:P1010380.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:P1010380.JPG",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/P1010380.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "en:user:Suhailb",
+   "licence": "CC BY-SA 3.0",
+   "width": "640",
+   "height": "480",
+   "file": "data/commons/yacht_master/P1010380.jpg",
+   "fam": "yacht_master",
+   "conf": 0.834782063961029,
+   "v": [
+    "yacht_master_blue_dial",
+    "yacht_master_ii_blue_cerachrom",
+    "yacht_master_rhodium"
+   ],
+   "vs": [
+    0.56,
+    0.13,
+    0.04
+   ]
+  },
+  {
+   "family": "yacht_master",
+   "title": "File:Rolex Yacht-Master II ref. 116688 risalente al 2007.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Yacht-Master_II_ref._116688_risalente_al_2007.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Rolex_Yacht-Master_II_ref._116688_risalente_al_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1137",
+   "height": "1600",
+   "file": "data/commons/yacht_master/Rolex_Yacht-Master_II_ref._116688_risalente_al_2007.jpg",
+   "fam": "yacht_master",
+   "conf": 0.9301965236663818,
+   "v": [
+    "yacht_master_ii_yellow_gold",
+    "yacht_master_ii_blue_cerachrom",
+    "yacht_master_yellow_gold_metal"
+   ],
+   "vs": [
+    0.42,
+    0.32,
+    0.28
+   ]
+  },
+  {
+   "family": "yacht_master",
+   "title": "File:Rolex Yachtmaster II 116680.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Yachtmaster_II_116680.JPG",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Rolex_Yachtmaster_II_116680.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Carolyn Maria Adams",
+   "licence": "CC BY-SA 4.0",
+   "width": "1936",
+   "height": "1936",
+   "file": "data/commons/yacht_master/Rolex_Yachtmaster_II_116680.jpg",
+   "fam": "yacht_master",
+   "conf": 0.9165616631507874,
+   "v": [
+    "yacht_master_ii_blue_cerachrom",
+    "yacht_master_blue_dial",
+    "yacht_master_ii_white_gold_platinum"
+   ],
+   "vs": [
+    0.66,
+    0.66,
+    0.12
+   ]
+  },
+  {
+   "family": "yacht_master",
+   "title": "File:Sistema Ring Command brevettato da Rolex per gestire le funzioni supplementari su Sky-Dweller e Yacht-Master II.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Sistema_Ring_Command_brevettato_da_Rolex_per_gestire_le_funzioni_supplementari_su_Sky-Dweller_e_Yacht-Master_II.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sistema_Ring_Command_brevettato_da_Rolex_per_gestire_le_funzioni_supplementari_su_Sky-Dweller_e_Yacht-Master_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1407",
+   "height": "997",
+   "file": "data/commons/yacht_master/Sistema_Ring_Command_brevettato_da_Rolex_per_gestire_le_funzioni_supplementari_su_Sky-Dweller_e_Yacht-Master_II.jpg",
+   "fam": "milgauss",
+   "conf": 0.6728206872940063,
+   "v": [
+    "milgauss_black_gv",
+    "milgauss_z_blue",
+    "milgauss_white"
+   ],
+   "vs": [
+    0.33,
+    0.18,
+    0.15
+   ]
+  },
+  {
+   "family": "yacht_master",
+   "title": "File:Wall clock 2026-11-01 Clinic.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Wall_clock_2026-11-01_Clinic.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Wall_clock_2026-11-01_Clinic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "P1898",
+   "licence": "CC BY 4.0",
+   "width": "2522",
+   "height": "2483",
+   "file": "data/commons/yacht_master/Wall_clock_2026-11-01_Clinic.jpg",
+   "fam": "gmt_master",
+   "conf": 0.6295337080955505,
+   "v": [
+    "gmt_bruce_wayne",
+    "gmt_root_beer",
+    "gmt_regular"
+   ],
+   "vs": [
+    0.56,
+    0.26,
+    0.15
+   ]
+  },
+  {
+   "family": "turn_o_graph",
+   "title": "File:Il Rolex Turn-O-Graph \u00e8 stato il primo Rolex ad essere dotato di una ghiera girevole. Il modello in foto risale a met\u00e0 anni 2000..jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Il_Rolex_Turn-O-Graph_%C3%A8_stato_il_primo_Rolex_ad_essere_dotato_di_una_ghiera_girevole._Il_modello_in_foto_risale_a_met%C3%A0_anni_2000..jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Il_Rolex_Turn-O-Graph_%C3%A8_stato_il_primo_Rolex_ad_essere_dotato_di_una_ghiera_girevole._Il_modello_in_foto_risale_a_met%C3%A0_anni_2000..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "808",
+   "height": "1080",
+   "file": "data/commons/turn_o_graph/Il_Rolex_Turn-O-Graph_stato_il_primo_Rolex_ad_essere_dotato_di_una_ghiera_girevole.jpg",
+   "fam": "turn_o_graph",
+   "conf": 0.8688529133796692,
+   "v": [
+    "turn_o_graph_116263_yellow_gold",
+    "turn_o_graph_everose",
+    "turn_o_graph_red_accent"
+   ],
+   "vs": [
+    0.48,
+    0.39,
+    0.06
+   ]
+  },
+  {
+   "family": "president",
+   "title": "File:Rolex Day-Date Lacquered Stella Dial.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Day-Date_Lacquered_Stella_Dial.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Rolex_Day-Date_Lacquered_Stella_Dial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Kevin Sweeney",
+   "licence": "CC0",
+   "width": "1600",
+   "height": "1088",
+   "file": "data/commons/president/Rolex_Day-Date_Lacquered_Stella_Dial.jpg",
+   "fam": "datejust",
+   "conf": 0.42378345131874084,
+   "v": [
+    "datejust_mop",
+    "datejust_champagne",
+    "datejust_fluted"
+   ],
+   "vs": [
+    0.7,
+    0.18,
+    0.05
+   ]
+  },
+  {
+   "family": "president",
+   "title": "File:Rolex Day-Date contraffatto risalente agli anni '80.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Day-Date_contraffatto_risalente_agli_anni_%2780.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Rolex_Day-Date_contraffatto_risalente_agli_anni_%2780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "516",
+   "height": "815",
+   "file": "data/commons/president/Rolex_Day-Date_contraffatto_risalente_agli_anni_80.jpg",
+   "fam": "president",
+   "conf": 0.9494009017944336,
+   "v": [
+    "president_yellow_gold",
+    "president_everose",
+    "president_stella"
+   ],
+   "vs": [
+    0.56,
+    0.33,
+    0.06
+   ]
+  },
+  {
+   "family": "president",
+   "title": "File:Rolex Day-Date quadrante Puzzle.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Day-Date_quadrante_Puzzle.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rolex_Day-Date_quadrante_Puzzle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1075",
+   "height": "2048",
+   "file": "data/commons/president/Rolex_Day-Date_quadrante_Puzzle.jpg",
+   "fam": "datejust",
+   "conf": 0.34545645117759705,
+   "v": [
+    "datejust_mop",
+    "datejust_champagne",
+    "datejust_fluted"
+   ],
+   "vs": [
+    0.72,
+    0.19,
+    0.03
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Quadrante Med Blue del Rolex Oyster Perpetual ref. 126000.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Quadrante_Med_Blue_del_Rolex_Oyster_Perpetual_ref._126000.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Quadrante_Med_Blue_del_Rolex_Oyster_Perpetual_ref._126000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1600",
+   "height": "1066",
+   "file": "data/commons/oyster_perpetual/Quadrante_Med_Blue_del_Rolex_Oyster_Perpetual_ref._126000.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.5174010396003723,
+   "v": [
+    "op_blue",
+    "op_turquoise",
+    "op_silver"
+   ],
+   "vs": [
+    0.67,
+    0.24,
+    0.03
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Deepsea Oyster Perpetual Reference code 116660.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Oyster_Perpetual_Reference_code_116660.JPG",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rolex_Deepsea_Oyster_Perpetual_Reference_code_116660.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Johntorcasio",
+   "licence": "CC BY-SA 3.0",
+   "width": "1600",
+   "height": "1143",
+   "file": "data/commons/oyster_perpetual/Rolex_Deepsea_Oyster_Perpetual_Reference_code_116660.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9635847806930542,
+   "v": [
+    "sea_dweller_great_white",
+    "sea_dweller_two_tone",
+    "sea_dweller_red"
+   ],
+   "vs": [
+    0.63,
+    0.16,
+    0.15
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron'.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "amh1988",
+   "licence": "CC0",
+   "width": "4928",
+   "height": "3264",
+   "file": "data/commons/oyster_perpetual/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9872137308120728,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_red",
+    "sea_dweller_great_white"
+   ],
+   "vs": [
+    0.75,
+    0.42,
+    0.13
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron' (cropped and turned).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_(cropped_and_turned).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_%28cropped_and_turned%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "amh1988",
+   "licence": "CC0",
+   "width": "2560",
+   "height": "2952",
+   "file": "data/commons/oyster_perpetual/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_cropped_and_turned_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9843632578849792,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_red",
+    "sea_dweller_great_white"
+   ],
+   "vs": [
+    0.86,
+    0.39,
+    0.17
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex GMTIIC.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_GMTIIC.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Rolex_GMTIIC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Michael de Silva (bsodmike.com)",
+   "licence": "CC BY 3.0",
+   "width": "900",
+   "height": "675",
+   "file": "data/commons/oyster_perpetual/Rolex_GMTIIC.jpg",
+   "fam": "gmt_master",
+   "conf": 0.7157130241394043,
+   "v": [
+    "gmt_root_beer",
+    "gmt_regular",
+    "gmt_yellow_gold"
+   ],
+   "vs": [
+    0.34,
+    0.17,
+    0.14
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual 34 ref. 124200 con bracciale Oyster e lunetta liscia.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_34_ref._124200_con_bracciale_Oyster_e_lunetta_liscia.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Rolex_Oyster_Perpetual_34_ref._124200_con_bracciale_Oyster_e_lunetta_liscia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "840",
+   "height": "1298",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_34_ref._124200_con_bracciale_Oyster_e_lunetta_liscia.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.7828835248947144,
+   "v": [
+    "op_silver",
+    "op_black",
+    "op_blue"
+   ],
+   "vs": [
+    0.61,
+    0.12,
+    0.1
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual Ad with Bruce Forbes (Sports Illustrated 1958-11-10).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_Ad_with_Bruce_Forbes_(Sports_Illustrated_1958-11-10).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Rolex_Oyster_Perpetual_Ad_with_Bruce_Forbes_%28Sports_Illustrated_1958-11-10%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Sports Illustrated",
+   "licence": "Public domain",
+   "width": "857",
+   "height": "1835",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_Ad_with_Bruce_Forbes_Sports_Illustrated_1958-11-10_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.7997116446495056,
+   "v": [
+    "op_pink",
+    "op_silver",
+    "op_black"
+   ],
+   "vs": [
+    0.53,
+    0.25,
+    0.05
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual Date Submariner Watch.JPG",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_Date_Submariner_Watch.JPG",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Rolex_Oyster_Perpetual_Date_Submariner_Watch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "User:Eternalsleeper",
+   "licence": "Public domain",
+   "width": "2048",
+   "height": "1536",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_Date_Submariner_Watch.jpg",
+   "fam": "submariner",
+   "conf": 0.9185821413993835,
+   "v": [
+    "submariner_bluesy",
+    "submariner_smurf",
+    "submariner_black_date"
+   ],
+   "vs": [
+    0.35,
+    0.3,
+    0.26
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual Explorer Ref. 114270 Cal. 3130.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.png",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Max3351",
+   "licence": "CC BY-SA 4.0",
+   "width": "3072",
+   "height": "4080",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.jpg",
+   "fam": "explorer",
+   "conf": 0.9311123490333557,
+   "v": [
+    "explorer_i_black",
+    "explorer_i_two_tone",
+    "explorer_ii_steve_mcqueen"
+   ],
+   "vs": [
+    0.41,
+    0.16,
+    0.14
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual con quadrante Celebration.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_con_quadrante_Celebration.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Rolex_Oyster_Perpetual_con_quadrante_Celebration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1502",
+   "height": "1037",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_con_quadrante_Celebration.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.7463293671607971,
+   "v": [
+    "op_celebration",
+    "op_turquoise",
+    "op_pink"
+   ],
+   "vs": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual ref. 116000 con quadrante Explorer.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_ref._116000_con_quadrante_Explorer.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rolex_Oyster_Perpetual_ref._116000_con_quadrante_Explorer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1536",
+   "height": "2048",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_ref._116000_con_quadrante_Explorer.jpg",
+   "fam": "explorer",
+   "conf": 0.8133254051208496,
+   "v": [
+    "explorer_i_black",
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black"
+   ],
+   "vs": [
+    0.27,
+    0.1,
+    0.08
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual ref. 6564 fine anni '50.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_ref._6564_fine_anni_%2750.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Rolex_Oyster_Perpetual_ref._6564_fine_anni_%2750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1200",
+   "height": "1600",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_ref._6564_fine_anni_50.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.8306878209114075,
+   "v": [
+    "op_silver",
+    "op_celebration",
+    "op_coral_red"
+   ],
+   "vs": [
+    0.57,
+    0.18,
+    0.1
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Oyster Perpetual with a \"Jubliee\" dial.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Rolex_Oyster_Perpetual_with_a_%22Jubliee%22_dial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Camwolf12",
+   "licence": "CC0",
+   "width": "6000",
+   "height": "4000",
+   "file": "data/commons/oyster_perpetual/Rolex_Oyster_Perpetual_with_a_Jubliee_dial.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.9608672857284546,
+   "v": [
+    "op_celebration",
+    "op_silver",
+    "op_turquoise"
+   ],
+   "vs": [
+    0.99,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex deepsea.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_deepsea.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rolex_deepsea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Original uploader was Rruegger at en.wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "width": "800",
+   "height": "710",
+   "file": "data/commons/oyster_perpetual/Rolex_deepsea.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.8879724144935608,
+   "v": [
+    "sea_dweller_great_white",
+    "sea_dweller_double_red",
+    "deepsea_james_cameron"
+   ],
+   "vs": [
+    0.58,
+    0.27,
+    0.22
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-10).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-10).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Watch%2C_wrist_%28AM_2014.7.70-10%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2077",
+   "height": "3389",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-10_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.6959047317504883,
+   "v": [
+    "op_celebration",
+    "op_green",
+    "op_silver"
+   ],
+   "vs": [
+    0.31,
+    0.25,
+    0.21
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron' (without background, upright).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_(without_background,_upright).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_%27James_Cameron%27_%28without_background%2C_upright%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "File:Rolex Deepsea Sea-Dweller 116660 Blue Dial 'James Cameron'.jpg: amh1988\nderivative work: Pittigrilli",
+   "licence": "CC0",
+   "width": "2560",
+   "height": "2952",
+   "file": "data/commons/oyster_perpetual/Rolex_Deepsea_Sea-Dweller_116660_Blue_Dial_James_Cameron_without_background_upright_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.9915114045143127,
+   "v": [
+    "deepsea_james_cameron",
+    "sea_dweller_red",
+    "sea_dweller_great_white"
+   ],
+   "vs": [
+    0.87,
+    0.58,
+    0.05
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-1).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-1).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Watch%2C_wrist_%28AM_2014.7.70-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2994",
+   "height": "4685",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-1_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.786324143409729,
+   "v": [
+    "op_silver",
+    "op_green",
+    "op_celebration"
+   ],
+   "vs": [
+    0.34,
+    0.3,
+    0.23
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-11).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-11).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Watch%2C_wrist_%28AM_2014.7.70-11%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2528",
+   "height": "3447",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-11_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.7684659361839294,
+   "v": [
+    "op_silver",
+    "op_green",
+    "op_yellow"
+   ],
+   "vs": [
+    0.6,
+    0.22,
+    0.08
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-12).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-12).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Watch%2C_wrist_%28AM_2014.7.70-12%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "1426",
+   "height": "615",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-12_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.3947446346282959,
+   "v": [
+    "op_silver",
+    "op_green",
+    "op_pink"
+   ],
+   "vs": [
+    0.54,
+    0.12,
+    0.09
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-13).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-13).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Watch%2C_wrist_%28AM_2014.7.70-13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "1597",
+   "height": "681",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-13_.jpg",
+   "fam": "datejust",
+   "conf": 0.558393657207489,
+   "v": [
+    "datejust_champagne",
+    "datejust_palm",
+    "datejust_wimbledon"
+   ],
+   "vs": [
+    0.3,
+    0.3,
+    0.18
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-14).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-14).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Watch%2C_wrist_%28AM_2014.7.70-14%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "1986",
+   "height": "3192",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-14_.jpg",
+   "fam": "cellini",
+   "conf": 0.7195100784301758,
+   "v": [
+    "cellini_classic_round",
+    "cellini_danaos",
+    "cellini_time_modern_round"
+   ],
+   "vs": [
+    0.68,
+    0.14,
+    0.07
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-15).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-15).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Watch%2C_wrist_%28AM_2014.7.70-15%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "1948",
+   "height": "3142",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-15_.jpg",
+   "fam": "cellini",
+   "conf": 0.9846071600914001,
+   "v": [
+    "cellini_classic_round",
+    "cellini_prince",
+    "cellini_cestello"
+   ],
+   "vs": [
+    0.43,
+    0.29,
+    0.15
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-16).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-16).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Watch%2C_wrist_%28AM_2014.7.70-16%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "1832",
+   "height": "3952",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-16_.jpg",
+   "fam": "cellini",
+   "conf": 0.6535197496414185,
+   "v": [
+    "cellini_classic_round",
+    "cellini_prince",
+    "cellini_danaos"
+   ],
+   "vs": [
+    0.7,
+    0.25,
+    0.02
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-17).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-17).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Watch%2C_wrist_%28AM_2014.7.70-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2579",
+   "height": "3372",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-17_.jpg",
+   "fam": "president",
+   "conf": 0.36323070526123047,
+   "v": [
+    "president_yellow_gold",
+    "president_stella",
+    "president_diamond"
+   ],
+   "vs": [
+    0.37,
+    0.3,
+    0.28
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-18).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-18).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Watch%2C_wrist_%28AM_2014.7.70-18%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2110",
+   "height": "732",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-18_.jpg",
+   "fam": "sea_dweller",
+   "conf": 0.4066557288169861,
+   "v": [
+    "sea_dweller_red",
+    "sea_dweller_two_tone",
+    "sea_dweller_double_red"
+   ],
+   "vs": [
+    0.65,
+    0.22,
+    0.17
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-19).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-19).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Watch%2C_wrist_%28AM_2014.7.70-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2012",
+   "height": "1013",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-19_.jpg",
+   "fam": "cellini",
+   "conf": 0.45218026638031006,
+   "v": [
+    "cellini_classic_round",
+    "cellini_danaos",
+    "cellini_cestello"
+   ],
+   "vs": [
+    0.68,
+    0.12,
+    0.06
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-2).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-2).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Watch%2C_wrist_%28AM_2014.7.70-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "3229",
+   "height": "3145",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-2_.jpg",
+   "fam": "datejust",
+   "conf": 0.4773722290992737,
+   "v": [
+    "datejust_smooth",
+    "datejust_wimbledon",
+    "datejust_fluted"
+   ],
+   "vs": [
+    0.37,
+    0.24,
+    0.23
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-20).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-20).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Watch%2C_wrist_%28AM_2014.7.70-20%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2379",
+   "height": "3291",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-20_.jpg",
+   "fam": "cellini",
+   "conf": 0.8852637410163879,
+   "v": [
+    "cellini_classic_round",
+    "cellini_prince",
+    "cellini_danaos"
+   ],
+   "vs": [
+    0.71,
+    0.2,
+    0.06
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-21).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-21).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Watch%2C_wrist_%28AM_2014.7.70-21%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "4412",
+   "height": "3188",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-21_.jpg",
+   "fam": "cellini",
+   "conf": 0.4887314438819885,
+   "v": [
+    "cellini_classic_round",
+    "cellini_prince",
+    "cellini_date_modern_subdial"
+   ],
+   "vs": [
+    0.69,
+    0.23,
+    0.03
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-22).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-22).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Watch%2C_wrist_%28AM_2014.7.70-22%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "1482",
+   "height": "2466",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-22_.jpg",
+   "fam": "datejust",
+   "conf": 0.21301430463790894,
+   "v": [
+    "datejust_palm",
+    "datejust_wimbledon",
+    "datejust_smooth"
+   ],
+   "vs": [
+    0.6,
+    0.13,
+    0.12
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-3).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-3).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Watch%2C_wrist_%28AM_2014.7.70-3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "3417",
+   "height": "3019",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-3_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.2253875732421875,
+   "v": [
+    "op_silver",
+    "op_green",
+    "op_black"
+   ],
+   "vs": [
+    0.5,
+    0.2,
+    0.07
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-4).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-4).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Watch%2C_wrist_%28AM_2014.7.70-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "1167",
+   "height": "4777",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-4_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.7604634165763855,
+   "v": [
+    "op_silver",
+    "op_green",
+    "op_celebration"
+   ],
+   "vs": [
+    0.41,
+    0.27,
+    0.14
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-5).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-5).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Watch%2C_wrist_%28AM_2014.7.70-5%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "4813",
+   "height": "985",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-5_.jpg",
+   "fam": "milgauss",
+   "conf": 0.7385786771774292,
+   "v": [
+    "milgauss_black_gv",
+    "milgauss_z_blue",
+    "milgauss_white"
+   ],
+   "vs": [
+    0.46,
+    0.21,
+    0.11
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-6).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-6).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Watch%2C_wrist_%28AM_2014.7.70-6%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2278",
+   "height": "1536",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-6_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.4236549139022827,
+   "v": [
+    "op_silver",
+    "op_green",
+    "op_black"
+   ],
+   "vs": [
+    0.35,
+    0.22,
+    0.18
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-7).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-7).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Watch%2C_wrist_%28AM_2014.7.70-7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "2506",
+   "height": "1566",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-7_.jpg",
+   "fam": "cellini",
+   "conf": 0.8661472797393799,
+   "v": [
+    "cellini_classic_round",
+    "cellini_prince",
+    "cellini_danaos"
+   ],
+   "vs": [
+    0.51,
+    0.41,
+    0.03
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-8).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-8).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Watch%2C_wrist_%28AM_2014.7.70-8%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "4911",
+   "height": "1726",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-8_.jpg",
+   "fam": "oyster_perpetual",
+   "conf": 0.4119703471660614,
+   "v": [
+    "op_silver",
+    "op_celebration",
+    "op_green"
+   ],
+   "vs": [
+    0.6,
+    0.13,
+    0.08
+   ]
+  },
+  {
+   "family": "oyster_perpetual",
+   "title": "File:Watch, wrist (AM 2014.7.70-9).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Watch,_wrist_(AM_2014.7.70-9).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Watch%2C_wrist_%28AM_2014.7.70-9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Rolex; Bosecks",
+   "licence": "CC BY 4.0",
+   "width": "4808",
+   "height": "1798",
+   "file": "data/commons/oyster_perpetual/Watch_wrist_AM_2014.7.70-9_.jpg",
+   "fam": "president",
+   "conf": 0.5546618103981018,
+   "v": [
+    "president_stella",
+    "president_everose",
+    "president_yellow_gold"
+   ],
+   "vs": [
+    0.34,
+    0.16,
+    0.07
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex Explorer II del 1972, ref. 1655, ribattezzato \"Freccione\".jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Explorer_II_del_1972,_ref._1655,_ribattezzato_%22Freccione%22.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Rolex_Explorer_II_del_1972%2C_ref._1655%2C_ribattezzato_%22Freccione%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Clyde94",
+   "licence": "CC BY-SA 4.0",
+   "width": "1243",
+   "height": "1567",
+   "file": "data/commons/explorer/Rolex_Explorer_II_del_1972_ref._1655_ribattezzato_Freccione_.jpg",
+   "fam": "explorer",
+   "conf": 0.8157298564910889,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black",
+    "explorer_ii_polar"
+   ],
+   "vs": [
+    0.79,
+    0.16,
+    0.07
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex Explorer II ref. 16550 Pannone, met\u00e0 anni Ottanta.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Explorer_II_ref._16550_Pannone,_met%C3%A0_anni_Ottanta.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Rolex_Explorer_II_ref._16550_Pannone%2C_met%C3%A0_anni_Ottanta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1342",
+   "height": "2048",
+   "file": "data/commons/explorer/Rolex_Explorer_II_ref._16550_Pannone_met_anni_Ottanta.jpg",
+   "fam": "explorer",
+   "conf": 0.9222154021263123,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black",
+    "explorer_ii_polar"
+   ],
+   "vs": [
+    0.45,
+    0.25,
+    0.11
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex Explorer ref. 5500 con quadrante Gilt.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Explorer_ref._5500_con_quadrante_Gilt.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Rolex_Explorer_ref._5500_con_quadrante_Gilt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1094",
+   "height": "436",
+   "file": "data/commons/explorer/Rolex_Explorer_ref._5500_con_quadrante_Gilt.jpg",
+   "fam": "explorer",
+   "conf": 0.8290460705757141,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_i_black",
+    "explorer_ii_black"
+   ],
+   "vs": [
+    0.49,
+    0.22,
+    0.15
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex Oyster Perpetual Explorer Ref. 114270 Cal. 3130.png",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.png",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Max3351",
+   "licence": "CC BY-SA 4.0",
+   "width": "3072",
+   "height": "4080",
+   "file": "data/commons/explorer/Rolex_Oyster_Perpetual_Explorer_Ref._114270_Cal._3130.jpg",
+   "fam": "explorer",
+   "conf": 0.9311123490333557,
+   "v": [
+    "explorer_i_black",
+    "explorer_i_two_tone",
+    "explorer_ii_steve_mcqueen"
+   ],
+   "vs": [
+    0.41,
+    0.16,
+    0.14
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex Oyster Perpetual ref. 116000 con quadrante Explorer.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_Oyster_Perpetual_ref._116000_con_quadrante_Explorer.jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rolex_Oyster_Perpetual_ref._116000_con_quadrante_Explorer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "EMore98",
+   "licence": "CC BY-SA 4.0",
+   "width": "1536",
+   "height": "2048",
+   "file": "data/commons/explorer/Rolex_Oyster_Perpetual_ref._116000_con_quadrante_Explorer.jpg",
+   "fam": "explorer",
+   "conf": 0.8133254051208496,
+   "v": [
+    "explorer_i_black",
+    "explorer_ii_steve_mcqueen",
+    "explorer_ii_black"
+   ],
+   "vs": [
+    0.27,
+    0.1,
+    0.08
+   ]
+  },
+  {
+   "family": "explorer",
+   "title": "File:Rolex explorer II spotted 16570 (51867940419).jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Rolex_explorer_II_spotted_16570_(51867940419).jpg",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Rolex_explorer_II_spotted_16570_%2851867940419%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "author": "Mario A. P. from San Sebastian, Spain",
+   "licence": "CC BY-SA 2.0",
+   "width": "3263",
+   "height": "4087",
+   "file": "data/commons/explorer/Rolex_explorer_II_spotted_16570_51867940419_.jpg",
+   "fam": "explorer",
+   "conf": 0.8154256939888,
+   "v": [
+    "explorer_ii_steve_mcqueen",
+    "explorer_i_black",
+    "explorer_ii_polar"
+   ],
+   "vs": [
+    0.33,
+    0.17,
+    0.05
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - button "Home" [ref=e4] [cursor=pointer]
+    - button "Authors" [ref=e5] [cursor=pointer]
+  - main [ref=e6]:
+    - complementary [ref=e7]:
+      - generic [ref=e8]:
+        - heading "ROLEX Finder" [level=1] [ref=e9]:
+          - generic [ref=e10]: ROLEX
+          - text: Finder
+        - generic [ref=e11]:
+          - paragraph [ref=e18]: Ctrl + V to paste, or drop a photo
+          - generic [ref=e19]: or
+          - button "Browse File" [ref=e20] [cursor=pointer]
+        - button "FIND" [disabled] [ref=e21]
+        - paragraph [ref=e22]: The server is waking up. The first scan can take up to 45 seconds.
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: No photo to hand? Try a sample.
+          - generic [ref=e25]:
+            - 'button "Sample: Daytona" [ref=e26] [cursor=pointer]'
+            - 'button "Sample: Cellini" [ref=e27] [cursor=pointer]'
+            - 'button "Sample: Datejust" [ref=e28] [cursor=pointer]'
+            - 'button "Sample: Submariner" [ref=e29] [cursor=pointer]'
+            - 'button "Sample: Air-King" [ref=e30] [cursor=pointer]'
+          - generic [ref=e31]:
+            - text: Open-licence photos.
+            - link "Credits" [ref=e32] [cursor=pointer]:
+              - /url: /examples/credits.html
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: Quick start
+        - heading "Find the closest Rolex model in seconds." [level=2] [ref=e37]
+        - paragraph [ref=e38]: Hover (tap on mobile) a card for a live preview, or try a sample on the left.
+      - generic [ref=e39]:
+        - article [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: "1"
+            - heading "Paste Image" [level=3] [ref=e43]
+          - img "Paste Image tutorial" [ref=e44]
+          - list [ref=e45]:
+            - listitem [ref=e46]: Copy the Rolex image.
+            - listitem [ref=e47]: Press Ctrl + V to paste it into Rolex Finder.
+            - listitem [ref=e48]: Click "Find". The first scan can take up to 45 seconds.
+        - article [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: "2"
+            - heading "Browse Image" [level=3] [ref=e52]
+          - img "Browse Image tutorial" [ref=e53]
+          - list [ref=e54]:
+            - listitem [ref=e55]: Click the yellow "Browse File" button.
+            - listitem [ref=e56]: Choose an image from your desktop.
+            - listitem [ref=e57]: Click "Find". The first scan can take up to 45 seconds.
+        - article [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: "3"
+            - heading "Search Image" [level=3] [ref=e61]
+          - img "Search Image tutorial" [ref=e62]
+          - list [ref=e63]:
+            - listitem [ref=e64]: After the result appears, click any watch ID.
+            - listitem [ref=e65]: Use the images to compare references.
+      - generic "Tips for better Rolex Finder results" [ref=e66]:
+        - article [ref=e67]:
+          - heading "Best results" [level=3] [ref=e68]
+          - paragraph [ref=e69]: Use a clear, front-facing watch photo with the dial, bezel, and bracelet visible.
+        - article [ref=e70]:
+          - heading "Accuracy note" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Predictions are closest estimates, not a guaranteed model. This tool does not authenticate watches.
+        - article [ref=e73]:
+          - heading "If it looks wrong" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Try a clearer image, then check with Google Images for visual confirmation.
+      - paragraph [ref=e76]:
+        - link "About this project" [ref=e77] [cursor=pointer]:
+          - /url: https://github.com/AlexDaPiggie/Rolex_Models_Recognition

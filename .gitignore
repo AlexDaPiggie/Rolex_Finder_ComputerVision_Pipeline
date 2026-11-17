@@ -10,3 +10,6 @@ data
 
 animation/media/
 animation/frames/
+
+features_out/
+models/candidate.pt

@@ -1,0 +1,1101 @@
+[
+  {
+    "title": "Hodinkee",
+    "h1_text": null,
+    "h1_font": null,
+    "h1_size": null,
+    "h1_weight": null,
+    "h1_line_height": null,
+    "h1_tracking": null,
+    "h1_color": null,
+    "body_font": "Proxima Nova",
+    "body_size": "16px",
+    "page_bg": "rgb(255, 255, 255)",
+    "fonts": [
+      [
+        "Brown",
+        35
+      ],
+      [
+        "Portrait",
+        18
+      ],
+      [
+        "Portrait Inline",
+        17
+      ],
+      [
+        "Hodinkee Social",
+        12
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 13,
+    "distinct_weights": 4,
+    "text_colors": [
+      [
+        "rgb(70, 72, 72)",
+        20
+      ],
+      [
+        "rgb(255, 255, 255)",
+        20
+      ],
+      [
+        "rgb(177, 181, 181)",
+        15
+      ],
+      [
+        "rgb(0, 0, 0)",
+        15
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(245, 247, 247)",
+        151
+      ],
+      [
+        "rgb(255, 255, 255)",
+        12
+      ],
+      [
+        "rgb(34, 34, 34)",
+        5
+      ],
+      [
+        "rgb(245, 245, 245)",
+        1
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(34, 34, 34)",
+        8
+      ],
+      [
+        "rgba(0, 0, 0, 0)",
+        5
+      ],
+      [
+        "rgb(234, 236, 236)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "pill",
+        19
+      ],
+      [
+        "2px",
+        18
+      ],
+      [
+        "50%",
+        1
+      ]
+    ],
+    "shadows": 0,
+    "gradients": 0,
+    "blurs": 0,
+    "common_widths": [
+      [
+        "1280",
+        15
+      ],
+      [
+        "610",
+        10
+      ],
+      [
+        "630",
+        10
+      ]
+    ],
+    "section_padding_top": [],
+    "scroll_height": 8913,
+    "mobile_overflow": true,
+    "url": "https://www.hodinkee.com",
+    "name": "hodinkee-com"
+  },
+  {
+    "title": "A Collected Man | Buy & sell rare pre-owned and independent watches \u2013 A COLLECTED MAN",
+    "h1_text": "",
+    "h1_font": "GT Alpina Fine",
+    "h1_size": "65.7317px",
+    "h1_weight": "300",
+    "h1_line_height": "72.3048px",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(0, 0, 0)",
+    "body_font": "Helvetica Now Text",
+    "body_size": "16px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "Helvetica Now Text",
+        100
+      ],
+      [
+        "GT Alpina Fine",
+        17
+      ],
+      [
+        "Helvetica Neue",
+        7
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 12,
+    "distinct_weights": 3,
+    "text_colors": [
+      [
+        "rgb(0, 0, 0)",
+        68
+      ],
+      [
+        "rgb(255, 255, 255)",
+        31
+      ],
+      [
+        "rgb(81, 81, 81)",
+        17
+      ],
+      [
+        "rgb(91, 74, 58)",
+        8
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(255, 255, 255)",
+        26
+      ],
+      [
+        "rgb(0, 0, 0)",
+        6
+      ],
+      [
+        "rgb(219, 203, 178)",
+        4
+      ],
+      [
+        "rgb(3, 24, 55)",
+        1
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgba(0, 0, 0, 0)",
+        3
+      ],
+      [
+        "rgb(239, 239, 239)",
+        2
+      ],
+      [
+        "rgb(0, 0, 0)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "2px",
+        2
+      ],
+      [
+        "50%",
+        1
+      ],
+      [
+        "2.5px",
+        1
+      ]
+    ],
+    "shadows": 0,
+    "gradients": 0,
+    "blurs": 3,
+    "common_widths": [
+      [
+        "620",
+        35
+      ],
+      [
+        "1330",
+        15
+      ],
+      [
+        "1410",
+        12
+      ]
+    ],
+    "section_padding_top": [
+      20.8,
+      56
+    ],
+    "scroll_height": 4859,
+    "mobile_overflow": false,
+    "url": "https://acollectedman.com",
+    "name": "acollectedman-com"
+  },
+  {
+    "title": "Just a moment...",
+    "h1_text": null,
+    "h1_font": null,
+    "h1_size": null,
+    "h1_weight": null,
+    "h1_line_height": null,
+    "h1_tracking": null,
+    "h1_color": null,
+    "body_font": "sans-serif",
+    "body_size": "16px",
+    "page_bg": "rgb(242, 244, 245)",
+    "fonts": [],
+    "has_mono": false,
+    "distinct_font_sizes": 0,
+    "distinct_weights": 0,
+    "text_colors": [],
+    "bg_colors": [],
+    "border_colors": [],
+    "radii": [],
+    "shadows": 0,
+    "gradients": 0,
+    "blurs": 0,
+    "common_widths": [],
+    "section_padding_top": [],
+    "scroll_height": 900,
+    "mobile_overflow": false,
+    "url": "https://www.chrono24.com",
+    "name": "chrono24-com"
+  },
+  {
+    "title": "Let's confirm you are human",
+    "h1_text": "Let's confirm you are human",
+    "h1_font": "Amazon Ember",
+    "h1_size": "32px",
+    "h1_weight": "400",
+    "h1_line_height": "normal",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(221, 107, 16)",
+    "body_font": "Arial",
+    "body_size": "16px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "Amazon Ember",
+        5
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 3,
+    "distinct_weights": 2,
+    "text_colors": [
+      [
+        "rgb(0, 0, 0)",
+        3
+      ],
+      [
+        "rgb(221, 107, 16)",
+        1
+      ],
+      [
+        "rgb(22, 25, 31)",
+        1
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(255, 255, 255)",
+        2
+      ],
+      [
+        "rgb(255, 153, 2)",
+        1
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(104, 112, 120)",
+        2
+      ],
+      [
+        "rgb(204, 204, 204)",
+        1
+      ],
+      [
+        "rgb(255, 153, 2)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "2px",
+        2
+      ],
+      [
+        "4px",
+        1
+      ]
+    ],
+    "shadows": 0,
+    "gradients": 0,
+    "blurs": 0,
+    "common_widths": [],
+    "section_padding_top": [],
+    "scroll_height": 908,
+    "mobile_overflow": false,
+    "url": "https://www.watchfinder.co.uk",
+    "name": "watchfinder-co-uk"
+  },
+  {
+    "title": "Watches | Vintage and Iconic Watch Auctions | Departments",
+    "h1_text": "Watches",
+    "h1_font": "DistinctDisplay",
+    "h1_size": "28px",
+    "h1_weight": "400",
+    "h1_line_height": "32px",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(0, 0, 0)",
+    "body_font": "Montserrat",
+    "body_size": "14px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "Montserrat",
+        105
+      ],
+      [
+        "DistinctDisplay",
+        38
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 5,
+    "distinct_weights": 1,
+    "text_colors": [
+      [
+        "rgb(0, 0, 0)",
+        121
+      ],
+      [
+        "rgb(84, 84, 84)",
+        18
+      ],
+      [
+        "rgb(255, 255, 255)",
+        4
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(255, 255, 255)",
+        10
+      ],
+      [
+        "rgb(0, 0, 0)",
+        3
+      ],
+      [
+        "rgba(0, 0, 0, 0.35)",
+        1
+      ],
+      [
+        "rgb(249, 248, 247)",
+        1
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(234, 233, 230)",
+        5
+      ],
+      [
+        "rgb(0, 0, 0)",
+        5
+      ],
+      [
+        "rgba(0, 0, 0, 0)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "4px",
+        18
+      ]
+    ],
+    "shadows": 0,
+    "gradients": 0,
+    "blurs": 0,
+    "common_widths": [
+      [
+        "1340",
+        13
+      ],
+      [
+        "720",
+        4
+      ],
+      [
+        "930",
+        3
+      ]
+    ],
+    "section_padding_top": [
+      32,
+      48
+    ],
+    "scroll_height": 4766,
+    "mobile_overflow": false,
+    "url": "https://www.phillips.com/watches",
+    "name": "phillips-com"
+  },
+  {
+    "title": "Pl@ntNet identify",
+    "h1_text": "Identify, explore and share your observations of wild plants",
+    "h1_font": "PT Sans",
+    "h1_size": "54px",
+    "h1_weight": "700",
+    "h1_line_height": "59.4px",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(29, 33, 28)",
+    "body_font": "PT Sans",
+    "body_size": "16px",
+    "page_bg": "rgb(255, 255, 255)",
+    "fonts": [
+      [
+        "PT Sans",
+        109
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 12,
+    "distinct_weights": 2,
+    "text_colors": [
+      [
+        "rgb(29, 33, 28)",
+        51
+      ],
+      [
+        "rgb(255, 255, 255)",
+        44
+      ],
+      [
+        "rgb(96, 101, 95)",
+        6
+      ],
+      [
+        "rgb(95, 118, 30)",
+        5
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(142, 181, 51)",
+        27
+      ],
+      [
+        "rgb(255, 255, 255)",
+        12
+      ],
+      [
+        "rgba(0, 0, 0, 0.05)",
+        10
+      ],
+      [
+        "rgb(246, 248, 237)",
+        4
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(142, 181, 51)",
+        18
+      ],
+      [
+        "rgba(0, 0, 0, 0)",
+        2
+      ],
+      [
+        "rgb(204, 207, 204)",
+        2
+      ]
+    ],
+    "radii": [
+      [
+        "6px",
+        46
+      ],
+      [
+        "8px",
+        4
+      ],
+      [
+        "18px",
+        1
+      ],
+      [
+        "12px",
+        1
+      ]
+    ],
+    "shadows": 3,
+    "gradients": 1,
+    "blurs": 1,
+    "common_widths": [
+      [
+        "1110",
+        28
+      ],
+      [
+        "1430",
+        19
+      ],
+      [
+        "600",
+        12
+      ]
+    ],
+    "section_padding_top": [
+      64
+    ],
+    "scroll_height": 7859,
+    "mobile_overflow": false,
+    "url": "https://identify.plantnet.org",
+    "name": "identify-plantnet-org"
+  },
+  {
+    "title": "Attention Required! | Cloudflare",
+    "h1_text": "Sorry, you have been blocked",
+    "h1_font": "-apple-system",
+    "h1_size": "60px",
+    "h1_weight": "300",
+    "h1_line_height": "72px",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(64, 64, 64)",
+    "body_font": "Times New Roman",
+    "body_size": "16px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "-apple-system",
+        13
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 4,
+    "distinct_weights": 3,
+    "text_colors": [
+      [
+        "rgb(64, 64, 64)",
+        9
+      ],
+      [
+        "rgb(89, 89, 89)",
+        2
+      ],
+      [
+        "rgb(0, 81, 195)",
+        2
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(255, 255, 255)",
+        2
+      ],
+      [
+        "rgb(235, 235, 235)",
+        1
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(235, 235, 235)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "5px",
+        1
+      ]
+    ],
+    "shadows": 0,
+    "gradients": 1,
+    "blurs": 0,
+    "common_widths": [
+      [
+        "960",
+        6
+      ]
+    ],
+    "section_padding_top": [],
+    "scroll_height": 1021,
+    "mobile_overflow": false,
+    "url": "https://merlin.allaboutbirds.org",
+    "name": "merlin-allaboutbirds-org"
+  },
+  {
+    "title": "A Community for Naturalists \u00b7 iNaturalist",
+    "h1_text": "Where your curiosity contributes to science.",
+    "h1_font": "Libre Baskerville",
+    "h1_size": "43px",
+    "h1_weight": "700",
+    "h1_line_height": "normal",
+    "h1_tracking": "-0.86px",
+    "h1_color": "rgb(255, 255, 255)",
+    "body_font": "Lato",
+    "body_size": "12px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "Lato",
+        137
+      ],
+      [
+        "Libre Baskerville",
+        48
+      ],
+      [
+        "Courier Prime",
+        11
+      ]
+    ],
+    "has_mono": true,
+    "distinct_font_sizes": 10,
+    "distinct_weights": 4,
+    "text_colors": [
+      [
+        "rgb(69, 69, 69)",
+        139
+      ],
+      [
+        "rgb(51, 51, 51)",
+        36
+      ],
+      [
+        "rgb(255, 255, 255)",
+        17
+      ],
+      [
+        "rgb(170, 170, 170)",
+        3
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(255, 255, 255)",
+        35
+      ],
+      [
+        "rgb(213, 226, 195)",
+        26
+      ],
+      [
+        "rgb(235, 242, 225)",
+        11
+      ],
+      [
+        "rgb(116, 172, 0)",
+        6
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(213, 226, 195)",
+        19
+      ],
+      [
+        "rgba(0, 0, 0, 0)",
+        5
+      ],
+      [
+        "rgb(116, 172, 0)",
+        2
+      ]
+    ],
+    "radii": [
+      [
+        "50%",
+        55
+      ],
+      [
+        "10px",
+        30
+      ],
+      [
+        "4px",
+        22
+      ],
+      [
+        "8px",
+        21
+      ],
+      [
+        "100px",
+        5
+      ]
+    ],
+    "shadows": 27,
+    "gradients": 1,
+    "blurs": 1,
+    "common_widths": [
+      [
+        "1170",
+        5
+      ],
+      [
+        "700",
+        4
+      ],
+      [
+        "730",
+        1
+      ]
+    ],
+    "section_padding_top": [
+      100,
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "scroll_height": 5990,
+    "mobile_overflow": false,
+    "url": "https://www.inaturalist.org",
+    "name": "inaturalist-org"
+  },
+  {
+    "title": "ERROR: The request could not be satisfied",
+    "h1_text": "403 ERROR",
+    "h1_font": "Times New Roman",
+    "h1_size": "32px",
+    "h1_weight": "700",
+    "h1_line_height": "normal",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(0, 0, 0)",
+    "body_font": "Times New Roman",
+    "body_size": "16px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "Times New Roman",
+        2
+      ],
+      [
+        "monospace",
+        1
+      ]
+    ],
+    "has_mono": true,
+    "distinct_font_sizes": 3,
+    "distinct_weights": 2,
+    "text_colors": [
+      [
+        "rgb(0, 0, 0)",
+        3
+      ]
+    ],
+    "bg_colors": [],
+    "border_colors": [],
+    "radii": [],
+    "shadows": 0,
+    "gradients": 0,
+    "blurs": 0,
+    "common_widths": [],
+    "section_padding_top": [],
+    "scroll_height": 900,
+    "mobile_overflow": true,
+    "url": "https://www.vivino.com",
+    "name": "vivino-com"
+  },
+  {
+    "title": "Access Denied",
+    "h1_text": "Access Denied",
+    "h1_font": "Times New Roman",
+    "h1_size": "32px",
+    "h1_weight": "700",
+    "h1_line_height": "normal",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(0, 0, 0)",
+    "body_font": "Times New Roman",
+    "body_size": "16px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "Times New Roman",
+        3
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 2,
+    "distinct_weights": 2,
+    "text_colors": [
+      [
+        "rgb(0, 0, 0)",
+        3
+      ]
+    ],
+    "bg_colors": [],
+    "border_colors": [],
+    "radii": [],
+    "shadows": 0,
+    "gradients": 0,
+    "blurs": 0,
+    "common_widths": [],
+    "section_padding_top": [],
+    "scroll_height": 900,
+    "mobile_overflow": true,
+    "url": "https://www.rolex.com/en-us",
+    "name": "rolex-com"
+  },
+  {
+    "title": "Fratello | All About Watches",
+    "h1_text": "Fratello Watches - The Magazine Dedicated To Luxury Watches",
+    "h1_font": "Tiempos Headline",
+    "h1_size": "26px",
+    "h1_weight": "700",
+    "h1_line_height": "44.2px",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(0, 0, 0)",
+    "body_font": "Tiempos Headline",
+    "body_size": "16px",
+    "page_bg": "rgb(255, 255, 255)",
+    "fonts": [
+      [
+        "Jost",
+        120
+      ],
+      [
+        "Tiempos Headline",
+        28
+      ],
+      [
+        "sans-serif",
+        18
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 13,
+    "distinct_weights": 5,
+    "text_colors": [
+      [
+        "rgb(0, 0, 0)",
+        107
+      ],
+      [
+        "rgb(255, 255, 255)",
+        28
+      ],
+      [
+        "rgb(237, 237, 237)",
+        9
+      ],
+      [
+        "rgb(222, 222, 222)",
+        8
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(255, 255, 255)",
+        8
+      ],
+      [
+        "rgb(0, 0, 0)",
+        3
+      ],
+      [
+        "rgb(238, 238, 238)",
+        3
+      ],
+      [
+        "rgb(30, 30, 30)",
+        3
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(231, 229, 228)",
+        2
+      ],
+      [
+        "rgb(200, 179, 121)",
+        1
+      ],
+      [
+        "rgb(221, 221, 221)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "100%",
+        6
+      ],
+      [
+        "32px",
+        4
+      ],
+      [
+        "3.75px",
+        3
+      ],
+      [
+        "50px",
+        2
+      ],
+      [
+        "8px",
+        1
+      ]
+    ],
+    "shadows": 1,
+    "gradients": 1,
+    "blurs": 0,
+    "common_widths": [
+      [
+        "1240",
+        20
+      ],
+      [
+        "900",
+        17
+      ],
+      [
+        "1200",
+        10
+      ]
+    ],
+    "section_padding_top": [
+      80,
+      80,
+      80
+    ],
+    "scroll_height": 4259,
+    "mobile_overflow": false,
+    "url": "https://www.fratellowatches.com",
+    "name": "fratellowatches-com"
+  },
+  {
+    "title": "Analog Shift: Vintage Watches & Modern Classics for Collectors \u2013 Analog:Shift",
+    "h1_text": "Analog:Shift",
+    "h1_font": "RightGrotesk",
+    "h1_size": "48px",
+    "h1_weight": "700",
+    "h1_line_height": "62.4px",
+    "h1_tracking": "normal",
+    "h1_color": "rgb(0, 0, 0)",
+    "body_font": "RightGrotesk",
+    "body_size": "16px",
+    "page_bg": "rgba(0, 0, 0, 0)",
+    "fonts": [
+      [
+        "RightGrotesk",
+        201
+      ],
+      [
+        "Maison",
+        131
+      ],
+      [
+        "Bradford",
+        108
+      ]
+    ],
+    "has_mono": false,
+    "distinct_font_sizes": 15,
+    "distinct_weights": 4,
+    "text_colors": [
+      [
+        "rgb(0, 0, 0)",
+        285
+      ],
+      [
+        "rgb(89, 89, 89)",
+        124
+      ],
+      [
+        "rgb(255, 255, 255)",
+        27
+      ],
+      [
+        "rgb(36, 122, 90)",
+        3
+      ]
+    ],
+    "bg_colors": [
+      [
+        "rgb(0, 0, 0)",
+        15
+      ],
+      [
+        "rgb(252, 252, 252)",
+        15
+      ],
+      [
+        "rgb(238, 238, 234)",
+        13
+      ],
+      [
+        "rgb(255, 255, 255)",
+        11
+      ]
+    ],
+    "border_colors": [
+      [
+        "rgb(0, 0, 0)",
+        27
+      ],
+      [
+        "rgb(255, 255, 255)",
+        6
+      ],
+      [
+        "rgb(140, 140, 140)",
+        3
+      ]
+    ],
+    "radii": [
+      [
+        "50%",
+        5
+      ],
+      [
+        "2px",
+        4
+      ],
+      [
+        "20px",
+        2
+      ]
+    ],
+    "shadows": 5,
+    "gradients": 23,
+    "blurs": 0,
+    "common_widths": [
+      [
+        "650",
+        4
+      ],
+      [
+        "720",
+        2
+      ],
+      [
+        "800",
+        2
+      ]
+    ],
+    "section_padding_top": [
+      32,
+      60
+    ],
+    "scroll_height": 5170,
+    "mobile_overflow": false,
+    "url": "https://www.analogshift.com",
+    "name": "analogshift-com"
+  }
+]

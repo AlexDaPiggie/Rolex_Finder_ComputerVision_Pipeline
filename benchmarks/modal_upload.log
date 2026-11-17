@@ -1,0 +1,14 @@
+✓ Initialized. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-cdBm9ORGOE8bCeokplcH3l
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\modal_train.py
+├── ✓ Created Function download_detector.
+├── ✓ Uploaded C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\src
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\data\processed\c
+│   lass_mapping.json
+├── ✓ Created Function crop_chunk.
+└── ✓ Created Function train_and_benchmark.

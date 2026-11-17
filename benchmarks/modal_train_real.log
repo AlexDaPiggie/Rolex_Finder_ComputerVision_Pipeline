@@ -1,0 +1,96 @@
+✓ Initialized. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-9kkavMaq9TCt1V9GnN77GF
+Building image im-5m7ayfDNiqE4F7KFbiJHjs
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 913.33ms
+
+Built image im-5m7ayfDNiqE4F7KFbiJHjs in 2.42s
+
+
+Building image im-mAcr3ZmE1pponJx0DL0sG4
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 1.70s
+
+Built image im-mAcr3ZmE1pponJx0DL0sG4 in 5.94s
+
+
+Building image im-FXzqkvPiCwr9Nd8xHvCOSW
+
+=> Step 0: FROM base
+
+=> Step 1: COPY . /
+Saving image...
+Image saved, took 490.66ms
+
+Built image im-FXzqkvPiCwr9Nd8xHvCOSW in 1.40s
+
+
+Building image im-BlKPtDbOcB0opGN3iFrNkP
+
+=> Step 0: FROM base
+
+=> Step 1: ENV PYTHONPATH=/app
+
+=> Step 2: ENV MODEL_DEVICE=cuda
+
+=> Step 3: ENV HF_HOME=/root/.cache/huggingface
+Saving image...
+Image saved, took 1.10s
+
+Built image im-BlKPtDbOcB0opGN3iFrNkP in 1.98s
+
+
+Building image im-U4OFOQZ2duh48nfaDxJdp9
+
+=> Step 0: FROM base
+
+=> Step 1: WORKDIR /app
+Saving image...
+Image saved, took 1.02s
+
+Built image im-U4OFOQZ2duh48nfaDxJdp9 in 1.72s
+
+
+✓ Created objects.
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\modal_improve.py
+├── ✓ Created Function download_models.
+├── ✓ Uploaded C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\src
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\models
+├── ✓ Uploaded 
+│   C:\Users\alexh\Coding\Rolex_Finder_ComputerVision_Pipeline\data\processed\c
+│   lass_mapping.json
+├── ✓ Created Function extract_split.
+├── ✓ Created Function eval_real.
+└── ✓ Created Function train_real.
+$ /usr/local/bin/python -m src.training.train --data-root /tmp/crops /tmp/orig --real-aug --balance loss --device cuda --num-workers 8 --epochs 12 --batch-size 48 --output /data/models/real_aug.pt
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to /root/.cache/torch/hub/checkpoints/efficientnet_b0_rwightman-7f5810bc.pth
+
+[1A  0%|          | 0.00/20.5M [00:00<?, ?B/s]
+[1A 44%|████▍     | 9.00M/20.5M [00:00<00:00, 92.8MB/s]100%|██████████| 20.5M/20.5M [00:00<00:00, 117MB/s]
+class counts: {'airking': 2146, 'cellini': 2330, 'datejust': 12636, 'daytona': 1534, 'explorer': 1836, 'gmt_master': 1930, 'milgauss': 312, 'oyster_perpetual': 2708, 'oysterquartz': 326, 'president': 5010, 'sea_dweller': 804, 'submariner': 3190, 'turn_o_graph': 894, 'yacht_master': 1996}
+epoch = 1 train_loss = 0.5109 train_acc = 0.8705 val_loss = 0.0513 val_acc = 0.9860
+epoch = 2 train_loss = 0.1057 train_acc = 0.9664 val_loss = 0.0264 val_acc = 0.9933
+epoch = 3 train_loss = 0.0753 train_acc = 0.9744 val_loss = 0.0166 val_acc = 0.9961
+epoch = 4 train_loss = 0.0561 train_acc = 0.9809 val_loss = 0.0176 val_acc = 0.9961
+epoch = 5 train_loss = 0.0484 train_acc = 0.9828 val_loss = 0.0171 val_acc = 0.9971
+epoch = 6 train_loss = 0.0428 train_acc = 0.9848 val_loss = 0.0169 val_acc = 0.9961
+epoch = 7 train_loss = 0.0397 train_acc = 0.9856 val_loss = 0.0163 val_acc = 0.9961
+epoch = 8 train_loss = 0.0351 train_acc = 0.9877 val_loss = 0.0148 val_acc = 0.9966
+epoch = 9 train_loss = 0.0359 train_acc = 0.9875 val_loss = 0.0135 val_acc = 0.9976
+epoch = 10 train_loss = 0.0291 train_acc = 0.9901 val_loss = 0.0139 val_acc = 0.9976
+epoch = 11 train_loss = 0.0281 train_acc = 0.9898 val_loss = 0.0173 val_acc = 0.9966
+epoch = 12 train_loss = 0.0278 train_acc = 0.9903 val_loss = 0.0158 val_acc = 0.9971
+{'tag': 'real_aug', 'epochs': 12}
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/alexdapiggie/main/ap-9kkavMaq9TCt1V9GnN77GF
