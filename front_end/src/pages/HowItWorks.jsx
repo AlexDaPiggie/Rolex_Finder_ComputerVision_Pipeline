@@ -1,16 +1,16 @@
-import "./Intro.css";
+import "./HowItWorks.css";
 
-function Intro() {
+function HowItWorks() {
   return (
+    <div className="info-view">
     <div className="intro">
-      <h2 className="intro-title">Find the closest Rolex model.</h2>
+      <h2 className="intro-title">How it works</h2>
       <p className="intro-lead">
-        Paste or drop a photo on the left, or try a sample. You get the model family and the closest
-        reference numbers.
+        What happens to your photo, and how well the answer can be trusted.
       </p>
 
       <section className="intro-section">
-        <h3>How it works</h3>
+        <h3>From photo to answer</h3>
         <div className="intro-columns">
           <div className="intro-text">
             <p>
@@ -62,7 +62,8 @@ function Intro() {
         </a>
       </p>
     </div>
+    </div>
   );
 }
 
-export default Intro;
+export default HowItWorks;

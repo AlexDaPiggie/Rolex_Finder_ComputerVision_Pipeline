@@ -1,3 +1,13 @@
+.info-view {
+  background: #F6F2E8;
+  min-height: 100vh;
+  padding: 90px 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
 .intro { width: 100%; max-width: 900px; color: #1E1E1E; }
 
 .intro-title {

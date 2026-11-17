@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import NavBar from "./components/UI/NavBar";
 import Home from "./pages/Home";
 import Authors from "./pages/Authors";
+import HowItWorks from "./pages/HowItWorks";
 
 const HEALTH_URL = "https://alexdapiggie--rolex-watch-recognizer-rolexwatchapi-web.modal.run/health";
 
@@ -30,7 +31,9 @@ function App() {
   return (
     <>
       <NavBar currentPage={page} onPageChange={setPage} />
-      {page === "home" ? <Home serverState={serverState} /> : <Authors />}
+      {page === "home" && <Home serverState={serverState} />}
+      {page === "how" && <HowItWorks />}
+      {page === "authors" && <Authors />}
     </>
   );
 }
