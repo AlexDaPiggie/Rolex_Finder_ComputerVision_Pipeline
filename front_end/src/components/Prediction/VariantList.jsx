@@ -12,7 +12,7 @@ function Photo({ id, alt }) {
       <img src={`/variants/${photo.file}`} alt={alt} loading="lazy" />
       <figcaption>
         <a href={photo.page} target="_blank" rel="noopener noreferrer">
-          {photo.author}, {photo.licence}
+          {photo.web ? `Photo: ${photo.author}` : `${photo.author}, ${photo.licence}`}
         </a>
       </figcaption>
     </figure>

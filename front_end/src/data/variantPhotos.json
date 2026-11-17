@@ -136,5 +136,509 @@
   "author": "EMore98",
   "licence": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Rolex_Yacht-Master_II_ref._116688_risalente_al_2007.jpg"
+ },
+ "airking_vintage": {
+  "file": "airking_vintage.jpg",
+  "author": "atticcapital.com",
+  "licence": "",
+  "page": "https://atticcapital.com/vintage-rolex-watches-of-the-1940s/",
+  "web": true
+ },
+ "airking_classic_smooth": {
+  "file": "airking_classic_smooth.jpg",
+  "author": "amsterdamvintagewatches.com",
+  "licence": "",
+  "page": "https://amsterdamvintagewatches.com/shop/rolex-air-king-5500-9/",
+  "web": true
+ },
+ "airking_classing_fluted": {
+  "file": "airking_classing_fluted.jpg",
+  "author": "therealreal.com",
+  "licence": "",
+  "page": "https://www.therealreal.com/products/watches/bracelet/rolex-air-king-watch-i90rt",
+  "web": true
+ },
+ "airking_modern": {
+  "file": "airking_modern.jpg",
+  "author": "thewatchroom.com",
+  "licence": "",
+  "page": "https://www.thewatchroom.com/product-page/new-model-rolex-air-king-2023-2",
+  "web": true
+ },
+ "cellini_time_modern_round": {
+  "file": "cellini_time_modern_round.jpg",
+  "author": "chrono24.ch",
+  "licence": "",
+  "page": "https://www.chrono24.ch/rolex/-50505--id49734191.htm",
+  "web": true
+ },
+ "cellini_date_modern_subdial": {
+  "file": "cellini_date_modern_subdial.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-cellini-date-rose-gold-silver-dial-mens-watch-50515/id-j_20499852/",
+  "web": true
+ },
+ "cellini_dual_time_modern": {
+  "file": "cellini_dual_time_modern.jpg",
+  "author": "monochrome-watches.com",
+  "licence": "",
+  "page": "https://monochrome-watches.com/review-rolex-cellini-dual-time-everose-gold-ref-50525-price/",
+  "web": true
+ },
+ "cellini_prince": {
+  "file": "cellini_prince.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-cellini-prince-yellow-gold-champagne-dial-mens-watch-5440/id-j_16444382/",
+  "web": true
+ },
+ "cellini_danaos": {
+  "file": "cellini_danaos.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-cellini-danaos-yellow-gold-black-strap-mens-watch-4233-card/id-j_21584442/",
+  "web": true
+ },
+ "cellini_cellinium": {
+  "file": "cellini_cellinium.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-platinum-cellini-cellinium-wristwatch/id-j_114719/",
+  "web": true
+ },
+ "cellini_octagon": {
+  "file": "cellini_octagon.jpg",
+  "author": "goldammer.me",
+  "licence": "",
+  "page": "https://goldammer.me/products/rolex-cellini-4350-octagon-wood-1981",
+  "web": true
+ },
+ "cellini_king_midas": {
+  "file": "cellini_king_midas.jpg",
+  "author": "windvintage.com",
+  "licence": "",
+  "page": "https://www.windvintage.com/rolex-king-midas-reference-9630-in-18k-yg",
+  "web": true
+ },
+ "datejust_smooth": {
+  "file": "datejust_smooth.jpg",
+  "author": "themarinvault.com",
+  "licence": "",
+  "page": "https://www.themarinvault.com/store/Rolex-Datejust-36mm-Silver-Dial-Oyster-Bracelet-Smooth-Bezel-Steel-126200-p591398269",
+  "web": true
+ },
+ "datejust_wimbledon": {
+  "file": "datejust_wimbledon.jpg",
+  "author": "chrono24.co.uk",
+  "licence": "",
+  "page": "https://www.chrono24.co.uk/rolex/rolex-2023-datejust-41mm-126334-jubilee-wimbledon-dial--id49664593.htm",
+  "web": true
+ },
+ "datejust_mop": {
+  "file": "datejust_mop.jpg",
+  "author": "gothamtradingny.com",
+  "licence": "",
+  "page": "https://gothamtradingny.com/products/rolex-datejust-ii-mother-of-pearl-diamond-dial-diamond-bezel-36mm-126283rbr",
+  "web": true
+ },
+ "datejust_palm": {
+  "file": "datejust_palm.jpg",
+  "author": "abouttime.co.nz",
+  "licence": "",
+  "page": "https://www.abouttime.co.nz/other-watches/rolex-oyster-perpetual-datejust-palm-dial-mens-steel-wristwatch-ref-126200-with-box-papers-from-2021",
+  "web": true
+ },
+ "daytona_panda": {
+  "file": "daytona_panda.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/new-rolex-cosmograph-daytona-white-panda-dial-steel-men-watch-116500ln-bp/id-j_20697482/",
+  "web": true
+ },
+ "daytona_black_dial": {
+  "file": "daytona_black_dial.jpg",
+  "author": "kettleclub.co.uk",
+  "licence": "",
+  "page": "https://www.kettleclub.co.uk/rolex-116500ln-black-daytona-40mm-2016/",
+  "web": true
+ },
+ "daytona_ice_blue": {
+  "file": "daytona_ice_blue.jpg",
+  "author": "watchguys.com",
+  "licence": "",
+  "page": "https://www.watchguys.com/pages/rolex-daytona-116506-review",
+  "web": true
+ },
+ "daytona_rainbow": {
+  "file": "daytona_rainbow.jpg",
+  "author": "chrono24.co.uk",
+  "licence": "",
+  "page": "https://www.chrono24.co.uk/rolex/rolex-116595rbow-daytona-rainbow-pave-dial-and-bracelet-unworn--id26237974.htm",
+  "web": true
+ },
+ "daytona_oysterflex_gold": {
+  "file": "daytona_oysterflex_gold.jpg",
+  "author": "watchvault.com.au",
+  "licence": "",
+  "page": "https://www.watchvault.com.au/products/rolex-daytona-everose-gold-oysterflex-chocolate-dial-116515ln-2021",
+  "web": true
+ },
+ "daytona_paul_newman_vintage": {
+  "file": "daytona_paul_newman_vintage.jpg",
+  "author": "teddybaldassarre.com",
+  "licence": "",
+  "page": "https://teddybaldassarre.com/en-int/blogs/watches/paul-newman-rolex",
+  "web": true
+ },
+ "explorer_i_two_tone": {
+  "file": "explorer_i_two_tone.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-explorer-i-steel-yellow-gold-black-dial-mens-watch-124273-box-card-81319/",
+  "web": true
+ },
+ "explorer_ii_polar": {
+  "file": "explorer_ii_polar.jpg",
+  "author": "monochrome-watches.com",
+  "licence": "",
+  "page": "https://monochrome-watches.com/rolex-explorer-ii-polar-16570-youngtimer-collector-review/",
+  "web": true
+ },
+ "explorer_ii_black": {
+  "file": "explorer_ii_black.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-explorer-ii-black-dial-steel-mens-watch-16570-box-papers-79308/",
+  "web": true
+ },
+ "gmt_fat_lady": {
+  "file": "gmt_fat_lady.jpg",
+  "author": "chrono24.ca",
+  "licence": "",
+  "page": "https://www.chrono24.ca/rolex/rolex-gmt-master-ii-fat-lady-coke-16760-collector--id49883528.htm",
+  "web": true
+ },
+ "gmt_batman_batgirl": {
+  "file": "gmt_batman_batgirl.jpg",
+  "author": "dixonwatchco.com.au",
+  "licence": "",
+  "page": "https://dixonwatchco.com.au/product/rolex-116710blnr-gmt-master-ii-batman-40mm-2016-box-papers-3/",
+  "web": true
+ },
+ "gmt_sprite": {
+  "file": "gmt_sprite.jpg",
+  "author": "ebay.com",
+  "licence": "",
+  "page": "https://www.ebay.com/itm/800897838165",
+  "web": true
+ },
+ "gmt_regular": {
+  "file": "gmt_regular.jpg",
+  "author": "materialgood.com",
+  "licence": "",
+  "page": "https://materialgood.com/products/rolex-gmt-master-ii-116710ln",
+  "web": true
+ },
+ "gmt_gem_set": {
+  "file": "gmt_gem_set.jpg",
+  "author": "thewatchcompany.com",
+  "licence": "",
+  "page": "https://www.thewatchcompany.com/rolex-gmt-master-ii-126755saru.html",
+  "web": true
+ },
+ "gmt_yellow_gold": {
+  "file": "gmt_yellow_gold.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-gmt-master-ii-0-16718-men-yellow-gold-serti-dial-watch/id-j_13074682/",
+  "web": true
+ },
+ "gmt_gold_green": {
+  "file": "gmt_gold_green.jpg",
+  "author": "watchpoint.eu",
+  "licence": "",
+  "page": "https://watchpoint.eu/product/rolex-gmt-master-116718ln-yellow-gold-with-green-dial/",
+  "web": true
+ },
+ "milgauss_black_gv": {
+  "file": "milgauss_black_gv.jpg",
+  "author": "chrono24.co.nz",
+  "licence": "",
+  "page": "https://www.chrono24.co.nz/rolex/preowned-rolex-milgauss-black-dial-116400gv--id49803893.htm",
+  "web": true
+ },
+ "op_turquoise": {
+  "file": "op_turquoise.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-oyster-perpetual-steel-custom-blue-turquoise-dial-watch-124300/id-j_24171172/",
+  "web": true
+ },
+ "op_green": {
+  "file": "op_green.jpg",
+  "author": "chrono24.it",
+  "licence": "",
+  "page": "https://www.chrono24.it/rolex/rolex-oyster-perpetual--id49887156.htm",
+  "web": true
+ },
+ "op_blue": {
+  "file": "op_blue.jpg",
+  "author": "europeanwatch.com",
+  "licence": "",
+  "page": "https://www.europeanwatch.com/watch/rolex-124300-124300-oyster-perpetual-41-ss-blue-dial-72847",
+  "web": true
+ },
+ "op_black": {
+  "file": "op_black.jpg",
+  "author": "zaeger.com.au",
+  "licence": "",
+  "page": "https://zaeger.com.au/rolex-oyster-perpetual-41-124300-black-dial-stainless-steel-2021-model/",
+  "web": true
+ },
+ "op_silver": {
+  "file": "op_silver.jpg",
+  "author": "watchvault.com.au",
+  "licence": "",
+  "page": "https://www.watchvault.com.au/watchstore/rolex-oyster-perpetual-41-op41-silver-dial-124300-2022",
+  "web": true
+ },
+ "op_pink": {
+  "file": "op_pink.jpg",
+  "author": "kimhuywatch.com",
+  "licence": "",
+  "page": "https://kimhuywatch.com/product/rolex-oyster-perpetual-124300-pink-dial-stainless-steel/",
+  "web": true
+ },
+ "op_yellow": {
+  "file": "op_yellow.jpg",
+  "author": "watchvault.com.au",
+  "licence": "",
+  "page": "https://www.watchvault.com.au/products/rolex-oyster-perpetual-41-op41-yellow-dial-124300-2020",
+  "web": true
+ },
+ "op_coral_red": {
+  "file": "op_coral_red.jpg",
+  "author": "swisschronox.com",
+  "licence": "",
+  "page": "https://swisschronox.com/rolex-oyster-perpetual-41-mm-124300-coral-red/",
+  "web": true
+ },
+ "oysterquartz_datejust": {
+  "file": "oysterquartz_datejust.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-oysterquartz-datejust-silver-dial-steel-mens-watch-17000/id-j_17435062/",
+  "web": true
+ },
+ "president_stella": {
+  "file": "president_stella.jpg",
+  "author": "bachmann-scher.de",
+  "licence": "",
+  "page": "https://www.bachmann-scher.de/en/sold-watches/rolex-vintage-day-date-stella-salmon-corral-enamel-dial-ref-1803-asprey-18k-yellow-gold-president-bj-1974-excellent-very-rare-17335.html",
+  "web": true
+ },
+ "president_everose": {
+  "file": "president_everose.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-president-day-date-36-everose-gold-diamond-watch-118235-box-papers/id-j_12846762/",
+  "web": true
+ },
+ "president_platinum_ice_blue": {
+  "file": "president_platinum_ice_blue.jpg",
+  "author": "europeanwatch.com",
+  "licence": "",
+  "page": "https://www.europeanwatch.com/watch/rolex-118206-118206-day-date-36-president-platinum-ice-blue-dial-63035",
+  "web": true
+ },
+ "president_white_gold_blue": {
+  "file": "president_white_gold_blue.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-president-day-date-white-gold-blue-wave-dial-mens-watch-118239-66796/",
+  "web": true
+ },
+ "president_diamond": {
+  "file": "president_diamond.jpg",
+  "author": "watchguynyc.com",
+  "licence": "",
+  "page": "https://www.watchguynyc.com/products/rolex-day-date-40-white-mop-diamond-dial-diamond-bezel-white-gold-president-diamond-bracelet-128349rbr",
+  "web": true
+ },
+ "sea_dweller_red": {
+  "file": "sea_dweller_red.jpg",
+  "author": "vanwonderenwatches.com",
+  "licence": "",
+  "page": "https://vanwonderenwatches.com/en/products/rolex-sea-dweller-red-126600-20/",
+  "web": true
+ },
+ "sea_dweller_double_red": {
+  "file": "sea_dweller_double_red.jpg",
+  "author": "amsterdamvintagewatches.com",
+  "licence": "",
+  "page": "https://amsterdamvintagewatches.com/shop/rolex-sea-dweller-1665-double-red-mkiv-2/",
+  "web": true
+ },
+ "sea_dweller_two_tone": {
+  "file": "sea_dweller_two_tone.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-seadweller-black-dial-steel-yellow-gold-mens-watch-126603-box-card-80735/",
+  "web": true
+ },
+ "submariner_black_date": {
+  "file": "submariner_black_date.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-submariner-black-dial-steel-mens-watch-16610/id-j_16763542/",
+  "web": true
+ },
+ "submariner_kermit_starbucks": {
+  "file": "submariner_kermit_starbucks.jpg",
+  "author": "chrono24.co.uk",
+  "licence": "",
+  "page": "https://www.chrono24.co.uk/rolex/submariner-date--id49578255.htm",
+  "web": true
+ },
+ "submariner_hulk": {
+  "file": "submariner_hulk.jpg",
+  "author": "chrono24.co.uk",
+  "licence": "",
+  "page": "https://www.chrono24.co.uk/rolex/submariner-116610lv-116610-green-hulk-steel-40mm-rolexwaranty2020-1996-1--id49820435.htm",
+  "web": true
+ },
+ "submariner_bluesy": {
+  "file": "submariner_bluesy.jpg",
+  "author": "dixonwatchco.com.au",
+  "licence": "",
+  "page": "https://dixonwatchco.com.au/product/rolex-16613lb-submariner-date-two-tone-bluesy-40mm-2005-rsc-pouch-card/",
+  "web": true
+ },
+ "submariner_two_tone": {
+  "file": "submariner_two_tone.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-submariner-steel-yellow-gold-black-dial-mens-watch-16613-box-card-62879/",
+  "web": true
+ },
+ "submariner_smurf": {
+  "file": "submariner_smurf.jpg",
+  "author": "europeanwatch.com",
+  "licence": "",
+  "page": "https://www.europeanwatch.com/watch/rolex-116619lb-116619lb-submariner-smurf-date-18k-white-gold-blue-61249",
+  "web": true
+ },
+ "submariner_cookie_monster": {
+  "file": "submariner_cookie_monster.jpg",
+  "author": "chrono24.ca",
+  "licence": "",
+  "page": "https://www.chrono24.ca/rolex/rolex-2023-submariner-cookie-monster--41mm-126619lb-white-gold-black-dial--id49858312.htm",
+  "web": true
+ },
+ "submariner_comex": {
+  "file": "submariner_comex.jpg",
+  "author": "sothebys.com",
+  "licence": "",
+  "page": "https://www.sothebys.com/en/buy/auction/2026/important-watches-ge2601/submariner-comex-reference-5513-a-stainless-steel",
+  "web": true
+ },
+ "turn_o_graph_yellow_gold_thunderbird": {
+  "file": "turn_o_graph_yellow_gold_thunderbird.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-turn-o-graph-1625-thunderbird-14k-ss-mens-1960s-36mm-automatic-ra759/id-j_29023672/",
+  "web": true
+ },
+ "turn_o_graph_16264_white_gold": {
+  "file": "turn_o_graph_16264_white_gold.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-datejust-turnograph-steel-white-gold-mens-watch-16264-box-papers-49923/",
+  "web": true
+ },
+ "turn_o_graph_red_accent": {
+  "file": "turn_o_graph_red_accent.jpg",
+  "author": "bobswatches.com",
+  "licence": "",
+  "page": "https://www.bobswatches.com/rolex-blog/rolex-news/6-things-didnt-know-rolex-turn-o-graph.html",
+  "web": true
+ },
+ "turn_o_graph_everose": {
+  "file": "turn_o_graph_everose.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-datejust-turnograph-black-dial-steel-rose-gold-mens-watch-116261-60261/",
+  "web": true
+ },
+ "yacht_master_rhodium": {
+  "file": "yacht_master_rhodium.jpg",
+  "author": "swisstimepieces.co.uk",
+  "licence": "",
+  "page": "https://swisstimepieces.co.uk/products/rolex-126622-yacht-master-40-2024/",
+  "web": true
+ },
+ "yacht_master_blue_dial": {
+  "file": "yacht_master_blue_dial.jpg",
+  "author": "valueyourwatch.com",
+  "licence": "",
+  "page": "https://valueyourwatch.com/shop/rolex-watches/rolex-yacht-master/rolex-yacht-master-40mm-126622-blue-dial-stainless-steel-boxes-papers/",
+  "web": true
+ },
+ "yacht_master_everose_oysterflex": {
+  "file": "yacht_master_everose_oysterflex.jpg",
+  "author": "watchguys.com",
+  "licence": "",
+  "page": "https://www.watchguys.com/collections/rolex-yacht-master-126655-oysterflex",
+  "web": true
+ },
+ "yacht_master_white_gold_oysterflex": {
+  "file": "yacht_master_white_gold_oysterflex.jpg",
+  "author": "valueyourwatch.com",
+  "licence": "",
+  "page": "https://valueyourwatch.com/shop/rolex-watches/rolex-yacht-master/2021-rolex-yacht-master-42-226659-18k-white-gold-oysterflex-boxes-papers/",
+  "web": true
+ },
+ "yacht_master_yellow_gold_oysterflex": {
+  "file": "yacht_master_yellow_gold_oysterflex.jpg",
+  "author": "zaeger.com.au",
+  "licence": "",
+  "page": "https://zaeger.com.au/rolex-yatchmaster-18k-yellowgold-oysterflex-42mm-226658/",
+  "web": true
+ },
+ "yacht_master_yellow_gold_metal": {
+  "file": "yacht_master_yellow_gold_metal.jpg",
+  "author": "1stdibs.com",
+  "licence": "",
+  "page": "https://www.1stdibs.com/jewelry/watches/wrist-watches/rolex-yachtmaster-40-steel-yellow-gold-steel-watch-16623-box-papers/id-j_6097171/",
+  "web": true
+ },
+ "yacht_master_everose_metal": {
+  "file": "yacht_master_everose_metal.jpg",
+  "author": "watchguys.com",
+  "licence": "",
+  "page": "https://www.watchguys.com/pages/rolex-yacht-master-126621-review",
+  "web": true
+ },
+ "yacht_master_titanium": {
+  "file": "yacht_master_titanium.jpg",
+  "author": "chrono24.co.nz",
+  "licence": "",
+  "page": "https://www.chrono24.co.nz/rolex/226627-yacht-master-42-rlx-titanium-intense-black-dial-2026--id49797403.htm",
+  "web": true
+ },
+ "yacht_master_ii_two_tone": {
+  "file": "yacht_master_ii_two_tone.jpg",
+  "author": "zaeger.com.au",
+  "licence": "",
+  "page": "https://zaeger.com.au/rolex-yacht-master-ii-116681-white-dial-two-tone-everose-gold-stainless-steel-44mm/",
+  "web": true
+ },
+ "yacht_master_ii_white_gold_platinum": {
+  "file": "yacht_master_ii_white_gold_platinum.jpg",
+  "author": "swisswatchexpo.com",
+  "licence": "",
+  "page": "https://www.swisswatchexpo.com/watches/rolex-yachtmaster-ii-regatta-white-gold-platinum-mens-watch-116689-box-card-77063/",
+  "web": true
  }
 }
