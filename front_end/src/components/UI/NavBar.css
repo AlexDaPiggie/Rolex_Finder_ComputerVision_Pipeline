@@ -28,8 +28,7 @@
   justify-content: center;
   gap: 28px;
   padding: 12px 24px;
-  background: rgba(246, 242, 232, 0.94);
-  backdrop-filter: blur(8px);
+  background: #F6F2E8;
   border-bottom: 1px solid rgba(11, 47, 35, 0.08);
   transition: all 300ms ease;
   box-sizing: border-box;
@@ -39,7 +38,7 @@
 /* --- Scrolled state becomes semi-transparent --- */
 .nav-bar.scrolled {
   padding: 8px 24px;
-  box-shadow: 0 4px 16px rgba(11, 47, 35, 0.08);
+  border-bottom-color: rgba(11, 47, 35, 0.16);
 }
 
 @media (max-width: 1180px) {
@@ -87,5 +86,4 @@
   right: 0;
   height: 2px;
   background: #C9A348;
-  border-radius: 1px;
 }

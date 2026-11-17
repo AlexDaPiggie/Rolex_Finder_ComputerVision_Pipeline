@@ -9,9 +9,7 @@
 /* ---------- Left Panel ---------- */
 
 .upload-panel {
-    background:
-        radial-gradient(circle at top, rgba(201,163,72,.12), transparent 45%),
-        linear-gradient(180deg,#0B2F23 0%, #06241C 100%);
+    background: #0B2F23;
 
     border-right: 1px solid rgba(201,163,72,.15);
 

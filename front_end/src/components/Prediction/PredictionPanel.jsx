@@ -2,38 +2,28 @@ import "./PredictionPanel.css";
 import "../States/States.css";
 
 import Header from "./Header";
-import MatchNotice from "./MatchNotice";
-import CandidateCards from "./CandidateCards";
+import VariantList from "./VariantList";
 import ProbabilityTable from "./ProbabilityTable";
-import Summary from "./Summary";
-import { displayName, formatPct, confidenceLevel, VERDICT } from "../../utils/format";
+import { displayName, formatPct, confidenceLevel, closeCall, VERDICT } from "../../utils/format";
 
 function PredictionPanel({ prediction }) {
-  const matches = (prediction.variant_candidates ?? []).map((candidate, index) => ({
-    rank: index + 1,
+  const matches = (prediction.variant_candidates ?? []).map((candidate) => ({
+    id: candidate.id,
     model: candidate.display_name,
-    score: candidate.score * 100,
     references: candidate.reference_examples ?? [],
   }));
 
   const probabilities = Object.entries(prediction.probabilities ?? {})
     .sort((a, b) => b[1] - a[1])
-    .map(([name, value]) => ({
-      name: displayName(name),
-      value: formatPct(value),
-      raw: value,
-    }));
+    .map(([key, value]) => ({ key, name: displayName(key), value: formatPct(value), raw: value }));
 
   const modelName = displayName(prediction.predicted_class);
   const level = confidenceLevel(prediction.confidence);
+  const close = closeCall(probabilities);
 
   return (
     <div className="prediction-wrapper">
-
-      <Header prediction={{
-        model: modelName,
-        verdict: VERDICT[level],
-      }} />
+      <Header prediction={{ model: modelName, verdict: VERDICT[level] }} />
 
       {level === "low" && (
         <p className="plain-note" role="status">
@@ -42,23 +32,20 @@ function PredictionPanel({ prediction }) {
         </p>
       )}
 
-      {matches.length > 0 && (
-        <MatchNotice note={prediction.variant_note} status={prediction.variant_status} />
+      {close && (
+        <p className="plain-note" role="status">
+          Close call: {close}
+        </p>
       )}
 
-      {matches.length > 0 && <CandidateCards matches={matches} />}
+      {matches.length > 0 && <VariantList matches={matches} note={prediction.variant_note} />}
 
       {probabilities.length > 0 && <ProbabilityTable probabilities={probabilities} />}
-
-      {matches.length > 0 && (
-        <Summary modelName={modelName} matches={matches} />
-      )}
 
       <p className="disclaimer">
         Unofficial tool, not affiliated with Rolex. It estimates the model from a photo and does not
         authenticate watches. Confirm with an authorised dealer before buying.
       </p>
-
     </div>
   );
 }

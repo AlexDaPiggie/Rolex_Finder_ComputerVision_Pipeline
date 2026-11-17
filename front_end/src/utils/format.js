@@ -46,3 +46,19 @@ export const VERDICT = {
   medium: "Likely",
   low: "Possible",
 };
+
+// When the top two families are close, say so. Pairs the model mixes up get a hint on how to tell them apart.
+const HINTS = {
+  "sea_dweller|submariner": "the Sea-Dweller has SEA-DWELLER text on the dial and a thicker case",
+  "datejust|president": "the President (Day-Date) shows the day of the week and comes only in precious metal",
+  "datejust|oyster_perpetual": "the Oyster Perpetual has no date window",
+};
+
+export function closeCall(rows) {
+  if (rows.length < 2) return null;
+  const [a, b] = rows;
+  if (b.raw < 0.2 || a.raw - b.raw > 0.3) return null;
+  const key = [a.key, b.key].sort().join("|");
+  const hint = HINTS[key] ? `, ${HINTS[key]}` : "";
+  return `${a.name} or ${b.name}${hint}.`;
+}

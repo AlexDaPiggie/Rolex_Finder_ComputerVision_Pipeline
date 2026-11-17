@@ -2,7 +2,7 @@ import "./Home.css";
 import { useRef, useState } from "react";
 import UploadBox from "../components/Upload/UploadBox.jsx";
 import PredictionPanel from "../components/Prediction/PredictionPanel.jsx";
-import TutorialPanel from "../components/Tutorial/TutorialPanel.jsx";
+import Intro from "../components/Intro/Intro.jsx";
 import LoadingPanel from "../components/States/LoadingPanel.jsx";
 import ErrorPanel from "../components/States/ErrorPanel.jsx";
 import NoWatchPanel from "../components/States/NoWatchPanel.jsx";
@@ -46,7 +46,7 @@ function Home({ serverState }) {
   } else if (prediction) {
     content = <PredictionPanel prediction={prediction} />;
   } else {
-    content = <TutorialPanel />;
+    content = <Intro />;
   }
 
   return (

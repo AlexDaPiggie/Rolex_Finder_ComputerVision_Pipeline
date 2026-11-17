@@ -1,0 +1,37 @@
+.intro { width: 100%; max-width: 900px; color: #1E1E1E; }
+
+.intro-title {
+  font-family: "Tienne", serif;
+  font-size: clamp(36px, 4.4vw, 56px);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin: 0 0 14px;
+}
+
+.intro-lead { font-size: 18px; line-height: 1.55; color: #4a5750; max-width: 52ch; margin: 0; }
+
+.intro-section { margin-top: 40px; padding-top: 20px; border-top: 1px solid #DED8CA; }
+
+.intro-section h3 {
+  font-family: "Tienne", serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 14px;
+}
+
+.intro-columns { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.intro-text p { font-size: 16px; line-height: 1.6; color: #2b3631; margin: 0 0 14px; max-width: 52ch; }
+.intro-shot { width: 100%; border: 1px solid #DED8CA; border-radius: 2px; display: block; }
+
+.intro-table { width: 100%; border-collapse: collapse; border-top: 1px solid #DED8CA; margin-bottom: 12px; }
+.intro-table td { padding: 10px 0; font-size: 16px; border-bottom: 1px solid #ECE8E2; }
+.intro-table td:last-child { text-align: right; font-weight: 600; color: #0B2F23; white-space: nowrap; padding-left: 16px; }
+
+.intro-note { font-size: 15px; line-height: 1.6; color: #4a5750; max-width: 64ch; margin: 12px 0 0; }
+.intro-note a { color: #0B2F23; border-bottom: 1px solid #C9A348; text-decoration: none; }
+.intro-note a:hover { color: #8a6d1c; }
+
+@media (max-width: 760px) {
+  .intro-columns { grid-template-columns: 1fr; }
+}
