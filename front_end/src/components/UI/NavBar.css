@@ -28,8 +28,7 @@
   justify-content: center;
   gap: 28px;
   padding: 12px 24px;
-  background: #F6F2E8;
-  border-bottom: 1px solid rgba(11, 47, 35, 0.08);
+  background: transparent;
   transition: all 300ms ease;
   box-sizing: border-box;
   opacity: 1;
@@ -38,7 +37,6 @@
 /* --- Scrolled state becomes semi-transparent --- */
 .nav-bar.scrolled {
   padding: 8px 24px;
-  border-bottom-color: rgba(11, 47, 35, 0.16);
 }
 
 .nav-link:focus-visible,
@@ -78,4 +76,10 @@
   right: 0;
   height: 2px;
   background: #C9A348;
+}
+
+/* On phones the home page starts with the green panel, so the links turn light there */
+@media (max-width: 900px) {
+  .nav-bar.page-home .nav-link { color: #F6F2E8; }
+  .nav-bar.page-home .nav-link.active { color: #DBB255; }
 }

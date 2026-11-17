@@ -24,7 +24,7 @@ function NavBar({ currentPage, onPageChange }) {
   }, []);
 
   return (
-    <nav className={`nav-bar ${isScrolled ? "scrolled" : ""}`}>
+    <nav className={`nav-bar page-${currentPage} ${isScrolled ? "scrolled" : ""}`}>
       <button
         className={`nav-link ${currentPage === "home" ? "active" : ""}`}
         aria-current={currentPage === "home" ? "page" : undefined}
