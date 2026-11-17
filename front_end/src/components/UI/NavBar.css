@@ -21,7 +21,7 @@
 .nav-bar {
   position: fixed;
   top: 0;
-  left: max(320px, 30%);
+  left: 0;
   right: 0;
   z-index: 1000;
   display: flex;
@@ -39,14 +39,6 @@
 .nav-bar.scrolled {
   padding: 8px 24px;
   border-bottom-color: rgba(11, 47, 35, 0.16);
-}
-
-@media (max-width: 1180px) {
-  .nav-bar { left: max(290px, 34%); }
-}
-
-@media (max-width: 900px) {
-  .nav-bar { left: 0; }
 }
 
 .nav-link:focus-visible,
