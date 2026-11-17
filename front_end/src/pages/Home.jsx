@@ -7,6 +7,7 @@ import LoadingPanel from "../components/States/LoadingPanel.jsx";
 import ErrorPanel from "../components/States/ErrorPanel.jsx";
 import NoWatchPanel from "../components/States/NoWatchPanel.jsx";
 import { NO_WATCH } from "../utils/format";
+import "./Fit.css";
 
 function Home({ serverState }) {
   const [prediction, setPrediction] = useState(() => {

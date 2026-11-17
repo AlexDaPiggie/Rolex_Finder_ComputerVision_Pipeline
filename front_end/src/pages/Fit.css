@@ -1,0 +1,44 @@
+/*
+  Desktop only: make the landing page fit in one screen at 100% zoom.
+  Sizes shrink with the viewport height (vh), so a laptop screen shows everything without scrolling.
+  Loaded after the component styles, so these rules win.
+*/
+@media (min-width: 901px) {
+  .home { height: 100vh; min-height: 0; }
+
+  /* ---------- Left panel ---------- */
+  .upload-panel { padding-top: calc(clamp(10px, 2vh, 24px) + 44px) !important; padding-bottom: 12px; overflow: hidden; }
+  .upload-box { gap: clamp(8px, 2vh, 36px); }
+  .logo { font-size: clamp(34px, 7vh, 64px); }
+  .logo span { margin-bottom: 4px; font-size: clamp(11px, 1.8vh, 18px); }
+  .drop-zone { min-height: clamp(160px, 30vh, 380px); gap: clamp(6px, 1.6vh, 22px); }
+  .watch-icon { width: clamp(48px, 11vh, 120px); height: clamp(48px, 11vh, 120px); }
+  .drop-zone p { font-size: clamp(15px, 2.4vh, 22px); }
+  .drop-zone span { font-size: clamp(13px, 1.8vh, 15px); }
+  .browse-btn { padding: clamp(8px, 1.5vh, 12px) 28px; }
+  .preview-image { width: clamp(110px, 26vh, 250px); }
+  .find-btn { padding: clamp(10px, 1.8vh, 16px); font-size: clamp(14px, 2vh, 17px); }
+  .server-note { font-size: 12px; }
+  .samples p { margin-bottom: 6px; font-size: 13px; }
+  .samples .credit { margin-top: 4px; font-size: 11px; }
+  .filename { font-size: 13px; }
+
+  /* ---------- Right panel: landing tutorial ---------- */
+  .prediction-panel { padding-top: calc(clamp(10px, 2vh, 28px) + 44px) !important; padding-bottom: 8px; }
+  .tutorial-panel { min-height: 0; gap: clamp(8px, 1.8vh, 22px); padding-bottom: 30px; }
+  .tutorial-intro .eyebrow { margin-bottom: 4px; font-size: clamp(11px, 1.7vh, 14px); }
+  .tutorial-intro h2 { font-size: clamp(26px, 6.4vh, 54px); }
+  .tutorial-intro p:last-child { margin-top: clamp(4px, 1vh, 14px); font-size: clamp(13px, 2vh, 18px); line-height: 1.45; }
+  .tutorial-card { padding: clamp(8px, 1.4vh, 16px); }
+  .tutorial-heading { margin-bottom: clamp(4px, 1vh, 12px); }
+  .tutorial-heading span { width: 24px; height: 24px; }
+  .tutorial-heading h3 { font-size: clamp(14px, 2vh, 17px); }
+  .tutorial-card img { aspect-ratio: auto; height: clamp(64px, 15vh, 160px); }
+  .tutorial-card ol { margin-top: clamp(6px, 1.2vh, 14px); font-size: clamp(12px, 1.8vh, 15px); line-height: 1.4; }
+  .tutorial-card li + li { margin-top: 2px; }
+  .tutorial-notes { gap: 10px; }
+  .tutorial-note { padding: clamp(6px, 1.2vh, 14px) 14px; }
+  .tutorial-note h3 { margin-bottom: 3px; font-size: 11px; }
+  .tutorial-note p { font-size: clamp(12px, 1.8vh, 14px); line-height: 1.4; }
+  .credits { font-size: 13px; }
+}
