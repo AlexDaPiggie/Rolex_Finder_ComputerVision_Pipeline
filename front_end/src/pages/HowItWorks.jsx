@@ -104,8 +104,9 @@ function HowItWorks() {
         </table>
         <p className="intro-note">
           Real photos are harder: wrists, shop windows, angles and glare. The model is weakest on Oyster
-          Perpetual and President, and it sometimes mixes up Submariner and Sea-Dweller. Variants were only
-          measured well on shop photos. Treat every answer as the closest estimate, then check it with
+          Perpetual and President, and it sometimes mixes up Submariner and Sea-Dweller. On 31 real photos with a
+          reference number in the title, the right variant was the top pick 15 times and in the top three
+          27 times. Treat every answer as the closest estimate, then check it with
           Google Images or a dealer.
         </p>
       </section>
