@@ -338,3 +338,5 @@ python -m src.training.clip_head          # trains the head, writes docs/benchma
 python -m src.training.clip_head --cv-weights 0 10 --real-weight 10   # the live head: adds real photos, prints grouped CV
 ```
 The API uses `models/clip_head.pt` when it exists. Set `FAMILY_MODEL=effnet` to use the EfficientNet instead.
+
+**Front end (2026-11-17).** Flat shape system (2px corners, no shadows, no gradients), results as a ranked list (best match large, no scores), an intro with "how it works" and honest accuracy, and a close-call note when two families look alike (for example Submariner and Sea-Dweller). 23 of the 95 variants show an example photo from Wikimedia Commons (CC0, public domain, CC BY, CC BY-SA, credit under each photo). The other variants show no photo. Design research notes: `design-refs/references.md`.
