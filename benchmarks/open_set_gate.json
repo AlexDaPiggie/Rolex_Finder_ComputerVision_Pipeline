@@ -1,0 +1,31 @@
+{
+ "n_rolex": 294,
+ "n_other": 357,
+ "threshold": 0.0196,
+ "auroc": 0.967,
+ "rolex_rejected": 0.051,
+ "other_rejected": 0.838,
+ "other_rejected_by_brand": {
+  "audemars_piguet": 0.94,
+  "breitling": 1.0,
+  "cartier": 1.0,
+  "casio": 0.97,
+  "citizen": 1.0,
+  "fashion": 0.71,
+  "garmin": 1.0,
+  "generic": 0.86,
+  "hublot": 0.93,
+  "iwc": 1.0,
+  "longines": 0.82,
+  "omega": 0.48,
+  "other_luxury": 0.77,
+  "panerai": 1.0,
+  "patek_philippe": 0.88,
+  "seiko": 0.75,
+  "swatch": 0.91,
+  "tag_heuer": 0.88,
+  "timex": 0.85,
+  "tissot": 0.89,
+  "tudor": 0.08
+ }
+}

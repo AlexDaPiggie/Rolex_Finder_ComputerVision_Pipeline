@@ -1,0 +1,51 @@
+{
+ "n_rolex": 294,
+ "n_other": 357,
+ "scores": {
+  "conf": {
+   "auroc": 0.613,
+   "caught_at_2pct": 0.025,
+   "thr_2pct": 0.2247,
+   "caught_at_5pct": 0.059,
+   "thr_5pct": 0.2591,
+   "caught_at_10pct": 0.154,
+   "thr_10pct": 0.3125
+  },
+  "prompt": {
+   "auroc": 0.968,
+   "caught_at_2pct": 0.675,
+   "thr_2pct": 0.0096,
+   "caught_at_5pct": 0.84,
+   "thr_5pct": 0.0231,
+   "caught_at_10pct": 0.913,
+   "thr_10pct": 0.0486
+  },
+  "dist": {
+   "auroc": 0.79,
+   "caught_at_2pct": 0.196,
+   "thr_2pct": 0.8238,
+   "caught_at_5pct": 0.263,
+   "thr_5pct": 0.8381,
+   "caught_at_10pct": 0.445,
+   "thr_10pct": 0.861
+  },
+  "conf+prompt": {
+   "auroc": 0.816,
+   "caught_at_2pct": 0.112,
+   "thr_2pct": -1.8448,
+   "caught_at_5pct": 0.232,
+   "thr_5pct": -1.5207,
+   "caught_at_10pct": 0.417,
+   "thr_10pct": -1.1028
+  },
+  "all three": {
+   "auroc": 0.868,
+   "caught_at_2pct": 0.16,
+   "thr_2pct": -2.5188,
+   "caught_at_5pct": 0.431,
+   "thr_5pct": -1.5456,
+   "caught_at_10pct": 0.597,
+   "thr_10pct": -0.9959
+  }
+ }
+}

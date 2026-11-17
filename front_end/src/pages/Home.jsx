@@ -6,6 +6,7 @@ import TutorialPanel from "../components/Tutorial/TutorialPanel.jsx";
 import LoadingPanel from "../components/States/LoadingPanel.jsx";
 import ErrorPanel from "../components/States/ErrorPanel.jsx";
 import NoWatchPanel from "../components/States/NoWatchPanel.jsx";
+import UnknownWatchPanel from "../components/States/UnknownWatchPanel.jsx";
 import { NO_WATCH } from "../utils/format";
 import "./Fit.css";
 
@@ -20,11 +21,13 @@ function Home({ serverState }) {
   });
   const [isScanning, setIsScanning] = useState(false);
   const [error, setError] = useState(null);
+  const [showAnyway, setShowAnyway] = useState(false);
   const controlsRef = useRef(null);
 
   // persist=false for samples: their image is not saved, so a saved result would come back without a photo
   const handlePrediction = (newPred, persist = true) => {
     setPrediction(newPred);
+    setShowAnyway(false);
     setError(null);
     try {
       if (newPred && persist) {
@@ -44,6 +47,8 @@ function Home({ serverState }) {
     content = <ErrorPanel kind={error.kind} onRetry={() => controlsRef.current?.find()} onChoose={() => controlsRef.current?.choose()} />;
   } else if (prediction?.predicted_class === NO_WATCH) {
     content = <NoWatchPanel onChoose={() => controlsRef.current?.choose()} />;
+  } else if (prediction?.unknown_watch && !showAnyway) {
+    content = <UnknownWatchPanel onChoose={() => controlsRef.current?.choose()} onShowAnyway={() => setShowAnyway(true)} />;
   } else if (prediction) {
     content = <PredictionPanel prediction={prediction} />;
   } else {

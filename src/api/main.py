@@ -27,6 +27,7 @@ VARIANT_CATALOG_PATH = PROJECT_ROOT / 'src/identify/rolex_variants.json'
 MODEL_PATH = PROJECT_ROOT / 'models/rolex_classifier_model.pt'
 HEAD_PATH = PROJECT_ROOT / 'models/clip_head.pt'
 VARIANT_HEAD_PATH = PROJECT_ROOT / 'models/variant_head.pt'
+OPEN_SET_PATH = PROJECT_ROOT / 'models/open_set.pt'
 
 app = FastAPI(title = 'Rolex Classifier')
 app.add_middleware(
@@ -89,6 +90,20 @@ def get_variant_head():
             _variant_head = torch.load (VARIANT_HEAD_PATH, map_location = 'cpu', weights_only = True)
     return _variant_head or None
 
+_open_set = None
+
+def get_open_set():
+    '''
+    Gate for photos of watches that are not a Rolex we know (src/training/open_set_gate.py). Off unless OPEN_SET=on.
+    '''
+    global _open_set
+    if _open_set is None:
+        if os.getenv('OPEN_SET', 'off') == 'on' and OPEN_SET_PATH.exists():
+            _open_set = torch.load (OPEN_SET_PATH, map_location = 'cpu', weights_only = True)
+        else:
+            _open_set = {}
+    return _open_set or None
+
 def head_probabilities (embedding: torch.Tensor, head: dict):
     '''Softmax over scale * (embedding W^T + b). embedding is one L2-normalised CLIP vector.'''
     logits = head['scale'] * (embedding @ head['weight'].T + head['bias'])
@@ -121,12 +136,16 @@ def predict_family (image: Image.Image):
         get_model()
 
     head = get_head()
+    rolex_score = None
     if head is not None:
         from src.identify.clip_matcher import get_detector as get_clip
         from src.inference.clip_embed import embed
         with torch.no_grad():
             embedding = torch.tensor (embed ([image], get_clip().model, device)[0]).to(device)
             probabilities = head_probabilities (embedding, head).cpu()
+        gate = get_open_set()
+        if gate is not None:
+            rolex_score = float (torch.softmax (gate['scale'] * embedding.cpu() @ gate['text'].T, dim = 0)[0])
     else:
         transform = build_transforms(train = False)
         tensor = transform (image).unsqueeze(0).to(device)
@@ -148,11 +167,15 @@ def predict_family (image: Image.Image):
     )
 
     predicted_class = class_names[predicted_index]
-    return {
+    result = {
         'predicted_class': predicted_class,
         'confidence': probabilities[class_names[predicted_index]],
         'probabilities': probabilities,
     }
+    if rolex_score is not None:
+        result['rolex_score'] = rolex_score
+        result['unknown_watch'] = rolex_score < get_open_set()['threshold']
+    return result
 
 def predict_image (image: Image.Image, timings: dict | None = None): 
     '''

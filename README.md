@@ -131,6 +131,25 @@ Run `python -m src.training.benchmark --check-leakage` to measure the family cla
 
 Each `/predict` response includes `timings_ms` (decode, preprocess, classify, variant_match, total), and `/health` reports `startup_timings_ms` for model loading, so the cold start can be measured. Add `?include_steps=true` to `/predict` to get the preprocessing step images (debug only).
 
+## Unknown-watch handling ("not a Rolex I know")
+
+The family model always names the closest Rolex family, so a photo of an Omega would come back as a Rolex guess.
+A gate now rejects photos that look like another brand. It is built but **off by default** (`OPEN_SET=on` turns it on).
+
+- Score: CLIP zero-shot on the cropped watch. A softmax between "a photo of a Rolex watch" and 25 other-brand
+  prompts (20 brands plus generic ones). Reject when the Rolex probability is below 0.0196.
+- Threshold chosen so 5% of real Rolex photos are wrongly rejected (294 real photos, `benchmarks/open_set_gate.json`).
+- Test set: 357 non-Rolex photos from 22 brand groups (open-licence and web search, curated by eye).
+- Result: 84% of other-brand photos rejected, AUROC 0.97. Brands with no prompt of their own: about 77-80%.
+- Weak spot: look-alikes. Tudor 8%, Omega 48%, Seiko 75% (Black Bay, Seamaster and diver styles resemble a Rolex).
+- Family confidence alone is almost useless for this (AUROC 0.61), and distance to Rolex training photos is weak (0.79).
+- Both numbers use the same photos that set the threshold, so treat them as slightly optimistic.
+- The UI shows "Not a Rolex I know", a Google Lens link (opens Lens, no photo is sent by this site) and a
+  "Show the closest Rolex anyway" option.
+
+Files: `src/training/open_set_gate.py`, `models/open_set.pt`, `benchmarks/exp/open_set.py`, `benchmarks/exp/open_set_unseen.py`,
+`src/collection/other_brands_web.py`.
+
 ## Serverless Cloud Deployment (Modal)
 
 [`modal_app.py`](modal_app.py) configures serverless GPU execution:
