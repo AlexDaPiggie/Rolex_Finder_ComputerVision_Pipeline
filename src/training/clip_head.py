@@ -89,21 +89,29 @@ def creator_groups(files) -> np.ndarray:
     import os
 
     creator = {}
-    for manifest, column in ((Path("data/realworld/manifest.csv"), "creator"), (Path("data/commons/manifest.csv"), "author")):
+    for manifest, column in ((Path("data/realworld/manifest.csv"), "creator"), (Path("data/commons/manifest.csv"), "author"),
+                       (Path("data/landdweller_final/manifest.csv"), "creator")):
         if manifest.exists():
             for row in csv.DictReader(manifest.open(encoding="utf-8")):
                 creator[os.path.basename(row["file"])] = row[column]
     return np.array([creator.get(os.path.basename(f), "unknown") for f in files])
 
 
-def with_real(x, y, emb, labels, weight: int):
-    """Add real photos (full, crop and dial views) to the training features, repeated `weight` times."""
-    xs = np.concatenate([emb[:, v] for v in (0, 1, 3)])
-    ys = np.concatenate([labels] * 3)
-    return np.concatenate([x] + [xs] * weight), np.concatenate([y] + [ys] * weight)
+def with_real(x, y, emb, labels, weight: int, class_weight: dict | None = None):
+    """Add real photos (full, crop and dial views) to the training features, repeated `weight` times.
+    class_weight {label: times} overrides the weight for some classes (families with many real photos need fewer repeats)."""
+    xs_all, ys_all = [x], [y]
+    for cls in sorted(set(labels.tolist())):
+        sel = labels == cls
+        times = (class_weight or {}).get(cls, weight)
+        xs = np.concatenate([emb[sel][:, v] for v in (0, 1, 3)])
+        ys = np.concatenate([labels[sel]] * 3)
+        xs_all += [xs] * times
+        ys_all += [ys] * times
+    return np.concatenate(xs_all), np.concatenate(ys_all)
 
 
-def grouped_cv(xtr, ytr, emb, labels, groups, names, weight: int, folds: int = 5, epochs: int = 60) -> dict:
+def grouped_cv(xtr, ytr, emb, labels, groups, names, weight: int, folds: int = 5, epochs: int = 60, class_weight: dict | None = None) -> dict:
     """Held-out accuracy when real photos are added to training. Folds are split by creator."""
     unique = sorted(set(groups))
     np.random.default_rng(0).shuffle(unique)
@@ -112,7 +120,7 @@ def grouped_cv(xtr, ytr, emb, labels, groups, names, weight: int, folds: int = 5
     correct = np.zeros(len(labels), dtype=bool)
     for k in range(folds):
         train, test = fold != k, fold == k
-        x, y = (xtr, ytr) if weight == 0 else with_real(xtr, ytr, emb[train], labels[train], weight)
+        x, y = (xtr, ytr) if weight == 0 else with_real(xtr, ytr, emb[train], labels[train], weight, class_weight)
         head, scale = train_head(x, y, len(names), 0.1, epochs=epochs)
         correct[test] = predict(head, scale, emb[test][:, 3]).argmax(axis=1) == labels[test]
     low, high = wilson(int(correct.sum()), len(correct))
@@ -122,6 +130,7 @@ def grouped_cv(xtr, ytr, emb, labels, groups, names, weight: int, folds: int = 5
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--class-weight", nargs="*", default=[], help="NAME=TIMES, e.g. land_dweller=4: real-photo repeats for one family")
     parser.add_argument("--real-weight", type=int, default=0, help="add real photos to the saved head, repeated this many times (0 = off)")
     parser.add_argument("--cv-weights", type=int, nargs="*", default=[], help="report creator-grouped CV with these real-photo weights")
     parser.add_argument("--features", type=Path, default=Path("features_out"))
@@ -132,6 +141,7 @@ def main():
     args = parser.parse_args()
 
     names = [n for n, _ in sorted(json.loads(Path("data/processed/class_mapping.json").read_text()).items(), key=lambda kv: kv[1])]
+    class_weight = {names.index(k): int(v) for k, v in (item.split("=") for item in args.class_weight)}
     tr = np.load(args.features / "train.npz")
     va = np.load(args.features / "val.npz")
     te = np.load(args.features / "test.npz")
@@ -161,11 +171,11 @@ def main():
     _, wd, head, scale, acc_clean, acc_aug = best
     if args.cv_weights:
         groups = creator_groups(real["files"][keep])
-        results["real_cv"] = [grouped_cv(xtr, ytr, emb_real, labels_real, groups, names, w) for w in args.cv_weights]
+        results["real_cv"] = [grouped_cv(xtr, ytr, emb_real, labels_real, groups, names, w, class_weight=class_weight) for w in args.cv_weights]
         for entry in results["real_cv"]:
             print("creator-grouped CV", entry)
     if args.real_weight:
-        x, y = with_real(xtr, ytr, emb_real, labels_real, args.real_weight)
+        x, y = with_real(xtr, ytr, emb_real, labels_real, args.real_weight, class_weight)
         head, scale = train_head(x, y, len(names), wd)
         print(f"final head also trained on all {len(labels_real)} real photos (weight {args.real_weight}); real-photo numbers below are then NOT held out")
     torch.save({"weight": head.weight.detach(), "bias": head.bias.detach(), "scale": scale, "class_names": names}, args.head_out)
@@ -183,12 +193,12 @@ def main():
     # real photos: every model and preprocessing variant
     for vi, view in enumerate(VIEW_NAMES):
         results["real"][f"clip_head/{view}"] = real_report(predict(head, scale, emb_real[:, vi]), labels_real, names)
-        for key in [k for k in real.files if k.startswith("eff_")]:
+        for key in [k for k in real.files if k.startswith("eff_") and real[k].shape[-1] == len(names)]:
             results["real"][f"effnet_{key[4:]}/{view}"] = real_report(real[key][keep][:, vi], labels_real, names)
     # multi-view average for the head, and head + effnet ensembles
     mv = np.mean([predict(head, scale, emb_real[:, v]) for v in (0, 1, 3)], axis=0)
     results["real"]["clip_head/avg(full,crop,dial)"] = real_report(mv, labels_real, names)
-    for key in [k for k in real.files if k.startswith("eff_")]:
+    for key in [k for k in real.files if k.startswith("eff_") and real[k].shape[-1] == len(names)]:
         for vi, view in ((1, "crop"), (3, "dial")):
             ens = 0.5 * predict(head, scale, emb_real[:, vi]) + 0.5 * real[key][keep][:, vi]
             results["real"][f"ensemble(clip_head+effnet_{key[4:]})/{view}"] = real_report(ens, labels_real, names)

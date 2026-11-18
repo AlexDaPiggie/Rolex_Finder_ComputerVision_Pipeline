@@ -131,6 +131,19 @@ Run `python -m src.training.benchmark --check-leakage` to measure the family cla
 
 Each `/predict` response includes `timings_ms` (decode, preprocess, classify, variant_match, total), and `/health` reports `startup_timings_ms` for model loading, so the cold start can be measured. Add `?include_steps=true` to `/predict` to get the preprocessing step images (debug only).
 
+## Land-Dweller (family 15, added after the first release)
+
+The Rolex Land-Dweller (2025) did not exist in the original training data, so the model could not name it.
+It is now a 15th family, added without retraining the EfficientNet (the CLIP head is the live family model).
+
+- Photos: 160 shop and hands-on photos from 127 sites, found by web image search, titles required to say Land-Dweller, curated by eye (movements, bracelets, side views and group shots removed, at most 5 per site).
+- Training: the same CLIP head, with the Land-Dweller photos repeated 4 times (the other families use 10).
+- Result (creator-grouped 5-fold CV, `benchmarks/exp/ld_weight.py`): Land-Dweller 98% right family. The photos are mostly shop shots, so real-world recall will be lower.
+- Cost: the other 14 families drop from 72.2% to 70.1% on real photos, mainly Datejust photos guessed as Land-Dweller. Retailer test set: 97.0% (was about 97%).
+- Variants: 4 (Steel and White Gold, Everose Gold, Platinum, Diamond-Set Bezel) with text prompts only, no trained variant head yet.
+- Not covered: the Sky-Dweller and other models still missing from the 15 families.
+- `data/processed/class_mapping.json` is git-ignored: add `"land_dweller": 14` there before running the Modal scripts.
+
 ## Unknown-watch handling ("not a Rolex I know")
 
 The family model always names the closest Rolex family, so a photo of an Omega would come back as a Rolex guess.

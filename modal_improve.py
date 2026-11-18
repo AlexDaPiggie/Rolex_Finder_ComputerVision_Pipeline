@@ -209,7 +209,8 @@ def eval_real(folder: str = "real", out_name: str = "real", known_only: bool = T
     for tag, path in checkpoints:
         if Path(path).exists():
             ckpt = torch.load(path, map_location="cuda", weights_only=True)
-            net = create_model(num_classes=len(names), pretrained=False).to("cuda")
+            # EfficientNets were trained on the first 14 families; families added later (land_dweller) are CLIP-head only
+            net = create_model(num_classes=len(ckpt.get("class_names", names[:14])), pretrained=False).to("cuda")
             net.load_state_dict(ckpt["model_state_dict"])
             nets[tag] = net.eval()
 

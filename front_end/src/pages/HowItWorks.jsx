@@ -97,14 +97,18 @@ function HowItWorks() {
               <td>96% right family</td>
             </tr>
             <tr>
-              <td>Real photos from Wikimedia Commons and Flickr (273)</td>
-              <td>71% right family</td>
+              <td>Real photos, 14 older families (294)</td>
+              <td>70% right family</td>
+            </tr>
+            <tr>
+              <td>Land-Dweller, new in 2025 (160 shop and hands-on photos)</td>
+              <td>98% right family</td>
             </tr>
           </tbody>
         </table>
         <p className="intro-note">
           Real photos are harder: wrists, shop windows, angles and glare. The model is weakest on Oyster
-          Perpetual and President, and it sometimes mixes up Submariner and Sea-Dweller. On 31 real photos with a
+          Perpetual and President, and it sometimes mixes up Submariner and Sea-Dweller or Datejust and Land-Dweller. On 31 real photos with a
           reference number in the title, the right variant was the top pick 15 times and in the top three
           27 times. Treat every answer as the closest estimate, then check it with
           Google Images or a dealer.

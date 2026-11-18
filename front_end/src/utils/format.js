@@ -7,6 +7,7 @@ const NAMES = {
   daytona: "Daytona",
   explorer: "Explorer",
   gmt_master: "GMT-Master",
+  land_dweller: "Land-Dweller",
   milgauss: "Milgauss",
   oyster_perpetual: "Oyster Perpetual",
   oysterquartz: "Oysterquartz",
@@ -51,6 +52,7 @@ export const VERDICT = {
 const HINTS = {
   "sea_dweller|submariner": "the Sea-Dweller has SEA-DWELLER text on the dial and a thicker case",
   "datejust|president": "the President (Day-Date) shows the day of the week and comes only in precious metal",
+  "datejust|land_dweller": "the Land-Dweller says LAND-DWELLER on the dial, which has a honeycomb pattern, and has flat links on the bracelet",
   "datejust|oyster_perpetual": "the Oyster Perpetual has no date window",
 };
 

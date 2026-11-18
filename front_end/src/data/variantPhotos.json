@@ -640,5 +640,33 @@
   "licence": "",
   "page": "https://www.swisswatchexpo.com/watches/rolex-yachtmaster-ii-regatta-white-gold-platinum-mens-watch-116689-box-card-77063/",
   "web": true
+ },
+ "land_dweller_steel_white_gold": {
+  "file": "land_dweller_steel_white_gold.jpg",
+  "author": "grailzee.com",
+  "licence": "",
+  "page": "https://grailzee.com/products/rolex-land-dweller-127260",
+  "web": true
+ },
+ "land_dweller_everose": {
+  "file": "land_dweller_everose.jpg",
+  "author": "swisswatchhouse.com",
+  "licence": "",
+  "page": "https://swisswatchhouse.com/product/rolex-land-dweller-36-everose-gold-honeycomb-dial/",
+  "web": true
+ },
+ "land_dweller_platinum": {
+  "file": "land_dweller_platinum.jpg",
+  "author": "watchguys.com",
+  "licence": "",
+  "page": "https://www.watchguys.com/products/rolex-land-dweller-127236-ice-blue",
+  "web": true
+ },
+ "land_dweller_diamond_bezel": {
+  "file": "land_dweller_diamond_bezel.jpg",
+  "author": "watchmydiamonds.com",
+  "licence": "",
+  "page": "https://watchmydiamonds.com/rolex-land-dweller-127386tbr-0001-ice-blue-dial-flat-jubilee-bracelet.html",
+  "web": true
  }
 }

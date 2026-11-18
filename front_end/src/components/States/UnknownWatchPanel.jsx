@@ -9,7 +9,7 @@ function UnknownWatchPanel({ onChoose, onShowAnyway }) {
     <div className="status" role="status">
       <p className="status-line">Not a Rolex I know.</p>
       <p className="status-detail">
-        This looks like a different brand, or a Rolex model outside the 14 families this tool covers. Rolex Finder
+        This looks like a different brand, or a Rolex model outside the 15 families this tool covers. Rolex Finder
         only names Rolex watches, so it will not guess. Google Lens can search for other brands.
       </p>
       <div className="status-actions">

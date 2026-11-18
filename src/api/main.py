@@ -75,8 +75,7 @@ def get_head():
         _head = False
         if HEAD_PATH.exists() and os.getenv('FAMILY_MODEL', 'clip_head') != 'effnet':
             head = torch.load (HEAD_PATH, map_location = device, weights_only = True)
-            if head['class_names'] == class_names:
-                _head = head
+            _head = head
     return _head or None
 
 _variant_head = None
@@ -136,6 +135,7 @@ def predict_family (image: Image.Image):
         get_model()
 
     head = get_head()
+    names = head['class_names'] if head is not None else class_names
     rolex_score = None
     if head is not None:
         from src.identify.clip_matcher import get_detector as get_clip
@@ -156,7 +156,7 @@ def predict_family (image: Image.Image):
     predicted_index = int (probabilities.argmax().item())
     probabilities = {
         class_name: float (probabilities[index].item())
-        for index, class_name in enumerate(class_names)
+        for index, class_name in enumerate(names)
     }
     probabilities = dict (
         sorted (
@@ -166,10 +166,10 @@ def predict_family (image: Image.Image):
         )
     )
 
-    predicted_class = class_names[predicted_index]
+    predicted_class = names[predicted_index]
     result = {
         'predicted_class': predicted_class,
-        'confidence': probabilities[class_names[predicted_index]],
+        'confidence': probabilities[names[predicted_index]],
         'probabilities': probabilities,
     }
     if rolex_score is not None:

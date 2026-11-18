@@ -125,6 +125,8 @@ def rank_variants_head (image: Image.Image, variants: list[dict[str, object]], h
     model = get_detector().model
     emb = torch.tensor (embed ([image], model, next (model.parameters()).device)[0])
     ids = head["variants"]
+    if any (v["id"] not in ids for v in variants):
+        return rank_variants (image, variants)  # a family added after the variant head was trained: prompts only
     idx = [ids.index (v["id"]) for v in variants]
     zero_shot = torch.softmax (100.0 * emb @ head["text"][idx].T, dim = -1)
     trained = torch.softmax (head["scale"] * (emb @ head["weight"][idx].T + head["bias"][idx]), dim = -1)

@@ -140,7 +140,7 @@ class HowItWorks(Scene):
         self.play(LaggedStart(*[FadeIn(r[0]) for r in rows], lag_ratio=0.08), run_time=0.8)
         self.play(LaggedStart(*[GrowFromEdge(r[1], LEFT) for r in rows], lag_ratio=0.1), run_time=1.6)
         self.play(LaggedStart(*[FadeIn(r[2]) for r in rows], lag_ratio=0.08), run_time=0.6)
-        more = T("14 families in all", 20, GREY).move_to(DOWN * 2.25)
+        more = T("15 families in all", 20, GREY).move_to(DOWN * 2.25)
         self.play(FadeIn(more), run_time=0.4)
         self.wait(1.4)
 
